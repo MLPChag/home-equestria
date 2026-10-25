@@ -1,0 +1,86 @@
+{
+	"sm_bush": {
+		"centre": [
+			-0.171030521392822,
+			0.904935419559479,
+			-0.301475763320923
+		],
+		"diameter": 3.71783466339111,
+		"pixels": 256,
+		"source_triangles": 338,
+		"triangles": 2,
+		"views": 24
+	},
+	"sm_sakuratreetileable": {
+		"centre": [
+			2.77261543273926,
+			8.62166213989258,
+			-0.608559131622314
+		],
+		"diameter": 29.6441815185547,
+		"pixels": 512,
+		"source_triangles": 10460,
+		"triangles": 2,
+		"views": 24
+	},
+	"sm_tree1": {
+		"centre": [
+			-0.0391736030578613,
+			2.94780468940735,
+			-0.2272789478302
+		],
+		"diameter": 9.18013916015625,
+		"pixels": 512,
+		"source_triangles": 1598,
+		"triangles": 2,
+		"views": 24
+	},
+	"sm_tree2": {
+		"centre": [
+			-0.0336735248565674,
+			3.06893157958984,
+			-0.22541880607605
+		],
+		"diameter": 9.35576194763184,
+		"pixels": 512,
+		"source_triangles": 1654,
+		"triangles": 2,
+		"views": 24
+	},
+	"sm_tree2v2": {
+		"centre": [
+			-0.0109004974365234,
+			2.88766264915466,
+			-0.182687520980835
+		],
+		"diameter": 9.1065202331543,
+		"pixels": 512,
+		"source_triangles": 1454,
+		"triangles": 2,
+		"views": 24
+	},
+	"sm_tree3": {
+		"centre": [
+			0.00933837890625,
+			2.63069772720337,
+			0.187876224517822
+		],
+		"diameter": 8.35788360595703,
+		"pixels": 512,
+		"source_triangles": 3546,
+		"triangles": 2,
+		"views": 24
+	},
+	"sm_tree4": {
+		"centre": [
+			-0.460816383361816,
+			4.97284460067749,
+			0.362019300460815
+		],
+		"diameter": 13.9967704772949,
+		"pixels": 512,
+		"source_triangles": 2332,
+		"triangles": 2,
+		"views": 24
+	}
+}

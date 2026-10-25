@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/night_glider.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "night_glider"
+display_name = "Night Glider"
+coat_fill = Color(0.21176471, 0.41960785, 0.6039216, 1)
+coat_line = Color(0.11764706, 0.24705882, 0.36862746, 1)
+coat_shade = Color(0.17254902, 0.34509805, 0.49803922, 1)
+mane_line = Color(0.54509807, 0.6117647, 0.85882354, 1)
+iris_color = Color(0.39607844, 0.8117647, 1, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/night_glider_hair.scn"
+hair_prefix = "NightGlider"
+tail_terminal_length = 0.146406995
+ai_profile = "res://world/characters/background/ai/night_glider.json"

@@ -1,0 +1,74 @@
+{
+  "character_tag": "dash",
+  "default_location": "rainbow_dash_outskirt",
+  "schedules": [
+      {
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "time_slots": ["morning"],
+        "choices": [
+          { "location_id": "rainbow_dash_outskirt", "activity_hint": "Practicing aerial stunts and cloud management.", "weight": 70 },
+          { "location_id": "sweet_apple_acres", "activity_hint": "Helping Applejack with early chores.", "weight": 15 },
+          { "location_id": "ponyville_town_hall", "activity_hint": "Checking the weather schedule.", "weight": 15 }
+        ],
+        "priority": 0
+      },
+      {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time_slots": ["afternoon"],
+        "choices": [
+          { "location_id": "rainbow_dash_outskirt", "activity_hint": "Weather patrol and cloud clearing.", "weight": 60 },
+          { "location_id": "ponyville_town_hall", "activity_hint": "Meeting with the weather team.", "weight": 20 },
+          { "location_id": "sweet_apple_acres", "activity_hint": "Sneaking in a quick snack with Applejack.", "weight": 20 }
+        ],
+        "priority": 0
+      },
+    {
+      "days": ["Tuesday"],
+      "time_slots": ["afternoon"],
+      "choices": [
+        { "location_id": "golden_oak_library", "activity_hint": "Reading Daring Do books.", "weight": 70 },
+        { "location_id": "cloudsdale_race_track", "activity_hint": "Taking a quick Cloudsdale training run on the race track.", "weight": 20 },
+        { "location_id": "wonderbolts_office", "activity_hint": "Dropping by the Wonderbolts office to check training notices.", "weight": 10 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Thursday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sweet_apple_acres",
+      "activity_hint": "Helping Applejack with aerial farm tasks.",
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["morning"],
+      "choices": [
+        { "location_id": "rainbow_dash_outskirt", "activity_hint": "Training for the Wonderbolts.", "weight": 70 },
+        { "location_id": "cloudsdale_race_track", "activity_hint": "Flying up to Cloudsdale for a serious race-track workout.", "weight": 25 },
+        { "location_id": "rainbow_dash_parents_home", "activity_hint": "Making a brief, slightly reluctant stop at her parents' house.", "weight": 5 }
+      ],
+      "priority": 0
+    },
+    {
+      "days": ["Saturday"],
+      "time_slots": ["afternoon"],
+      "location_id": "sugarcube_corner",
+      "activity_hint": "Hanging out with friends.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["morning"],
+      "location_id": "rainbow_dash_outskirt",
+      "activity_hint": "Napping on clouds.",
+      "priority": 0
+    },
+    {
+      "days": ["Sunday"],
+      "time_slots": ["afternoon"],
+      "location_id": "everfree_forest",
+      "activity_hint": "Exploring the Everfree Forest for thrills.",
+      "priority": 0
+    }
+  ]
+}

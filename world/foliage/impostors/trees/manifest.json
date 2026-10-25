@@ -1,0 +1,132 @@
+{
+  "everfree_rootfoot": {
+    "cell": 256.0,
+    "coverage": 0.267360687255859,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 8.09096615761518,
+    "quad_size": 27.9468936920166
+  },
+  "everfree_rootfoot_small": {
+    "cell": 256.0,
+    "coverage": 0.264493942260742,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 5.01572911813855,
+    "quad_size": 17.420398034668
+  },
+  "everfree_snag": {
+    "cell": 256.0,
+    "coverage": 0.110199928283691,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 11.0426455661654,
+    "quad_size": 25.7054571358938
+  },
+  "everfree_tall": {
+    "cell": 256.0,
+    "coverage": 0.160660743713379,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 7.64858780801296,
+    "quad_size": 28.5017172241211
+  },
+  "everfree_tall_medium": {
+    "cell": 256.0,
+    "coverage": 0.159602165222168,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 5.22284822165966,
+    "quad_size": 19.5707931335449
+  },
+  "everfree_twisted": {
+    "cell": 256.0,
+    "coverage": 0.27301025390625,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 7.52517512440681,
+    "quad_size": 24.0408043670654
+  },
+  "everfree_twisted_medium": {
+    "cell": 256.0,
+    "coverage": 0.268842697143555,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 4.87925533950329,
+    "quad_size": 15.7476623626709
+  },
+  "sm_sakuratreetileable": {
+    "cell": 256.0,
+    "coverage": 0.1434326171875,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 8.62166309356689,
+    "quad_size": 30.1804480682373
+  },
+  "sm_tree1": {
+    "cell": 256.0,
+    "coverage": 0.211613655090332,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 2.94780468940735,
+    "quad_size": 8.43004029298783
+  },
+  "sm_tree2": {
+    "cell": 256.0,
+    "coverage": 0.188332557678223,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 3.06893157958984,
+    "quad_size": 8.68542263595871
+  },
+  "sm_tree2v2": {
+    "cell": 256.0,
+    "coverage": 0.22652530670166,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 2.88766264915466,
+    "quad_size": 8.26981116262749
+  },
+  "sm_tree3": {
+    "cell": 256.0,
+    "coverage": 0.189207077026367,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 2.63069772720337,
+    "quad_size": 7.73552516105774
+  },
+  "sm_tree4": {
+    "cell": 256.0,
+    "coverage": 0.188895225524902,
+    "elevation_deg": 6.0,
+    "frames": 16.0,
+    "grid": 4.0,
+    "max_lod": 5.0,
+    "quad_centre_y": 4.97284460067749,
+    "quad_size": 12.9516361276822
+  }
+}

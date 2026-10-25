@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/helia.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "helia"
+display_name = "Helia"
+race = 1
+coat_fill = Color(0.6, 0.8980392, 0.91764706, 1)
+coat_line = Color(0.43137255, 0.64705884, 0.65882355, 1)
+coat_shade = Color(0.5529412, 0.827451, 0.84313726, 1)
+mane_line = Color(0.69803923, 0.68235296, 0.4392157, 1)
+iris_color = Color(0.3137255, 0.7490196, 0.90588236, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/helia_hair.scn"
+hair_prefix = "Helia"
+tail_terminal_length = 0.178101657
+ai_profile = "res://world/characters/background/ai/helia.json"

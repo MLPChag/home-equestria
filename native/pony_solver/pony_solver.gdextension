@@ -1,0 +1,14 @@
+[configuration]
+
+entry_symbol = "pony_solver_library_init"
+compatibility_minimum = "4.5"
+reloadable = false
+
+[libraries]
+
+linux.debug.x86_64 = "res://native/pony_solver/bin/libpony_solver.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://native/pony_solver/bin/libpony_solver.linux.template_release.x86_64.so"
+windows.debug.x86_64 = "res://native/pony_solver/bin/libpony_solver.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://native/pony_solver/bin/libpony_solver.windows.template_release.x86_64.dll"
+android.release.arm64 = "res://native/pony_solver/bin/libpony_solver.android.template_release.arm64.so"
+android.debug.arm64 = "res://native/pony_solver/bin/libpony_solver.android.template_release.arm64.so"

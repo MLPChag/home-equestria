@@ -1,0 +1,1512 @@
+{
+	"status": "textured_awaiting_art_review",
+	"about": "Household furniture with UV atlases and baked soft albedo. Geometry is the original triangles (shadow planes dropped); vertices split only along UV seams. Sizes are suggestions for placement at canon pony scale; meshes keep their normalized size.",
+	"pipeline": [
+		"tools/props/household/build.py",
+		"tools/props/household/blender_unwrap.py",
+		"tools/props/household/tripo.py",
+		"tools/props/household/review.gd"
+	],
+	"blender": "4.5.12 headless: Smart UV Project, pack islands, Cycles CPU ambient-occlusion bake",
+	"texture_sources": [
+		{
+			"id": "cotton_jersey",
+			"name": "Cotton Jersey",
+			"role": "upholstery weave",
+			"source": "Poly Haven",
+			"source_url": "https://polyhaven.com/a/cotton_jersey",
+			"file_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cotton_jersey/cotton_jersey_diff_2k.jpg",
+			"sha256": "ddaedb1e9d7d903eac532f7f8722fbb397a9efb0da82801b97002bada416d2d0",
+			"authors": {
+				"colormass": "Photography",
+				"Rico Cilliers": "Processing"
+			},
+			"license": "CC0-1.0",
+			"license_url": "https://polyhaven.com/license"
+		},
+		{
+			"id": "grey_plaster",
+			"name": "Grey Plaster",
+			"role": "stone mottle",
+			"source": "Poly Haven",
+			"source_url": "https://polyhaven.com/a/grey_plaster",
+			"file_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_plaster/grey_plaster_diff_2k.jpg",
+			"sha256": "2cd3a4fb2723d93da0eccf9b23aced757acabc35f94b0a97fc8986fe7e4242b5",
+			"authors": {
+				"Rob Tuytel": "All"
+			},
+			"license": "CC0-1.0",
+			"license_url": "https://polyhaven.com/license"
+		},
+		{
+			"id": "oak_veneer_01",
+			"name": "Oak Veneer 01",
+			"role": "timber grain",
+			"source": "Poly Haven",
+			"source_url": "https://polyhaven.com/a/oak_veneer_01",
+			"file_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_01/oak_veneer_01_diff_2k.jpg",
+			"sha256": "0718c2e1a209afe6138ccb41d70e1a18cd825d1e73db33ad7cf80806fa9ce5a4",
+			"authors": {
+				"Jenelle van Heerden": "All"
+			},
+			"license": "CC0-1.0",
+			"license_url": "https://polyhaven.com/license"
+		},
+		{
+			"id": "rough_linen",
+			"name": "Rough Linen",
+			"role": "linen weave",
+			"source": "Poly Haven",
+			"source_url": "https://polyhaven.com/a/rough_linen",
+			"file_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_linen/rough_linen_diff_2k.jpg",
+			"sha256": "e71016e08dfebea1dd4e8a2a675e3b617a889a782af782f1abb795906f4db1b4",
+			"authors": {
+				"colormass": "Photography",
+				"Rico Cilliers": "Processing"
+			},
+			"license": "CC0-1.0",
+			"license_url": "https://polyhaven.com/license"
+		},
+		{
+			"id": "stretch_poplin",
+			"name": "Stretch Poplin",
+			"role": "blanket/curtain cotton",
+			"source": "Poly Haven",
+			"source_url": "https://polyhaven.com/a/stretch_poplin",
+			"file_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stretch_poplin/stretch_poplin_diff_2k.jpg",
+			"sha256": "227e4a7d75c042fad254c1600e739c4a385eebbe905c8601e7c5c3a90316f523",
+			"authors": {
+				"colormass": "Photography",
+				"Rico Cilliers": "Processing"
+			},
+			"license": "CC0-1.0",
+			"license_url": "https://polyhaven.com/license"
+		},
+		{
+			"id": "clock-dial",
+			"name": "Clock dial",
+			"source": "drawn by build.py (PIL, DejaVu Serif Bold numerals)",
+			"license": "project-authored; DejaVu fonts: Bitstream Vera/DejaVu licence (free)"
+		},
+		{
+			"id": "procedural",
+			"name": "Value-noise colour variation, iron and brass",
+			"source": "build.py",
+			"license": "project-authored"
+		}
+	],
+	"assets": [
+		{
+			"id": "armchair",
+			"kind": "local-materials",
+			"output": "world/props/household/armchair.glb",
+			"output_sha256": "0387a9ac67016ad00355923f15e1b9e23f783ac174e78a5ac07f082d10e0b007",
+			"source": "art/models/props/local-materials/sources/armchair.glb",
+			"source_sha256": "47306293fcb69d7503e2e5281063c4d9d819008b2ab62c00ac0e364d7cb18e51",
+			"material_assignment_from": "art/models/props/local-materials/finished/armchair.glb",
+			"finished_sha256": "edb0a5dbcfa737cf0b40c3cbae302400168a7bcd9d20fae0309b357b6a7df055",
+			"triangles": 4841,
+			"source_triangles": 4849,
+			"dropped_shadow_plane_triangles": 8,
+			"vertices_after_uv_split": 4228,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/armchair"
+			},
+			"materials": {
+				"timber": 648,
+				"sage": 4193
+			},
+			"detail_textures": [
+				"jersey",
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.1,
+				"y_height": 0.837,
+				"z": 0.997,
+				"longest": 1.1
+			},
+			"texel_mm": 3.515,
+			"atlas_coverage": 0.468,
+			"seconds": {
+				"blender_unwrap_ao": 16.2,
+				"paint_export": 2.6
+			}
+		},
+		{
+			"id": "bedside-table",
+			"kind": "local-materials",
+			"output": "world/props/household/bedside-table.glb",
+			"output_sha256": "f82ac14f711572c1853680a8be639037ca2edb14a6087c6313ee34484e773a07",
+			"source": "art/models/props/local-materials/sources/bedside-table.glb",
+			"source_sha256": "e7ef0f5d0a6caa8ec3ec0189a78f0574f830f33dad19efde68c2e88902ec21a5",
+			"material_assignment_from": "art/models/props/local-materials/finished/bedside-table.glb",
+			"finished_sha256": "e470cadea1553dddde97ae15f99bf4c8e1cb119fc0e7b3a21266189928922fdc",
+			"triangles": 4653,
+			"source_triangles": 4653,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 4301,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/bedside-table"
+			},
+			"materials": {
+				"timber": 3242,
+				"timber-light": 973,
+				"iron": 438
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.55,
+				"y_height": 0.505,
+				"z": 0.442,
+				"longest": 0.55
+			},
+			"texel_mm": 2.582,
+			"atlas_coverage": 0.5443,
+			"seconds": {
+				"blender_unwrap_ao": 26.2,
+				"paint_export": 3.3
+			}
+		},
+		{
+			"id": "bookshelf",
+			"kind": "local-materials",
+			"output": "world/props/household/bookshelf.glb",
+			"output_sha256": "081844e533b87637f95d22a424135d9b1c292d6d80d7448e03619f640c2205d2",
+			"source": "art/models/props/local-materials/sources/bookshelf.glb",
+			"source_sha256": "44df74674052aa543528c13a11a8d7606876fbadea68a5554991c9cddf4102e7",
+			"material_assignment_from": "art/models/props/local-materials/finished/bookshelf.glb",
+			"finished_sha256": "9ff59139307eec6df498d071fc2ccab2ebfe4f0ac04c499fc706d00b0073eb9e",
+			"triangles": 4718,
+			"source_triangles": 4718,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 4882,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/bookshelf"
+			},
+			"materials": {
+				"timber": 1942,
+				"iron": 1579,
+				"timber-light": 1197
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.401,
+				"y_height": 1.7,
+				"z": 0.482,
+				"longest": 1.7
+			},
+			"texel_mm": 4.76,
+			"atlas_coverage": 0.5699,
+			"seconds": {
+				"blender_unwrap_ao": 14.7,
+				"paint_export": 3.3
+			}
+		},
+		{
+			"id": "canopy-pony-bed",
+			"kind": "local-materials",
+			"output": "world/props/household/canopy-pony-bed.glb",
+			"output_sha256": "3525a004bb07f79144146a26f598eab135ca082e97955a706b7b96e1468e481c",
+			"source": "art/models/props/local-materials/sources/canopy-pony-bed.glb",
+			"source_sha256": "d1c60bd2ffadb83da3a34881799c502e7948151782567063adae298fc9b17478",
+			"material_assignment_from": "art/models/props/local-materials/finished/canopy-pony-bed.glb",
+			"finished_sha256": "74e78c246a412d61fd763986e6d5fb5caa91ea576d20b2a11261db5b80b27790",
+			"triangles": 4636,
+			"source_triangles": 4636,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 4992,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					2048,
+					2048
+				],
+				"metal_rough": [
+					1024,
+					1024
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/canopy-pony-bed"
+			},
+			"materials": {
+				"timber": 2338,
+				"brass": 1386,
+				"linen": 301,
+				"rose": 611
+			},
+			"detail_textures": [
+				"linen",
+				"oak",
+				"poplin"
+			],
+			"suggested_size_m": {
+				"x": 2.183,
+				"y_height": 1.868,
+				"z": 2.3,
+				"longest": 2.3
+			},
+			"texel_mm": 3.48,
+			"atlas_coverage": 0.5905,
+			"seconds": {
+				"blender_unwrap_ao": 12.8,
+				"paint_export": 13.0
+			}
+		},
+		{
+			"id": "chaise-longue",
+			"kind": "local-materials",
+			"output": "world/props/household/chaise-longue.glb",
+			"output_sha256": "2e2e47f96b3f724ef46bea33cdf92bf0cbd69ede4d99448250b5d30d57991c2b",
+			"source": "art/models/props/local-materials/sources/chaise-longue.glb",
+			"source_sha256": "1221fe48571e34418bbd75849b586ff6bb5ccffece46c165bcfa0e67917907cd",
+			"material_assignment_from": "art/models/props/local-materials/finished/chaise-longue.glb",
+			"finished_sha256": "2a784a9fa9a7db1a4c5fd12b5ed9a4cccc9daa4c963e27f3d8c5ab6482c98187",
+			"triangles": 4751,
+			"source_triangles": 4763,
+			"dropped_shadow_plane_triangles": 12,
+			"vertices_after_uv_split": 4324,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/chaise-longue"
+			},
+			"materials": {
+				"timber": 3050,
+				"lavender": 1701
+			},
+			"detail_textures": [
+				"jersey",
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.8,
+				"y_height": 0.821,
+				"z": 0.821,
+				"longest": 1.8
+			},
+			"texel_mm": 3.85,
+			"atlas_coverage": 0.5167,
+			"seconds": {
+				"blender_unwrap_ao": 12.1,
+				"paint_export": 2.8
+			}
+		},
+		{
+			"id": "clock",
+			"kind": "local-materials",
+			"output": "world/props/household/clock.glb",
+			"output_sha256": "4c744b7ac84eccf943829ffa78629af0af15bc71927ff24964cec79267a3f033",
+			"source": "art/models/props/local-materials/sources/clock.glb",
+			"source_sha256": "fea51558aeba4ae0c14e842b813712b40ee4033efdf55b4bf2bbf8bcdeddf3f6",
+			"material_assignment_from": "art/models/props/local-materials/finished/clock.glb",
+			"finished_sha256": "24c67a2789f2a345b0553d3f33bd423bf103e80b992337a534d10be99c3f2270",
+			"triangles": 4869,
+			"source_triangles": 4869,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 4275,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/clock"
+			},
+			"materials": {
+				"timber": 2043,
+				"brass": 526,
+				"linen": 462,
+				"iron": 1838
+			},
+			"detail_textures": [
+				"clock-dial",
+				"linen",
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.45,
+				"y_height": 0.26,
+				"z": 0.119,
+				"longest": 0.45
+			},
+			"texel_mm": 0.833,
+			"atlas_coverage": 0.5147,
+			"seconds": {
+				"blender_unwrap_ao": 12.4,
+				"paint_export": 2.9
+			}
+		},
+		{
+			"id": "coffee-table",
+			"kind": "local-materials",
+			"output": "world/props/household/coffee-table.glb",
+			"output_sha256": "071f820dca5db2061045b6ba1b875c0e778b22c08d585fa24c69675a0a5912e0",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 488,
+			"source_triangles": 488,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 1464,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/coffee-table"
+			},
+			"materials": {
+				"timber-light": 156,
+				"timber": 332
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.84,
+				"y_height": 0.4,
+				"z": 0.84,
+				"longest": 0.8399999737739563
+			},
+			"texel_mm": 3.555,
+			"atlas_coverage": 0.2266,
+			"seconds": {
+				"blender_unwrap_ao": 2.3,
+				"paint_export": 1.5
+			}
+		},
+		{
+			"id": "curtains",
+			"kind": "local-materials",
+			"output": "world/props/household/curtains.glb",
+			"output_sha256": "e3ced508efe03b4be439348e916514d793bd7082a4fd08d94b66aa71c0fea3e0",
+			"source": "art/models/props/local-materials/sources/curtains.glb",
+			"source_sha256": "c57ca2020f9414accb6b4cf18ad94bb7173d2234894fb85f7d6c2f9ef6c9d721",
+			"material_assignment_from": "art/models/props/local-materials/finished/curtains.glb",
+			"finished_sha256": "ae6497a6e32b16082e69296a1f8f48e0faa707bd01bb79c224881b6e76f1db72",
+			"triangles": 4682,
+			"source_triangles": 4682,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 4260,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/curtains"
+			},
+			"materials": {
+				"rose": 2263,
+				"linen": 928,
+				"brass": 283,
+				"timber": 1208
+			},
+			"detail_textures": [
+				"linen",
+				"oak",
+				"poplin"
+			],
+			"suggested_size_m": {
+				"x": 1.5,
+				"y_height": 1.306,
+				"z": 0.426,
+				"longest": 1.5
+			},
+			"texel_mm": 2.727,
+			"atlas_coverage": 0.4144,
+			"seconds": {
+				"blender_unwrap_ao": 15.6,
+				"paint_export": 2.5
+			}
+		},
+		{
+			"id": "doormat",
+			"kind": "local-materials",
+			"output": "world/props/household/doormat.glb",
+			"output_sha256": "77b06f52c5d8361bc0220b13d3d6f637ab3d76f31697978e388a41fa0f8926f2",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 44,
+			"source_triangles": 44,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 132,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					512,
+					512
+				],
+				"metal_rough": [
+					256,
+					256
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/doormat"
+			},
+			"materials": {
+				"coir": 44
+			},
+			"detail_textures": [
+				"linen"
+			],
+			"suggested_size_m": {
+				"x": 0.84,
+				"y_height": 0.015,
+				"z": 0.54,
+				"longest": 0.8399999737739563
+			},
+			"texel_mm": 3.497,
+			"atlas_coverage": 0.4418,
+			"seconds": {
+				"blender_unwrap_ao": 23.1,
+				"paint_export": 0.3
+			}
+		},
+		{
+			"id": "double-pony-bed",
+			"kind": "local-materials",
+			"output": "world/props/household/double-pony-bed.glb",
+			"output_sha256": "48cc10895149d7df68d2b6d18da59a1ccf2b89071d34c600a6de354fabe31a85",
+			"source": "art/models/props/local-materials/sources/single-pony-bed.glb",
+			"source_sha256": "f4069c087866bcc29c2370ec319e8bf7a9508e0bc27565d8883781ec3a3f1ea2",
+			"material_assignment_from": "art/models/props/local-materials/finished/single-pony-bed.glb",
+			"finished_sha256": "0fdb65e3f222c089d82984d5772b53d77b645218c18b230fa028845d12cae04b",
+			"triangles": 4796,
+			"source_triangles": 4796,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 4404,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/double-pony-bed"
+			},
+			"materials": {
+				"timber": 2038,
+				"linen": 1720,
+				"sage": 1038
+			},
+			"detail_textures": [
+				"linen",
+				"oak",
+				"poplin"
+			],
+			"suggested_size_m": {
+				"x": 2.042,
+				"y_height": 1.097,
+				"z": 2.1,
+				"longest": 2.1
+			},
+			"texel_mm": 6.622,
+			"atlas_coverage": 0.5539,
+			"seconds": {
+				"blender_unwrap_ao": 21.1,
+				"paint_export": 3.0
+			}
+		},
+		{
+			"id": "dresser",
+			"kind": "local-materials",
+			"output": "world/props/household/dresser.glb",
+			"output_sha256": "9c7876c3915667e5317899254061070e0f51c7da27048e0f26da1474fd461b48",
+			"source": "art/models/props/local-materials/sources/dresser.glb",
+			"source_sha256": "4b8ae820593ce890003c5a9df79443e1b27529e9009f124a5aea7a89030b7aea",
+			"material_assignment_from": "art/models/props/local-materials/finished/dresser.glb",
+			"finished_sha256": "d0d77689265cc334385388609b1e7d2fb69519212214a565f44dac18894420cd",
+			"triangles": 4988,
+			"source_triangles": 4988,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 4833,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/dresser"
+			},
+			"materials": {
+				"iron": 3602,
+				"timber": 868,
+				"timber-light": 518
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.2,
+				"y_height": 0.74,
+				"z": 0.66,
+				"longest": 1.2
+			},
+			"texel_mm": 3.267,
+			"atlas_coverage": 0.6239,
+			"seconds": {
+				"blender_unwrap_ao": 42.8,
+				"paint_export": 3.5
+			}
+		},
+		{
+			"id": "fireplace",
+			"kind": "local-materials",
+			"output": "world/props/household/fireplace.glb",
+			"output_sha256": "7210e141bb13fda8c729c9106f55c0bd1a2a168b65dc2bbc4b84109c4ace82cb",
+			"source": "art/models/props/local-materials/sources/fireplace.glb",
+			"source_sha256": "52c4d4f23eda9e446b52665b6eaa0d10efc4608ae7b20234bc359a15c16df9c8",
+			"material_assignment_from": "art/models/props/local-materials/finished/fireplace.glb",
+			"finished_sha256": "242b724464bd1bf88abfd82c20a328a1c35f4f69e576caad4a06ba1d4295ea3d",
+			"triangles": 875,
+			"source_triangles": 875,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 1202,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					2048,
+					2048
+				],
+				"metal_rough": [
+					1024,
+					1024
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/fireplace"
+			},
+			"materials": {
+				"stone": 683,
+				"iron": 180,
+				"stone-dark": 12
+			},
+			"detail_textures": [
+				"plaster"
+			],
+			"suggested_size_m": {
+				"x": 1.6,
+				"y_height": 1.205,
+				"z": 1.193,
+				"longest": 1.6
+			},
+			"texel_mm": 2.203,
+			"atlas_coverage": 0.6761,
+			"seconds": {
+				"blender_unwrap_ao": 34.7,
+				"paint_export": 15.8
+			}
+		},
+		{
+			"id": "floor-cushion",
+			"kind": "local-materials",
+			"output": "world/props/household/floor-cushion.glb",
+			"output_sha256": "d11c7175898ddca5d3f9d3e4b0d487e68f321a2a0434ab0fd87b215fa14e2a4f",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 364,
+			"source_triangles": 364,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 432,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/floor-cushion"
+			},
+			"materials": {
+				"lavender": 364
+			},
+			"detail_textures": [
+				"jersey"
+			],
+			"suggested_size_m": {
+				"x": 0.74,
+				"y_height": 0.206,
+				"z": 0.74,
+				"longest": 0.7400000095367432
+			},
+			"texel_mm": 1.183,
+			"atlas_coverage": 0.689,
+			"seconds": {
+				"blender_unwrap_ao": 9.0,
+				"paint_export": 2.7
+			}
+		},
+		{
+			"id": "foal-bed",
+			"kind": "local-materials",
+			"output": "world/props/household/foal-bed.glb",
+			"output_sha256": "078f1a1fb4c8b98fd457b0dc1d60421ff923fafd6fa7fe5145c0027663b8a873",
+			"source": "art/models/props/local-materials/sources/foal-bed.glb",
+			"source_sha256": "4c9d691bf8165c04559e103fe675022e96ef49456a6dc5eea2ff45ce6b143d22",
+			"material_assignment_from": "art/models/props/local-materials/finished/foal-bed.glb",
+			"finished_sha256": "a3787456efe42aba260a4c6d248e3c724482dfaf798d2e6a7feb2edba2c6f405",
+			"triangles": 916,
+			"source_triangles": 916,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 982,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/foal-bed"
+			},
+			"materials": {
+				"timber": 680,
+				"rose": 156,
+				"linen": 80
+			},
+			"detail_textures": [
+				"linen",
+				"oak",
+				"poplin"
+			],
+			"suggested_size_m": {
+				"x": 1.055,
+				"y_height": 0.77,
+				"z": 1.4,
+				"longest": 1.4
+			},
+			"texel_mm": 3.266,
+			"atlas_coverage": 0.603,
+			"seconds": {
+				"blender_unwrap_ao": 16.0,
+				"paint_export": 3.2
+			}
+		},
+		{
+			"id": "folded-blanket",
+			"kind": "local-materials",
+			"output": "world/props/household/folded-blanket.glb",
+			"output_sha256": "e80a992e773887036ea5f03768b6a7147e94d58ccd5954432749b4b25fa878bc",
+			"source": "art/models/props/local-materials/sources/folded-blanket.glb",
+			"source_sha256": "f406dc685f8152f13ea4f8a1148fd4d30b80dc54244d506c0fdc9a80cc707dd7",
+			"material_assignment_from": "art/models/props/local-materials/finished/folded-blanket.glb",
+			"finished_sha256": "17cc45e3dc3e021382c51aa2cb9ab0e4cc5017736081d575e8a9fd86fe0ae6cd",
+			"triangles": 965,
+			"source_triangles": 965,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 837,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/folded-blanket"
+			},
+			"materials": {
+				"rose": 965
+			},
+			"detail_textures": [
+				"poplin"
+			],
+			"suggested_size_m": {
+				"x": 0.7,
+				"y_height": 0.316,
+				"z": 0.634,
+				"longest": 0.7
+			},
+			"texel_mm": 1.655,
+			"atlas_coverage": 0.4988,
+			"seconds": {
+				"blender_unwrap_ao": 10.6,
+				"paint_export": 1.8
+			}
+		},
+		{
+			"id": "footstool",
+			"kind": "local-materials",
+			"output": "world/props/household/footstool.glb",
+			"output_sha256": "d3b05890d671a5fd26593a20bbbef17730255c0153e7f7ec30936e73ec138231",
+			"source": "art/models/props/local-materials/sources/footstool.glb",
+			"source_sha256": "22818cedaf44568fcbd542683a0f1e97bcac7b4526210847c2c2482c241753ad",
+			"material_assignment_from": "art/models/props/local-materials/finished/footstool.glb",
+			"finished_sha256": "bcee21796e791a777ba48d4fc3346b984419dd832ea62ba3bbba758fcea6b479",
+			"triangles": 924,
+			"source_triangles": 936,
+			"dropped_shadow_plane_triangles": 12,
+			"vertices_after_uv_split": 947,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/footstool"
+			},
+			"materials": {
+				"timber": 432,
+				"sage": 492
+			},
+			"detail_textures": [
+				"jersey",
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.7,
+				"y_height": 0.44,
+				"z": 0.53,
+				"longest": 0.7
+			},
+			"texel_mm": 1.372,
+			"atlas_coverage": 0.5911,
+			"seconds": {
+				"blender_unwrap_ao": 15.7,
+				"paint_export": 2.8
+			}
+		},
+		{
+			"id": "hatch-railing",
+			"kind": "local-materials",
+			"output": "world/props/household/hatch-railing.glb",
+			"output_sha256": "5e4016fd78968841d22975b1e35f1b3c4b26870cab647a8fe17a3ca6e23f5e1c",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 1232,
+			"source_triangles": 1232,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 3696,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					2048,
+					2048
+				],
+				"metal_rough": [
+					1024,
+					1024
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/hatch-railing"
+			},
+			"materials": {
+				"timber": 1100,
+				"timber-light": 132
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.48,
+				"y_height": 0.9,
+				"z": 0.98,
+				"longest": 1.4800000190734863
+			},
+			"texel_mm": 2.627,
+			"atlas_coverage": 0.2312,
+			"seconds": {
+				"blender_unwrap_ao": 2.6,
+				"paint_export": 5.5
+			}
+		},
+		{
+			"id": "icebox",
+			"kind": "local-materials",
+			"output": "world/props/household/icebox.glb",
+			"output_sha256": "d6504e3beb3fb6f174742aa2d7295c5a5d1c916acdef1365d7203a0c4fbaacc2",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 540,
+			"source_triangles": 540,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 1620,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/icebox"
+			},
+			"materials": {
+				"timber-dark": 188,
+				"timber": 88,
+				"brass": 264
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.8,
+				"y_height": 1.3,
+				"z": 0.57,
+				"longest": 1.2999999523162842
+			},
+			"texel_mm": 4.66,
+			"atlas_coverage": 0.3513,
+			"seconds": {
+				"blender_unwrap_ao": 21.5,
+				"paint_export": 2.1
+			}
+		},
+		{
+			"id": "kitchen-island",
+			"kind": "local-materials",
+			"output": "world/props/household/kitchen-island.glb",
+			"output_sha256": "68df7b0451cf01ba6da095a6508b4284e369f8f6c4cf20a71dceca32c0e4b8f4",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 1964,
+			"source_triangles": 1964,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 5204,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					2048,
+					2048
+				],
+				"metal_rough": [
+					1024,
+					1024
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/kitchen-island"
+			},
+			"materials": {
+				"timber-dark": 44,
+				"timber": 396,
+				"timber-light": 132,
+				"iron": 436,
+				"brass": 564,
+				"enamel": 392
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.8,
+				"y_height": 1.17,
+				"z": 0.862,
+				"longest": 1.7999999523162842
+			},
+			"texel_mm": 3.736,
+			"atlas_coverage": 0.3511,
+			"seconds": {
+				"blender_unwrap_ao": 13.3,
+				"paint_export": 7.4
+			}
+		},
+		{
+			"id": "ladder",
+			"kind": "local-materials",
+			"output": "world/props/household/ladder.glb",
+			"output_sha256": "1497e0a8bee4d41474afeea32e9b1d674ff970df725a541744982f801a63bcc8",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 440,
+			"source_triangles": 440,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 1320,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/ladder"
+			},
+			"materials": {
+				"timber": 88,
+				"timber-light": 352
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.56,
+				"y_height": 2.6,
+				"z": 0.07,
+				"longest": 2.5999999046325684
+			},
+			"texel_mm": 3.588,
+			"atlas_coverage": 0.1854,
+			"seconds": {
+				"blender_unwrap_ao": 1.3,
+				"paint_export": 1.2
+			}
+		},
+		{
+			"id": "pantry",
+			"kind": "local-materials",
+			"output": "world/props/household/pantry.glb",
+			"output_sha256": "b6ed1982e31447b62e6230ebac0d8f77fa720bddf0398498bfd879555431a1f4",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 692,
+			"source_triangles": 692,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 2076,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					2048,
+					2048
+				],
+				"metal_rough": [
+					1024,
+					1024
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/pantry"
+			},
+			"materials": {
+				"timber-dark": 88,
+				"timber": 396,
+				"timber-light": 88,
+				"brass": 120
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.96,
+				"y_height": 1.95,
+				"z": 0.554,
+				"longest": 1.9500000476837158
+			},
+			"texel_mm": 3.497,
+			"atlas_coverage": 0.2776,
+			"seconds": {
+				"blender_unwrap_ao": 15.4,
+				"paint_export": 6.1
+			}
+		},
+		{
+			"id": "pillow",
+			"kind": "local-materials",
+			"output": "world/props/household/pillow.glb",
+			"output_sha256": "ddc3181baf714a091c2e89746996822fa886abb9490134e1e23d0ee1bec5d5d9",
+			"source": "art/models/props/local-materials/sources/pillow.glb",
+			"source_sha256": "9ad4bdcd779db6ba5ff8c720dccd32b375f4aead19fc3168c60cb2db246a70d3",
+			"material_assignment_from": "art/models/props/local-materials/finished/pillow.glb",
+			"finished_sha256": "cccd8cfd4ec40a57652fa4dcf99fe5a281b83eb062c496693f2304f528864b18",
+			"triangles": 1212,
+			"source_triangles": 1216,
+			"dropped_shadow_plane_triangles": 4,
+			"vertices_after_uv_split": 983,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/pillow"
+			},
+			"materials": {
+				"linen": 1212
+			},
+			"detail_textures": [
+				"linen"
+			],
+			"suggested_size_m": {
+				"x": 0.65,
+				"y_height": 0.218,
+				"z": 0.525,
+				"longest": 0.65
+			},
+			"texel_mm": 1.18,
+			"atlas_coverage": 0.5793,
+			"seconds": {
+				"blender_unwrap_ao": 10.3,
+				"paint_export": 2.7
+			}
+		},
+		{
+			"id": "round-cafe-table",
+			"kind": "local-materials",
+			"output": "world/props/household/round-cafe-table.glb",
+			"output_sha256": "8f11cc0128050ce3f5b00019cdb595d7fc324467b3408b5efc02b7265f34dbf5",
+			"source": "art/models/props/local-materials/sources/round-cafe-table.glb",
+			"source_sha256": "2c16376d55a1ac0af1e2e66e92f591698faaa1e31b7d6638efe33e534c8ed8d8",
+			"material_assignment_from": "art/models/props/local-materials/finished/round-cafe-table.glb",
+			"finished_sha256": "3707fdab3e6b8523d803f327d8b88aed4a091c8974762511b24500076b5cdd07",
+			"triangles": 978,
+			"source_triangles": 978,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 1045,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/round-cafe-table"
+			},
+			"materials": {
+				"iron": 586,
+				"timber-light": 392
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 0.8,
+				"y_height": 0.728,
+				"z": 0.8,
+				"longest": 0.8
+			},
+			"texel_mm": 1.724,
+			"atlas_coverage": 0.6754,
+			"seconds": {
+				"blender_unwrap_ao": 23.1,
+				"paint_export": 3.0
+			}
+		},
+		{
+			"id": "rug-oval",
+			"kind": "local-materials",
+			"output": "world/props/household/rug-oval.glb",
+			"output_sha256": "3d0d32972dae993e8e2e3f38e38c2ab3051339bbe52e36bf53dcadb435ee4d67",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 572,
+			"source_triangles": 572,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 864,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/rug-oval"
+			},
+			"materials": {
+				"sage": 188,
+				"linen": 384
+			},
+			"detail_textures": [
+				"linen"
+			],
+			"suggested_size_m": {
+				"x": 2.0,
+				"y_height": 0.02,
+				"z": 1.2,
+				"longest": 2.0
+			},
+			"texel_mm": 4.739,
+			"atlas_coverage": 0.2059,
+			"seconds": {
+				"blender_unwrap_ao": 14.9,
+				"paint_export": 1.0
+			}
+		},
+		{
+			"id": "rug-round",
+			"kind": "local-materials",
+			"output": "world/props/household/rug-round.glb",
+			"output_sha256": "a8caabf66feec3b66fc326b54de742594cf127d74ebe027d5854af2bcd3e0d00",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 572,
+			"source_triangles": 572,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 860,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/rug-round"
+			},
+			"materials": {
+				"rose": 188,
+				"linen": 384
+			},
+			"detail_textures": [
+				"linen"
+			],
+			"suggested_size_m": {
+				"x": 1.8,
+				"y_height": 0.02,
+				"z": 1.8,
+				"longest": 1.7999999523162842
+			},
+			"texel_mm": 5.353,
+			"atlas_coverage": 0.2174,
+			"seconds": {
+				"blender_unwrap_ao": 6.6,
+				"paint_export": 1.0
+			}
+		},
+		{
+			"id": "single-pony-bed",
+			"kind": "local-materials",
+			"output": "world/props/household/single-pony-bed.glb",
+			"output_sha256": "7292d6996c79c33aa0f010877947bb42da9e59d3ab91053f82e1622eda763e73",
+			"source": "art/models/props/local-materials/sources/single-pony-bed.glb",
+			"source_sha256": "f4069c087866bcc29c2370ec319e8bf7a9508e0bc27565d8883781ec3a3f1ea2",
+			"material_assignment_from": "art/models/props/local-materials/finished/single-pony-bed.glb",
+			"finished_sha256": "0fdb65e3f222c089d82984d5772b53d77b645218c18b230fa028845d12cae04b",
+			"triangles": 3900,
+			"source_triangles": 3900,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 3730,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/single-pony-bed"
+			},
+			"materials": {
+				"timber": 2038,
+				"linen": 1026,
+				"sage": 836
+			},
+			"detail_textures": [
+				"linen",
+				"oak",
+				"poplin"
+			],
+			"suggested_size_m": {
+				"x": 1.159,
+				"y_height": 1.097,
+				"z": 2.1,
+				"longest": 2.1
+			},
+			"texel_mm": 5.442,
+			"atlas_coverage": 0.4978,
+			"seconds": {
+				"blender_unwrap_ao": 12.9,
+				"paint_export": 2.8
+			}
+		},
+		{
+			"id": "sofa",
+			"kind": "local-materials",
+			"output": "world/props/household/sofa.glb",
+			"output_sha256": "1b519e22790be85ea1b7e4df1652817e4093bfb9c358eace48bef7e42354806d",
+			"source": "art/models/props/local-materials/sources/sofa.glb",
+			"source_sha256": "2067f0014dc9cac8df76dd6c9cb95c7dbced4510b400171fc71a94d34ce64d37",
+			"material_assignment_from": "art/models/props/local-materials/finished/sofa.glb",
+			"finished_sha256": "3723ddd3f5910c038f1897d9c013a2e6b266e73b82097549eef66c9ab2caec2d",
+			"triangles": 949,
+			"source_triangles": 955,
+			"dropped_shadow_plane_triangles": 6,
+			"vertices_after_uv_split": 1003,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					2048,
+					2048
+				],
+				"metal_rough": [
+					1024,
+					1024
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/sofa"
+			},
+			"materials": {
+				"rose": 741,
+				"timber": 208
+			},
+			"detail_textures": [
+				"jersey",
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 2.0,
+				"y_height": 0.849,
+				"z": 0.928,
+				"longest": 2.0
+			},
+			"texel_mm": 1.254,
+			"atlas_coverage": 0.7472,
+			"seconds": {
+				"blender_unwrap_ao": 14.1,
+				"paint_export": 15.4
+			}
+		},
+		{
+			"id": "vanity",
+			"kind": "local-materials",
+			"output": "world/props/household/vanity.glb",
+			"output_sha256": "f6fd44d2ea9e29175a1808f2b3834fb86be3b89dc8a615d49d15ce188a0be582",
+			"source": "tools/props/household/procedural.py",
+			"source_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"material_assignment_from": "tools/props/household/procedural.py",
+			"finished_sha256": "60c941b4f5204fdc1c12f1cbaf98f4c18ef6c18163b3a0a16009546ed0c72e66",
+			"triangles": 928,
+			"source_triangles": 928,
+			"dropped_shadow_plane_triangles": 0,
+			"vertices_after_uv_split": 2784,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					2048,
+					2048
+				],
+				"metal_rough": [
+					1024,
+					1024
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/vanity"
+			},
+			"materials": {
+				"timber": 308,
+				"timber-light": 332,
+				"brass": 132,
+				"mirror": 156
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.03,
+				"y_height": 1.52,
+				"z": 0.506,
+				"longest": 1.5199999809265137
+			},
+			"texel_mm": 1.907,
+			"atlas_coverage": 0.3302,
+			"seconds": {
+				"blender_unwrap_ao": 11.6,
+				"paint_export": 7.0
+			}
+		},
+		{
+			"id": "wooden-bench",
+			"kind": "local-materials",
+			"output": "world/props/household/wooden-bench.glb",
+			"output_sha256": "c3a542670551ce1371413c87dd6dc7f64a5f2f271128c530d98b63b0a69bf47f",
+			"source": "art/models/props/local-materials/sources/wooden-bench.glb",
+			"source_sha256": "275d74160d9c08577607219ddfcb6362bcc73a4f9bf2ed69eace775306de51f8",
+			"material_assignment_from": "art/models/props/local-materials/finished/wooden-bench.glb",
+			"finished_sha256": "e2ff9ba5562745fc7e3d9f2801e4361b03e7a10c61d87db012fd2257cf299042",
+			"triangles": 950,
+			"source_triangles": 956,
+			"dropped_shadow_plane_triangles": 6,
+			"vertices_after_uv_split": 926,
+			"geometry_check": "kept triangles: positions and normals bit-identical to source",
+			"atlas": {
+				"albedo": [
+					1024,
+					1024
+				],
+				"metal_rough": [
+					512,
+					512
+				],
+				"embedded": true,
+				"editable_copies": "art/models/props/household-textured/wooden-bench"
+			},
+			"materials": {
+				"iron": 842,
+				"timber-light": 108
+			},
+			"detail_textures": [
+				"oak"
+			],
+			"suggested_size_m": {
+				"x": 1.5,
+				"y_height": 0.484,
+				"z": 0.379,
+				"longest": 1.5
+			},
+			"texel_mm": 1.879,
+			"atlas_coverage": 0.7363,
+			"seconds": {
+				"blender_unwrap_ao": 12.3,
+				"paint_export": 3.1
+			}
+		},
+		{
+			"id": "compact-kitchen",
+			"suggested_size_m": {
+				"x": 1.2799999713897705,
+				"y_height": 1.0359468460083008,
+				"z": 0.6434853076934814,
+				"longest": 1.2799999713897705
+			},
+			"source": "Original mesh via official Blender MCP 5.2.1",
+			"file": "compact-kitchen.glb"
+		},
+		{
+			"id": "cottage-tea-set",
+			"suggested_size_m": {
+				"x": 0.550000011920929,
+				"y_height": 0.226500004529953,
+				"z": 0.3400000035762787,
+				"longest": 0.550000011920929
+			},
+			"source": "Original mesh via official Blender MCP 5.2.1",
+			"file": "cottage-tea-set.glb"
+		},
+		{
+			"id": "cottage-crockery-rack",
+			"suggested_size_m": {
+				"x": 0.7200000286102295,
+				"y_height": 0.5324999690055847,
+				"z": 0.28999999165534973,
+				"longest": 0.7200000286102295
+			},
+			"source": "Original mesh via official Blender MCP 5.2.1",
+			"file": "cottage-crockery-rack.glb"
+		},
+		{
+			"id": "wagon-galley",
+			"suggested_size_m": {
+				"x": 0.8399999737739563,
+				"y_height": 1.028999924659729,
+				"z": 0.43636393547058105,
+				"longest": 1.028999924659729
+			},
+			"source": "Original mesh via official Blender MCP 5.2.1",
+			"file": "wagon-galley.glb"
+		}
+	]
+}

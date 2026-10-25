@@ -1,0 +1,74 @@
+{
+    "character_tag": "twi",
+    "default_location": "golden_oak_library",
+    "schedules": [
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "golden_oak_library", "activity_hint": "Organizing books and studying.", "weight": 70 },
+                { "location_id": "ponyville_town_hall", "activity_hint": "Checking in with Mayor Mare on town projects.", "weight": 15 },
+                { "location_id": "carousel_boutique", "activity_hint": "Consulting Rarity about magical fabrics.", "weight": 10 },
+                { "location_id": "canterlot_throne_room", "activity_hint": "Delivering a report to Princess Celestia.", "weight": 3 },
+                { "location_id": "shopping_alley", "activity_hint": "Buying rare magical texts in Canterlot.", "weight": 2 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "ponyville_town_hall", "activity_hint": "Attending community meetings.", "weight": 90 },
+                { "location_id": "royal_garden", "activity_hint": "Discussing magical theory with Celestia in the gardens.", "weight": 10 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Wednesday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "golden_oak_library", "activity_hint": "Studying ancient texts with Zecora.", "weight": 95 },
+                { "location_id": "canterlot_cafe", "activity_hint": "Meeting with Canterlot scholars for research discussion.", "weight": 5 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Tuesday", "Thursday"],
+            "time_slots": ["afternoon"],
+            "location_id": "golden_oak_library",
+            "activity_hint": "Conducting magical research.",
+            "priority": 0
+        },
+        {
+            "days": ["Friday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "carousel_boutique", "activity_hint": "Visiting Rarity for a fitting.", "weight": 85 },
+                { "location_id": "canterlot_plaza", "activity_hint": "Attending a magical symposium in Canterlot.", "weight": 10 },
+                { "location_id": "donut_joe_shop", "activity_hint": "Quick visit to Joe's for nostalgic donuts and coffee.", "weight": 5 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["morning"],
+            "location_id": "zecora_hut",
+            "activity_hint": "Learning about herbal remedies with Fluttershy and Zecora.",
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sugarcube_corner",
+            "activity_hint": "Spending time with friends.",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["any"],
+            "location_id": "golden_oak_library",
+            "activity_hint": "Catching up on reading and studies.",
+            "priority": 0
+        }
+    ]
+}

@@ -1,0 +1,644 @@
+{
+  "hayburger": {
+    "name": "Hayburger",
+    "category": "meals",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.2092,
+      0.184,
+      0.2
+    ],
+    "price_bits": 10
+  },
+  "carrot-dog": {
+    "name": "Carrot Dog",
+    "category": "meals",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.375,
+      0.086,
+      0.116
+    ],
+    "price_bits": 10
+  },
+  "hay-fries": {
+    "name": "Hay Fries",
+    "category": "meals",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.1647,
+      0.049,
+      0.2272
+    ],
+    "price_bits": 8
+  },
+  "daffodil-daisy-sandwich": {
+    "name": "Daffodil and Daisy Sandwich",
+    "category": "meals",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.2092,
+      0.081,
+      0.199
+    ],
+    "price_bits": 8
+  },
+  "buttered-corn": {
+    "name": "Buttered Corn",
+    "category": "meals",
+    "stack": 16,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "A hot buttered cob. Hold to your mouth in VR; hold left-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.3295,
+      0.188,
+      0.2858
+    ],
+    "price_bits": 5,
+    "model": "corn"
+  },
+  "grass-pancakes": {
+    "name": "Grass Pancakes",
+    "category": "meals",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.184,
+      0.08,
+      0.184
+    ],
+    "price_bits": 10
+  },
+  "sweet-carrot-pancakes": {
+    "name": "Sweet Carrot Pancakes",
+    "category": "meals",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.184,
+      0.08,
+      0.184
+    ],
+    "price_bits": 12
+  },
+  "spicy-flat-noodle-soup": {
+    "name": "Spicy Flat Noodle Soup",
+    "category": "meals",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Empty Soup Bowl",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.35,
+    "size_m": [
+      0.294,
+      0.12,
+      0.294
+    ],
+    "price_bits": 12
+  },
+  "cupcake": {
+    "name": "Cupcake",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Cupcake Wrapper",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.35,
+    "size_m": [
+      0.0969,
+      0.161,
+      0.096
+    ],
+    "price_bits": 6
+  },
+  "strawberry-cinnamon-cilantro-cupcake": {
+    "name": "Strawberry Cinnamon Cilantro Cupcake",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Cupcake Wrapper",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.35,
+    "size_m": [
+      0.0969,
+      0.225,
+      0.096
+    ],
+    "price_bits": 8
+  },
+  "rainbow-pie": {
+    "name": "Rainbow Pie",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.2928,
+      0.086,
+      0.2928
+    ],
+    "price_bits": 20
+  },
+  "apple-fritter": {
+    "name": "Apple Fritter",
+    "category": "apple-family",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.1414,
+      0.054,
+      0.1051
+    ],
+    "price_bits": 6
+  },
+  "apple-pie": {
+    "name": "Apple Pie",
+    "category": "apple-family",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.2928,
+      0.0895,
+      0.2928
+    ],
+    "price_bits": 20
+  },
+  "sweet-apple-acres-cider": {
+    "name": "Mug of Cider",
+    "category": "apple-family",
+    "stack": 8,
+    "consume": true,
+    "drink": true,
+    "container": "Cider Mug",
+    "description": "Sweet Apple Acres cider in a mug you keep. Tilt it to your mouth to drink (VR), or hold left-click (desktop). Refill the empty mug at a cider keg.",
+    "mass": 0.35,
+    "size_m": [
+      0.128,
+      0.13,
+      0.09
+    ],
+    "price_bits": 6,
+    "alcohol": 1
+  },
+  "caramel-apple": {
+    "name": "Caramel Apple",
+    "category": "apple-family",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Apple Stick",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.35,
+    "size_m": [
+      0.1046,
+      0.23,
+      0.1075
+    ],
+    "price_bits": 6
+  },
+  "candy-apple": {
+    "name": "Candy Apple",
+    "category": "apple-family",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Apple Stick",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.35,
+    "size_m": [
+      0.1046,
+      0.23,
+      0.1075
+    ],
+    "price_bits": 6
+  },
+  "sunflower-smoothie": {
+    "name": "Sunflower Smoothie",
+    "category": "regional",
+    "stack": 8,
+    "consume": true,
+    "drink": true,
+    "container": "Empty Smoothie Cup",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.35,
+    "size_m": [
+      0.09,
+      0.2077,
+      0.09
+    ],
+    "price_bits": 8
+  },
+  "nectar": {
+    "name": "Nectar",
+    "category": "regional",
+    "stack": 8,
+    "consume": true,
+    "drink": true,
+    "container": "Empty Nectar Cup",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.35,
+    "size_m": [
+      0.09,
+      0.2077,
+      0.09
+    ],
+    "price_bits": 4
+  },
+  "red-apple": {
+    "name": "Red Apple",
+    "category": "ingredients",
+    "stack": 32,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.1046,
+      0.123,
+      0.1075
+    ],
+    "price_bits": 2
+  },
+  "green-apple": {
+    "name": "Green Apple",
+    "category": "ingredients",
+    "stack": 32,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.1046,
+      0.123,
+      0.1075
+    ],
+    "price_bits": 2
+  },
+  "carrot": {
+    "name": "Carrot",
+    "category": "ingredients",
+    "stack": 32,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.1807,
+      0.212,
+      0.1721
+    ],
+    "price_bits": 2
+  },
+  "strawberry": {
+    "name": "Strawberry",
+    "category": "ingredients",
+    "stack": 32,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.052,
+      0.085,
+      0.0521
+    ],
+    "price_bits": 3
+  },
+  "mushroom": {
+    "name": "Mushroom",
+    "category": "ingredients",
+    "stack": 32,
+    "consume": false,
+    "drink": false,
+    "container": "",
+    "description": "A cooking ingredient.",
+    "mass": 0.15,
+    "size_m": [
+      0.11,
+      0.1,
+      0.11
+    ],
+    "price_bits": 3
+  },
+  "bread-loaf": {
+    "name": "Bread Loaf",
+    "category": "ingredients",
+    "stack": 32,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.15,
+    "size_m": [
+      0.31,
+      0.11,
+      0.13
+    ],
+    "price_bits": 4
+  },
+  "oats": {
+    "name": "Handful of oats",
+    "category": "ingredients",
+    "stack": 16,
+    "consume": true,
+    "drink": false,
+    "container": "Oat pouch",
+    "description": "Ponies love oats. Hold them to a pony's mouth to feed her.",
+    "mass": 0.08,
+    "size_m": [
+      0.1,
+      0.078,
+      0.1
+    ],
+    "price_bits": 2
+  },
+  "hay-bundle": {
+    "name": "Hay bundle",
+    "category": "ingredients",
+    "stack": 16,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Sweet dry hay. Hold it to a pony's mouth to feed her.",
+    "mass": 0.06,
+    "size_m": [
+      0.06,
+      0.06,
+      0.16
+    ],
+    "price_bits": 2
+  },
+  "banana": {
+    "name": "Banana",
+    "category": "fruit",
+    "stack": 16,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.12,
+    "size_m": [
+      0.14221,
+      0.043344,
+      0.23
+    ],
+    "price_bits": 0
+  },
+  "flour": {
+    "name": "Flour portion",
+    "category": "ingredients",
+    "stack": 16,
+    "consume": false,
+    "drink": false,
+    "container": "",
+    "description": "One cooking portion. Place it in a home pan following the physical recipe card.",
+    "mass": 0.1,
+    "size_m": [
+      0.12,
+      0.071,
+      0.1
+    ],
+    "price_bits": 2
+  },
+  "egg": {
+    "name": "Egg",
+    "category": "ingredients",
+    "stack": 16,
+    "consume": false,
+    "drink": false,
+    "container": "",
+    "description": "One cooking portion. Place it in a home pan following the physical recipe card.",
+    "mass": 0.055,
+    "size_m": [
+      0.115,
+      0.068,
+      0.09
+    ],
+    "price_bits": 2
+  },
+  "butter": {
+    "name": "Butter portion",
+    "category": "ingredients",
+    "stack": 16,
+    "consume": false,
+    "drink": false,
+    "container": "",
+    "description": "One cooking portion. Place it in a home pan following the physical recipe card.",
+    "mass": 0.035,
+    "size_m": [
+      0.1,
+      0.0295,
+      0.08
+    ],
+    "price_bits": 2
+  },
+  "spices": {
+    "name": "Spice portion",
+    "category": "ingredients",
+    "stack": 16,
+    "consume": false,
+    "drink": false,
+    "container": "",
+    "description": "One cooking portion. Place it in a home pan following the physical recipe card.",
+    "mass": 0.01,
+    "size_m": [
+      0.09,
+      0.031,
+      0.075
+    ],
+    "price_bits": 1
+  },
+  "blueberry-muffin": {
+    "name": "Blueberry Muffin",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Muffin Wrapper",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.14,
+    "size_m": [
+      0.1104,
+      0.1098,
+      0.11
+    ],
+    "price_bits": 5
+  },
+  "chocolate-chip-muffin": {
+    "name": "Chocolate Chip Muffin",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Muffin Wrapper",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.14,
+    "size_m": [
+      0.1084,
+      0.1083,
+      0.108
+    ],
+    "price_bits": 5
+  },
+  "banana-nut-muffin": {
+    "name": "Banana Nut Muffin",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "Muffin Wrapper",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.14,
+    "size_m": [
+      0.108,
+      0.1082,
+      0.111
+    ],
+    "price_bits": 5
+  },
+  "croissant": {
+    "name": "Croissant",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.08,
+    "size_m": [
+      0.1464,
+      0.0595,
+      0.0993
+    ],
+    "price_bits": 4
+  },
+  "sprinkle-donut": {
+    "name": "Sprinkle Donut",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.09,
+    "size_m": [
+      0.1168,
+      0.046,
+      0.1168
+    ],
+    "price_bits": 4
+  },
+  "cinnamon-roll": {
+    "name": "Cinnamon Roll",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.1,
+    "size_m": [
+      0.1199,
+      0.0291,
+      0.113
+    ],
+    "price_bits": 5
+  },
+  "strawberry-cake-slice": {
+    "name": "Strawberry Cake Slice",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.12,
+    "size_m": [
+      0.1106,
+      0.1,
+      0.0742
+    ],
+    "price_bits": 7
+  },
+  "chocolate-chip-cookie": {
+    "name": "Chocolate Chip Cookie",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.04,
+    "size_m": [
+      0.098,
+      0.0177,
+      0.098
+    ],
+    "price_bits": 2
+  },
+  "cherry-danish": {
+    "name": "Cherry Danish",
+    "category": "sweets",
+    "stack": 8,
+    "consume": true,
+    "drink": false,
+    "container": "",
+    "description": "Hold to your mouth in VR; hold right-click on desktop.",
+    "mass": 0.09,
+    "size_m": [
+      0.1119,
+      0.0385,
+      0.1119
+    ],
+    "price_bits": 5
+  }
+}

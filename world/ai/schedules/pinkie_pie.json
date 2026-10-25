@@ -1,0 +1,63 @@
+{
+    "character_tag": "pinkie",
+    "default_location": "sugarcube_corner",
+    "schedules": [
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "sugarcube_corner", "activity_hint": "Baking treats for the day.", "weight": 60 },
+                { "location_id": "flower_shop", "activity_hint": "Picking up cheerful flowers for party decorations.", "weight": 10 },
+                { "location_id": "ponyville_town_hall", "activity_hint": "Setting up early party decorations.", "weight": 15 },
+                { "location_id": "sweet_apple_acres", "activity_hint": "Picking up fresh ingredients from Applejack.", "weight": 15 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday", "Wednesday"],
+            "time_slots": ["afternoon"],
+            "location_id": "ponyville_town_hall",
+            "activity_hint": "Planning parties for upcoming celebrations.",
+            "priority": 0
+        },
+        {
+            "days": ["Tuesday"],
+            "time_slots": ["afternoon"],
+            "location_id": "apple_family_room",
+            "activity_hint": "Visiting Applejack to plan for weekend parties.",
+            "priority": 0
+        },
+        {
+            "days": ["Thursday", "Friday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "sugarcube_corner", "activity_hint": "Hosting fun activities for foals after school.", "weight": 50 },
+                { "location_id": "flower_shop", "activity_hint": "Planning flower-themed party favors with the flower trio.", "weight": 10 },
+                { "location_id": "ponyville_town_hall", "activity_hint": "Cheering up ponies with surprise games.", "weight": 20 },
+                { "location_id": "golden_oak_library", "activity_hint": "Story time for the young ones.", "weight": 20 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["any"],
+            "location_id": "sugarcube_corner",
+            "activity_hint": "Throwing a weekend party for everypony!",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["morning"],
+            "location_id": "ponyville_town_hall",
+            "activity_hint": "Setting up decorations for something special.",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sugarcube_corner",
+            "activity_hint": "Baking for the upcoming week.",
+            "priority": 0
+        }
+    ]
+}

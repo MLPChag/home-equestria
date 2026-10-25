@@ -1,0 +1,11 @@
+{
+  "id": "apple_bumpkin",
+  "name": "Apple Bumpkin",
+  "tag": "apple_bumpkin",
+  "prompt": "res://world/characters/background/ai/apple_bumpkin.md",
+  "tts_speaker_id": 6,
+  "tts_default_emotion": "neutral",
+  "tts_style_strength": 1.0,
+  "earshot_m": 10.0,
+  "voice_status": "temporary shared Cheerilee voice"
+}

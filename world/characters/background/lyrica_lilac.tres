@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/lyrica_lilac.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "lyrica_lilac"
+display_name = "Lyrica Lilac"
+race = 0
+coat_fill = Color(0.7921569, 0.7058824, 0.89411765, 1)
+coat_line = Color(0.5686275, 0.5098039, 0.6431373, 1)
+coat_shade = Color(0.7294118, 0.6509804, 0.8235294, 1)
+mane_line = Color(0.7137255, 0.69411767, 0.39215687, 1)
+iris_color = Color(0.4117647, 0.22745098, 0.5529412, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/lyrica_lilac_hair.scn"
+hair_prefix = "LyricaLilac"
+tail_terminal_length = 0.153006162
+ai_profile = "res://world/characters/background/ai/lyrica_lilac.json"

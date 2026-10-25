@@ -1,0 +1,567 @@
+{
+  "_what": "Daily plans for every pony (dev 2026-09-26), rolled like a mad-libs loot table each morning: a verb (action), a target and a reason, a few times a day, with free time between (the living world: wandering, friends, invitations, getting sidetracked). docs/DAY_PLANS.md explains every field and how to add an action.",
+  "day": {
+    "steps": [
+      3,
+      5
+    ],
+    "start_hour": [
+      7.5,
+      9.5
+    ],
+    "gap_minutes": [
+      6,
+      20
+    ],
+    "window_hours": 2.0,
+    "sidetrack_chance": 0.35,
+    "_why": "steps per day; first plan starts in this hour range; free time between steps (game minutes); how long a step may wait before it is dropped; chance she stays with friends she is already with instead of starting the next step"
+  },
+  "actions": {
+    "go_to": {
+      "weight": 3.0,
+      "handler": "go_to",
+      "hours": [
+        7,
+        21
+      ],
+      "target": "outing",
+      "posture": [
+        "sit",
+        "stand"
+      ],
+      "minutes": [
+        15,
+        45
+      ],
+      "phrase": "go to {target}",
+      "reasons": "outing"
+    },
+    "eat": {
+      "weight": 2.0,
+      "handler": "go_to",
+      "hours": [
+        11,
+        14.5
+      ],
+      "also_hours": [
+        17.5,
+        20
+      ],
+      "target": "food",
+      "posture": [
+        "sit"
+      ],
+      "minutes": [
+        15,
+        35
+      ],
+      "phrase": "eat at {target}",
+      "reasons": "food"
+    },
+    "buy": {
+      "weight": 2.0,
+      "handler": "go_to",
+      "hours": [
+        9,
+        18
+      ],
+      "target": "shop",
+      "posture": [
+        "stand"
+      ],
+      "minutes": [
+        5,
+        15
+      ],
+      "phrase": "buy {item} at {target}",
+      "reasons": "buy"
+    },
+    "visit": {
+      "weight": 3.0,
+      "handler": "visit",
+      "hours": [
+        9,
+        20.5
+      ],
+      "target": "friend",
+      "minutes": [
+        15,
+        40
+      ],
+      "phrase": "visit {target}",
+      "reasons": "visit"
+    },
+    "visit_dash": {
+      "weight": 2.0,
+      "handler": "visit",
+      "hours": [
+        9,
+        18
+      ],
+      "when": {
+        "wings": true,
+        "not_id": [
+          "rainbow_dash"
+        ]
+      },
+      "target": "sky_host",
+      "minutes": [
+        10,
+        25
+      ],
+      "phrase": "fly up to see {target}",
+      "reasons": "sky_visit"
+    },
+    "read": {
+      "weight": 1.5,
+      "handler": "go_to",
+      "hours": [
+        8,
+        22
+      ],
+      "target": "reading_spot",
+      "posture": [
+        "sit"
+      ],
+      "minutes": [
+        20,
+        50
+      ],
+      "phrase": "read a book at {target}",
+      "reasons": "read"
+    },
+    "nap": {
+      "weight": 1.0,
+      "handler": "go_to",
+      "hours": [
+        12.5,
+        16
+      ],
+      "target": "nap_spot",
+      "posture": [
+        "lie_down"
+      ],
+      "minutes": [
+        15,
+        30
+      ],
+      "phrase": "take a nap at {target}",
+      "reasons": "nap"
+    },
+    "fly": {
+      "weight": 1.5,
+      "handler": "joyride",
+      "hours": [
+        8,
+        19
+      ],
+      "when": {
+        "wings": true
+      },
+      "minutes": [
+        2,
+        5
+      ],
+      "phrase": "go flying",
+      "reasons": "fly"
+    },
+    "stargaze": {
+      "weight": 2.0,
+      "handler": "go_to",
+      "hours": [
+        21,
+        26
+      ],
+      "night_only": true,
+      "target": "view",
+      "posture": [
+        "lie_down",
+        "sit"
+      ],
+      "minutes": [
+        20,
+        50
+      ],
+      "phrase": "watch the stars at {target}",
+      "reasons": "stars"
+    },
+    "tend": {
+      "weight": 1.2,
+      "handler": "tend",
+      "hours": [
+        7.5,
+        11
+      ],
+      "also_hours": [
+        16,
+        19
+      ],
+      "target": "garden",
+      "when": {
+        "spot": "garden"
+      },
+      "minutes": [
+        10,
+        20
+      ],
+      "phrase": "water her {target}",
+      "reasons": "garden"
+    },
+    "fetch_water": {
+      "weight": 0.7,
+      "handler": "fetch_water",
+      "hours": [
+        7,
+        11
+      ],
+      "target": "garden",
+      "when": {
+        "spot": [
+          "garden",
+          "well"
+        ]
+      },
+      "minutes": [
+        15,
+        30
+      ],
+      "phrase": "fetch well water for her {target}",
+      "reasons": "garden"
+    },
+    "fetch_mail": {
+      "weight": 1.0,
+      "handler": "fetch_mail",
+      "hours": [
+        8,
+        12
+      ],
+      "target": "mailbox",
+      "when": {
+        "spot": "mailbox",
+        "horn": true
+      },
+      "minutes": [
+        5,
+        15
+      ],
+      "phrase": "bring in the mail",
+      "reasons": "mail"
+    },
+    "split_wood": {
+      "weight": 0.6,
+      "handler": "split_wood",
+      "hours": [
+        8,
+        17
+      ],
+      "target": "log_pile",
+      "when": {
+        "spot": "log_pile"
+      },
+      "minutes": [
+        10,
+        20
+      ],
+      "phrase": "split firewood",
+      "reasons": "wood"
+    },
+    "bench_rest": {
+      "weight": 0.8,
+      "handler": "bench_rest",
+      "hours": [
+        9,
+        19.5
+      ],
+      "target": "bench",
+      "when": {
+        "spot": "bench"
+      },
+      "posture": [
+        "sit"
+      ],
+      "minutes": [
+        15,
+        30
+      ],
+      "phrase": "sit on a bench",
+      "reasons": "bench"
+    }
+  },
+  "targets": {
+    "outing": {
+      "places": [
+        "landmark:fountain_01",
+        "landmark:bridge_01",
+        "landmark:bridge_02",
+        "landmark:bridge_03",
+        "landmark:schoolhouse_theatre_01",
+        "landmark:windmill_01",
+        "landmark:trainstation_01",
+        "landmark:airballoon_01",
+        "landmark:spa_01",
+        "landmark:goldenoaklibrary_01",
+        "landmark:town_hall",
+        "landmark:appleacres_barned_01"
+      ]
+    },
+    "food": {
+      "places": [
+        "landmark:burger_joint_01",
+        "landmark:sugarcube_corner",
+        "landmark:cloudsdale_hotdogstand_01"
+      ]
+    },
+    "shop": {
+      "places": [
+        "landmark:kiosk_01_01",
+        "landmark:kiosk_02_01",
+        "landmark:rarityboutique_01",
+        "landmark:sugarcube_corner",
+        "landmark:goldenoaklibrary_01",
+        "landmark:cloudsdale_hotdogstand_01"
+      ],
+      "items": {
+        "landmark:kiosk_01_01": [
+          "some apples",
+          "a bag of carrots",
+          "pears",
+          "a pumpkin"
+        ],
+        "landmark:kiosk_02_01": [
+          "a jar of honey",
+          "honeycomb"
+        ],
+        "landmark:rarityboutique_01": [
+          "a scarf",
+          "a new hat",
+          "a ribbon",
+          "a sun dress"
+        ],
+        "landmark:sugarcube_corner": [
+          "cupcakes",
+          "a cake",
+          "a bag of muffins"
+        ],
+        "landmark:goldenoaklibrary_01": [
+          "a book",
+          "an atlas"
+        ],
+        "landmark:cloudsdale_hotdogstand_01": [
+          "hay dogs",
+          "a lemonade"
+        ]
+      }
+    },
+    "reading_spot": {
+      "places": [
+        "home",
+        "landmark:goldenoaklibrary_01",
+        "landmark:fountain_01",
+        "landmark:airballoon_01"
+      ]
+    },
+    "nap_spot": {
+      "places": [
+        "home",
+        "landmark:spa_01",
+        "landmark:appleacres_barned_01"
+      ]
+    },
+    "view": {
+      "places": [
+        "landmark:windmill_01",
+        "landmark:windmill_02",
+        "landmark:bridge_02",
+        "landmark:airballoon_01",
+        "landmark:fountain_01"
+      ]
+    },
+    "friend": {
+      "ponies": "friends"
+    },
+    "sky_host": {
+      "ponies": [
+        "rainbow_dash"
+      ]
+    },
+    "garden": {
+      "places": [
+        "spot:garden"
+      ]
+    },
+    "mailbox": {
+      "places": [
+        "spot:mailbox"
+      ]
+    },
+    "log_pile": {
+      "places": [
+        "spot:log_pile"
+      ]
+    },
+    "bench": {
+      "places": [
+        "spot:bench"
+      ],
+      "items": {
+        "spot:bench": [
+          "tea",
+          "none"
+        ]
+      }
+    }
+  },
+  "reasons": {
+    "outing": [
+      "because it's a nice day",
+      "to people-watch",
+      "for some fresh air",
+      "to think",
+      "to meet whoever turns up",
+      "to see what's new"
+    ],
+    "food": [
+      {
+        "text": "for lunch",
+        "hours": [
+          11,
+          15
+        ]
+      },
+      {
+        "text": "for dinner",
+        "hours": [
+          17,
+          22
+        ]
+      },
+      "for a treat",
+      "for a quick bite",
+      "because she's starving"
+    ],
+    "buy": [
+      "as a gift",
+      "on a whim",
+      "because she ran out",
+      "to treat herself",
+      "for a friend",
+      "for later"
+    ],
+    "visit": [
+      "for gossip",
+      "to return something she borrowed",
+      "to catch up",
+      "for tea",
+      "to ask a favour",
+      "to show off something new"
+    ],
+    "sky_visit": [
+      "to race her",
+      "to catch up",
+      "to borrow a Daring Do book",
+      "to see the Cloudominium"
+    ],
+    "read": [
+      "to finish her book",
+      "to start something new",
+      "for a quiet hour"
+    ],
+    "nap": [
+      "because she's worn out",
+      "because the sun is warm",
+      "for a quick snooze"
+    ],
+    "fly": [
+      "for the fun of it",
+      "to stretch her wings",
+      "to practise loops"
+    ],
+    "stars": [
+      "because the sky is clear",
+      "to find the constellations",
+      "to wish on a shooting star"
+    ],
+    "garden": [
+      "the flowers look thirsty",
+      "it hasn't rained in days",
+      "she promised herself she'd keep them blooming",
+      {
+        "text": "before the sun gets hot",
+        "hours": [
+          7,
+          11
+        ]
+      },
+      {
+        "text": "while it's cool in the evening",
+        "hours": [
+          16,
+          19
+        ]
+      }
+    ],
+    "mail": [
+      "the flag is up",
+      "she's expecting a letter",
+      "maybe a postcard from Canterlot"
+    ],
+    "wood": [
+      "the evenings are getting chilly",
+      "the woodpile's looking thin",
+      "it's good exercise"
+    ],
+    "bench": [
+      "to rest her hooves",
+      "to watch the town go by",
+      "with a cup of tea",
+      {
+        "text": "to watch the sunset",
+        "hours": [
+          17,
+          19.5
+        ]
+      }
+    ]
+  },
+  "overrides": {
+    "_why": "Per-pony weight multipliers by action (0 = never). Anyone not listed uses the plain weights.",
+    "rainbow_dash": {
+      "fly": 4.0,
+      "nap": 2.0,
+      "read": 1.2
+    },
+    "twilight_sparkle": {
+      "read": 4.0,
+      "stargaze": 2.0
+    },
+    "fluttershy": {
+      "nap": 0.8,
+      "visit": 1.5
+    },
+    "pinkie_pie": {
+      "visit": 2.5,
+      "eat": 1.6
+    },
+    "rarity": {
+      "buy": 2.0,
+      "go_to": 1.3
+    },
+    "applejack": {
+      "nap": 0.3,
+      "read": 0.5
+    },
+    "spike": {
+      "read": 2.0,
+      "eat": 2.5,
+      "visit": 2.0,
+      "buy": 1.2,
+      "nap": 1.2,
+      "split_wood": 0.0,
+      "tend": 0.0,
+      "fetch_water": 0.0,
+      "fly": 0.0
+    }
+  },
+  "_reasons": "A reason is a string, or {\"text\", \"hours\": [from, to]} to fit only at those hours."
+}

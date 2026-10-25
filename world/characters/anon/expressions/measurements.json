@@ -1,0 +1,698 @@
+{
+  "source": "final Anon_Expressions.blend; repaired FBX rig, not earlier bad GLB",
+  "height_m": 1.8299999237061528,
+  "floor_m": -9.813444544828909e-14,
+  "facing": "Godot +Z; Blender -Y",
+  "scale_from_source": 1.0166660966061096,
+  "source_yaw_alignment_radians": -0.02639912130728117,
+  "vertices": 23365,
+  "triangles": 36584,
+  "bones": 68,
+  "morphs": [
+    "Skeptical",
+    "Angry",
+    "Sad",
+    "Surprised",
+    "NoPictureAvailable",
+    "vrc.v_sil",
+    "vrc.v_PP",
+    "vrc.v_FF",
+    "vrc.v_TH",
+    "vrc.v_DD",
+    "vrc.v_kk",
+    "vrc.v_CH",
+    "vrc.v_SS",
+    "vrc.v_nn",
+    "vrc.v_RR",
+    "vrc.v_aa",
+    "vrc.v_E",
+    "vrc.v_ih",
+    "vrc.v_oh",
+    "vrc.v_ou"
+  ],
+  "uv_layers": [
+    "AnonAtlas",
+    "AnonSurfaceMask"
+  ],
+  "uv_hash_before_after": {
+    "AnonAtlas": "bbba7123244a2e48480d378cca76ff6fd796d8901c333279c4f06fb20720b941",
+    "AnonSurfaceMask": "6364b90eb4f32d7451413ff585a7f5ecfc417c6c48cb3649b6987225f5addb0a"
+  },
+  "weights_exactly_preserved": true,
+  "topology_preserved": true,
+  "max_key_bake_float_error": 2.9801713319344003e-08,
+  "eye_point": [
+    -0.0029291468672454357,
+    1.7120506763458252,
+    0.11093038320541382
+  ],
+  "eye_point_source": "final supplied Unity prefab ViewPosition scaled/facing aligned; just in front of face",
+  "hip_point": [
+    0.003574303351342678,
+    1.0186522006988525,
+    -0.017871111631393433
+  ],
+  "head_bone_point": [
+    0.0035745101049542427,
+    1.6477147340774536,
+    -0.03931620344519615
+  ],
+  "hands": {
+    "left": {
+      "wrist": [
+        0.7104304628257062,
+        1.4618546536442913,
+        -0.06790880189826198
+      ],
+      "palm_center": [
+        0.7696992815683876,
+        1.459610104554907,
+        -0.07022176135117955
+      ],
+      "palm_normal": [
+        2.8756351583872068e-08,
+        -0.9999999999999917,
+        -1.263234493115284e-07
+      ],
+      "palm_normal_definition": "anatomical palm: (middle-wrist) cross (index-little), left +1/right -1; opposite dorsal normal",
+      "index_tip": [
+        0.9209814806486818,
+        1.4084813681859814,
+        -0.04450512330537768
+      ],
+      "hand_rest_basis_columns": [
+        [
+          0.07133814441235523,
+          0.9489784970971011,
+          0.3071655514922962
+        ],
+        [
+          0.9925365216034655,
+          -0.037001540298192644,
+          -0.11619830550944006
+        ],
+        [
+          -0.09890408785720954,
+          0.3131625717472872,
+          -0.944535434171159
+        ]
+      ]
+    },
+    "right": {
+      "wrist": [
+        -0.6960073839251213,
+        1.4618545688550828,
+        -0.06791145810658586
+      ],
+      "palm_center": [
+        -0.7609276859991341,
+        1.4599021247029378,
+        -0.07070401267324472
+      ],
+      "palm_normal": [
+        7.233921848886893e-07,
+        -0.9999999999984523,
+        -1.603780769650762e-06
+      ],
+      "palm_normal_definition": "anatomical palm: (middle-wrist) cross (index-little), left +1/right -1; opposite dorsal normal",
+      "index_tip": [
+        -0.915214093328798,
+        1.4096247434519484,
+        -0.04411904914687393
+      ],
+      "hand_rest_basis_columns": [
+        [
+          0.06256112112718011,
+          -0.9419528956864008,
+          -0.329865406177582
+        ],
+        [
+          -0.9929173984828309,
+          -0.025294600364210974,
+          -0.11608350969284557
+        ],
+        [
+          0.10100137046505418,
+          0.3347915499677736,
+          -0.93686391665674
+        ]
+      ]
+    }
+  },
+  "bone_renames": {
+    "Hips": "Hips",
+    "Spine": "Spine",
+    "Chest": "Chest",
+    "UpperChest": "UpperChest",
+    "Neck": "Neck",
+    "Neck_Twist_A": "NeckTwistA",
+    "Head": "Head",
+    "Left_Eye": "LeftEye",
+    "Right_Eye": "RightEye",
+    "NoPicture_Jiggle": "NoPictureJiggle",
+    "Left_Shoulder": "LeftShoulder",
+    "Left_UpperArm": "LeftUpperArm",
+    "Left_LowerArm": "LeftLowerArm",
+    "Left_Hand": "LeftHand",
+    "Left_ThumbProximal": "LeftThumbMetacarpal",
+    "Left_ThumbIntermediate": "LeftThumbProximal",
+    "Left_ThumbDistal": "LeftThumbDistal",
+    "Left_ThumbDistalEnd": "LeftThumbDistalEnd",
+    "Left_IndexProximal": "LeftIndexProximal",
+    "Left_IndexIntermediate": "LeftIndexIntermediate",
+    "Left_IndexDistal": "LeftIndexDistal",
+    "Left_IndexDistalEnd": "LeftIndexDistalEnd",
+    "Left_MiddleProximal": "LeftMiddleProximal",
+    "Left_MiddleIntermediate": "LeftMiddleIntermediate",
+    "Left_MiddleDistal": "LeftMiddleDistal",
+    "Left_MiddleDistalEnd": "LeftMiddleDistalEnd",
+    "Left_RingProximal": "LeftRingProximal",
+    "Left_RingIntermediate": "LeftRingIntermediate",
+    "Left_RingDistal": "LeftRingDistal",
+    "Left_RingDistalEnd": "LeftRingDistalEnd",
+    "Left_PinkyProximal": "LeftLittleProximal",
+    "Left_PinkyIntermediate": "LeftLittleIntermediate",
+    "Left_PinkyDistal": "LeftLittleDistal",
+    "Left_PinkyDistalEnd": "LeftLittleDistalEnd",
+    "Right_Shoulder": "RightShoulder",
+    "Right_UpperArm": "RightUpperArm",
+    "Right_LowerArm": "RightLowerArm",
+    "Right_Hand": "RightHand",
+    "Right_ThumbProximal": "RightThumbMetacarpal",
+    "Right_ThumbIntermediate": "RightThumbProximal",
+    "Right_ThumbDistal": "RightThumbDistal",
+    "Right_ThumbDistalEnd": "RightThumbDistalEnd",
+    "Right_IndexProximal": "RightIndexProximal",
+    "Right_IndexIntermediate": "RightIndexIntermediate",
+    "Right_IndexDistal": "RightIndexDistal",
+    "Right_IndexDistalEnd": "RightIndexDistalEnd",
+    "Right_MiddleProximal": "RightMiddleProximal",
+    "Right_MiddleIntermediate": "RightMiddleIntermediate",
+    "Right_MiddleDistal": "RightMiddleDistal",
+    "Right_MiddleDistalEnd": "RightMiddleDistalEnd",
+    "Right_RingProximal": "RightRingProximal",
+    "Right_RingIntermediate": "RightRingIntermediate",
+    "Right_RingDistal": "RightRingDistal",
+    "Right_RingDistalEnd": "RightRingDistalEnd",
+    "Right_PinkyProximal": "RightLittleProximal",
+    "Right_PinkyIntermediate": "RightLittleIntermediate",
+    "Right_PinkyDistal": "RightLittleDistal",
+    "Right_PinkyDistalEnd": "RightLittleDistalEnd",
+    "Left_UpperLeg": "LeftUpperLeg",
+    "Left_LowerLeg": "LeftLowerLeg",
+    "Left_Foot": "LeftFoot",
+    "Left_Toes": "LeftToes",
+    "Left_ToesEnd": "LeftToesEnd",
+    "Right_UpperLeg": "RightUpperLeg",
+    "Right_LowerLeg": "RightLowerLeg",
+    "Right_Foot": "RightFoot",
+    "Right_Toes": "RightToes",
+    "Right_ToesEnd": "RightToesEnd"
+  },
+  "driver_overrides": {
+    "model_eye_height": 1.7120506763458252,
+    "head_offset": [
+      -0.006503656972199678,
+      -0.06433594226837158,
+      0.15024658665060997
+    ],
+    "hip_drop": 0.6290625333786011,
+    "feet_spread": 0.1787116825580597,
+    "left_hand_offset": {
+      "basis_columns": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "origin": [
+        -0.002244549089384318,
+        0.002312959452917568,
+        0.05926881874268142
+      ]
+    },
+    "right_hand_offset": {
+      "basis_columns": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "origin": [
+        0.0019524441521450164,
+        0.0027925545666588614,
+        0.06492030207401278
+      ]
+    },
+    "index_caps": {
+      "left": [
+        -3.196947217087853e-05,
+        0.02748723853007539,
+        -0.00022405180246998224
+      ],
+      "right": [
+        -0.000585819436675239,
+        0.026407977524930557,
+        1.2052354124936215e-05
+      ]
+    },
+    "finger_axes": {
+      "LeftThumbMetacarpal": {
+        "curl": [
+          0.3335867614464743,
+          -3.6525973353120543e-06,
+          -0.9427194028841835
+        ],
+        "splay": [
+          0.8403258529459482,
+          -0.40744394386442306,
+          -0.3575498475441845
+        ]
+      },
+      "LeftThumbProximal": {
+        "curl": [
+          0.5397421020329509,
+          4.1949641956187464e-07,
+          -0.8418304243093591
+        ],
+        "splay": [
+          0.831506608133905,
+          -0.4806469949777933,
+          -0.2785232967786818
+        ]
+      },
+      "LeftThumbDistal": {
+        "curl": [
+          0.5397632755590098,
+          1.2098216851573714e-05,
+          -0.8418168483770334
+        ],
+        "splay": [
+          0.8315062204366731,
+          -0.48064708920705074,
+          -0.278524291601125
+        ]
+      },
+      "LeftIndexProximal": {
+        "curl": [
+          -0.005658499813144893,
+          -1.8252089915876434e-07,
+          -0.9999839905617646
+        ],
+        "splay": [
+          0.9565754051596195,
+          -0.2914347169791103,
+          -0.005412945872217056
+        ]
+      },
+      "LeftIndexIntermediate": {
+        "curl": [
+          -0.3724171635644489,
+          -2.975781974219763e-09,
+          -0.9280654375002931
+        ],
+        "splay": [
+          0.7620612986551474,
+          -0.5707428363129136,
+          -0.3058025374151117
+        ]
+      },
+      "LeftIndexDistal": {
+        "curl": [
+          -0.37241824818568525,
+          -2.841091749125543e-06,
+          -0.9280650022548171
+        ],
+        "splay": [
+          0.7620606423133782,
+          -0.5707441958644943,
+          -0.30580163558083395
+        ]
+      },
+      "LeftMiddleProximal": {
+        "curl": [
+          -0.01777643054671016,
+          6.291642807169907e-07,
+          -0.9998419867742213
+        ],
+        "splay": [
+          0.9420189495109998,
+          -0.335141431213024,
+          -0.016748726718111888
+        ]
+      },
+      "LeftMiddleIntermediate": {
+        "curl": [
+          -0.4875870467726095,
+          -2.1852571070935137e-06,
+          -0.873074379314151
+        ],
+        "splay": [
+          0.5961380894170991,
+          -0.7306029768868841,
+          -0.3329244186150269
+        ]
+      },
+      "LeftMiddleDistal": {
+        "curl": [
+          -0.4875907904709105,
+          -5.4654697461999935e-06,
+          -0.8730722885409211
+        ],
+        "splay": [
+          0.5961378362218102,
+          -0.7306030067872458,
+          -0.33292480637257105
+        ]
+      },
+      "LeftRingProximal": {
+        "curl": [
+          0.0019337349775043644,
+          -6.925045692649554e-07,
+          -0.9999981303325307
+        ],
+        "splay": [
+          0.9327848535005769,
+          -0.3604291374872475,
+          0.0018038653237044031
+        ]
+      },
+      "LeftRingIntermediate": {
+        "curl": [
+          -0.5470139796890083,
+          -9.74601756561294e-07,
+          -0.8371234711939712
+        ],
+        "splay": [
+          0.5376153281152206,
+          -0.766522819347626,
+          -0.35130119042629276
+        ]
+      },
+      "LeftRingDistal": {
+        "curl": [
+          -0.547006772059543,
+          5.8451067930437015e-06,
+          -0.837128180917853
+        ],
+        "splay": [
+          0.5376140735305693,
+          -0.7665242403170738,
+          -0.35130000988926924
+        ]
+      },
+      "LeftLittleProximal": {
+        "curl": [
+          -0.01680155482892261,
+          -2.977223697391393e-07,
+          -0.9998588439151008
+        ],
+        "splay": [
+          0.9203246514830682,
+          -0.3908495449795921,
+          -0.015465091716990427
+        ]
+      },
+      "LeftLittleIntermediate": {
+        "curl": [
+          -0.5676839387909149,
+          -1.995816008419352e-07,
+          -0.8232465885983331
+        ],
+        "splay": [
+          0.5189513975484484,
+          -0.7762933954164203,
+          -0.35785194035432827
+        ]
+      },
+      "LeftLittleDistal": {
+        "curl": [
+          -0.5676827687613079,
+          3.06306428773426e-06,
+          -0.8232473954056053
+        ],
+        "splay": [
+          0.5189537727062358,
+          -0.7762901557227572,
+          -0.3578555238108001
+        ]
+      },
+      "RightThumbMetacarpal": {
+        "curl": [
+          0.48773222794841675,
+          1.0242696003697923e-06,
+          0.8729932839486365
+        ],
+        "splay": [
+          -0.8956620975363851,
+          -0.35901215258654223,
+          -0.26248748795304533
+        ]
+      },
+      "RightThumbProximal": {
+        "curl": [
+          0.6343966104340386,
+          -1.96365964389069e-07,
+          0.7730077235511713
+        ],
+        "splay": [
+          -0.8148178924191632,
+          -0.5029318062826048,
+          -0.28832516439414246
+        ]
+      },
+      "RightThumbDistal": {
+        "curl": [
+          0.6343978414874716,
+          -2.745880247167835e-07,
+          0.7730067132411993
+        ],
+        "splay": [
+          -0.8148176331516097,
+          -0.5029324678728199,
+          -0.28832474306684786
+        ]
+      },
+      "RightIndexProximal": {
+        "curl": [
+          -0.06893592919348464,
+          1.996367093074006e-07,
+          0.9976210892248575
+        ],
+        "splay": [
+          -0.9429523417691362,
+          -0.3264893040086332,
+          -0.06515838794860222
+        ]
+      },
+      "RightIndexIntermediate": {
+        "curl": [
+          -0.3543424284271845,
+          -3.978618996219415e-06,
+          0.935115737970705
+        ],
+        "splay": [
+          -0.7654265334296824,
+          -0.5744529592995492,
+          -0.2900448576924093
+        ]
+      },
+      "RightIndexDistal": {
+        "curl": [
+          -0.3543442619776378,
+          1.3245281125855877e-07,
+          0.9351150431917484
+        ],
+        "splay": [
+          -0.7654283116468182,
+          -0.5744506582475994,
+          -0.29004472235915796
+        ]
+      },
+      "RightMiddleProximal": {
+        "curl": [
+          0.00754255645134444,
+          -6.991228114425531e-08,
+          0.999971554516514
+        ],
+        "splay": [
+          -0.943679227657242,
+          -0.33078520701136344,
+          0.00711773213044533
+        ]
+      },
+      "RightMiddleIntermediate": {
+        "curl": [
+          -0.44645575479299926,
+          -1.2367037199883157e-06,
+          0.894805710202323
+        ],
+        "splay": [
+          -0.6349470068413278,
+          -0.7046122429050947,
+          -0.31680259729284227
+        ]
+      },
+      "RightMiddleDistal": {
+        "curl": [
+          -0.4464554060278317,
+          -1.0765589519999906e-06,
+          0.8948058842158813
+        ],
+        "splay": [
+          -0.6349482470477394,
+          -0.704611042770261,
+          -0.3168027808861661
+        ]
+      },
+      "RightRingProximal": {
+        "curl": [
+          -0.025695772837041476,
+          8.182983376077458e-07,
+          0.9996698091158088
+        ],
+        "splay": [
+          -0.9246017843013115,
+          -0.3801929944162214,
+          -0.023766099041665364
+        ]
+      },
+      "RightRingIntermediate": {
+        "curl": [
+          -0.5194908000563389,
+          2.4030317764430518e-06,
+          0.8544760433453067
+        ],
+        "splay": [
+          -0.5645962467281599,
+          -0.7506056988694907,
+          -0.3432523313906526
+        ]
+      },
+      "RightRingDistal": {
+        "curl": [
+          -0.5194915751351227,
+          3.743212416926478e-06,
+          0.8544755721198923
+        ],
+        "splay": [
+          -0.5645970710717728,
+          -0.7506050672207474,
+          -0.3432523567285633
+        ]
+      },
+      "RightLittleProximal": {
+        "curl": [
+          -0.060539878185553696,
+          -7.938215775234054e-07,
+          0.9981657793917041
+        ],
+        "splay": [
+          -0.89566336408689,
+          -0.4414024129958657,
+          -0.05432354953408639
+        ]
+      },
+      "RightLittleIntermediate": {
+        "curl": [
+          -0.6099942185366807,
+          3.161634155553524e-07,
+          0.7924058640316365
+        ],
+        "splay": [
+          -0.474312426288427,
+          -0.8010686345109296,
+          -0.36512568393798345
+        ]
+      },
+      "RightLittleDistal": {
+        "curl": [
+          -0.6099897548501745,
+          -2.801315697511364e-06,
+          0.7924093001536369
+        ],
+        "splay": [
+          -0.4743132877837775,
+          -0.8010683251542056,
+          -0.3651252435348443
+        ]
+      }
+    }
+  },
+  "limits": [
+    "Source geometry remains single combined garment; no removable garments created.",
+    "Morph and weight data preserved across exact linear skinning rest-pose bake; requires engine appearance/IK acceptance.",
+    "Finger curl axes derived per bone, matching negative curl and thumb -.45 driver convention; no bone-axis normalization."
+  ],
+  "index_cap_method": "Distal-weighted (>0.5) vertices, final 1mm projected cap centroid; inverse raw GLTF joint frame.",
+  "calibration_frames": {
+    "head_offset": "camera-local; REST_FACING diag(-1,1,-1) maps model +Z to view -Z",
+    "hand_offsets": "exact existing palms-down T rest-relative rotation; translation R*(wrist-palm)",
+    "finger_axes_and_caps": "actual exported GLB joint-local coordinates, no Blender local-axis assumption",
+    "curl_formula": "rest*Rotation(splay_axis,splay*entry_splay)*Rotation(curl_axis,-curl*entry_weight); thumbs -.45, other fingers1",
+    "splay_world_axis": [
+      0,
+      1,
+      0
+    ]
+  },
+  "export_validation": {
+    "morph_names": [
+      "Skeptical",
+      "Angry",
+      "Sad",
+      "Surprised",
+      "NoPictureAvailable",
+      "vrc.v_sil",
+      "vrc.v_PP",
+      "vrc.v_FF",
+      "vrc.v_TH",
+      "vrc.v_DD",
+      "vrc.v_kk",
+      "vrc.v_CH",
+      "vrc.v_SS",
+      "vrc.v_nn",
+      "vrc.v_RR",
+      "vrc.v_aa",
+      "vrc.v_E",
+      "vrc.v_ih",
+      "vrc.v_oh",
+      "vrc.v_ou"
+    ],
+    "primitive_count": 1,
+    "joint_count": 68,
+    "attributes": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0",
+      "TEXCOORD_1",
+      "JOINTS_0",
+      "WEIGHTS_0"
+    ],
+    "arm_segments_horizontal": true,
+    "measured_palm_normals_down": true,
+    "per_finger_curl_sign_check": true
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "version": 1,
+  "scope": "Authored cottage and yard defaults near requested (151,-10); no saved household reassignment.",
+  "source_scene_sha256": "708a4ef5aa68172cb0f07e59e0092805b1f678dc9deddcb01856fc85af7f6c8a",
+  "delta_xz": [
+    93.0,
+    -302.0
+  ],
+  "entries": [
+    {
+      "original_baked_position": [
+        58.0,
+        -28.3262844085693,
+        292.0
+      ],
+      "entry": {
+        "id": "snazzys_fluttershy_cottage_01",
+        "model": "rnl_snazzys_fluttershy_cottage",
+        "skin": 0,
+        "group": "everfree/fluttershy",
+        "label": "Fluttershy's cottage",
+        "ai_label": "Fluttershy's cottage",
+        "class": "building",
+        "position": [
+          151.0,
+          -19.863147,
+          -10.0
+        ],
+        "yaw": -1.51204,
+        "ground": {
+          "min": -19.98663330078125,
+          "max": -19.03214454650879,
+          "mean": -19.560495376586914,
+          "road_overlap": 0.0
+        },
+        "fit": "building",
+        "footprint": [
+          [
+            158.22,
+            -21.72
+          ],
+          [
+            159.42,
+            -1.2700000000000102
+          ],
+          [
+            135.29000000000002,
+            0.15000000000000568
+          ],
+          [
+            134.09,
+            -20.30000000000001
+          ]
+        ],
+        "moved_m": 0.0,
+        "batch": false,
+        "light": false,
+        "door": {
+          "point": [
+            161.82,
+            -11.669999999999987
+          ],
+          "ground": -19.33651351928711,
+          "floor": -18.128147000000002
+        },
+        "authored_origin": [
+          151.0,
+          -19.863147,
+          -10.0
+        ]
+      }
+    },
+    {
+      "original_baked_position": [
+        40.0,
+        -28.8046073913574,
+        318.0
+      ],
+      "entry": {
+        "id": "henhouse_02",
+        "model": "rnl_henhouse",
+        "skin": 0,
+        "group": "everfree/fluttershy",
+        "label": "",
+        "ai_label": "",
+        "class": "building",
+        "position": [
+          133.0,
+          -20.344723,
+          16.0
+        ],
+        "yaw": -2.80835,
+        "ground": {
+          "min": -20.23467445373535,
+          "max": -20.0582218170166,
+          "mean": -20.13917350769043,
+          "road_overlap": 0.0
+        },
+        "fit": "building",
+        "footprint": [
+          [
+            139.02,
+            18.599999999999994
+          ],
+          [
+            131.31,
+            21.27000000000001
+          ],
+          [
+            128.66,
+            13.610000000000014
+          ],
+          [
+            136.36,
+            10.939999999999998
+          ]
+        ],
+        "moved_m": 0.0,
+        "batch": false,
+        "light": false,
+        "door": {
+          "point": [
+            140.52,
+            13.789999999999992
+          ],
+          "ground": -20.02972984313965,
+          "floor": -20.343722999999997
+        },
+        "authored_origin": [
+          133.0,
+          -20.344723,
+          16.0
+        ]
+      }
+    },
+    {
+      "original_baked_position": [
+        74.0,
+        -25.7342300415039,
+        276.0
+      ],
+      "entry": {
+        "id": "rosecluster_2_01",
+        "model": "props_mlpprops__rosecluster_2",
+        "skin": 0,
+        "group": "everfree/fluttershy",
+        "label": "",
+        "ai_label": "",
+        "class": "none",
+        "position": [
+          167.0,
+          -18.690531,
+          -26.0
+        ],
+        "yaw": 3.01438,
+        "ground": {
+          "min": -18.765905380249023,
+          "max": -18.635334014892578,
+          "mean": -18.69240951538086,
+          "road_overlap": 0.0
+        },
+        "fit": "plane",
+        "footprint": [
+          [
+            167.48,
+            -24.97999999999999
+          ],
+          [
+            166.34,
+            -25.129999999999995
+          ],
+          [
+            166.53,
+            -26.629999999999995
+          ],
+          [
+            167.67,
+            -26.47999999999999
+          ]
+        ],
+        "moved_m": 0.0,
+        "batch": false,
+        "light": false,
+        "authored_origin": [
+          167.0,
+          -18.690531,
+          -26.0
+        ]
+      }
+    },
+    {
+      "original_baked_position": [
+        78.0,
+        -27.2055721282959,
+        300.0
+      ],
+      "entry": {
+        "id": "flower_cluster_01_small_01",
+        "model": "nature__rnl_ponyville_flower_cluster_01_small",
+        "skin": 0,
+        "group": "everfree/fluttershy",
+        "label": "",
+        "ai_label": "",
+        "class": "none",
+        "position": [
+          171.0,
+          -19.658356,
+          -2.0
+        ],
+        "yaw": 2.2842,
+        "ground": {
+          "min": -19.667377471923828,
+          "max": -19.61284828186035,
+          "mean": -19.647085189819336,
+          "road_overlap": 0.0
+        },
+        "fit": "plane",
+        "footprint": [
+          [
+            170.84,
+            -0.4900000000000091
+          ],
+          [
+            169.48,
+            -2.0600000000000023
+          ],
+          [
+            171.2,
+            -3.5500000000000114
+          ],
+          [
+            172.56,
+            -1.9799999999999898
+          ]
+        ],
+        "moved_m": 0.0,
+        "batch": false,
+        "light": false,
+        "authored_origin": [
+          171.0,
+          -19.658356,
+          -2.0
+        ]
+      }
+    },
+    {
+      "original_baked_position": [
+        41.148998260498,
+        -27.8858833312988,
+        270.963989257812
+      ],
+      "entry": {
+        "id": "flower_cluster_01_large_01",
+        "model": "nature__rnl_ponyville_flower_cluster_01_large",
+        "skin": 0,
+        "group": "everfree/fluttershy",
+        "label": "",
+        "ai_label": "",
+        "class": "none",
+        "position": [
+          134.148998,
+          -18.794775,
+          -31.036011000000002
+        ],
+        "yaw": 5.10451,
+        "ground": {
+          "min": -19.324859619140625,
+          "max": -18.485105514526367,
+          "mean": -18.85906982421875,
+          "road_overlap": 0.0
+        },
+        "fit": "plane",
+        "footprint": [
+          [
+            139.03,
+            -42.16
+          ],
+          [
+            145.45,
+            -26.639999999999986
+          ],
+          [
+            129.31,
+            -19.97
+          ],
+          [
+            122.89,
+            -35.49000000000001
+          ]
+        ],
+        "moved_m": 1.5,
+        "batch": false,
+        "light": false,
+        "authored_origin": [
+          134.148998,
+          -18.794775,
+          -31.036011000000002
+        ]
+      }
+    },
+    {
+      "original_baked_position": [
+        30.0,
+        -28.7155494689941,
+        290.0
+      ],
+      "entry": {
+        "id": "bush1_small_01",
+        "model": "rnl_ponyville_bush1_small",
+        "skin": 0,
+        "group": "everfree/fluttershy",
+        "label": "",
+        "ai_label": "",
+        "class": "none",
+        "position": [
+          123.0,
+          -19.733178,
+          -12.0
+        ],
+        "yaw": 4.94084,
+        "ground": {
+          "min": -19.87510108947754,
+          "max": -19.447298049926758,
+          "mean": -19.662511825561523,
+          "road_overlap": 0.0
+        },
+        "fit": "flush",
+        "footprint": [
+          [
+            126.11,
+            -19.120000000000005
+          ],
+          [
+            128.85,
+            -7.340000000000003
+          ],
+          [
+            119.54,
+            -5.1699999999999875
+          ],
+          [
+            116.8,
+            -16.960000000000008
+          ]
+        ],
+        "moved_m": 0.0,
+        "batch": false,
+        "light": false,
+        "authored_origin": [
+          123.0,
+          -19.733178,
+          -12.0
+        ]
+      }
+    }
+  ],
+  "approach_xz": [
+    [
+      156.11813349378946,
+      -12.049734648680527
+    ],
+    [
+      163.0,
+      -10.0
+    ],
+    [
+      190.0,
+      -9.0
+    ],
+    [
+      225.0,
+      -6.0
+    ]
+  ]
+}

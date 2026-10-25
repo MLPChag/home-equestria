@@ -1,0 +1,268 @@
+[
+	{
+		"id": "apple_bloom",
+		"display_name": "Apple Bloom",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"applebloom_Mane",
+			"applebloom_Mane_2"
+		],
+		"tails": [
+			"applebloom_Tail"
+		],
+		"triangles": 10544,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/23",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4,
+			"forehead_compression": 0.0
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "sweetie_belle",
+		"display_name": "Sweetie Belle",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"sweetiebelle_Mane"
+		],
+		"tails": [
+			"sweetiebelle_Tail"
+		],
+		"triangles": 4992,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/25",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "scootaloo",
+		"display_name": "Scootaloo",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"scootaloo_Mane"
+		],
+		"tails": [
+			"scootaloo_Tail"
+		],
+		"triangles": 3830,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/24",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "diamond_tiara",
+		"display_name": "Diamond Tiara",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"diamondtiara_Mane",
+			"diamondtiara_Mane_2"
+		],
+		"tails": [
+			"diamondtiara_Tail"
+		],
+		"triangles": 9958,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/74",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": null,
+			"svg": "/cg/cutiemark/161.svg",
+			"source": "http://fav.me/dauj5bo",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "silver_spoon",
+		"display_name": "Silver Spoon",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"silverspoon_Mane",
+			"silverspoon_Mane_2"
+		],
+		"tails": [
+			"silverspoon_Tail"
+		],
+		"triangles": 5166,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/67",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/165.svg",
+			"source": "http://fav.me/dawapki",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"dropped_primitives": 1,
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "dinky_doo",
+		"display_name": "Dinky Doo",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"dinkydo_filly_Mane"
+		],
+		"tails": [
+			"dinkydo_filly_Tail"
+		],
+		"triangles": 6656,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/37",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.25,
+			"_why": "1.4 failed the tail floor test (-117 mm); bounded retry"
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "ruby_pinch",
+		"display_name": "Ruby Pinch",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"filly_dinkydoo_Mane"
+		],
+		"tails": [
+			"filly_dinkydoo_Tail"
+		],
+		"triangles": 5520,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/38",
+		"palette_method": "show colour guide; hair recoloured to #C24D87",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"recolour_of": "redacted",
+		"recolour_reason": "wiki: shares her design with Dinky Doo",
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "archer",
+		"display_name": "Archer",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"scootaloo_Mane"
+		],
+		"tails": [
+			"scootaloo_Tail"
+		],
+		"triangles": 3830,
+		"runner_ups": [],
+		"guide": "https://mlp.fandom.com/wiki/List_of_ponies/Foals#Archer (colour cells)",
+		"palette_method": "wiki HSL colour cells; derived outline/shadow; hair recoloured to #527ebc",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"recolour_of": "redacted",
+		"recolour_reason": "wiki: shares Scootaloo's character design without the wings",
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "noi",
+		"display_name": "Noi",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"lilyvalley_Mane"
+		],
+		"tails": [
+			"lilyvalley_Tail"
+		],
+		"triangles": 8190,
+		"runner_ups": [],
+		"guide": "https://mlp.fandom.com/wiki/List_of_ponies/Foals#Noi (colour cells)",
+		"palette_method": "wiki HSL colour cells; derived outline/shadow; hair recoloured to #eecc86",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {},
+		"recolour_of": "redacted",
+		"recolour_reason": "by eye: straight shoulder-length mane with a side-swept fringe and a straight tail (Noi ID S1E12)",
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	}
+]

@@ -1,0 +1,8 @@
+{
+  "id": "ponyville_river_fishing",
+  "origin": [261.2, -21.40, 94.6],
+  "bank_direction": [-0.8, 0.0, 0.6],
+  "width": 3.6,
+  "length": 8.0,
+  "survey": "captures/fishing/bank-profile.json"
+}

@@ -1,0 +1,278 @@
+[gd_scene format=3 uid="uid://08a3p8axfj1n"]
+
+[ext_resource type="PackedScene" uid="uid://cox0bfdddkll3" path="res://addons/renik/sample_models/godette.glb" id="1_qnhp5"]
+[ext_resource type="Script" uid="uid://cd1tfr1w8y75e" path="res://addons/renik/renik_placement.gd" id="3_slfov"]
+[ext_resource type="Script" uid="uid://cqeoidnhsn75e" path="res://addons/renik/renik_spine.gd" id="5_mu5of"]
+[ext_resource type="Script" uid="uid://chslcw2ar6ueo" path="res://addons/renik/renik_limb.gd" id="6_0yan8"]
+[ext_resource type="Script" uid="uid://ch5v21lx7m462" path="res://addons/renik/renik_placement_gait.gd" id="8_qtuga"]
+
+[sub_resource type="Resource" id="Resource_ff0y7"]
+resource_name = "ForwardGait"
+script = ExtResource("8_qtuga")
+speed_scalar_max = 0.5
+ground_time = 5.0
+apex_out_time_base = 5.0
+drop_time_base = 5.0
+drop_time_scalar = 0.0
+tip_toe_distance_scalar = 1.5707963267948966
+lift_vertical = 0.0
+lift_vertical_scalar = 0.4
+lift_horizontal_scalar = 0.7
+lift_angle = 1.5707963267948966
+apex_vertical = 0.0
+apex_angle = 0.39269908169872414
+drop_vertical_scalar = 0.05
+drop_angle = -0.39269908169872414
+contact_point_ease = 0.05
+scaling_ease = 0.85
+
+[sub_resource type="Resource" id="Resource_63b2j"]
+resource_name = "BackwardGait"
+script = ExtResource("8_qtuga")
+speed_scalar_min = 0.5
+speed_scalar_max = 0.75
+ground_time = 5.0
+lift_time_base = 5.0
+drop_time_base = 5.0
+tip_toe_distance_scalar = 0.0
+tip_toe_speed_scalar = 0.0
+tip_toe_angle_max = 0.0
+lift_vertical_scalar = 0.1
+lift_horizontal_scalar = 0.33
+lift_angle = -0.39269908169872414
+apex_vertical = 0.1
+apex_angle = 0.39269908169872414
+drop_vertical_scalar = 0.1
+drop_angle = 0.39269908169872414
+scaling_ease = 0.85
+
+[sub_resource type="Resource" id="Resource_bpxhs"]
+resource_name = "SidewaysGait"
+script = ExtResource("8_qtuga")
+speed_scalar_min = 0.75
+speed_scalar_max = 0.75
+ground_time = 10.0
+lift_time_base = 5.0
+drop_time_base = 5.0
+tip_toe_distance_scalar = 0.0
+tip_toe_speed_scalar = 0.0
+tip_toe_angle_max = 0.0
+lift_vertical = 0.05
+lift_vertical_scalar = 0.05
+lift_horizontal_scalar = 0.2
+apex_angle = 0.39269908169872414
+drop_vertical = 0.01
+drop_vertical_scalar = 0.05
+scaling_ease = 0.85
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_itlrt"]
+size = Vector3(10, 0, 10)
+
+[node name="test_rig" type="Node3D" unique_id=1395237178]
+
+[node name="ReplaceWithYourModel" parent="." unique_id=1159017388 instance=ExtResource("1_qnhp5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.051299244)
+
+[node name="RenIKSpineModifier3D" type="SkeletonModifier3D" parent="ReplaceWithYourModel/GeneralSkeleton" parent_id_path=PackedInt32Array(1159017388, 1425800463) index="2" unique_id=919017903 node_paths=PackedStringArray("head_target", "hip_target")]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+rotation_edit_mode = 0
+rotation_order = 2
+top_level = false
+visible = true
+visibility_parent = NodePath("")
+active = true
+influence = 1.0
+script = ExtResource("5_mu5of")
+head_target = NodePath("HeadTarget")
+hip_target = NodePath("HipsTarget")
+metadata/_custom_type_script = "uid://cqeoidnhsn75e"
+
+[node name="HipsTarget" type="Marker3D" parent="ReplaceWithYourModel/GeneralSkeleton/RenIKSpineModifier3D" unique_id=2099149996]
+transform = Transform3D(0.9440281, -0.01252241, -0.32962728, -0.015768748, 0.9964236, -0.083014265, 0.32948792, 0.08356561, 0.9404544, -0.0030352748, 0.5969409, 0.06382318)
+
+[node name="HeadTarget" type="Marker3D" parent="ReplaceWithYourModel/GeneralSkeleton/RenIKSpineModifier3D" unique_id=652108255]
+transform = Transform3D(0.9869684, -0.003692845, -0.16087247, -0.034263287, 0.9719877, -0.2325207, 0.15722473, 0.2350026, 0.95919466, 0, 0.944517, 0.08431051)
+
+[node name="LeftHandRenIKLimbModifier3D" type="SkeletonModifier3D" parent="ReplaceWithYourModel/GeneralSkeleton" parent_id_path=PackedInt32Array(1159017388, 1425800463) index="3" unique_id=714526619 node_paths=PackedStringArray("target")]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+transform = Transform3D(-0.0875318, 0.99283, -0.081399, 0.906461, 0.0454957, -0.419835, -0.413121, -0.110534, -0.903944, 0.360267, 0.884487, -0.101432)
+rotation_edit_mode = 0
+rotation_order = 2
+top_level = false
+visible = true
+visibility_parent = NodePath("")
+active = true
+influence = 1.0
+script = ExtResource("6_0yan8")
+leaf_bone = &"LeftHand"
+lower_bone = &"LeftLowerArm"
+upper_bone = &"LeftUpperArm"
+pole_offset = Quaternion(-0.093576, 0.090998, -0.691201, -0.710777)
+arm_shoulder_pole_offset = Quaternion(0, 0, -0.62932, 0.777146)
+target = NodePath("LeftHandTarget")
+metadata/_custom_type_script = "uid://chslcw2ar6ueo"
+
+[node name="LeftHandTarget" type="Marker3D" parent="ReplaceWithYourModel/GeneralSkeleton/LeftHandRenIKLimbModifier3D" unique_id=1803656447]
+transform = Transform3D(1, 7.450581e-09, -2.9802322e-08, 2.9802322e-08, 1, 0, 0, -2.9802322e-08, 1, -0.056057036, 0.07245237, -0.021170259)
+
+[node name="RightHandRenIKLimbModifier3D" type="SkeletonModifier3D" parent="ReplaceWithYourModel/GeneralSkeleton" parent_id_path=PackedInt32Array(1159017388, 1425800463) index="4" unique_id=477886061 node_paths=PackedStringArray("target")]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+transform = Transform3D(-0.616632, 0.24272527, 0.7488997, 0.78044784, 0.0636795, 0.621969, 0.10327777, 0.9680029, -0.22870074, -0.297651, 0.886939, 0.156684)
+rotation_edit_mode = 0
+rotation_order = 2
+top_level = false
+visible = true
+visibility_parent = NodePath("")
+active = true
+influence = 1.0
+script = ExtResource("6_0yan8")
+preset = 1
+leaf_bone = &"RightHand"
+lower_bone = &"RightLowerArm"
+upper_bone = &"RightUpperArm"
+mirror = true
+pole_offset = Quaternion(0.113039, -0.0652631, 0.495722, 0.858616)
+arm_shoulder_pole_offset = Quaternion(0, 0, -0.62932, 0.777146)
+dynamic_pole_root_bone = &"Hips"
+dynamic_pole_head_bone = &"Head"
+target = NodePath("RightHandTarget")
+metadata/_custom_type_script = "uid://chslcw2ar6ueo"
+
+[node name="RightHandTarget" type="Marker3D" parent="ReplaceWithYourModel/GeneralSkeleton/RightHandRenIKLimbModifier3D" unique_id=608234631]
+
+[node name="LeftFootRenIKLimbModifier3D" type="SkeletonModifier3D" parent="ReplaceWithYourModel/GeneralSkeleton" parent_id_path=PackedInt32Array(1159017388, 1425800463) index="5" unique_id=1113411921 node_paths=PackedStringArray("target")]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+transform = Transform3D(-0.98690414, -0.16130793, -7.450581e-09, 7.450581e-09, -1.1920929e-07, 1, -0.16130793, 0.98690414, 5.9604645e-08, 0.119438715, 0.021638041, 0.028985107)
+rotation_edit_mode = 0
+rotation_order = 2
+top_level = false
+visible = true
+visibility_parent = NodePath("")
+active = true
+influence = 1.0
+script = ExtResource("6_0yan8")
+preset = 2
+leaf_bone = &"LeftFoot"
+lower_bone = &"LeftLowerLeg"
+upper_bone = &"LeftUpperLeg"
+upper_twist_offset = 0.0
+lower_twist_offset = 3.14159
+roll_offset = 0.0
+lower_limb_twist = 0.25
+twist_inflection_point_offset = 0.0
+target_rotation_influence = 0.5
+pole_offset = Quaternion(0, 0, 1, -4.37114e-08)
+target_position_influence = Vector3(0, 0, 0)
+has_shoulder = false
+arm_shoulder_pole_offset = Quaternion(0, 0, -0.62932, 0.777146)
+target = NodePath("LeftFootTarget")
+metadata/_custom_type_script = "uid://chslcw2ar6ueo"
+
+[node name="LeftFootTarget" type="Marker3D" parent="ReplaceWithYourModel/GeneralSkeleton/LeftFootRenIKLimbModifier3D" unique_id=1544083727]
+
+[node name="RightFootRenIKLimbModifier3D" type="SkeletonModifier3D" parent="ReplaceWithYourModel/GeneralSkeleton" parent_id_path=PackedInt32Array(1159017388, 1425800463) index="6" unique_id=1245420776 node_paths=PackedStringArray("target")]
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+transform = Transform3D(-0.98690414, -0.16130793, -7.450581e-09, 7.450581e-09, -1.1920929e-07, 1, -0.16130793, 0.98690414, 5.9604645e-08, -0.09781332, 0.02163804, -0.004676413)
+rotation_edit_mode = 0
+rotation_order = 2
+top_level = false
+visible = true
+visibility_parent = NodePath("")
+active = true
+influence = 1.0
+script = ExtResource("6_0yan8")
+preset = 3
+leaf_bone = &"RightFoot"
+lower_bone = &"RightLowerLeg"
+upper_bone = &"RightUpperLeg"
+mirror = true
+upper_twist_offset = 0.0
+lower_twist_offset = 3.14159
+roll_offset = 0.0
+lower_limb_twist = 0.25
+twist_inflection_point_offset = 0.0
+target_rotation_influence = 0.5
+pole_offset = Quaternion(0, 0, 1, -4.37114e-08)
+target_position_influence = Vector3(0, 0, 0)
+has_shoulder = false
+arm_shoulder_pole_offset = Quaternion(0, 0, -0.62932, 0.777146)
+target = NodePath("RightFootTarget")
+metadata/_custom_type_script = "uid://chslcw2ar6ueo"
+
+[node name="RightFootTarget" type="Marker3D" parent="ReplaceWithYourModel/GeneralSkeleton/RightFootRenIKLimbModifier3D" unique_id=1711688162]
+
+[node name="ArmTwistIndicator" type="BoneAttachment3D" parent="ReplaceWithYourModel/GeneralSkeleton" parent_id_path=PackedInt32Array(1159017388, 1425800463) index="7" unique_id=1502877239]
+transform = Transform3D(-0.27223557, 0.95992166, 0.06662156, 0.037819624, -0.058508933, 0.9975704, 0.9614871, 0.27409363, -0.020375729, 0.029628886, 0.896036, 0.058412775)
+bone_name = "LeftUpperArm"
+bone_idx = 25
+
+[node name="RenIKFootPlacement" type="Node3D" parent="ReplaceWithYourModel/GeneralSkeleton" parent_id_path=PackedInt32Array(1159017388, 1425800463) index="8" unique_id=271311201 node_paths=PackedStringArray("left_ground", "right_ground")]
+transform = Transform3D(1, 1.11759e-08, 0, -6.70552e-08, 1, 0, -7.45058e-09, 0, 1, 0, 0, 0)
+script = ExtResource("3_slfov")
+live_preview = true
+forward_gait = SubResource("Resource_ff0y7")
+backward_gait = SubResource("Resource_63b2j")
+sideways_gait = SubResource("Resource_bpxhs")
+spine_length = 0.27954947228595173
+left_leg_length = 0.4360784
+right_leg_length = 0.43607834
+hip_offset = Vector3(3.270256e-09, -0.3409207, 0.022574075)
+left_hip_offset = Vector3(0.10999559, -0.15281956, -0.03735327)
+right_hip_offset = Vector3(-0.1099956, -0.15281959, -0.037353255)
+armature_skeleton_path = NodePath("..")
+enable_hip_placement = true
+armature_head_target = NodePath("../RenIKSpineModifier3D/HeadTarget")
+armature_hip_target = NodePath("../RenIKSpineModifier3D/HipsTarget")
+armature_left_foot_target = NodePath("../LeftFootRenIKLimbModifier3D")
+armature_right_foot_target = NodePath("../RightFootRenIKLimbModifier3D")
+walk_state = 1
+step_progress = 0.08031899712109898
+prevHead = Vector3(0, 0.944517, 0.033011265)
+left_ground = NodePath("../../../StaticBody3D")
+right_ground = NodePath("../../../StaticBody3D")
+left_loop_state = 1
+right_loop_state = 2
+loop_scaling = 0.8890166385630196
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1393915520]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=113693086]
+shape = SubResource("BoxShape3D_itlrt")
+
+[editable path="ReplaceWithYourModel"]

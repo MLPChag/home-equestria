@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://world/characters/background/background_pony.gd" id="1"]
+[ext_resource type="PackedScene" path="res://world/characters/hybrid_mare/body.glb" id="2"]
+[ext_resource type="Resource" path="res://world/characters/background/dr_fauna.tres" id="3"]
+
+[node name="DrFauna" type="CharacterBody3D"]
+script = ExtResource("1")
+identity = ExtResource("3")
+model_scene = ExtResource("2")
+preserve_model_materials = true
+eyes_enabled = false
+head_width = 1.0

@@ -1,0 +1,61 @@
+{
+    "character_tag": "aj",
+    "default_location": "sweet_apple_acres",
+    "schedules": [
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "row_of_apple_trees", "activity_hint": "Bucking apple trees in the orchard.", "weight": 33 },
+                { "location_id": "sugarcube_corner", "activity_hint": "Delivering fresh apples to Pinkie.", "weight": 33 },
+                { "location_id": "ponyville_market", "activity_hint": "Setting up early for the farmer's market.", "weight": 34 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday", "Wednesday", "Friday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sweet_apple_acres",
+            "activity_hint": "Working in the farm fields.",
+            "priority": 0
+        },
+        {
+            "days": ["Tuesday"],
+            "time_slots": ["afternoon"],
+            "location_id": "ponyville_market",
+            "activity_hint": "Selling apple products at the market.",
+            "priority": 0
+        },
+        {
+            "days": ["Thursday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sweet_apple_acres",
+            "activity_hint": "Working the fields with Rainbow Dash's help.",
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "barn", "activity_hint": "Doing weekend chores around the barn.", "weight": 50 },
+                { "location_id": "ponyville_market", "activity_hint": "Setting up an early apple stand.", "weight": 25 },
+                { "location_id": "sugarcube_corner", "activity_hint": "Dropping off a crate of apples.", "weight": 25 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sugarcube_corner",
+            "activity_hint": "Meeting up with friends for some relaxation.",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["any"],
+            "location_id": "apple_family_room",
+            "activity_hint": "Taking a well-deserved break with family.",
+            "priority": 0
+        }
+    ]
+}

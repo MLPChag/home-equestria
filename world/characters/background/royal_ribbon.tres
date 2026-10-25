@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/royal_ribbon.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "royal_ribbon"
+display_name = "Royal Ribbon"
+race = 2
+coat_fill = Color(1, 0.50196075, 0.8235294, 1)
+coat_line = Color(0.72156864, 0.36078432, 0.5921569, 1)
+coat_shade = Color(0.92156863, 0.4627451, 0.75686276, 1)
+mane_line = Color(0.22745098, 0.3764706, 0.69803923, 1)
+iris_color = Color(0.37254903, 0.3137255, 0.58431375, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/royal_ribbon_hair.scn"
+hair_prefix = "RoyalRibbon"
+tail_terminal_length = 0.153006162
+ai_profile = "res://world/characters/background/ai/royal_ribbon.json"

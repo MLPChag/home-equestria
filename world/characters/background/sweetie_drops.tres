@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/sweetie_drops.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "sweetie_drops"
+display_name = "Bon Bon"
+race = 0
+coat_fill = Color(0.96862745, 0.9843137, 0.8117647, 1)
+coat_line = Color(0.7254902, 0.68235296, 0.29411766, 1)
+coat_shade = Color(0.93333334, 0.9254902, 0.72156864, 1)
+mane_line = Color(0.15686275, 0.18431373, 0.3254902, 1)
+iris_color = Color(0.16862746, 0.69411767, 0.7254902, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/sweetie_drops_hair.scn"
+hair_prefix = "SweetieDrops"
+tail_terminal_length = 0.144135781
+ai_profile = "res://world/characters/background/ai/sweetie_drops.json"

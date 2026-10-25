@@ -1,0 +1,10 @@
+{
+  "region": "ponyville",
+  "original_grass": true,
+  "original_source": "res://world/zones/ponyville/grassx.png",
+  "favorite": "T014",
+  "library_id": "juliovii/ftpgrass-dirt/Stylized_HandpaintedGrass_01",
+  "surface_slot": 0,
+  "edge_blend_m": 350.0,
+  "source_sha256": "44f25a79978da3890f89fd1b1936dbd6e74f7e9e72a9b73c3a0be428d299b675"
+}

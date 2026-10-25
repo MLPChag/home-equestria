@@ -1,0 +1,15 @@
+{
+ "version": 1,
+ "sea_level": -80.0,
+ "lakes": [
+  {
+   "id": "saddle_lake",
+   "center": [
+    1497.0,
+    -20.0,
+    -307.0
+   ],
+   "radius": 350.0
+  }
+ ]
+}

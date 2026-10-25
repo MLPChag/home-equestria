@@ -1,0 +1,88 @@
+{
+    "character_tag": "rarity",
+    "default_location": "carousel_boutique",
+    "schedules": [
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "carousel_boutique", "activity_hint": "Working on new fashion designs.", "weight": 70 },
+                { "location_id": "ponyville_town_hall", "activity_hint": "Networking with potential clients.", "weight": 15 },
+                { "location_id": "golden_oak_library", "activity_hint": "Studying the latest style magazines.", "weight": 10 },
+                { "location_id": "shopping_alley", "activity_hint": "Sourcing exclusive fabrics from Canterlot boutiques.", "weight": 3 },
+                { "location_id": "canterlot_cafe", "activity_hint": "Meeting with high-society clients over tea.", "weight": 2 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday", "Wednesday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "carousel_boutique", "activity_hint": "Meeting with clients for fittings.", "weight": 65 },
+                { "location_id": "flower_shop", "activity_hint": "Choosing fresh floral accents for a new ensemble.", "weight": 15 },
+                { "location_id": "ponyville_spa", "activity_hint": "Treating herself to an afternoon spa session.", "weight": 12 },
+                { "location_id": "canterlot_plaza", "activity_hint": "Attending a fashion show or exhibition.", "weight": 5 },
+                { "location_id": "royal_garden", "activity_hint": "Sketching designs inspired by the royal gardens.", "weight": 3 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Tuesday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "ponyville_town_hall", "activity_hint": "Attending the weekly fashion committee meeting.", "weight": 95 },
+                { "location_id": "shopping_alley", "activity_hint": "Emergency trip for rare materials in Canterlot.", "weight": 5 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Thursday"],
+            "time_slots": ["afternoon"],
+            "location_id": "ponyville_town_hall",
+            "activity_hint": "Helping Fluttershy with the animal adoption event and chatting about fabric ideas.",
+            "priority": 0
+        },
+        {
+            "days": ["Friday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "carousel_boutique", "activity_hint": "Fitting Twilight for a new outfit.", "weight": 85 },
+                { "location_id": "canterlot_cafe", "activity_hint": "Business lunch with Canterlot fashion editors.", "weight": 10 },
+                { "location_id": "donut_joe_shop", "activity_hint": "Quick break for coffee and inspiration.", "weight": 5 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "carousel_boutique", "activity_hint": "Hosting a fashion workshop for young fillies.", "weight": 75 },
+                { "location_id": "flower_shop", "activity_hint": "Picking up flowers for boutique window displays.", "weight": 15 },
+                { "location_id": "canterlot_plaza", "activity_hint": "Scouting trends at the weekend market.", "weight": 7 },
+                { "location_id": "airship_harbor", "activity_hint": "Receiving a special fabric shipment from abroad.", "weight": 3 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sugarcube_corner",
+            "activity_hint": "Having afternoon tea with friends.",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["morning"],
+            "location_id": "ponyville_spa",
+            "activity_hint": "Enjoying a full spa day with Fluttershy.",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["afternoon"],
+            "location_id": "carousel_boutique",
+            "activity_hint": "Relaxing at home after a lovely spa morning.",
+            "priority": 0
+        }
+    ]
+}

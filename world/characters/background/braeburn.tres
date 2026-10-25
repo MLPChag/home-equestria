@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/braeburn.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "braeburn"
+stallion = true
+display_name = "Braeburn"
+race = 0
+coat_fill = Color(0.92941177, 0.8980392, 0.5568628, 1)
+coat_line = Color(0.8156863, 0.627451, 0.18039216, 1)
+coat_shade = Color(0.8509804, 0.7607843, 0.4509804, 1)
+mane_line = Color(0.69803923, 0.48235294, 0.1607843, 1)
+iris_color = Color(0.54509807, 0.9019608, 0.30588236, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/braeburn_hair.scn"
+hair_prefix = "Braeburn"
+tail_terminal_length = 0.084578498
+ai_profile = "res://world/characters/background/ai/braeburn.json"

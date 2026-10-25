@@ -1,0 +1,22 @@
+{
+  "LeftBall": "pony_finger_L",
+  "LeftHand": "pony_hand_L",
+  "LeftForearm": "pony_lowerArm_L",
+  "LeftShoulder": "pony_upperArm_L",
+  "Head": "pony_head",
+  "Chest2": "pony_neck1",
+  "RightBall": "pony_finger_R",
+  "RightHand": "pony_hand_R",
+  "RightForearm": "pony_lowerArm_R",
+  "RightShoulder": "pony_upperArm_R",
+  "Chest1": "pony_spine1",
+  "LeftThigh": "pony_femur_L",
+  "LeftFoot": "pony_hoof_L",
+  "LeftLeg2": "pony_tarsal_L",
+  "LeftLeg1": "pony_legLower_L",
+  "RightThigh": "pony_femur_R",
+  "RightFoot": "pony_hoof_R",
+  "RightLeg2": "pony_tarsal_R",
+  "RightLeg1": "pony_legLower_R",
+  "Pelvis": "pony_hips"
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/berry_punch.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "berry_punch"
+display_name = "Berry Punch"
+race = 0
+coat_fill = Color(0.89411765, 0.5921569, 0.972549, 1)
+coat_line = Color(0.75686276, 0.2, 0.87058824, 1)
+coat_shade = Color(0.8509804, 0.4627451, 0.9372549, 1)
+mane_line = Color(0.50196075, 0.1372549, 0.3647059, 1)
+iris_color = Color(0.7411765, 0.10980392, 0.4627451, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/berry_punch_hair.scn"
+hair_prefix = "BerryPunch"
+tail_terminal_length = 0.134447821
+ai_profile = "res://world/characters/background/ai/berry_punch.json"

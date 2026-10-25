@@ -1,0 +1,272 @@
+{
+	"assignment_source": "Default fresh-world assignments; saved worlds may differ",
+	"places": [
+		{
+			"id": "house:1024:-81:-2937",
+			"kind": "house",
+			"name": "Aloe's home",
+			"x": 104.483024597168,
+			"z": -294.248962402344
+		},
+		{
+			"id": "house:1107:-114:-2253",
+			"kind": "house",
+			"name": "Apple Bloom & Applejack & Big McIntosh's home",
+			"x": 112.072639465332,
+			"z": -225.743194580078
+		},
+		{
+			"id": "house:1170:-143:-1872",
+			"kind": "house",
+			"name": "Berry Punch & Ruby Pinch's home",
+			"x": 117.051818847656,
+			"z": -187.38883972168
+		},
+		{
+			"id": "house:1326:-99:-2401",
+			"kind": "house",
+			"name": "Caramel's home",
+			"x": 132.054351806641,
+			"z": -239.653594970703
+		},
+		{
+			"id": "house:1333:-75:-2799",
+			"kind": "house",
+			"name": "Cherry Berry's home",
+			"x": 133.363830566406,
+			"z": -279.794647216797
+		},
+		{
+			"id": "house:1377:-144:-1567",
+			"kind": "house",
+			"name": "Archer & Comet Tail's home",
+			"x": 137.752227783203,
+			"z": -156.584045410156
+		},
+		{
+			"id": "house:1394:-144:-1758",
+			"kind": "house",
+			"name": "Daisy's home",
+			"x": 139.411087036133,
+			"z": -176.797149658203
+		},
+		{
+			"id": "house:1433:-144:-1359",
+			"kind": "house",
+			"name": "Derpy Hooves & Dinky Doo's home",
+			"x": 145.456802368164,
+			"z": -136.356414794922
+		},
+		{
+			"id": "house:1444:-118:-2029",
+			"kind": "house",
+			"name": "Diamond Tiara's home",
+			"x": 144.239212036133,
+			"z": -200.536911010742
+		},
+		{
+			"id": "house:1476:-52:-3078",
+			"kind": "house",
+			"name": "Dr. Caballeron's home",
+			"x": 147.647384643555,
+			"z": -307.721954345703
+		},
+		{
+			"id": "house:1581:-144:-1530",
+			"kind": "house",
+			"name": "Dr. Hooves's home",
+			"x": 157.318054199219,
+			"z": -151.823577880859
+		},
+		{
+			"id": "house:158:-142:-1751",
+			"kind": "house",
+			"name": "Golden Harvest & Noi's home",
+			"x": 15.1383152008057,
+			"z": -175.321365356445
+		},
+		{
+			"id": "house:1608:-116:-2037",
+			"kind": "house",
+			"name": "Lemon Hearts's home",
+			"x": 160.814788818359,
+			"z": -203.646728515625
+		},
+		{
+			"id": "house:1618:-90:-2397",
+			"kind": "house",
+			"name": "Lily Valley's home",
+			"x": 163.714492797852,
+			"z": -238.636840820312
+		},
+		{
+			"id": "house:165:-129:-2074",
+			"kind": "house",
+			"name": "Lotus Blossom's home",
+			"x": 16.4236278533936,
+			"z": -207.504455566406
+		},
+		{
+			"id": "house:1680:-74:-2624",
+			"kind": "house",
+			"name": "Lyra Heartstrings's home",
+			"x": 167.875793457031,
+			"z": -262.452514648438
+		},
+		{
+			"id": "house:180:-124:-2467",
+			"kind": "house",
+			"name": "Mayor Mare's home",
+			"x": 20.0688724517822,
+			"z": -247.720993041992
+		},
+		{
+			"id": "house:1830:-56:-2806",
+			"kind": "house",
+			"name": "Colgate's home",
+			"x": 180.947021484375,
+			"z": -281.671722412109
+		},
+		{
+			"id": "house:1855:-102:-2092",
+			"kind": "house",
+			"name": "Noteworthy's home",
+			"x": 185.471725463867,
+			"z": -209.339431762695
+		},
+		{
+			"id": "house:1883:-76:-2502",
+			"kind": "house",
+			"name": "Nurse Redheart's home",
+			"x": 189.490783691406,
+			"z": -249.492294311523
+		},
+		{
+			"id": "house:3160:38:-2300",
+			"kind": "house",
+			"name": "Trixie Lulamoon's home",
+			"x": 316.104431152344,
+			"z": -230.181045532227
+		},
+		{
+			"id": "house:348:-127:-2161",
+			"kind": "house",
+			"name": "Octavia Melody's home",
+			"x": 34.7860870361328,
+			"z": -216.004776000977
+		},
+		{
+			"id": "house:365:-160:-1095",
+			"kind": "house",
+			"name": "Pinkie Pie's home",
+			"x": 36.5157127380371,
+			"z": -109.388198852539
+		},
+		{
+			"id": "house:381:-116:-2584",
+			"kind": "house",
+			"name": "Pokey Pierce's home",
+			"x": 39.5102081298828,
+			"z": -258.798706054688
+		},
+		{
+			"id": "house:424:-109:-2843",
+			"kind": "house",
+			"name": "Roseluck's home",
+			"x": 42.3768653869629,
+			"z": -284.214263916016
+		},
+		{
+			"id": "house:543:-128:-2158",
+			"kind": "house",
+			"name": "Scootaloo's home",
+			"x": 54.4534034729004,
+			"z": -214.870010375977
+		},
+		{
+			"id": "house:597:-109:-2635",
+			"kind": "house",
+			"name": "Linky (Shoeshine)'s home",
+			"x": 60.3024101257324,
+			"z": -263.815826416016
+		},
+		{
+			"id": "house:649:-148:-1520",
+			"kind": "house",
+			"name": "Silver Spoon's home",
+			"x": 65.7888870239258,
+			"z": -150.982147216797
+		},
+		{
+			"id": "house:711:-154:-1253",
+			"kind": "house",
+			"name": "Starlight Glimmer's home",
+			"x": 71.2030487060547,
+			"z": -125.428588867188
+		},
+		{
+			"id": "house:742:-123:-2188",
+			"kind": "house",
+			"name": "Strawberry Sunrise's home",
+			"x": 74.1581497192383,
+			"z": -218.753952026367
+		},
+		{
+			"id": "house:756:-87:-3031",
+			"kind": "house",
+			"name": "Vinyl Scratch's home",
+			"x": 75.5971069335938,
+			"z": -304.1171875
+		},
+		{
+			"id": "house:carousel_boutique",
+			"kind": "house",
+			"name": "Rarity & Sweetie Belle's home",
+			"x": 44.9186553955078,
+			"z": -170.189407348633
+		},
+		{
+			"id": "house:cloudominium",
+			"kind": "house",
+			"name": "Rainbow Dash's home",
+			"x": 434.526306152344,
+			"z": -215.437545776367
+		},
+		{
+			"id": "house:fluttershy_cottage",
+			"kind": "house",
+			"name": "Fluttershy's home",
+			"x": 137.005172729492,
+			"z": 215.176177978516
+		},
+		{
+			"id": "house:golden_oak_library",
+			"kind": "house",
+			"name": "Twilight Sparkle's home",
+			"x": -20.6470127105713,
+			"z": -255.690155029297
+		},
+		{
+			"id": "house:zecora_hut",
+			"kind": "house",
+			"name": "Zecora's home",
+			"x": -34.1549987792969,
+			"z": 990.528015136719
+		},
+		{
+			"id": "landmark:sugarcube_corner",
+			"kind": "landmark",
+			"name": "Sugarcube Corner",
+			"x": 118.310455322266,
+			"z": -143.954040527344
+		},
+		{
+			"id": "landmark:town_hall",
+			"kind": "landmark",
+			"name": "Town Hall",
+			"x": 95.8381729125977,
+			"z": -211.233703613281
+		}
+	],
+	"version": 1
+}

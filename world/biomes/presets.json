@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "cell": 4,
+  "region": 1024,
+  "biomes": [
+    {
+      "id": 0,
+      "key": "sea",
+      "name": "Sea",
+      "color": "#285a96",
+      "textures": [
+        8,
+        3
+      ],
+      "lighting": "default",
+      "vegetation": "none",
+      "forest_gain": 0,
+      "wind_gain": 1,
+      "cricket_gain": 0.15
+    },
+    {
+      "id": 1,
+      "key": "plain",
+      "name": "Meadow",
+      "color": "#8cbe5a",
+      "textures": [
+        0,
+        2
+      ],
+      "lighting": "default",
+      "vegetation": "meadow",
+      "forest_gain": 0.35,
+      "wind_gain": 0.9,
+      "cricket_gain": 0.6
+    },
+    {
+      "id": 2,
+      "key": "forest",
+      "name": "Normal forest",
+      "color": "#3c823c",
+      "textures": [
+        2,
+        0
+      ],
+      "lighting": "default",
+      "vegetation": "woodland",
+      "forest_gain": 0.85,
+      "wind_gain": 0.55,
+      "cricket_gain": 0.85,
+      "tree_candidates": 5,
+      "plant_candidates": 5,
+      "tree_spacing": 18.0
+    },
+    {
+      "id": 3,
+      "key": "dark_forest",
+      "name": "Everfree",
+      "color": "#1e4628",
+      "textures": [
+        10,
+        11
+      ],
+      "lighting": "everfree",
+      "vegetation": "everfree",
+      "forest_gain": 0.8,
+      "wind_gain": 0.25,
+      "cricket_gain": 1,
+      "tree_candidates": 10,
+      "plant_candidates": 42,
+      "tree_spacing": 7.0,
+      "texture_mix": 0.42
+    },
+    {
+      "id": 4,
+      "key": "desert",
+      "name": "Desert",
+      "color": "#ebcd78",
+      "textures": [
+        8,
+        9
+      ],
+      "lighting": "desert",
+      "vegetation": "desert",
+      "forest_gain": 0,
+      "wind_gain": 1,
+      "cricket_gain": 0.15
+    },
+    {
+      "id": 5,
+      "key": "badlands",
+      "name": "Badlands",
+      "color": "#965032",
+      "textures": [
+        9,
+        13
+      ],
+      "lighting": "desert",
+      "vegetation": "desert",
+      "forest_gain": 0,
+      "wind_gain": 1,
+      "cricket_gain": 0.1
+    },
+    {
+      "id": 6,
+      "key": "mountain",
+      "name": "Mountain",
+      "color": "#787882",
+      "textures": [
+        21,
+        12
+      ],
+      "lighting": "default",
+      "vegetation": "rock",
+      "forest_gain": 0.1,
+      "wind_gain": 1.1,
+      "cricket_gain": 0.2
+    },
+    {
+      "id": 7,
+      "key": "snow",
+      "name": "Snow",
+      "color": "#ebf0fa",
+      "textures": [
+        19,
+        21
+      ],
+      "lighting": "snow",
+      "vegetation": "none",
+      "forest_gain": 0,
+      "wind_gain": 0.9,
+      "cricket_gain": 0.05
+    },
+    {
+      "id": 8,
+      "key": "swamp",
+      "name": "Swamp",
+      "color": "#5a6e32",
+      "textures": [
+        16,
+        10
+      ],
+      "lighting": "swamp",
+      "vegetation": "everfree",
+      "forest_gain": 0.65,
+      "wind_gain": 0.3,
+      "cricket_gain": 1
+    },
+    {
+      "id": 9,
+      "key": "jungle",
+      "name": "Jungle",
+      "color": "#467828",
+      "textures": [
+        17,
+        16
+      ],
+      "lighting": "everfree",
+      "vegetation": "woodland",
+      "forest_gain": 0.9,
+      "wind_gain": 0.4,
+      "cricket_gain": 0.9
+    },
+    {
+      "id": 10,
+      "key": "hills",
+      "name": "Hills",
+      "color": "#aaaa5a",
+      "textures": [
+        17,
+        0
+      ],
+      "lighting": "default",
+      "vegetation": "meadow",
+      "forest_gain": 0.35,
+      "wind_gain": 1,
+      "cricket_gain": 0.55
+    },
+    {
+      "id": 11,
+      "key": "crystal",
+      "name": "Crystal",
+      "color": "#96c8e6",
+      "textures": [
+        20,
+        12
+      ],
+      "lighting": "crystal",
+      "vegetation": "none",
+      "forest_gain": 0,
+      "wind_gain": 0.8,
+      "cricket_gain": 0.1
+    },
+    {
+      "id": 12,
+      "key": "coast",
+      "name": "Coast",
+      "color": "#c8c896",
+      "textures": [
+        8,
+        0
+      ],
+      "lighting": "default",
+      "vegetation": "meadow",
+      "forest_gain": 0.15,
+      "wind_gain": 1.1,
+      "cricket_gain": 0.3
+    }
+  ]
+}

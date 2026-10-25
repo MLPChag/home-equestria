@@ -1,0 +1,11 @@
+{
+  "id": "blossomforth",
+  "name": "Blossomforth",
+  "tag": "blossomforth",
+  "prompt": "res://world/characters/background/ai/blossomforth.md",
+  "tts_speaker_id": 6,
+  "tts_default_emotion": "neutral",
+  "tts_style_strength": 1.0,
+  "earshot_m": 10.0,
+  "voice_status": "temporary shared Cheerilee voice"
+}

@@ -1,0 +1,82 @@
+{
+  "_note": "Shelf entries taken out of the shops on 2026-10-15 (dev 2026-10-14: pre-made food only, no shelves of little things). Goods stay valid items, so pieces players already own keep working; food the shops no longer stock either stays a valid item (cooking, Hayburger shift, arrival pocket, tests) or is retired in world/food/retired_definitions.json. To put an entry back, add it to world/food/food_display.gd PRESETS or world/shop/shop_world.gd PLACEMENTS.",
+  "food": {
+    "produce": [
+      "blueberries",
+      "raspberries",
+      "cherries",
+      "pear",
+      "peach",
+      "potato",
+      "tomato",
+      "lettuce",
+      "corn",
+      "mushroom",
+      "oats",
+      "hay-bundle"
+    ],
+    "bakery": [
+      "chimi-cherry-chonga",
+      "strawberry-cinnamon-cilantro-cupcake",
+      "spicy-rainbow",
+      "apple-pie (now the celebration slot)"
+    ],
+    "drinks": [
+      "nectar"
+    ],
+    "pantry": [
+      "bread-loaf",
+      "burger-bun-bottom",
+      "burger-bun-top",
+      "hay-patty",
+      "cheese-slice",
+      "tomato-slice",
+      "lettuce-leaf",
+      "zap-apple-jam",
+      "flour",
+      "egg",
+      "butter",
+      "spices"
+    ],
+    "regional": [
+      "crystal-berries",
+      "crystal-corn",
+      "edible-gems"
+    ],
+    "celebration": [
+      "marzipan-mascarpone-meringue-madness"
+    ]
+  },
+  "goods": {
+    "ponyville:market:goods": [
+      "goods:cottage-tea-set",
+      "goods:clock",
+      "goods:floor-cushion",
+      "goods:doormat"
+    ]
+  },
+  "still_items_not_sold": [
+    "food:bread-loaf",
+    "food:nectar",
+    "food:strawberry-cinnamon-cilantro-cupcake",
+    "goods:cottage-tea-set",
+    "goods:clock",
+    "goods:floor-cushion",
+    "goods:doormat"
+  ],
+  "_restored_2026_10_17": {
+    "cooking": [
+      "flour",
+      "egg",
+      "butter",
+      "carrot",
+      "mushroom",
+      "spices"
+    ],
+    "pony-feed": [
+      "oats",
+      "hay-bundle"
+    ],
+    "note": "Separate categorized supplies use the general-goods cabinet; the ready-made-food menus retain their existing ids and contents."
+  }
+}

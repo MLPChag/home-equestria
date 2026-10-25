@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://world/characters/locomotion/mare.tscn" id="1"]
+[ext_resource type="Script" path="res://world/characters/navigation/pony_navigator.gd" id="2"]
+
+[node name="NavigatingMare" instance=ExtResource("1")]
+
+[node name="Navigator" type="Node" parent="."]
+script = ExtResource("2")

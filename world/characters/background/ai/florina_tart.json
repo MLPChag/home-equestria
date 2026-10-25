@@ -1,0 +1,11 @@
+{
+  "id": "florina_tart",
+  "name": "Florina Tart",
+  "tag": "florina_tart",
+  "prompt": "res://world/characters/background/ai/florina_tart.md",
+  "tts_speaker_id": 6,
+  "tts_default_emotion": "neutral",
+  "tts_style_strength": 1.0,
+  "earshot_m": 10.0,
+  "voice_status": "temporary shared Cheerilee voice"
+}

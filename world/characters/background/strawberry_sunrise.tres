@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/strawberry_sunrise.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "strawberry_sunrise"
+display_name = "Strawberry Sunrise"
+race = 1
+coat_fill = Color(0.99607843, 0.95686275, 0.5254902, 1)
+coat_line = Color(0.7176471, 0.6901961, 0.3764706, 1)
+coat_shade = Color(0.91764706, 0.8784314, 0.48235294, 1)
+mane_line = Color(0.72156864, 0.24705882, 0.27843136, 1)
+iris_color = Color(0.34509805, 0.654902, 0.22352941, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/strawberry_sunrise_hair.scn"
+hair_prefix = "StrawberrySunrise"
+tail_terminal_length = 0.120956763
+ai_profile = "res://world/characters/background/ai/strawberry_sunrise.json"

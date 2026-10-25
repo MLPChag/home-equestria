@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/scootaloo.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "scootaloo"
+filly = true
+wing_scale = 0.45
+can_fly = false
+display_name = "Scootaloo"
+coat_fill = Color(0.9764706, 0.7176471, 0.39215687, 1)
+coat_line = Color(0.9529412, 0.4392157, 0.2, 1)
+coat_shade = Color(0.9490196, 0.61960787, 0.30196077, 1)
+mane_line = Color(0.7411765, 0.12156863, 0.46666667, 1)
+iris_color = Color(0.69803923, 0.5568628, 0.7529412, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/scootaloo_hair.scn"
+hair_prefix = "Scootaloo"
+tail_terminal_length = 0.144407276
+ai_profile = "res://world/characters/background/ai/scootaloo.json"

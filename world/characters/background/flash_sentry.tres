@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/flash_sentry.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "flash_sentry"
+stallion = true
+display_name = "Flash Sentry"
+coat_fill = Color(1, 0.78431374, 0.38039216, 1)
+coat_line = Color(0.8745098, 0.50196075, 0.24705882, 1)
+coat_shade = Color(0.88235295, 0.69803923, 0.3372549, 1)
+mane_line = Color(0.10196078, 0.19215687, 0.39215687, 1)
+iris_color = Color(0.6862745, 0.91764706, 1, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/flash_sentry_hair.scn"
+hair_prefix = "FlashSentry"
+tail_terminal_length = 0.11268348
+ai_profile = "res://world/characters/background/ai/flash_sentry.json"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/cheerilee.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "cheerilee"
+display_name = "Cheerilee"
+race = 0
+coat_fill = Color(0.7529412, 0.35686275, 0.57254905, 1)
+coat_line = Color(0.5098039, 0.15686275, 0.3529412, 1)
+coat_shade = Color(0.6509804, 0.30588236, 0.50196075, 1)
+mane_line = Color(0.9098039, 0.50196075, 0.7019608, 1)
+iris_color = Color(0.67058825, 0.84313726, 0.6156863, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/cheerilee_hair.scn"
+hair_prefix = "Cheerilee"
+tail_terminal_length = 0.121503833
+ai_profile = "res://world/characters/background/ai/cheerilee.json"

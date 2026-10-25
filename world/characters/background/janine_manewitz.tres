@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/janine_manewitz.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "janine_manewitz"
+display_name = "Janine Manewitz"
+race = 0
+coat_fill = Color(0.827451, 0.57254905, 0.8039216, 1)
+coat_line = Color(0.59607846, 0.4117647, 0.5803922, 1)
+coat_shade = Color(0.7607843, 0.5254902, 0.7411765, 1)
+mane_line = Color(0.7176471, 0.68235296, 0.5921569, 1)
+iris_color = Color(0.8745098, 0.6431373, 0.2627451, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/janine_manewitz_hair.scn"
+hair_prefix = "JanineManewitz"
+tail_terminal_length = 0.117801866
+ai_profile = "res://world/characters/background/ai/janine_manewitz.json"

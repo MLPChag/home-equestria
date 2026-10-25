@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://world/characters/mane6/marks/pinkie_pie.png" id="2_mark"]
+
+[resource]
+script = ExtResource("1_script")
+id = "pinkie_pie"
+display_name = "Pinkie Pie"
+race = 0
+coat_fill = Color(0.960784, 0.717647, 0.815686, 1)
+coat_line = Color(0.909804, 0.501961, 0.690196, 1)
+coat_shade = Color(0.909804, 0.611765, 0.74902, 1)
+mane_line = Color(0.733333, 0.109804, 0.462745, 1)
+iris_color = Color(0.490196, 0.815686, 0.945098, 1)
+lash_style = 1
+cutie_mark = ExtResource("2_mark")
+hair_scene = "res://world/characters/mane6/pinkie_pie_devkit_hair.glb"
+hair_prefix = "Pinkie"
+tail_mount_offset = Vector3(-0.033, 0.033, -0.044)
+blush_color = Color(1, 0.435294, 0.603922, 1)
+notice_distance = 7
+close_distance = 2.2
+interest_smile = 0.75
+ai_profile = "res://world/ai/characters/pinkie_pie.json"

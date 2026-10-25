@@ -1,0 +1,67 @@
+{
+  "status": "planned_not_built",
+  "requirements": [
+    "show-referenced silhouettes and colours",
+    "physical scale",
+    "separate food and reusable containers",
+    "desktop and VR graspable use",
+    "visual review before completion"
+  ],
+  "categories": {
+    "meals": [
+      "hayburger",
+      "carrot-dog",
+      "hay-fries",
+      "daffodil-daisy-sandwich",
+      "grass-pancakes",
+      "sweet-carrot-pancakes",
+      "spicy-flat-noodle-soup"
+    ],
+    "sweets": [
+      "chimi-cherry-chonga",
+      "marzipan-mascarpone-meringue-madness",
+      "cupcake",
+      "strawberry-cinnamon-cilantro-cupcake",
+      "spicy-rainbow",
+      "rainbow-pie"
+    ],
+    "apple-family": [
+      "apple-fritter",
+      "apple-pie",
+      "zap-apple-jam",
+      "sweet-apple-acres-cider",
+      "caramel-apple",
+      "candy-apple"
+    ],
+    "regional": [
+      "crystal-berries",
+      "sunflower-smoothie",
+      "crystal-corn",
+      "nectar",
+      "edible-gems"
+    ],
+    "ingredients": [
+      "red-apple",
+      "green-apple",
+      "carrot",
+      "strawberry",
+      "blueberries",
+      "raspberries",
+      "cherries",
+      "pear",
+      "peach",
+      "potato",
+      "tomato",
+      "lettuce",
+      "corn",
+      "mushroom",
+      "bread-loaf",
+      "burger-bun-bottom",
+      "burger-bun-top",
+      "hay-patty",
+      "cheese-slice",
+      "tomato-slice",
+      "lettuce-leaf"
+    ]
+  }
+}

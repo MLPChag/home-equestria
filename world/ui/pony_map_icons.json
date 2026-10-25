@@ -1,0 +1,3891 @@
+{
+  "version": 1,
+  "icons": {
+    "aloe": {
+      "name": "Aloe",
+      "coat": [
+        1.0,
+        0.69803923,
+        0.8392157,
+        1.0
+      ],
+      "rect": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/aloe.tres",
+      "source": "res://world/characters/background/marks/aloe.png",
+      "blank": false,
+      "source_sha256": "d201c4642bac28243087ea92d09bfdc8860b5d64c655b3f2007f9aa5d4e827ea",
+      "upright_bounds": [
+        16,
+        101,
+        502,
+        411
+      ],
+      "icon_art_size": [
+        88,
+        56
+      ]
+    },
+    "amethyst_star": {
+      "name": "Amethyst Star",
+      "coat": [
+        0.9529412,
+        0.6392157,
+        0.9490196,
+        1.0
+      ],
+      "rect": [
+        96,
+        0,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/amethyst_star.tres",
+      "source": "res://world/characters/background/marks/amethyst_star.png",
+      "blank": false,
+      "source_sha256": "315517fed1c38d39bc57ef09bfb0fa7131381c07caeac75ae325b58c13642480",
+      "upright_bounds": [
+        16,
+        16,
+        520,
+        437
+      ],
+      "icon_art_size": [
+        88,
+        74
+      ]
+    },
+    "angel_wings": {
+      "name": "Angel Wings",
+      "coat": [
+        0.9254902,
+        0.8745098,
+        0.8352941,
+        1.0
+      ],
+      "rect": [
+        192,
+        0,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/angel_wings.tres",
+      "source": "res://world/characters/background/marks/angel_wings.png",
+      "blank": false,
+      "source_sha256": "2bd391bd0c950ae1eace508eddabc06fed694acb0fd3d9157ca4ae7759816a60",
+      "upright_bounds": [
+        16,
+        16,
+        476,
+        305
+      ],
+      "icon_art_size": [
+        88,
+        55
+      ]
+    },
+    "apple_bloom": {
+      "name": "Apple Bloom",
+      "coat": [
+        0.9529412,
+        0.95686275,
+        0.60784316,
+        1.0
+      ],
+      "rect": [
+        288,
+        0,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/apple_bloom.tres",
+      "source": "res://world/characters/background/marks/apple_bloom.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "apple_bumpkin": {
+      "name": "Apple Bumpkin",
+      "coat": [
+        0.972549,
+        0.9372549,
+        0.7058824,
+        1.0
+      ],
+      "rect": [
+        384,
+        0,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/apple_bumpkin.tres",
+      "source": "res://world/characters/background/marks/apple_bumpkin.png",
+      "blank": false,
+      "source_sha256": "358684d37ecaf7bdc241be952d1eab0e5b6c6593c290625b25a2854282d14047",
+      "upright_bounds": [
+        16,
+        16,
+        505,
+        528
+      ],
+      "icon_art_size": [
+        84,
+        88
+      ]
+    },
+    "applejack": {
+      "name": "Applejack",
+      "coat": [
+        0.980392,
+        0.729412,
+        0.384314,
+        1.0
+      ],
+      "rect": [
+        480,
+        0,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/mane6/applejack.tres",
+      "source": "res://world/characters/mane6/marks/applejack.png",
+      "blank": false,
+      "source_sha256": "c0dc941809b5c8608cb072a46f088636fe26c25a7422ae38ca45e66784dede7c",
+      "upright_bounds": [
+        602,
+        186,
+        1769,
+        1295
+      ],
+      "icon_art_size": [
+        88,
+        84
+      ]
+    },
+    "archer": {
+      "name": "Archer",
+      "coat": [
+        0.5686275,
+        0.69411767,
+        0.87058824,
+        1.0
+      ],
+      "rect": [
+        576,
+        0,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/archer.tres",
+      "source": "res://world/characters/background/marks/archer.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "banana_fluff": {
+      "name": "Banana Fluff",
+      "coat": [
+        0.94509804,
+        0.9843137,
+        0.59607846,
+        1.0
+      ],
+      "rect": [
+        96,
+        96,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/banana_fluff.tres",
+      "source": "res://world/characters/background/marks/banana_fluff.png",
+      "blank": false,
+      "source_sha256": "4a329f15661c9031e467e6e2e4dd6b44b46ed3caac5f50749c6cec3fc0f646e2",
+      "upright_bounds": [
+        16,
+        16,
+        368,
+        528
+      ],
+      "icon_art_size": [
+        60,
+        88
+      ]
+    },
+    "beauty_brass": {
+      "name": "Beauty Brass",
+      "coat": [
+        0.54509807,
+        0.8745098,
+        0.9411765,
+        1.0
+      ],
+      "rect": [
+        192,
+        96,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/beauty_brass.tres",
+      "source": "res://world/characters/background/marks/beauty_brass.png",
+      "blank": false,
+      "source_sha256": "257bd0f0605298fbffea84854c23b51ea1bcac9dbc65b6dd2969c49e26a66cdc",
+      "upright_bounds": [
+        16,
+        16,
+        171,
+        194
+      ],
+      "icon_art_size": [
+        77,
+        88
+      ]
+    },
+    "berry_punch": {
+      "name": "Berry Punch",
+      "coat": [
+        0.89411765,
+        0.5921569,
+        0.972549,
+        1.0
+      ],
+      "rect": [
+        288,
+        96,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/berry_punch.tres",
+      "source": "res://world/characters/background/marks/berry_punch.png",
+      "blank": false,
+      "source_sha256": "00124cecb9642250386463348388b5038251c2241a3f386efc5c1f6bd6ca3a4d",
+      "upright_bounds": [
+        16,
+        16,
+        172,
+        184
+      ],
+      "icon_art_size": [
+        82,
+        88
+      ]
+    },
+    "big_mcintosh": {
+      "name": "Big McIntosh",
+      "coat": [
+        0.9019608,
+        0.2901961,
+        0.34117648,
+        1.0
+      ],
+      "rect": [
+        384,
+        96,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/big_mcintosh.tres",
+      "source": "res://world/characters/background/marks/big_mcintosh.png",
+      "blank": false,
+      "source_sha256": "6497908e32fb8d34659269e4d7965106c4bb5c1209dfe6b7c6f0c445689d9e36",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        582
+      ],
+      "icon_art_size": [
+        80,
+        88
+      ]
+    },
+    "blossomforth": {
+      "name": "Blossomforth",
+      "coat": [
+        0.9647059,
+        0.94509804,
+        0.93333334,
+        1.0
+      ],
+      "rect": [
+        480,
+        96,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/blossomforth.tres",
+      "source": "res://world/characters/background/marks/blossomforth.png",
+      "blank": false,
+      "source_sha256": "9f37d329319268b89509ca543493ddaf5838e5be80125e528b568b8a001953a8",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        515
+      ],
+      "icon_art_size": [
+        88,
+        86
+      ]
+    },
+    "blue_bobbin": {
+      "name": "Blue Bobbin",
+      "coat": [
+        0.57254905,
+        0.87058824,
+        0.96862745,
+        1.0
+      ],
+      "rect": [
+        576,
+        96,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/blue_bobbin.tres",
+      "source": "res://world/characters/background/marks/blue_bobbin.png",
+      "blank": false,
+      "source_sha256": "c8cf47274c9d41c018fca1ee77235e3509e0462ebc782721567f8a5cc0722ce0",
+      "upright_bounds": [
+        26,
+        27,
+        484,
+        817
+      ],
+      "icon_art_size": [
+        51,
+        88
+      ]
+    },
+    "braeburn": {
+      "name": "Braeburn",
+      "coat": [
+        0.92941177,
+        0.8980392,
+        0.5568628,
+        1.0
+      ],
+      "rect": [
+        672,
+        96,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/braeburn.tres",
+      "source": "res://world/characters/background/marks/braeburn.png",
+      "blank": false,
+      "source_sha256": "4bd751df50bedd13b143107a5abfba1377f6bf63c69aa9a655d9ea5576bb0ee1",
+      "upright_bounds": [
+        58,
+        16,
+        455,
+        518
+      ],
+      "icon_art_size": [
+        70,
+        88
+      ]
+    },
+    "caramel": {
+      "name": "Caramel",
+      "coat": [
+        1.0,
+        0.79607844,
+        0.39215687,
+        1.0
+      ],
+      "rect": [
+        96,
+        192,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/caramel.tres",
+      "source": "res://world/characters/background/marks/caramel.png",
+      "blank": false,
+      "source_sha256": "fd1a2ff76a2174b4812f57a537cfffc356a8495dad2895dcd227134da8827495",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        598
+      ],
+      "icon_art_size": [
+        77,
+        88
+      ]
+    },
+    "caramel_apple": {
+      "name": "Caramel Apple",
+      "coat": [
+        0.972549,
+        0.9372549,
+        0.7058824,
+        1.0
+      ],
+      "rect": [
+        192,
+        192,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/caramel_apple.tres",
+      "source": "res://world/characters/background/marks/caramel_apple.png",
+      "blank": false,
+      "source_sha256": "66e876696822d94f95c802977680544dca06c5c1258766d35cf255f4c7a96281",
+      "upright_bounds": [
+        16,
+        16,
+        447,
+        466
+      ],
+      "icon_art_size": [
+        84,
+        88
+      ]
+    },
+    "celestia": {
+      "name": "Princess Celestia",
+      "coat": [
+        0.9411764705882353,
+        0.9764705882352941,
+        0.9411764705882353,
+        1.0
+      ],
+      "rect": [
+        288,
+        192,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/princesses/celestia.tres",
+      "source": null,
+      "blank": true,
+      "source_sha256": "",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "cherry_berry": {
+      "name": "Cherry Berry",
+      "coat": [
+        1.0,
+        0.50196075,
+        0.75686276,
+        1.0
+      ],
+      "rect": [
+        384,
+        192,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/cherry_berry.tres",
+      "source": "res://world/characters/background/marks/cherry_berry.png",
+      "blank": false,
+      "source_sha256": "d029b1dc44aec6aa9cd42dbc5b2d868469478a2c8f8e9049094d6e3dcd74e656",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        460
+      ],
+      "icon_art_size": [
+        88,
+        76
+      ]
+    },
+    "cherry_spices": {
+      "name": "Cherry Spices",
+      "coat": [
+        0.7254902,
+        0.59607846,
+        0.43137255,
+        1.0
+      ],
+      "rect": [
+        480,
+        192,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/cherry_spices.tres",
+      "source": "res://world/characters/background/marks/cherry_spices.png",
+      "blank": false,
+      "source_sha256": "cea00836740b8cd98dffd71a25e5cb220e67aced10c820f22aa97ea275838412",
+      "upright_bounds": [
+        16,
+        16,
+        437,
+        528
+      ],
+      "icon_art_size": [
+        72,
+        88
+      ]
+    },
+    "clear_skies": {
+      "name": "Clear Skies",
+      "coat": [
+        0.9411765,
+        0.74509805,
+        0.9529412,
+        1.0
+      ],
+      "rect": [
+        576,
+        192,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/clear_skies.tres",
+      "source": "res://world/characters/background/marks/clear_skies.png",
+      "blank": false,
+      "source_sha256": "7f5e650cf2e9955827ec46737c0c8c46dbb9e4f078b10f606fd756703e65b64f",
+      "upright_bounds": [
+        16,
+        16,
+        424,
+        304
+      ],
+      "icon_art_size": [
+        88,
+        62
+      ]
+    },
+    "clear_sky": {
+      "name": "Clear Sky",
+      "coat": [
+        0.96862745,
+        0.6509804,
+        0.7764706,
+        1.0
+      ],
+      "rect": [
+        672,
+        192,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/clear_sky.tres",
+      "source": "res://world/characters/background/marks/clear_sky.png",
+      "blank": false,
+      "source_sha256": "722a0ec1e3b6e006570faad39fa3bc95235048e191e96ab5c64e39ef3c1fea3c",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        519
+      ],
+      "icon_art_size": [
+        88,
+        86
+      ]
+    },
+    "cloud_kicker": {
+      "name": "Cloud Kicker",
+      "coat": [
+        0.75686276,
+        0.7137255,
+        0.9647059,
+        1.0
+      ],
+      "rect": [
+        0,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/cloud_kicker.tres",
+      "source": "res://world/characters/background/marks/cloud_kicker.png",
+      "blank": false,
+      "source_sha256": "df7bf139d92a1ec86c8dc6b4f93bc4950f6a712aa48e6168de2f9d230ce702ff",
+      "upright_bounds": [
+        16,
+        16,
+        455,
+        387
+      ],
+      "icon_art_size": [
+        88,
+        74
+      ]
+    },
+    "cloudchaser": {
+      "name": "Cloudchaser",
+      "coat": [
+        0.7529412,
+        0.7137255,
+        0.9529412,
+        1.0
+      ],
+      "rect": [
+        96,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/cloudchaser.tres",
+      "source": "res://world/characters/background/marks/cloudchaser.png",
+      "blank": false,
+      "source_sha256": "bd3f71f2f35e0fd14d72bfb8092c9d08177c5f40585be18875eb320f6b3ead3e",
+      "upright_bounds": [
+        16,
+        128,
+        508,
+        384
+      ],
+      "icon_art_size": [
+        88,
+        46
+      ]
+    },
+    "cloudy_quartz": {
+      "name": "Cloudy Quartz",
+      "coat": [
+        0.84705883,
+        0.8666667,
+        0.91764706,
+        1.0
+      ],
+      "rect": [
+        192,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/cloudy_quartz.tres",
+      "source": "res://world/characters/background/marks/cloudy_quartz.png",
+      "blank": false,
+      "source_sha256": "1cd29f60f76a5846f33d798a667eeef659ba71405859a76bae01eb9696fba84a",
+      "upright_bounds": [
+        16,
+        16,
+        168,
+        170
+      ],
+      "icon_art_size": [
+        87,
+        88
+      ]
+    },
+    "coloratura": {
+      "name": "Coloratura",
+      "coat": [
+        0.8627451,
+        0.9529412,
+        0.9137255,
+        1.0
+      ],
+      "rect": [
+        288,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/coloratura.tres",
+      "source": "res://world/characters/background/marks/coloratura.png",
+      "blank": false,
+      "source_sha256": "5096594e708e293a8da6c093da358dbb647470054d9a4a6cc1182fab2c657f79",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        530
+      ],
+      "icon_art_size": [
+        88,
+        88
+      ]
+    },
+    "comet_tail": {
+      "name": "Comet Tail",
+      "coat": [
+        0.92156863,
+        0.9137255,
+        0.5137255,
+        1.0
+      ],
+      "rect": [
+        384,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/comet_tail.tres",
+      "source": "res://world/characters/background/marks/comet_tail.png",
+      "blank": false,
+      "source_sha256": "09bbb2ea710c4d396c12e6160f7d57e6e0fcad45d82d2d47dcf79981fa133b19",
+      "upright_bounds": [
+        49,
+        16,
+        457,
+        507
+      ],
+      "icon_art_size": [
+        73,
+        88
+      ]
+    },
+    "compass_star": {
+      "name": "Compass Star",
+      "coat": [
+        0.5137255,
+        0.3882353,
+        0.28627452,
+        1.0
+      ],
+      "rect": [
+        480,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/compass_star.tres",
+      "source": "res://world/characters/background/marks/compass_star.png",
+      "blank": false,
+      "source_sha256": "56ac20c45a08e277bdc22abd3cff3ae805fa689a2b6d3c299307dd649b188bf6",
+      "upright_bounds": [
+        16,
+        16,
+        309,
+        419
+      ],
+      "icon_art_size": [
+        64,
+        88
+      ]
+    },
+    "daisy": {
+      "name": "Daisy",
+      "coat": [
+        1.0,
+        0.6627451,
+        0.972549,
+        1.0
+      ],
+      "rect": [
+        576,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/daisy.tres",
+      "source": "res://world/characters/background/marks/daisy.png",
+      "blank": false,
+      "source_sha256": "2f9d95edac12aa186d892face23c03ab10f4feb709a0368bdc2745d37f47975f",
+      "upright_bounds": [
+        16,
+        16,
+        507,
+        500
+      ],
+      "icon_art_size": [
+        88,
+        87
+      ]
+    },
+    "daring_do": {
+      "name": "Daring Do",
+      "coat": [
+        0.8509804,
+        0.7490196,
+        0.38039216,
+        1.0
+      ],
+      "rect": [
+        672,
+        288,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/daring_do.tres",
+      "source": "res://world/characters/background/marks/daring_do.png",
+      "blank": false,
+      "source_sha256": "5d7267205b7b41b1f5092bfc9dc72331f9f5ed2450cd0a7c3f18cab2aae5f728",
+      "upright_bounds": [
+        16,
+        16,
+        222,
+        223
+      ],
+      "icon_art_size": [
+        88,
+        88
+      ]
+    },
+    "derpy_hooves": {
+      "name": "Derpy Hooves",
+      "coat": [
+        0.7607843,
+        0.77254903,
+        0.8352941,
+        1.0
+      ],
+      "rect": [
+        0,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/derpy_hooves.tres",
+      "source": "res://world/characters/background/marks/derpy_hooves.png",
+      "blank": false,
+      "source_sha256": "a7a52e6b03182485d8142b1790a71b181c51eae1793e74e8e3034721ce054b75",
+      "upright_bounds": [
+        30,
+        16,
+        440,
+        791
+      ],
+      "icon_art_size": [
+        47,
+        88
+      ]
+    },
+    "diamond_mint": {
+      "name": "Diamond Mint",
+      "coat": [
+        0.5803922,
+        0.9098039,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        96,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/diamond_mint.tres",
+      "source": "res://world/characters/background/marks/diamond_mint.png",
+      "blank": false,
+      "source_sha256": "17e0e80ee2e9e96faaa75464e0360fc50460ae6a70a6652e13aeb4820ef4e4dc",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        413
+      ],
+      "icon_art_size": [
+        88,
+        68
+      ]
+    },
+    "diamond_tiara": {
+      "name": "Diamond Tiara",
+      "coat": [
+        0.99215686,
+        0.7647059,
+        0.9882353,
+        1.0
+      ],
+      "rect": [
+        192,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/diamond_tiara.tres",
+      "source": "res://world/characters/background/marks/diamond_tiara.png",
+      "blank": false,
+      "source_sha256": "84175843fc16ed72b6ed7bbc9db62e9b7aea12cdcdfa053dafceaeb298eb63f5",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        508
+      ],
+      "icon_art_size": [
+        88,
+        85
+      ]
+    },
+    "dinky_doo": {
+      "name": "Dinky Doo",
+      "coat": [
+        0.8039216,
+        0.72156864,
+        0.9019608,
+        1.0
+      ],
+      "rect": [
+        288,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/dinky_doo.tres",
+      "source": "res://world/characters/background/marks/dinky_doo.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "double_diamond": {
+      "name": "Double Diamond",
+      "coat": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        384,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/double_diamond.tres",
+      "source": "res://world/characters/background/marks/double_diamond.png",
+      "blank": false,
+      "source_sha256": "3401c08bd2c9fb818586d36987928521e21ddd6fd7ced5acf6cbbe4e07e55807",
+      "upright_bounds": [
+        16,
+        16,
+        521,
+        552
+      ],
+      "icon_art_size": [
+        83,
+        88
+      ]
+    },
+    "dr_caballeron": {
+      "name": "Dr. Caballeron",
+      "coat": [
+        0.6392157,
+        0.5764706,
+        0.4862745,
+        1.0
+      ],
+      "rect": [
+        480,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/dr_caballeron.tres",
+      "source": "res://world/characters/background/marks/dr_caballeron.png",
+      "blank": false,
+      "source_sha256": "32203088b64dc7f63bedcf7c48f03e3738c54b7b5619c6a8cd0bf4ee8c438081",
+      "upright_bounds": [
+        16,
+        16,
+        154,
+        178
+      ],
+      "icon_art_size": [
+        75,
+        88
+      ]
+    },
+    "dr_fauna": {
+      "name": "Dr. Fauna",
+      "coat": [
+        0.8980392,
+        0.83137256,
+        0.4,
+        1.0
+      ],
+      "rect": [
+        576,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/dr_fauna.tres",
+      "source": "res://world/characters/background/marks/dr_fauna.png",
+      "blank": false,
+      "source_sha256": "52b613b4f7263fd99cd197a9fdb897ade457ac08b8f78fdb6a73f0c45e71b53c",
+      "upright_bounds": [
+        16,
+        16,
+        79,
+        125
+      ],
+      "icon_art_size": [
+        51,
+        88
+      ]
+    },
+    "drwhooves": {
+      "name": "Dr. Hooves",
+      "coat": [
+        0.7490196,
+        0.6666667,
+        0.47843137,
+        1.0
+      ],
+      "rect": [
+        672,
+        384,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/drwhooves.tres",
+      "source": "res://world/characters/background/marks/drwhooves.png",
+      "blank": false,
+      "source_sha256": "24dc5d1f4f3dc0aeb38268a5259011c3409fcf567163b0c3add50475b4ed3660",
+      "upright_bounds": [
+        16,
+        16,
+        526,
+        860
+      ],
+      "icon_art_size": [
+        53,
+        88
+      ]
+    },
+    "fiddly_twang": {
+      "name": "Fiddly Twang",
+      "coat": [
+        0.9882353,
+        0.98039216,
+        0.6117647,
+        1.0
+      ],
+      "rect": [
+        0,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/fiddly_twang.tres",
+      "source": "res://world/characters/background/marks/fiddly_twang.png",
+      "blank": false,
+      "source_sha256": "dd4302e55ad32e7d4230e74d1c25635aeb5406d10be9d0809c02775679c555f3",
+      "upright_bounds": [
+        16,
+        16,
+        372,
+        528
+      ],
+      "icon_art_size": [
+        61,
+        88
+      ]
+    },
+    "flash_sentry": {
+      "name": "Flash Sentry",
+      "coat": [
+        1.0,
+        0.78431374,
+        0.38039216,
+        1.0
+      ],
+      "rect": [
+        96,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/flash_sentry.tres",
+      "source": "res://world/characters/background/marks/flash_sentry.png",
+      "blank": false,
+      "source_sha256": "3a0c045fbb515805b62719f9e81ace8219aaec3fe1d23480a937f615749b224d",
+      "upright_bounds": [
+        16,
+        16,
+        95,
+        128
+      ],
+      "icon_art_size": [
+        62,
+        88
+      ]
+    },
+    "fleetfoot": {
+      "name": "Fleetfoot",
+      "coat": [
+        0.54509807,
+        0.84705883,
+        0.8745098,
+        1.0
+      ],
+      "rect": [
+        192,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/fleetfoot.tres",
+      "source": "res://world/characters/background/marks/fleetfoot.png",
+      "blank": false,
+      "source_sha256": "89430ef7a364451a09f5018048a3147e6640d1175265c00a4bbdb580fba583a1",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        531
+      ],
+      "icon_art_size": [
+        87,
+        88
+      ]
+    },
+    "flitter": {
+      "name": "Flitter",
+      "coat": [
+        0.8,
+        0.7647059,
+        0.9529412,
+        1.0
+      ],
+      "rect": [
+        288,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/flitter.tres",
+      "source": "res://world/characters/background/marks/flitter.png",
+      "blank": false,
+      "source_sha256": "9d443be5c51942992487c98280786773954a9828f8aa1bef2efc38fa7e757651",
+      "upright_bounds": [
+        16,
+        16,
+        124,
+        149
+      ],
+      "icon_art_size": [
+        71,
+        88
+      ]
+    },
+    "florina_tart": {
+      "name": "Florina Tart",
+      "coat": [
+        0.7647059,
+        0.8666667,
+        0.654902,
+        1.0
+      ],
+      "rect": [
+        384,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/florina_tart.tres",
+      "source": "res://world/characters/background/marks/florina_tart.png",
+      "blank": false,
+      "source_sha256": "6948ff7ad517ee02b6fb789344258c293a33fe593c9f1a43e651ed477093d601",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        528
+      ],
+      "icon_art_size": [
+        88,
+        88
+      ]
+    },
+    "fluttershy": {
+      "name": "Fluttershy",
+      "coat": [
+        0.980392,
+        0.960784,
+        0.670588,
+        1.0
+      ],
+      "rect": [
+        480,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/mane6/fluttershy.tres",
+      "source": "res://world/characters/mane6/marks/fluttershy.png",
+      "blank": false,
+      "source_sha256": "50648891a6f5bf1112b0e4fb6a5bfa117fbda967f1d693c8188022550ae14741",
+      "upright_bounds": [
+        640,
+        185,
+        1729,
+        1296
+      ],
+      "icon_art_size": [
+        86,
+        88
+      ]
+    },
+    "golden_harvest": {
+      "name": "Golden Harvest",
+      "coat": [
+        1.0,
+        1.0,
+        0.6,
+        1.0
+      ],
+      "rect": [
+        576,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/golden_harvest.tres",
+      "source": "res://world/characters/background/marks/golden_harvest.png",
+      "blank": false,
+      "source_sha256": "a66101f473bb6a0cdf94cb34c4eddbd535a4a074538b8e3480dbd6e325873998",
+      "upright_bounds": [
+        16,
+        16,
+        159,
+        190
+      ],
+      "icon_art_size": [
+        72,
+        88
+      ]
+    },
+    "helia": {
+      "name": "Helia",
+      "coat": [
+        0.6,
+        0.8980392,
+        0.91764706,
+        1.0
+      ],
+      "rect": [
+        672,
+        480,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/helia.tres",
+      "source": "res://world/characters/background/marks/helia.png",
+      "blank": false,
+      "source_sha256": "a35ea215c67fbf6fa4ea85b3fa5a7bf374c0c96c8739a58d153297cc40573dd5",
+      "upright_bounds": [
+        16,
+        16,
+        402,
+        398
+      ],
+      "icon_art_size": [
+        88,
+        87
+      ]
+    },
+    "igneous_rock": {
+      "name": "Igneous Rock",
+      "coat": [
+        0.7647059,
+        0.6156863,
+        0.30196077,
+        1.0
+      ],
+      "rect": [
+        96,
+        576,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/igneous_rock.tres",
+      "source": "res://world/characters/background/marks/igneous_rock.png",
+      "blank": false,
+      "source_sha256": "b7a1c265e27842c62411c5e41104abb5a90881256bd1930848f83fd482ad518c",
+      "upright_bounds": [
+        16,
+        16,
+        111,
+        179
+      ],
+      "icon_art_size": [
+        51,
+        88
+      ]
+    },
+    "jackpot": {
+      "name": "Jackpot",
+      "coat": [
+        0.41568628,
+        0.69803923,
+        0.9098039,
+        1.0
+      ],
+      "rect": [
+        192,
+        576,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/jackpot.tres",
+      "source": "res://world/characters/background/marks/jackpot.png",
+      "blank": false,
+      "source_sha256": "fd90578577e50c72e88b6185aef65dd56cf8248d93e91a2d385262862218067e",
+      "upright_bounds": [
+        16,
+        16,
+        205,
+        111
+      ],
+      "icon_art_size": [
+        88,
+        44
+      ]
+    },
+    "janine_manewitz": {
+      "name": "Janine Manewitz",
+      "coat": [
+        0.827451,
+        0.57254905,
+        0.8039216,
+        1.0
+      ],
+      "rect": [
+        288,
+        576,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/janine_manewitz.tres",
+      "source": "res://world/characters/background/marks/janine_manewitz.png",
+      "blank": false,
+      "source_sha256": "e254021deb05184ab83ca8ab5cb5b581210764c7a5195388f73859e0fa1b3b62",
+      "upright_bounds": [
+        16,
+        111,
+        522,
+        401
+      ],
+      "icon_art_size": [
+        88,
+        50
+      ]
+    },
+    "juniper_montage": {
+      "name": "Juniper Montage",
+      "coat": [
+        0.99215686,
+        0.9882353,
+        0.76862746,
+        1.0
+      ],
+      "rect": [
+        384,
+        576,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/juniper_montage.tres",
+      "source": "res://world/characters/background/marks/juniper_montage.png",
+      "blank": false,
+      "source_sha256": "1b0bd62c48bc0ea75ff542127d19d7b89066f23fc2c679e06cfaad6278022bad",
+      "upright_bounds": [
+        16,
+        16,
+        445,
+        528
+      ],
+      "icon_art_size": [
+        74,
+        88
+      ]
+    },
+    "king_sombra": {
+      "name": "King Sombra",
+      "coat": [
+        0.3137255,
+        0.3137255,
+        0.3137255,
+        1.0
+      ],
+      "rect": [
+        480,
+        576,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/king_sombra.tres",
+      "source": "res://world/characters/background/marks/king_sombra.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "lemon_hearts": {
+      "name": "Lemon Hearts",
+      "coat": [
+        0.9843137,
+        0.9882353,
+        0.3882353,
+        1.0
+      ],
+      "rect": [
+        576,
+        576,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lemon_hearts.tres",
+      "source": "res://world/characters/background/marks/lemon_hearts.png",
+      "blank": false,
+      "source_sha256": "1e30cdbce38b004eda9bed847392f5c475ac96c51d410baeedbea69108964e22",
+      "upright_bounds": [
+        16,
+        16,
+        167,
+        176
+      ],
+      "icon_art_size": [
+        83,
+        88
+      ]
+    },
+    "lemony_gem": {
+      "name": "Lemony Gem",
+      "coat": [
+        0.8901961,
+        0.87058824,
+        0.49019608,
+        1.0
+      ],
+      "rect": [
+        672,
+        576,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lemony_gem.tres",
+      "source": "res://world/characters/background/marks/lemony_gem.png",
+      "blank": false,
+      "source_sha256": "17e0e80ee2e9e96faaa75464e0360fc50460ae6a70a6652e13aeb4820ef4e4dc",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        413
+      ],
+      "icon_art_size": [
+        88,
+        68
+      ]
+    },
+    "lighthoof": {
+      "name": "Lighthoof",
+      "coat": [
+        0.8666667,
+        0.98039216,
+        0.99215686,
+        1.0
+      ],
+      "rect": [
+        0,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lighthoof.tres",
+      "source": "res://world/characters/background/marks/lighthoof.png",
+      "blank": false,
+      "source_sha256": "6d1d3e6bc1295854c3df5e079b7f50f15d14be4a542352368ff11c1be742a1df",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        281
+      ],
+      "icon_art_size": [
+        88,
+        46
+      ]
+    },
+    "lightning_dust": {
+      "name": "Lightning Dust",
+      "coat": [
+        0.52941173,
+        0.9098039,
+        0.8352941,
+        1.0
+      ],
+      "rect": [
+        96,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lightning_dust.tres",
+      "source": "res://world/characters/background/marks/lightning_dust.png",
+      "blank": false,
+      "source_sha256": "6b3d3ad47b19e6ef37fd485a2c8881297fe991e5f6d59d872aabbb8451bcf6ac",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        496
+      ],
+      "icon_art_size": [
+        88,
+        83
+      ]
+    },
+    "lilac_links": {
+      "name": "Lilac Links",
+      "coat": [
+        0.7647059,
+        0.59607846,
+        0.8235294,
+        1.0
+      ],
+      "rect": [
+        192,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lilac_links.tres",
+      "source": "res://world/characters/background/marks/lilac_links.png",
+      "blank": false,
+      "source_sha256": "f4def6549acc47bc14ec0b418d4992809e0dc01864a152810c5efc46efde0020",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        483
+      ],
+      "icon_art_size": [
+        88,
+        80
+      ]
+    },
+    "lily_lace": {
+      "name": "Lily Lace",
+      "coat": [
+        0.95686275,
+        0.9764706,
+        0.7254902,
+        1.0
+      ],
+      "rect": [
+        288,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lily_lace.tres",
+      "source": "res://world/characters/background/marks/lily_lace.png",
+      "blank": false,
+      "source_sha256": "e67dbad69501ef86f62bf42facbc9df59c364ca6da7131472a6cf70ac02e2837",
+      "upright_bounds": [
+        16,
+        16,
+        271,
+        473
+      ],
+      "icon_art_size": [
+        49,
+        88
+      ]
+    },
+    "lily_valley": {
+      "name": "Lily Valley",
+      "coat": [
+        0.9490196,
+        0.5882353,
+        0.73333335,
+        1.0
+      ],
+      "rect": [
+        384,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lily_valley.tres",
+      "source": "res://world/characters/background/marks/lily_valley.png",
+      "blank": false,
+      "source_sha256": "5fcbdba5638b7aa12920401952145e52b9e7b3d9af79a7783b31cca6b36220a7",
+      "upright_bounds": [
+        16,
+        16,
+        524,
+        456
+      ],
+      "icon_art_size": [
+        88,
+        76
+      ]
+    },
+    "limestone_pie": {
+      "name": "Limestone Pie",
+      "coat": [
+        0.5803922,
+        0.58431375,
+        0.7254902,
+        1.0
+      ],
+      "rect": [
+        480,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/limestone_pie.tres",
+      "source": "res://world/characters/background/marks/limestone_pie.png",
+      "blank": false,
+      "source_sha256": "81c8979a437ec0e0c9121ef7520412c7916fb18e3d1831b63a7cbbe1994580b4",
+      "upright_bounds": [
+        16,
+        16,
+        504,
+        617
+      ],
+      "icon_art_size": [
+        71,
+        88
+      ]
+    },
+    "lotus_blossom": {
+      "name": "Lotus Blossom",
+      "coat": [
+        0.4862745,
+        0.8392157,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        576,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lotus_blossom.tres",
+      "source": "res://world/characters/background/marks/lotus_blossom.png",
+      "blank": false,
+      "source_sha256": "e936208e174bfee1e620cffdbb7da2037e27aa6e5542c66185fe6a5cee579171",
+      "upright_bounds": [
+        16,
+        101,
+        502,
+        411
+      ],
+      "icon_art_size": [
+        88,
+        56
+      ]
+    },
+    "luna": {
+      "name": "Princess Luna",
+      "coat": [
+        0.13725490196078433,
+        0.17647058823529413,
+        0.42745098039215684,
+        1.0
+      ],
+      "rect": [
+        672,
+        672,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/princesses/luna.tres",
+      "source": null,
+      "blank": true,
+      "source_sha256": "",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "luster_dawn": {
+      "name": "Luster Dawn",
+      "coat": [
+        0.9647059,
+        0.5333333,
+        0.80784315,
+        1.0
+      ],
+      "rect": [
+        0,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/luster_dawn.tres",
+      "source": "res://world/characters/background/marks/luster_dawn.png",
+      "blank": false,
+      "source_sha256": "db0d9ff074c7e844ebc340fadc2a8691d04a4d1d0160a516b4099b7d65103b05",
+      "upright_bounds": [
+        16,
+        16,
+        502,
+        442
+      ],
+      "icon_art_size": [
+        88,
+        77
+      ]
+    },
+    "lyra_heartstrings": {
+      "name": "Lyra Heartstrings",
+      "coat": [
+        0.54901963,
+        1.0,
+        0.85882354,
+        1.0
+      ],
+      "rect": [
+        96,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lyra_heartstrings.tres",
+      "source": "res://world/characters/background/marks/lyra_heartstrings.png",
+      "blank": false,
+      "source_sha256": "4b5ced679a292dbd9f8f095e8be53f9575affbcfd5f7d9d12157816d1fdd88d6",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        789
+      ],
+      "icon_art_size": [
+        58,
+        88
+      ]
+    },
+    "lyrica_lilac": {
+      "name": "Lyrica Lilac",
+      "coat": [
+        0.7921569,
+        0.7058824,
+        0.89411765,
+        1.0
+      ],
+      "rect": [
+        192,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/lyrica_lilac.tres",
+      "source": "res://world/characters/background/marks/lyrica_lilac.png",
+      "blank": false,
+      "source_sha256": "8966f14f4aeab6be1cc0a497c7e235a3e938de8512436bce94e93aff0eeaf350",
+      "upright_bounds": [
+        16,
+        16,
+        453,
+        528
+      ],
+      "icon_art_size": [
+        75,
+        88
+      ]
+    },
+    "maud_pie": {
+      "name": "Maud Pie",
+      "coat": [
+        0.72156864,
+        0.7176471,
+        0.74509805,
+        1.0
+      ],
+      "rect": [
+        288,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/maud_pie.tres",
+      "source": "res://world/characters/background/marks/maud_pie.png",
+      "blank": false,
+      "source_sha256": "02417e4bebb37ac9ca413559264ad0b6a9e3db58fbb3ea8ba44ec276af8f9356",
+      "upright_bounds": [
+        36,
+        28,
+        481,
+        515
+      ],
+      "icon_art_size": [
+        80,
+        88
+      ]
+    },
+    "mayor_mare": {
+      "name": "Mayor Mare",
+      "coat": [
+        0.87058824,
+        0.79607844,
+        0.60784316,
+        1.0
+      ],
+      "rect": [
+        384,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/mayor_mare.tres",
+      "source": "res://world/characters/background/marks/mayor_mare.png",
+      "blank": false,
+      "source_sha256": "5a20e057f0fdd52e4003cd699481bc5363247393c99176090bc7e684afa1d0ae",
+      "upright_bounds": [
+        16,
+        16,
+        214,
+        172
+      ],
+      "icon_art_size": [
+        88,
+        69
+      ]
+    },
+    "meadow_flower": {
+      "name": "Meadow Flower",
+      "coat": [
+        0.9647059,
+        0.73333335,
+        0.8039216,
+        1.0
+      ],
+      "rect": [
+        480,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/meadow_flower.tres",
+      "source": "res://world/characters/background/marks/meadow_flower.png",
+      "blank": false,
+      "source_sha256": "7f2670101cc0c0b55d4769eeb46aa4334ce5225136100eff523a7d67972b251e",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        667
+      ],
+      "icon_art_size": [
+        69,
+        88
+      ]
+    },
+    "merry_may": {
+      "name": "Merry May",
+      "coat": [
+        0.7411765,
+        0.8901961,
+        0.52941173,
+        1.0
+      ],
+      "rect": [
+        576,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/merry_may.tres",
+      "source": "res://world/characters/background/marks/merry_may.png",
+      "blank": false,
+      "source_sha256": "d83d802dd5ca4cea9dcbc59290202ab32581a94e62a1e64bf3672995047ef871",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        428
+      ],
+      "icon_art_size": [
+        88,
+        71
+      ]
+    },
+    "minuette": {
+      "name": "Colgate",
+      "coat": [
+        0.5137255,
+        0.7764706,
+        0.92941177,
+        1.0
+      ],
+      "rect": [
+        672,
+        768,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/minuette.tres",
+      "source": "res://world/characters/background/marks/minuette.png",
+      "blank": false,
+      "source_sha256": "e8882f45972ccbe8c8ef3188f1ad3ac82656252df61014bc086678cb06edfe1b",
+      "upright_bounds": [
+        16,
+        16,
+        526,
+        860
+      ],
+      "icon_art_size": [
+        53,
+        88
+      ]
+    },
+    "misty_fly": {
+      "name": "Misty Fly",
+      "coat": [
+        0.9254902,
+        0.8745098,
+        0.6313726,
+        1.0
+      ],
+      "rect": [
+        0,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/misty_fly.tres",
+      "source": "res://world/characters/background/marks/misty_fly.png",
+      "blank": false,
+      "source_sha256": "2ac759e4c61ab14048a48f0acbd0ea51460a6cd37433e8d55c676a12260756a0",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        346
+      ],
+      "icon_art_size": [
+        88,
+        57
+      ]
+    },
+    "moon_dancer": {
+      "name": "Moon Dancer",
+      "coat": [
+        0.9764706,
+        0.972549,
+        0.827451,
+        1.0
+      ],
+      "rect": [
+        96,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/moon_dancer.tres",
+      "source": "res://world/characters/background/marks/moon_dancer.png",
+      "blank": false,
+      "source_sha256": "384c80db2d56b40b2178edf9e8d2bade2ace285c319d427121e52a7651293939",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        545
+      ],
+      "icon_art_size": [
+        85,
+        88
+      ]
+    },
+    "mrs_shy": {
+      "name": "Mrs. Shy",
+      "coat": [
+        1.0,
+        0.91764706,
+        0.6666667,
+        1.0
+      ],
+      "rect": [
+        192,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/mrs_shy.tres",
+      "source": "res://world/characters/background/marks/mrs_shy.png",
+      "blank": false,
+      "source_sha256": "fb0aa0a8032a6ae84e9525495f979fc1c773a3b7ce2511f6d4296f69ac102d4f",
+      "upright_bounds": [
+        16,
+        16,
+        173,
+        181
+      ],
+      "icon_art_size": [
+        84,
+        88
+      ]
+    },
+    "ms_harshwhinny": {
+      "name": "Ms. Harshwhinny",
+      "coat": [
+        0.8745098,
+        0.57254905,
+        0.30588236,
+        1.0
+      ],
+      "rect": [
+        288,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/ms_harshwhinny.tres",
+      "source": "res://world/characters/background/marks/ms_harshwhinny.png",
+      "blank": false,
+      "source_sha256": "74eaa0450151c8acba20580bc01614b873dc3e3a4b2cb6336d1357d1c27e8d0b",
+      "upright_bounds": [
+        16,
+        16,
+        458,
+        528
+      ],
+      "icon_art_size": [
+        76,
+        88
+      ]
+    },
+    "night_glider": {
+      "name": "Night Glider",
+      "coat": [
+        0.21176471,
+        0.41960785,
+        0.6039216,
+        1.0
+      ],
+      "rect": [
+        384,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/night_glider.tres",
+      "source": "res://world/characters/background/marks/night_glider.png",
+      "blank": false,
+      "source_sha256": "406e29f48b0db2b9e7af95744fe3b5d1760fc152473af2f4643d7d00468b3fc8",
+      "upright_bounds": [
+        30,
+        16,
+        482,
+        519
+      ],
+      "icon_art_size": [
+        79,
+        88
+      ]
+    },
+    "night_light": {
+      "name": "Night Light",
+      "coat": [
+        0.3882353,
+        0.59607846,
+        0.7882353,
+        1.0
+      ],
+      "rect": [
+        480,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/night_light.tres",
+      "source": "res://world/characters/background/marks/night_light.png",
+      "blank": false,
+      "source_sha256": "f8fea6175184d836dddd7a8fa3753ac2afb2a39143b5767a50cbd543466076ce",
+      "upright_bounds": [
+        16,
+        16,
+        184,
+        199
+      ],
+      "icon_art_size": [
+        81,
+        88
+      ]
+    },
+    "noi": {
+      "name": "Noi",
+      "coat": [
+        0.90588236,
+        0.8666667,
+        0.654902,
+        1.0
+      ],
+      "rect": [
+        576,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/noi.tres",
+      "source": "res://world/characters/background/marks/noi.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "noteworthy": {
+      "name": "Noteworthy",
+      "coat": [
+        0.5176471,
+        0.6392157,
+        0.8235294,
+        1.0
+      ],
+      "rect": [
+        672,
+        864,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/noteworthy.tres",
+      "source": "res://world/characters/background/marks/noteworthy.png",
+      "blank": false,
+      "source_sha256": "c8713475420111015dee89838a1c40b57180fb4a4c0579215c9080b86ee3f0b9",
+      "upright_bounds": [
+        16,
+        16,
+        443,
+        528
+      ],
+      "icon_art_size": [
+        73,
+        88
+      ]
+    },
+    "nurse_redheart": {
+      "name": "Nurse Redheart",
+      "coat": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        0,
+        960,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/nurse_redheart.tres",
+      "source": "res://world/characters/background/marks/nurse_redheart.png",
+      "blank": false,
+      "source_sha256": "3b56fa6650e4e8d4addad5648dad19b98dc2d2004d020cd1fcf1a47db37cfce1",
+      "upright_bounds": [
+        16,
+        16,
+        510,
+        511
+      ],
+      "icon_art_size": [
+        88,
+        88
+      ]
+    },
+    "octavia_melody": {
+      "name": "Octavia Melody",
+      "coat": [
+        0.7294118,
+        0.72156864,
+        0.6862745,
+        1.0
+      ],
+      "rect": [
+        96,
+        960,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/octavia_melody.tres",
+      "source": "res://world/characters/background/marks/octavia_melody.png",
+      "blank": false,
+      "source_sha256": "0c55bb15a802d0edba8c511cc83ede0403a342b6a3190c36489556cf12fd04ca",
+      "upright_bounds": [
+        16,
+        16,
+        498,
+        807
+      ],
+      "icon_art_size": [
+        54,
+        88
+      ]
+    },
+    "orange_swirl": {
+      "name": "Orange Swirl",
+      "coat": [
+        0.9647059,
+        0.88235295,
+        0.6156863,
+        1.0
+      ],
+      "rect": [
+        192,
+        960,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/orange_swirl.tres",
+      "source": "res://world/characters/background/marks/orange_swirl.png",
+      "blank": false,
+      "source_sha256": "c3a0482be8870ce64ab5ed9bafc6cfe3e488daaaa192bf806f02ed040613598e",
+      "upright_bounds": [
+        46,
+        16,
+        458,
+        514
+      ],
+      "icon_art_size": [
+        73,
+        88
+      ]
+    },
+    "party_favor": {
+      "name": "Party Favor",
+      "coat": [
+        0.7607843,
+        0.91764706,
+        0.9254902,
+        1.0
+      ],
+      "rect": [
+        288,
+        960,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/party_favor.tres",
+      "source": "res://world/characters/background/marks/party_favor.png",
+      "blank": false,
+      "source_sha256": "24b46930c973e45455e91b0c497c9f301060be1398747e87999745d344af1ae6",
+      "upright_bounds": [
+        16,
+        16,
+        160,
+        200
+      ],
+      "icon_art_size": [
+        69,
+        88
+      ]
+    },
+    "peachy_sweet": {
+      "name": "Peachy Sweet",
+      "coat": [
+        0.84705883,
+        0.9647059,
+        0.5568628,
+        1.0
+      ],
+      "rect": [
+        384,
+        960,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/peachy_sweet.tres",
+      "source": "res://world/characters/background/marks/peachy_sweet.png",
+      "blank": false,
+      "source_sha256": "9f6aa7ba8b25abedc4d382e6a37cdf8f0de73af5ac4d312ede36793b8828c97a",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        217
+      ],
+      "icon_art_size": [
+        88,
+        35
+      ]
+    },
+    "perfect_pie": {
+      "name": "Perfect Pie",
+      "coat": [
+        0.9882353,
+        0.7647059,
+        0.3529412,
+        1.0
+      ],
+      "rect": [
+        576,
+        960,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/perfect_pie.tres",
+      "source": "res://world/characters/background/marks/perfect_pie.png",
+      "blank": false,
+      "source_sha256": "b413e99a662e7675a4f3b8235e325b5ec4a01e098d130fe9740b92afc6ab3b03",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        263
+      ],
+      "icon_art_size": [
+        88,
+        42
+      ]
+    },
+    "photo_finish": {
+      "name": "Photo Finish",
+      "coat": [
+        0.7294118,
+        0.92156863,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        672,
+        960,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/photo_finish.tres",
+      "source": "res://world/characters/background/marks/photo_finish.png",
+      "blank": false,
+      "source_sha256": "1e001c41af5f172de5cac77ab2101d0f32fe9090d20ccd0d4a117c1ab008e028",
+      "upright_bounds": [
+        16,
+        16,
+        164,
+        204
+      ],
+      "icon_art_size": [
+        69,
+        88
+      ]
+    },
+    "pinkie_pie": {
+      "name": "Pinkie Pie",
+      "coat": [
+        0.960784,
+        0.717647,
+        0.815686,
+        1.0
+      ],
+      "rect": [
+        0,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/mane6/pinkie_pie.tres",
+      "source": "res://world/characters/mane6/marks/pinkie_pie.png",
+      "blank": false,
+      "source_sha256": "2c0ec5a998040b0802627a1b276fad9d9a1fffd247b3d9595d4fc0538dcabd97",
+      "upright_bounds": [
+        854,
+        186,
+        1514,
+        1295
+      ],
+      "icon_art_size": [
+        52,
+        88
+      ]
+    },
+    "pinny_lane": {
+      "name": "Pinny Lane",
+      "coat": [
+        0.9764706,
+        0.99215686,
+        0.84705883,
+        1.0
+      ],
+      "rect": [
+        96,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/pinny_lane.tres",
+      "source": "res://world/characters/background/marks/pinny_lane.png",
+      "blank": false,
+      "source_sha256": "b982a381e3ff9c3ed3731e458c4bf31ac44ece945164755f1b4bcebdd85a9432",
+      "upright_bounds": [
+        16,
+        16,
+        446,
+        528
+      ],
+      "icon_art_size": [
+        74,
+        88
+      ]
+    },
+    "pokey_pierce": {
+      "name": "Pokey Pierce",
+      "coat": [
+        0.39215687,
+        0.5882353,
+        0.7921569,
+        1.0
+      ],
+      "rect": [
+        192,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/pokey_pierce.tres",
+      "source": "res://world/characters/background/marks/pokey_pierce.png",
+      "blank": false,
+      "source_sha256": "3995fb60cef67b73c3ecb98f47e1ce38052567904480dfe567eb2d14db6013c4",
+      "upright_bounds": [
+        16,
+        16,
+        108,
+        199
+      ],
+      "icon_art_size": [
+        44,
+        88
+      ]
+    },
+    "prim_hemline": {
+      "name": "Prim Hemline",
+      "coat": [
+        0.58431375,
+        0.5803922,
+        0.6,
+        1.0
+      ],
+      "rect": [
+        288,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/prim_hemline.tres",
+      "source": "res://world/characters/background/marks/prim_hemline.png",
+      "blank": false,
+      "source_sha256": "64cccc106590d5e31c3371e5d132344f2f5b56e70460340c8fc8c234b8885f74",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        495
+      ],
+      "icon_art_size": [
+        88,
+        82
+      ]
+    },
+    "prince_blueblood": {
+      "name": "Prince Blueblood",
+      "coat": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        384,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/prince_blueblood.tres",
+      "source": "res://world/characters/background/marks/prince_blueblood.png",
+      "blank": false,
+      "source_sha256": "03dba33b9bf5cf605088eebf995c98fe40f981e40951f649b24e01109e034a90",
+      "upright_bounds": [
+        16,
+        16,
+        175,
+        175
+      ],
+      "icon_art_size": [
+        88,
+        88
+      ]
+    },
+    "rainbow_dash": {
+      "name": "Rainbow Dash",
+      "coat": [
+        0.607843,
+        0.858824,
+        0.960784,
+        1.0
+      ],
+      "rect": [
+        480,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/hybrid_mare/rainbow_dash.tres",
+      "source": "res://world/characters/hybrid_mare/body_rainbow_dash_RD_CutieMark.png",
+      "blank": false,
+      "source_sha256": "4ea0302d32047692fb6eaef3f610683690a0a6ad3d5e666276455a1f96abc0e2",
+      "upright_bounds": [
+        92,
+        140,
+        2280,
+        1344
+      ],
+      "icon_art_size": [
+        88,
+        48
+      ]
+    },
+    "rainbowshine": {
+      "name": "Rainbowshine",
+      "coat": [
+        0.64705884,
+        0.627451,
+        0.93333334,
+        1.0
+      ],
+      "rect": [
+        576,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/rainbowshine.tres",
+      "source": "res://world/characters/background/marks/rainbowshine.png",
+      "blank": false,
+      "source_sha256": "bf80489b6a9b189aab6d5cade376e03d7144688ae5ba4b9db66ea142745cb251",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        329
+      ],
+      "icon_art_size": [
+        88,
+        54
+      ]
+    },
+    "rarity": {
+      "name": "Rarity",
+      "coat": [
+        0.917647,
+        0.933333,
+        0.941176,
+        1.0
+      ],
+      "rect": [
+        672,
+        1056,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/mane6/rarity.tres",
+      "source": "res://world/characters/mane6/marks/rarity.png",
+      "blank": false,
+      "source_sha256": "9f4acd37839dde72e4e3a5437948b25b8807097a0fbaf8aaea6c1452d504a14f",
+      "upright_bounds": [
+        897,
+        186,
+        1473,
+        1296
+      ],
+      "icon_art_size": [
+        46,
+        88
+      ]
+    },
+    "raven_inkwell": {
+      "name": "Raven Inkwell",
+      "coat": [
+        0.96862745,
+        0.96862745,
+        0.96862745,
+        1.0
+      ],
+      "rect": [
+        0,
+        1152,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/raven_inkwell.tres",
+      "source": "res://world/characters/background/marks/raven_inkwell.png",
+      "blank": false,
+      "source_sha256": "e148682bfca0b128e368a958ca136d1f333ae344a899af0b177f4bee197fc076",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        752
+      ],
+      "icon_art_size": [
+        61,
+        88
+      ]
+    },
+    "red_gala": {
+      "name": "Red Gala",
+      "coat": [
+        0.9843137,
+        0.85490197,
+        0.8784314,
+        1.0
+      ],
+      "rect": [
+        96,
+        1152,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/red_gala.tres",
+      "source": "res://world/characters/background/marks/red_gala.png",
+      "blank": false,
+      "source_sha256": "955565ca64eb5e6d820c11b25c26be560818d943b9ad2d2ab04e6a032d435cd2",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        411
+      ],
+      "icon_art_size": [
+        88,
+        68
+      ]
+    },
+    "roseluck": {
+      "name": "Roseluck",
+      "coat": [
+        1.0,
+        0.9843137,
+        0.827451,
+        1.0
+      ],
+      "rect": [
+        192,
+        1152,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/roseluck.tres",
+      "source": "res://world/characters/background/marks/roseluck.png",
+      "blank": false,
+      "source_sha256": "bf9d59154092efef6b9f5c5efcca20c87461f9fc898134778fb1095aa35f7dcb",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        580
+      ],
+      "icon_art_size": [
+        80,
+        88
+      ]
+    },
+    "royal_ribbon": {
+      "name": "Royal Ribbon",
+      "coat": [
+        1.0,
+        0.50196075,
+        0.8235294,
+        1.0
+      ],
+      "rect": [
+        288,
+        1152,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/royal_ribbon.tres",
+      "source": "res://world/characters/background/marks/royal_ribbon.png",
+      "blank": false,
+      "source_sha256": "3c8bac6e6d42914747738b3443c98b4b24a97ec27cedacb52d4750c1686739dc",
+      "upright_bounds": [
+        16,
+        16,
+        390,
+        528
+      ],
+      "icon_art_size": [
+        64,
+        88
+      ]
+    },
+    "ruby_pinch": {
+      "name": "Ruby Pinch",
+      "coat": [
+        0.9098039,
+        0.6392157,
+        0.77254903,
+        1.0
+      ],
+      "rect": [
+        384,
+        1152,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/ruby_pinch.tres",
+      "source": "res://world/characters/background/marks/ruby_pinch.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "saffron_masala": {
+      "name": "Saffron Masala",
+      "coat": [
+        0.9490196,
+        0.63529414,
+        0.34901962,
+        1.0
+      ],
+      "rect": [
+        480,
+        1152,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/saffron_masala.tres",
+      "source": "res://world/characters/background/marks/saffron_masala.png",
+      "blank": false,
+      "source_sha256": "7bddb6e354b9040e75583ea77f64f56366b20f232be9a1c1271ce4d9407648e0",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        587
+      ],
+      "icon_art_size": [
+        79,
+        88
+      ]
+    },
+    "sassaflash": {
+      "name": "Sassaflash",
+      "coat": [
+        0.69411767,
+        0.8784314,
+        0.90588236,
+        1.0
+      ],
+      "rect": [
+        672,
+        1152,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sassaflash.tres",
+      "source": "res://world/characters/background/marks/sassaflash.png",
+      "blank": false,
+      "source_sha256": "ff1f53572de5054f3d2f745de86d4b6302386c130586f69e268a9bf50ffa5a5f",
+      "upright_bounds": [
+        16,
+        16,
+        364,
+        490
+      ],
+      "icon_art_size": [
+        65,
+        88
+      ]
+    },
+    "scootaloo": {
+      "name": "Scootaloo",
+      "coat": [
+        0.9764706,
+        0.7176471,
+        0.39215687,
+        1.0
+      ],
+      "rect": [
+        0,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/scootaloo.tres",
+      "source": "res://world/characters/background/marks/scootaloo.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "sea_swirl": {
+      "name": "Sea Swirl",
+      "coat": [
+        0.9490196,
+        0.7411765,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        96,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sea_swirl.tres",
+      "source": "res://world/characters/background/marks/sea_swirl.png",
+      "blank": false,
+      "source_sha256": "f1114fc879a532a0d11a99bfea6aea85ee18ac1fe2eafbcb8984352db93ac66b",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        479
+      ],
+      "icon_art_size": [
+        88,
+        80
+      ]
+    },
+    "shimmy_shake": {
+      "name": "Shimmy Shake",
+      "coat": [
+        0.9647059,
+        0.90588236,
+        0.7137255,
+        1.0
+      ],
+      "rect": [
+        192,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/shimmy_shake.tres",
+      "source": "res://world/characters/background/marks/shimmy_shake.png",
+      "blank": false,
+      "source_sha256": "6d1d3e6bc1295854c3df5e079b7f50f15d14be4a542352368ff11c1be742a1df",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        281
+      ],
+      "icon_art_size": [
+        88,
+        46
+      ]
+    },
+    "shining_armor": {
+      "name": "Shining Armor",
+      "coat": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rect": [
+        288,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/shining_armor.tres",
+      "source": "res://world/characters/background/marks/shining_armor.png",
+      "blank": false,
+      "source_sha256": "a127e60c5172a1451d9eeb39aaf8d202a1ce5c32566af53491f1f2e2653ca54e",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        980
+      ],
+      "icon_art_size": [
+        47,
+        88
+      ]
+    },
+    "shoeshine": {
+      "name": "Linky (Shoeshine)",
+      "coat": [
+        0.57254905,
+        0.84313726,
+        0.9647059,
+        1.0
+      ],
+      "rect": [
+        384,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/shoeshine.tres",
+      "source": "res://world/characters/background/marks/shoeshine.png",
+      "blank": false,
+      "source_sha256": "f4def6549acc47bc14ec0b418d4992809e0dc01864a152810c5efc46efde0020",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        483
+      ],
+      "icon_art_size": [
+        88,
+        80
+      ]
+    },
+    "silver_spanner": {
+      "name": "Silver Spanner",
+      "coat": [
+        0.7529412,
+        0.50196075,
+        0.34901962,
+        1.0
+      ],
+      "rect": [
+        480,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/silver_spanner.tres",
+      "source": "res://world/characters/background/marks/silver_spanner.png",
+      "blank": false,
+      "source_sha256": "f5ae1e05677aa756d22a61b11e293c663fdcce22e7e8f36806fcefa8f7851945",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        427
+      ],
+      "icon_art_size": [
+        88,
+        71
+      ]
+    },
+    "silver_spoon": {
+      "name": "Silver Spoon",
+      "coat": [
+        0.67058825,
+        0.72156864,
+        0.75686276,
+        1.0
+      ],
+      "rect": [
+        576,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/silver_spoon.tres",
+      "source": "res://world/characters/background/marks/silver_spoon.png",
+      "blank": false,
+      "source_sha256": "429036a64d5bb9a953ef3456f76fe48f588ff482e06ba60e0d18c2eff4505839",
+      "upright_bounds": [
+        17,
+        33,
+        495,
+        1114
+      ],
+      "icon_art_size": [
+        39,
+        88
+      ]
+    },
+    "soarin": {
+      "name": "Soarin",
+      "coat": [
+        0.84705883,
+        0.9019608,
+        0.9607843,
+        1.0
+      ],
+      "rect": [
+        672,
+        1248,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/soarin.tres",
+      "source": "res://world/characters/background/marks/soarin.png",
+      "blank": false,
+      "source_sha256": "4c35e94aaec47db92a729592709e0155352bcdb7cdd0519f195e8cdcf9110e74",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        451
+      ],
+      "icon_art_size": [
+        88,
+        75
+      ]
+    },
+    "somnambula": {
+      "name": "Somnambula",
+      "coat": [
+        0.9529412,
+        0.6039216,
+        0.5098039,
+        1.0
+      ],
+      "rect": [
+        0,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/somnambula.tres",
+      "source": "res://world/characters/background/marks/somnambula.png",
+      "blank": false,
+      "source_sha256": "81915810d302e21fc6a64d118bc3d7cc77ecd3b0c51841ed6777823c37d351b9",
+      "upright_bounds": [
+        16,
+        16,
+        206,
+        237
+      ],
+      "icon_art_size": [
+        76,
+        88
+      ]
+    },
+    "spitfire": {
+      "name": "Spitfire",
+      "coat": [
+        0.972549,
+        0.91764706,
+        0.38431373,
+        1.0
+      ],
+      "rect": [
+        96,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/spitfire.tres",
+      "source": "res://world/characters/background/marks/spitfire.png",
+      "blank": false,
+      "source_sha256": "b54d8f7e46d3d1779951244b63ebe98f23b9719e5ad6caa64fa78c7e26646941",
+      "upright_bounds": [
+        16,
+        16,
+        504,
+        674
+      ],
+      "icon_art_size": [
+        65,
+        88
+      ]
+    },
+    "sprinkle_medley": {
+      "name": "Sprinkle Medley",
+      "coat": [
+        0.6784314,
+        0.92156863,
+        0.9137255,
+        1.0
+      ],
+      "rect": [
+        192,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sprinkle_medley.tres",
+      "source": "res://world/characters/background/marks/sprinkle_medley.png",
+      "blank": false,
+      "source_sha256": "c171714acfbc7add9e78c46e25df45d3080fcd3098bf323b31f4aa6372d66657",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        540
+      ],
+      "icon_art_size": [
+        86,
+        88
+      ]
+    },
+    "starlight_glimmer": {
+      "name": "Starlight Glimmer",
+      "coat": [
+        0.9490196,
+        0.78039217,
+        0.972549,
+        1.0
+      ],
+      "rect": [
+        288,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/starlight_glimmer.tres",
+      "source": "res://world/characters/background/marks/starlight_glimmer.png",
+      "blank": false,
+      "source_sha256": "98c03b0bade0e1f6ddb51af8db7d7f11bbf659e81dcc640899f1cfc712229957",
+      "upright_bounds": [
+        24,
+        18,
+        492,
+        1098
+      ],
+      "icon_art_size": [
+        38,
+        88
+      ]
+    },
+    "stellar_flare": {
+      "name": "Stellar Flare",
+      "coat": [
+        0.89411765,
+        0.54901963,
+        0.24705882,
+        1.0
+      ],
+      "rect": [
+        384,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/stellar_flare.tres",
+      "source": "res://world/characters/background/marks/stellar_flare.png",
+      "blank": false,
+      "source_sha256": "1d1ae3fade324e853d57c34c923af608eedf667f070af20985ca58e5f24312b1",
+      "upright_bounds": [
+        16,
+        16,
+        509,
+        504
+      ],
+      "icon_art_size": [
+        88,
+        87
+      ]
+    },
+    "strawberry_sunrise": {
+      "name": "Strawberry Sunrise",
+      "coat": [
+        0.99607843,
+        0.95686275,
+        0.5254902,
+        1.0
+      ],
+      "rect": [
+        480,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/strawberry_sunrise.tres",
+      "source": "res://world/characters/background/marks/strawberry_sunrise.png",
+      "blank": false,
+      "source_sha256": "f837e302ec9af072e2e8f2cd434c36ef82a7f4b76537deb7c077976d44ad3f92",
+      "upright_bounds": [
+        19,
+        16,
+        498,
+        667
+      ],
+      "icon_art_size": [
+        65,
+        88
+      ]
+    },
+    "sugar_belle": {
+      "name": "Sugar Belle",
+      "coat": [
+        1.0,
+        0.7372549,
+        0.8666667,
+        1.0
+      ],
+      "rect": [
+        576,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sugar_belle.tres",
+      "source": "res://world/characters/background/marks/sugar_belle.png",
+      "blank": false,
+      "source_sha256": "20bbb03f234658407dba0912a6c31423f8570da380b18abbdfef4b2f3d7e24ab",
+      "upright_bounds": [
+        16,
+        16,
+        187,
+        176
+      ],
+      "icon_art_size": [
+        88,
+        82
+      ]
+    },
+    "sunburst": {
+      "name": "Sunburst",
+      "coat": [
+        0.99607843,
+        0.7372549,
+        0.25098038,
+        1.0
+      ],
+      "rect": [
+        672,
+        1344,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sunburst.tres",
+      "source": "res://world/characters/background/marks/sunburst.png",
+      "blank": false,
+      "source_sha256": "2130a19ffdf40d25ccad70b678f824894dbb7a04de66f205c1fd98f069d9a662",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        540
+      ],
+      "icon_art_size": [
+        86,
+        88
+      ]
+    },
+    "sunny_rays": {
+      "name": "Sunny Rays",
+      "coat": [
+        1.0,
+        0.8784314,
+        0.52156866,
+        1.0
+      ],
+      "rect": [
+        0,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sunny_rays.tres",
+      "source": "res://world/characters/background/marks/sunny_rays.png",
+      "blank": false,
+      "source_sha256": "d83d802dd5ca4cea9dcbc59290202ab32581a94e62a1e64bf3672995047ef871",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        428
+      ],
+      "icon_art_size": [
+        88,
+        71
+      ]
+    },
+    "sunset_shimmer": {
+      "name": "Sunset Shimmer",
+      "coat": [
+        1.0,
+        0.7921569,
+        0.32941177,
+        1.0
+      ],
+      "rect": [
+        96,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sunset_shimmer.tres",
+      "source": "res://world/characters/background/marks/sunset_shimmer.png",
+      "blank": false,
+      "source_sha256": "0a268e7334bff0e5dcfb653d9d76b5026aaf21312185c6b1e08f7363b757e92a",
+      "upright_bounds": [
+        16,
+        16,
+        517,
+        615
+      ],
+      "icon_art_size": [
+        74,
+        88
+      ]
+    },
+    "sunshower": {
+      "name": "Sunshower",
+      "coat": [
+        0.972549,
+        0.98039216,
+        0.6784314,
+        1.0
+      ],
+      "rect": [
+        192,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sunshower.tres",
+      "source": "res://world/characters/background/marks/sunshower.png",
+      "blank": false,
+      "source_sha256": "dcfb3d4fa9dba82ab444ddfd99611273f88649abfcbdac98202ed81977ba0e5a",
+      "upright_bounds": [
+        16,
+        16,
+        375,
+        451
+      ],
+      "icon_art_size": [
+        73,
+        88
+      ]
+    },
+    "sunshower_raindrops": {
+      "name": "Sunshower Raindrops",
+      "coat": [
+        1.0,
+        0.8980392,
+        0.5333333,
+        1.0
+      ],
+      "rect": [
+        288,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sunshower_raindrops.tres",
+      "source": "res://world/characters/background/marks/sunshower_raindrops.png",
+      "blank": false,
+      "source_sha256": "678c3c66ae243f548b75b1b8b3666f721875c12dd1aec72cc12b80e45c020227",
+      "upright_bounds": [
+        81,
+        16,
+        430,
+        520
+      ],
+      "icon_art_size": [
+        61,
+        88
+      ]
+    },
+    "suri_polomare": {
+      "name": "Suri Polomare",
+      "coat": [
+        1.0,
+        0.81960785,
+        0.98039216,
+        1.0
+      ],
+      "rect": [
+        384,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/suri_polomare.tres",
+      "source": "res://world/characters/background/marks/suri_polomare.png",
+      "blank": false,
+      "source_sha256": "7ea9c25464c6696f27a28886ee1bf3b1b1dbf872de5a56a5ea2b73a3f8b2ac73",
+      "upright_bounds": [
+        16,
+        16,
+        495,
+        528
+      ],
+      "icon_art_size": [
+        82,
+        88
+      ]
+    },
+    "surprise": {
+      "name": "Surprise",
+      "coat": [
+        1.0,
+        0.98039216,
+        0.9490196,
+        1.0
+      ],
+      "rect": [
+        480,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/surprise.tres",
+      "source": "res://world/characters/background/marks/surprise.png",
+      "blank": false,
+      "source_sha256": "08cd0f135fb9d598f0bf2784ad8dc4339cf6f62b92ab3fd85228eb58ab87d074",
+      "upright_bounds": [
+        16,
+        16,
+        117,
+        188
+      ],
+      "icon_art_size": [
+        52,
+        88
+      ]
+    },
+    "sweetie_belle": {
+      "name": "Sweetie Belle",
+      "coat": [
+        0.9372549,
+        0.92941177,
+        0.92941177,
+        1.0
+      ],
+      "rect": [
+        576,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sweetie_belle.tres",
+      "source": "res://world/characters/background/marks/sweetie_belle.png",
+      "blank": true,
+      "source_sha256": "b0775cba09eadf2fde241b35daa28cdcd03af6d23e99e0decd32b42f13f6d220",
+      "upright_bounds": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "icon_art_size": [
+        1,
+        1
+      ]
+    },
+    "sweetie_drops": {
+      "name": "Bon Bon",
+      "coat": [
+        0.96862745,
+        0.9843137,
+        0.8117647,
+        1.0
+      ],
+      "rect": [
+        672,
+        1440,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/sweetie_drops.tres",
+      "source": "res://world/characters/background/marks/sweetie_drops.png",
+      "blank": false,
+      "source_sha256": "2cfb86045df2950bfea384827b433ff9e4ebd94c5ec7f0659ad60a6ce5e89653",
+      "upright_bounds": [
+        16,
+        16,
+        502,
+        500
+      ],
+      "icon_art_size": [
+        88,
+        88
+      ]
+    },
+    "tempest_shadow": {
+      "name": "Tempest Shadow",
+      "coat": [
+        0.32941177,
+        0.12941176,
+        0.30588236,
+        1.0
+      ],
+      "rect": [
+        0,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/tempest_shadow.tres",
+      "source": "res://world/characters/background/marks/tempest_shadow.png",
+      "blank": false,
+      "source_sha256": "052c277aaafbd558c14ccd60b376941950f04709a5ac84a15679ec83b79231d8",
+      "upright_bounds": [
+        16,
+        16,
+        348,
+        307
+      ],
+      "icon_art_size": [
+        88,
+        77
+      ]
+    },
+    "thunderlane": {
+      "name": "Thunderlane",
+      "coat": [
+        0.33333334,
+        0.33333334,
+        0.33333334,
+        1.0
+      ],
+      "rect": [
+        96,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/thunderlane.tres",
+      "source": "res://world/characters/background/marks/thunderlane.png",
+      "blank": false,
+      "source_sha256": "ee81420d56b231da07861f8e5f09853227f28f245a2cd71ccc551b62edd74b10",
+      "upright_bounds": [
+        16,
+        23,
+        502,
+        509
+      ],
+      "icon_art_size": [
+        88,
+        88
+      ]
+    },
+    "trixie": {
+      "name": "Trixie Lulamoon",
+      "coat": [
+        0.42352942,
+        0.69803923,
+        0.91764706,
+        1.0
+      ],
+      "rect": [
+        192,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/trixie.tres",
+      "source": "res://world/characters/background/marks/trixie.png",
+      "blank": false,
+      "source_sha256": "b6433bdca001378a38d92333cb9b40057f4058b78859acdca2c8a5733b77df3e",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        543
+      ],
+      "icon_art_size": [
+        85,
+        88
+      ]
+    },
+    "twilight_sparkle": {
+      "name": "Twilight Sparkle",
+      "coat": [
+        0.8,
+        0.611765,
+        0.87451,
+        1.0
+      ],
+      "rect": [
+        288,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/mane6/twilight_sparkle.tres",
+      "source": "res://world/characters/mane6/marks/twilight_sparkle.png",
+      "blank": false,
+      "source_sha256": "a0dde17434c4e8bba9e56f4c08403d3bd21cec9dec88ff29ad1726347bb2df68",
+      "upright_bounds": [
+        755,
+        189,
+        1615,
+        1293
+      ],
+      "icon_art_size": [
+        69,
+        88
+      ]
+    },
+    "twilight_velvet": {
+      "name": "Twilight Velvet",
+      "coat": [
+        0.8627451,
+        0.8627451,
+        0.8627451,
+        1.0
+      ],
+      "rect": [
+        384,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/twilight_velvet.tres",
+      "source": "res://world/characters/background/marks/twilight_velvet.png",
+      "blank": false,
+      "source_sha256": "66ffc69da8e125af89817c42427ec07f779b9ff8638b7a8a80f8fa3cf530d159",
+      "upright_bounds": [
+        16,
+        16,
+        522,
+        494
+      ],
+      "icon_art_size": [
+        88,
+        83
+      ]
+    },
+    "twinkleshine": {
+      "name": "Twinkleshine",
+      "coat": [
+        0.9764706,
+        0.98039216,
+        0.92941177,
+        1.0
+      ],
+      "rect": [
+        480,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/twinkleshine.tres",
+      "source": "res://world/characters/background/marks/twinkleshine.png",
+      "blank": false,
+      "source_sha256": "e17490de36254bd78ad7f7ee978e490748e0c6a633f01e908ecdaac77202cf1c",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        524
+      ],
+      "icon_art_size": [
+        88,
+        87
+      ]
+    },
+    "twist": {
+      "name": "Twist",
+      "coat": [
+        0.99215686,
+        0.9647059,
+        0.90588236,
+        1.0
+      ],
+      "rect": [
+        576,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/twist.tres",
+      "source": "res://world/characters/background/marks/twist.png",
+      "blank": false,
+      "source_sha256": "268f2cf657aa7b3383dd2fa13d6d67ca1a690d10d06f38ac5eaa2346cee39047",
+      "upright_bounds": [
+        16,
+        16,
+        401,
+        528
+      ],
+      "icon_art_size": [
+        66,
+        88
+      ]
+    },
+    "vapor_trail": {
+      "name": "Vapor Trail",
+      "coat": [
+        0.95686275,
+        0.98039216,
+        0.9372549,
+        1.0
+      ],
+      "rect": [
+        672,
+        1536,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/vapor_trail.tres",
+      "source": "res://world/characters/background/marks/vapor_trail.png",
+      "blank": false,
+      "source_sha256": "45844725e76e211fb20694a4d3ce65021f835fddcf49b30fc934f658f0da1b56",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        795
+      ],
+      "icon_art_size": [
+        58,
+        88
+      ]
+    },
+    "vinyl_scratch": {
+      "name": "Vinyl Scratch",
+      "coat": [
+        1.0,
+        1.0,
+        0.8862745,
+        1.0
+      ],
+      "rect": [
+        0,
+        1632,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/vinyl_scratch.tres",
+      "source": "res://world/characters/background/marks/vinyl_scratch.png",
+      "blank": false,
+      "source_sha256": "e1f3f9b5bed8244130a7b92fd9887e873717b92a2624ca255ea7973b8994afa1",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        760
+      ],
+      "icon_art_size": [
+        61,
+        88
+      ]
+    },
+    "white_lightning": {
+      "name": "White Lightning",
+      "coat": [
+        0.9843137,
+        0.9882353,
+        0.99607843,
+        1.0
+      ],
+      "rect": [
+        96,
+        1632,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/white_lightning.tres",
+      "source": "res://world/characters/background/marks/white_lightning.png",
+      "blank": false,
+      "source_sha256": "b1d32a2f5949fc19c8e464ced7a894b7949746de851a8401e565ae1dbfc046f3",
+      "upright_bounds": [
+        16,
+        16,
+        469,
+        528
+      ],
+      "icon_art_size": [
+        78,
+        88
+      ]
+    },
+    "wild_fire": {
+      "name": "Wild Fire",
+      "coat": [
+        0.9764706,
+        0.9254902,
+        0.7411765,
+        1.0
+      ],
+      "rect": [
+        192,
+        1632,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/wild_fire.tres",
+      "source": "res://world/characters/background/marks/wild_fire.png",
+      "blank": false,
+      "source_sha256": "579e32173f03a7919a84b7370071d2587a8cae8dbd23a0039d0a582ba965bb86",
+      "upright_bounds": [
+        16,
+        16,
+        317,
+        464
+      ],
+      "icon_art_size": [
+        59,
+        88
+      ]
+    },
+    "windy_whistles": {
+      "name": "Windy Whistles",
+      "coat": [
+        0.6745098,
+        0.8627451,
+        0.9647059,
+        1.0
+      ],
+      "rect": [
+        288,
+        1632,
+        96,
+        96
+      ],
+      "identity": "res://world/characters/background/windy_whistles.tres",
+      "source": "res://world/characters/background/marks/windy_whistles.png",
+      "blank": false,
+      "source_sha256": "5ca5c8f34024a57d5efbb98fdd555cbceb8b9ff4309bc563d4a8ca6fd262de34",
+      "upright_bounds": [
+        16,
+        16,
+        528,
+        310
+      ],
+      "icon_art_size": [
+        88,
+        51
+      ]
+    }
+  }
+}

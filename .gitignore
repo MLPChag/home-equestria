@@ -1,0 +1,149 @@
+# Godot
+.godot/
+/android/
+export_presets.cfg
+*.translation
+
+# Build output
+/build/
+/dist/
+
+# Converted source assets — huge, locally reproducible via tools/convert_zone.sh.
+# NEVER commit ripped assets. See TECH.md.
+/world/zones/**/*.glb
+/world/zones/**/*.gltf
+/world/zones/**/*.bin
+/world/zones/**/*.png
+/world/zones/**/*.jpg
+/world/zones/**/*.res
+/world/zones/**/*.scn
+# Import sidecars are regenerated for assets that are themselves ignored.
+/world/zones/**/*.import
+# Extracted heightmaps (4–17 MB each); rebuilt by tools/extract_terrain.py. The two Ponydale
+# .f32 files already in history stay until dev asks for a git rm --cached.
+/world/zones/**/*.f32
+# Terrain3D region data and generator tiles: rebuilt from world_layout.json + overrides.
+/world/terrain/data/
+/world/terrain/gen/
+/world/terrain/gen_mesh_fit/
+/world/biomes/generated/
+/world/foliage/assets/
+/world/foliage/grassy_fields/
+
+# Python env for the asset tools (recreate: python3 -m venv .venv &&
+# .venv/bin/pip install numpy UnityPy)
+/.venv/
+
+# Harness output
+/captures/
+/logs/
+*.log
+
+# Python bytecode from the asset tools
+__pycache__/
+
+# Raw GMod workshop archive and Source extract for the Anon body. Reproducible
+# with tools/fetch_anon.sh + tools/convert_anon.py; only the converted glb is kept.
+/world/characters/anon/anon.gma
+/world/characters/anon/source_extract/
+
+# Raw sound archives; converted clips live beside them
+/world/audio/src/
+
+# OpenPony devkit exports (local-only, see AGENTS.md "OpenPony port")
+/world/characters/openpony/*.glb
+/world/characters/openpony/*.glb.import
+/world/characters/openpony/lashes.png
+/world/characters/openpony/lashes.png.import
+/world/characters/openpony/lashes_cached.png
+/world/characters/openpony/lashes_cached.png.import
+/world/characters/openpony/deform_bones.txt
+
+# Local-only native/OpenPony hybrid derivatives.
+/world/characters/hybrid_mare/*.glb
+/world/characters/hybrid_mare/*.glb.import
+/world/characters/hybrid_mare/neck_build.json
+# AI voice loop: provider key lives here
+/ai_config.json
+/world/zones/**/*.baked.json
+/world/zones/**/*.baked.d/
+/world/zones/**/*.proxy.scn
+/world/zones/**/*.proxy.json
+
+# Local-only retargeted posture keys derived from OpenPony/native clips.
+/world/characters/hybrid_mare/postures.res
+/world/characters/hybrid_mare/pony_flight.json
+
+# Local-only fitted background hair and derived skins/texture artwork.
+/world/characters/background/*.glb
+/world/characters/background/*.glb.import
+/world/characters/background/*.scn
+/world/characters/background/*.blend
+/world/characters/background/*.png*
+/world/characters/background/*.svg*
+/world/characters/background/marks/
+/world/characters/background/support/
+/world/characters/background/accessories/*.glb*
+/world/characters/background/accessories/*.scn
+
+# Local-only cutie-mark map atlas, rebuilt from existing pony textures.
+/world/ui/pony_map_icons.png*
+
+# Local generated Gaea terrain study (rebuild from documented source).
+/tools/gaea_study/generated/
+/world/terrain/gaea/
+
+# User-requested local FNAF sound; source record retained, audio not redistributed.
+world/audio/pony/freddy_nose_honk.wav
+
+# Local derived OpenPony geometry.
+/world/characters/hybrid_mare/openpony_dock.res
+
+# Local-only derived Anon model and UV masks; builders remain versionable.
+/world/customization/anon_preview.tscn
+/world/customization/clothing_mask.png*
+
+# Local source prop and compiled character chatter (never publish derived media).
+/world/inventory/assets/source/*.glb
+/world/audio/chatter/banks/
+
+/world/inventory/assets/source/*.scn
+
+# Derived original head collider; rebuild with tools/audit_scratch_surface.gd -- --build.
+/world/characters/hybrid_mare/skull_contact.tres
+
+# Local railway bakes (locomotive is derived from the existing source export).
+world/railway/*.scn
+world/railway/*.res
+world/zones/cantermore/corridor_proxy/
+
+# Local native/OpenPony princess fits and Source reference accessories.
+/world/characters/princesses/*.glb*
+/world/characters/princesses/*.png*
+/world/characters/princesses/*.blend*
+/builds/
+
+# Local generated timberwolf model and compiled Godot resource.
+/world/characters/timberwolf/*.glb
+/world/characters/timberwolf/*.glb.import
+/world/characters/timberwolf/*.scn
+
+# Local sounds extracted from the installed TF2 copy for RNL Everfree ambience.
+/world/audio/everfree/*.ogg
+/world/audio/everfree/*.ogg.import
+
+# Native pony solver build intermediates (docs/NATIVE_SOLVER_2026_09_25.md); bin/*.so is the product.
+/native/pony_solver/src/*.os
+/native/pony_solver/.sconsign.dblite
+# Solver-baked gait clips for the crowd's clip tiers: derived from the native gait clips through the
+# pony solver; rebuild with tools/bake_pony_gaits.gd (docs/CLIP_TIER_2026_09_25.md). Local only.
+/world/characters/baked_gaits/
+
+# Release archives and the house-model workshop stay on disk, out of history (dev 2026-10-08:
+# git replaces the archive as undo history; built archives and model work files are too big).
+/RELEASE/
+/art/
+# Downloaded speech model; fetched again by the voice setup.
+/world/ai/whisper/*.bin
+# Personal assistant settings (the shared agent definitions in .claude/agents/ are kept).
+/.claude/settings.local.json

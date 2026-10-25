@@ -1,0 +1,4131 @@
+[
+	{
+		"id": "derpy_hooves",
+		"display_name": "Derpy Hooves",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"derpyhooves_Mane"
+		],
+		"tails": [
+			"derpyhooves_Tail"
+		],
+		"triangles": 5520,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/derpyhooves",
+			"src_poninnahka_overhaul/derpyhooves",
+			"src_revamped_sourcefile_factory_2_0_sfw/derpy"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/11",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/81.svg",
+			"source": "http://fav.me/da27cuh",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "a36b7d1cbc2ef48cdc390846d38f1fd654b3a5f62a2fb81a832c13c3a3fe5790"
+	},
+	{
+		"id": "lyra_heartstrings",
+		"display_name": "Lyra Heartstrings",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"lyra_Mane"
+		],
+		"tails": [
+			"lyra_Tail"
+		],
+		"triangles": 6656,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/lyra",
+			"src_poninnahka_overhaul/lyra"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/12",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/82.svg",
+			"source": "http://fav.me/da97br3",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "70ab5503d8eb70c0ad4cee23a5a8cdc1b9c0d444181ed5a08165fefcfb6f4d73"
+	},
+	{
+		"id": "sweetie_drops",
+		"display_name": "Bon Bon",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"bonbon_Mane"
+		],
+		"tails": [
+			"bonbon_Tail"
+		],
+		"triangles": 4992,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/bonbon",
+			"src_poninnahka_overhaul/bonbon",
+			"src_revamped_sourcefile_factory_2_0_sfw/bonbon"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/111",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/129.svg",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "f4038516f91389e5d01dece4a7534952f42567347b9cca65cf2bb1ce0472e51a"
+	},
+	{
+		"id": "octavia_melody",
+		"display_name": "Octavia Melody",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"octavia_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 8190,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/octavia",
+			"src_poninnahka_overhaul/octavia",
+			"src_revamped_sourcefile_factory_2_0_sfw/octavia"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/110",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/164.svg",
+			"source": "http://fav.me/daumpuo",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "e41360e6f6c52a8636b7827b39350dc88fd3a530dafe34e8677f9bfd1a5ac950"
+	},
+	{
+		"id": "vinyl_scratch",
+		"display_name": "Vinyl Scratch",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"vinyl_scratch_Mane"
+		],
+		"tails": [
+			"vinyl_scratch_Tail"
+		],
+		"triangles": 19976,
+		"runner_ups": [
+			"redacted",
+			"src_poninnahka_overhaul/vinyl_scratch",
+			"src_revamped_sourcefile_factory_2_0_sfw/vinylscratch",
+			"src_stenovhouse_enhanced/vinyl_scratch"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/69",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/116.svg",
+			"source": "http://fav.me/d9zhh0l",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "5a96e40bad2894356b01982ee418d30b06764ae29959683e815b7228d0314721"
+	},
+	{
+		"id": "trixie",
+		"display_name": "Trixie Lulamoon",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"trixie_Mane"
+		],
+		"tails": [
+			"trixie_Tail"
+		],
+		"triangles": 4288,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/trixie",
+			"src_poninnahka_overhaul/trixie",
+			"src_revamped_sourcefile_factory_2_0_sfw/trixie"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/32",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/91.svg",
+			"source": "http://fav.me/d9bxest",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "character voice",
+		"fit_overrides": {},
+		"fingerprint": "88169d470d8971fe7cb7a70d43dd5950a12758747fe70a61d2f829339b173a6b"
+	},
+	{
+		"id": "starlight_glimmer",
+		"display_name": "Starlight Glimmer",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"starlightglimmers6_Mane"
+		],
+		"tails": [
+			"starlightglimmers6_Tail"
+		],
+		"triangles": 4784,
+		"runner_ups": [
+			"redacted",
+			"redacted",
+			"redacted",
+			"redacted",
+			"src_revamped_sourcefile_factory_2_0_sfw/glimmer_standard"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/29",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/89.svg",
+			"source": "http://fav.me/d8old4s",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "character voice",
+		"fit_overrides": {},
+		"fingerprint": "97f9cf1943d8264e89572d5fc535ff1e9f0f87d080b9c40f4296dd522ed1b8a0"
+	},
+	{
+		"id": "minuette",
+		"display_name": "Colgate",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"revamped_minuette_Mane"
+		],
+		"tails": [
+			"revamped_minuette_Tail"
+		],
+		"triangles": 8098,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/10",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/80.svg",
+			"source": "http://fav.me/da9hno4",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.9
+		},
+		"fingerprint": "b47466e4986e96b6243f1e5114feefe387c845756b8eab820b50b23d96724ae3"
+	},
+	{
+		"id": "coco_pommel",
+		"display_name": "Coco Pommel",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"cocopommel_Mane",
+			"cocopommel_Mane_2"
+		],
+		"tails": [
+			"cocopommel_Tail"
+		],
+		"triangles": 25436,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/30",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/90.svg",
+			"source": "http://fav.me/dafcpik",
+			"contributor": "redacted"
+		},
+		"status": "blocked: rig validation failed after bounded fitting; see validation.json",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		},
+		"fingerprint": "e5ce3420c3082474380de56988f9e83a940ff1d55fc5b91b7ca931cdc0abefa9"
+	},
+	{
+		"id": "twinkleshine",
+		"display_name": "Twinkleshine",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"twinkleshine_Mane"
+		],
+		"tails": [
+			"twinkleshine_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/16",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/83.svg",
+			"source": "http://fav.me/d6t4847",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "f334afd9dfbdeae71df12d687eec4ae3248d48168449cffac937078be7c54f10"
+	},
+	{
+		"id": "cheerilee",
+		"display_name": "Cheerilee",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"cheerilee_Mane"
+		],
+		"tails": [
+			"cheerilee_Tail"
+		],
+		"triangles": 13044,
+		"runner_ups": [
+			"redacted",
+			"src_poninnahka_overhaul/cheerilee",
+			"src_revamped_sourcefile_factory_2_0_sfw/cheerilee",
+			"src_stenovhouse_enhanced/cheerilee"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/79",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				171,
+				75,
+				131
+			],
+			"opaque_pixels": 13095,
+			"crop": [
+				69,
+				54,
+				223,
+				223
+			]
+		},
+		"status": "blocked: rig validation failed after bounded fitting; see validation.json",
+		"voice_status": "character voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		},
+		"fingerprint": "b961143b0ac508a3ad6f95c76727a0791ae3d26499663ec5426eb6446418a1f4"
+	},
+	{
+		"id": "golden_harvest",
+		"display_name": "Golden Harvest",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"carrottop_Mane"
+		],
+		"tails": [
+			"carrottop_Tail"
+		],
+		"triangles": 13304,
+		"runner_ups": [
+			"redacted",
+			"src_poninnahka_overhaul/carrottop",
+			"src_revamped_sourcefile_factory_2_0_sfw/carrottop",
+			"src_stenovhouse_enhanced/carrottop"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/237",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				240,
+				245,
+				141
+			],
+			"opaque_pixels": 12769,
+			"crop": [
+				85,
+				38,
+				230,
+				215
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "0a323c3d9d7f7308b01028c8f59feedd9a73e3a89a3d6f3d1d58548d934d7d02"
+	},
+	{
+		"id": "berry_punch",
+		"display_name": "Berry Punch",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"berrypunch_Mane"
+		],
+		"tails": [
+			"berrypunch_Tail"
+		],
+		"triangles": 14454,
+		"runner_ups": [
+			"redacted",
+			"src_poninnahka_overhaul/berrypunch",
+			"src_revamped_sourcefile_factory_2_0_sfw/berrypunch",
+			"src_stenovhouse_enhanced/berrypunch"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/358",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				211,
+				153,
+				229
+			],
+			"opaque_pixels": 12869,
+			"crop": [
+				74,
+				35,
+				233,
+				206
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "49e18bb8f5abcecd9b0f4e874347e9dd4df9f5743067ff6609ce4bd0d9d9b12d"
+	},
+	{
+		"id": "cloudchaser",
+		"display_name": "Cloudchaser",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"cloudchaser_Mane"
+		],
+		"tails": [
+			"cloudchaser_Tail"
+		],
+		"triangles": 17268,
+		"runner_ups": [
+			"redacted",
+			"src_poninnahka_overhaul/cloudchaser",
+			"src_revamped_sourcefile_factory_2_0_sfw/cloudchaser",
+			"src_stenovhouse_enhanced/cloudchaser"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/100",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/125.svg",
+			"source": "http://fav.me/da7y90w",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "13abd76cb8367696d71f80dace1c3ffaf8297843fc5b5721788d9f9d59c1604a"
+	},
+	{
+		"id": "flitter",
+		"display_name": "Flitter",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"flitter_Mane",
+			"flitter_Mane_2"
+		],
+		"tails": [
+			"flitter_Tail"
+		],
+		"triangles": 9792,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/flitter",
+			"src_poninnahka_overhaul/flitter",
+			"src_revamped_sourcefile_factory_2_0_sfw/flitter"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/103",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				200,
+				195,
+				235
+			],
+			"opaque_pixels": 2727,
+			"crop": [
+				104,
+				56,
+				214,
+				192
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "ddc358ea0ebc3baa4bb7ecdaf0ae4722ae237d8eeefdd784072c7e88a87c82a4"
+	},
+	{
+		"id": "lightning_dust",
+		"display_name": "Lightning Dust",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"lightningdust_Mane"
+		],
+		"tails": [
+			"lightningdust_Tail"
+		],
+		"triangles": 11650,
+		"runner_ups": [
+			"redacted",
+			"src_poninnahka_overhaul/lightningdust",
+			"src_revamped_sourcefile_factory_2_0_sfw/lightningdust",
+			"src_stenovhouse_enhanced/lightningdust"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/56",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/103.svg",
+			"source": "http://fav.me/d9fl30m",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "5c3588f965df9f74e06d1402b5c365587f1785190811a399130fd26c6ade1aa6"
+	},
+	{
+		"id": "spitfire",
+		"display_name": "Spitfire",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"spitfire_Mane"
+		],
+		"tails": [
+			"spitfire_Tail"
+		],
+		"triangles": 9856,
+		"runner_ups": [
+			"redacted",
+			"redacted",
+			"src_poninnahka_overhaul/spitfire",
+			"src_revamped_sourcefile_factory_2_0_sfw/spitfire"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/55",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/102.svg",
+			"source": "http://fav.me/d5nzngs",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "character voice",
+		"fit_overrides": {},
+		"fingerprint": "e47a3af217db0ec852385e568648a7697143473a93a1c12c33ad6c1903041e4d"
+	},
+	{
+		"id": "fleetfoot",
+		"display_name": "Fleetfoot",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"fleetfoot_Mane"
+		],
+		"tails": [
+			"fleetfoot_Tail"
+		],
+		"triangles": 9856,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/19",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/84.svg",
+			"source": "http://fav.me/d97x7vd",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "01923e2bfe6d40d8a2e88ddcef6378ce2c455d77a4665c6bf6e31f11028d7670"
+	},
+	{
+		"id": "twilight_velvet",
+		"display_name": "Twilight Velvet",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"twilightvelvet_Mane"
+		],
+		"tails": [
+			"twilightvelvet_Tail"
+		],
+		"triangles": 5360,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/89",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/232.svg",
+			"source": "http://fav.me/der632r",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "81c9ef3d01ce95a4a4c837ad7dbddf822de087637019a23f16a1b01fbf1e541e"
+	},
+	{
+		"id": "roseluck",
+		"display_name": "Roseluck",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"roseluck_Mane"
+		],
+		"tails": [
+			"roseluck_Tail"
+		],
+		"triangles": 6656,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/87",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/122.svg",
+			"source": "http://fav.me/d9zhguu",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "171cc5f83d3f002137cc44029c65e0bed2e0fdf824a5e7a50e4dd053865ca6cb"
+	},
+	{
+		"id": "lily_valley",
+		"display_name": "Lily Valley",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"lilyvalley_Mane"
+		],
+		"tails": [
+			"lilyvalley_Tail"
+		],
+		"triangles": 8190,
+		"runner_ups": [
+			"redacted",
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/173",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/147.svg",
+			"source": "http://fav.me/dab62ik",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "8fcea0bfe1432ce1cf0938934da7b551f1160ac7f918ceeaa3c80d965dd7fde0"
+	},
+	{
+		"id": "daisy",
+		"display_name": "Daisy",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"daisywishes_Mane"
+		],
+		"tails": [
+			"daisywishes_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/172",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/146.svg",
+			"source": "http://fav.me/da8l1xp",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "79e2752e2cb7a4e01c139f46cfbae8e35668818f48c1f36a7a98142f0b40497e"
+	},
+	{
+		"id": "aloe",
+		"display_name": "Aloe",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"aloeblossom_Mane"
+		],
+		"tails": [
+			"aloeblossom_Tail"
+		],
+		"triangles": 6864,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/aloeblossom",
+			"src_poninnahka_overhaul/aloeblossom"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/145",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/137.svg",
+			"source": "http://fav.me/da4gv05",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "de6da5b195bebfcc842c9671d12030cac09e7a35c9c5da2ab3d4e01eaac97859"
+	},
+	{
+		"id": "lotus_blossom",
+		"display_name": "Lotus Blossom",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"lotusblossom_Mane"
+		],
+		"tails": [
+			"lotusblossom_Tail"
+		],
+		"triangles": 6864,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/lotusblossom"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/146",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/138.svg",
+			"source": "http://fav.me/da4gvw5",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "a0e3323431c9d9c84dd072e310ded882f0fccb6c0b8f00e6aa75915a6785b5e0"
+	},
+	{
+		"id": "nurse_redheart",
+		"display_name": "Nurse Redheart",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"nurseredheart_Mane"
+		],
+		"tails": [
+			"nurseredheart_Tail"
+		],
+		"triangles": 8744,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/nurseredheart",
+			"src_poninnahka_overhaul/redheart",
+			"src_revamped_sourcefile_factory_2_0_sfw/redheart"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/245",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/172.svg",
+			"source": "http://fav.me/db6usyy",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "1a7655465f7d25983a888fee0e117917de9ae14d88f753ae4b5ec774ccc9f51a"
+	},
+	{
+		"id": "mayor_mare",
+		"display_name": "Mayor Mare",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"mayormare_Mane"
+		],
+		"tails": [
+			"mayormare_Tail"
+		],
+		"triangles": 6784,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/76",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				216,
+				208,
+				163
+			],
+			"opaque_pixels": 10986,
+			"crop": [
+				52,
+				60,
+				253,
+				218
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "93a97d432d9f14c30a62551e0a85dc8f17c3fca2c2db3dc453c598d07e961979"
+	},
+	{
+		"id": "photo_finish",
+		"display_name": "Photo Finish",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"photofinish_Mane"
+		],
+		"tails": [
+			"photofinish_Tail"
+		],
+		"triangles": 7186,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/258",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				176,
+				229,
+				240
+			],
+			"opaque_pixels": 6907,
+			"crop": [
+				73,
+				37,
+				224,
+				227
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "a5388b2769ee959720de0a0cf2fb9424cad8acfc01de6e7cc5ee315edd9c1270"
+	},
+	{
+		"id": "sunset_shimmer",
+		"display_name": "Sunset Shimmer",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"sunsetshimmer_Mane"
+		],
+		"tails": [
+			"sunsetshimmer_Tail"
+		],
+		"triangles": 7000,
+		"runner_ups": [
+			"redacted",
+			"redacted",
+			"src_revamped_sourcefile_factory_2_0_sfw/sunsetshimmer"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/313",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/196.svg",
+			"source": "http://fav.me/dcefv8e",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "character voice",
+		"fit_overrides": {},
+		"fingerprint": "9da29ead13310c37326261f90f6edb0dedbff50cd2375c212859ef446f921a7e"
+	},
+	{
+		"id": "moon_dancer",
+		"display_name": "Moon Dancer",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"moondancer_Mane"
+		],
+		"tails": [
+			"moondancer_Tail"
+		],
+		"triangles": 13642,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/36",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/94.svg",
+			"source": "http://fav.me/d9vcpeu",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "22ecb2d7dd44c5bc05c15bae202ceed73c4ea5639d6b8b5fd7099f14d8d033ff"
+	},
+	{
+		"id": "lemon_hearts",
+		"display_name": "Lemon Hearts",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"lemonhearts_Mane"
+		],
+		"tails": [
+			"lemonhearts_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/17",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				240,
+				240,
+				91
+			],
+			"opaque_pixels": 11232,
+			"crop": [
+				77,
+				43,
+				230,
+				207
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "5398ba2d47ea2a072cb617723daf59ea42917f2814111c41c4bb86b081703518"
+	},
+	{
+		"id": "maud_pie",
+		"display_name": "Maud Pie",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"maudpie_Mane"
+		],
+		"tails": [
+			"maudpie_Tail"
+		],
+		"triangles": 6244,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/52",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/101.svg",
+			"source": "http://fav.me/d7apvq4",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "character voice",
+		"fit_overrides": {},
+		"fingerprint": "38271f147aab1b78206f6c4130698336a3603856261a86ce74d554a8168980f0"
+	},
+	{
+		"id": "marble_pie",
+		"display_name": "Marble Pie",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"marblepie_Mane"
+		],
+		"tails": [
+			"marblepie_Tail"
+		],
+		"triangles": 4848,
+		"runner_ups": [
+			"redacted",
+			"src_revamped_sourcefile_factory_2_0_sfw/marblepie"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/50",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/99.svg",
+			"source": "http://fav.me/dbky1u6",
+			"contributor": "redacted"
+		},
+		"status": "blocked: rig validation failed after bounded fitting; see validation.json",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		},
+		"fingerprint": "891b053cf04db54bd9d47aa48223e933d3e80f00579aed13728b6bb32135f6d1"
+	},
+	{
+		"id": "limestone_pie",
+		"display_name": "Limestone Pie",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"limestonepie_Mane"
+		],
+		"tails": [
+			"limestonepie_Tail"
+		],
+		"triangles": 6144,
+		"runner_ups": [
+			"redacted",
+			"redacted",
+			"src_revamped_sourcefile_factory_2_0_sfw/limestonepie"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/51",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/100.svg",
+			"source": "http://fav.me/dbl5pd1",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "11297b3712579c4f3962c96d77d4a0e7e8cf8bde0ed685a711e8219d14e1b7f6"
+	},
+	{
+		"id": "cloudy_quartz",
+		"display_name": "Cloudy Quartz",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"cloudyquartz_Mane"
+		],
+		"tails": [
+			"cloudyquartz_Tail"
+		],
+		"triangles": 16136,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/54",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				189,
+				200,
+				208
+			],
+			"opaque_pixels": 11304,
+			"crop": [
+				72,
+				29,
+				227,
+				185
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "b0ed0bde23c7442260d154b0c483a7c27c821efd877124290317c3c316cb570b"
+	},
+	{
+		"id": "sugar_belle",
+		"display_name": "Sugar Belle",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"sugarbelle_Mane"
+		],
+		"tails": [
+			"sugarbelle_Tail"
+		],
+		"triangles": 7424,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/22",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				237,
+				173,
+				208
+			],
+			"opaque_pixels": 12213,
+			"crop": [
+				61,
+				58,
+				234,
+				220
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "6c2ef9cb8752d703ff7a54cd50fcba4b0d311eaf921aece675749bd7de1f0550"
+	},
+	{
+		"id": "night_glider",
+		"display_name": "Night Glider",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"nightglider_Mane"
+		],
+		"tails": [
+			"nightglider_Tail"
+		],
+		"triangles": 9856,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/26",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/87.svg",
+			"source": "http://fav.me/d8oovxh",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "cb3a3ad6f301e4164b7fcab05b78ba5bbda5b73ee741ab291de1023d2f845a3a"
+	},
+	{
+		"id": "tree_hugger",
+		"display_name": "Tree Hugger",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"treehugger_Mane",
+			"treehugger_Mane_2"
+		],
+		"tails": [
+			"treehugger_Tail",
+			"treehugger_Tail_2"
+		],
+		"triangles": 40552,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/58",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/104.svg",
+			"source": "http://fav.me/dbl0kwr",
+			"contributor": "redacted"
+		},
+		"status": "blocked: rig validation failed after bounded fitting; see validation.json",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		},
+		"fingerprint": "5ec2d258e7292731840a34c5a95e952526303b46ca837e7af8a47a3b215753c0"
+	},
+	{
+		"id": "daring_do",
+		"display_name": "Daring Do",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"daringdo_Mane"
+		],
+		"tails": [
+			"daringdo_Tail"
+		],
+		"triangles": 8928,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/159",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				229,
+				200,
+				93
+			],
+			"opaque_pixels": 10989,
+			"crop": [
+				39,
+				25,
+				247,
+				235
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "8701287e111f8f9763ccc858636b20fbe48a502e0a70503a75657e537374a14c"
+	},
+	{
+		"id": "coloratura",
+		"display_name": "Coloratura",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"countesscoloratura_Mane"
+		],
+		"tails": [
+			"countesscoloratura_Tail"
+		],
+		"triangles": 9616,
+		"runner_ups": [
+			"redacted",
+			"redacted",
+			"redacted",
+			"src_revamped_sourcefile_factory_2_0_sfw/rara"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/59",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/105.svg",
+			"source": "http://fav.me/d9hm2yd",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "4408d76a25c1a68c489fd0fbef20e0f0e35abf90fc47bb4ffc0a1dcbb58177e1"
+	},
+	{
+		"id": "mrs_shy",
+		"display_name": "Mrs. Shy",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"mrsshy_Mane"
+		],
+		"tails": [
+			"mrsshy_Tail"
+		],
+		"triangles": 10086,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/153",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				248,
+				231,
+				165
+			],
+			"opaque_pixels": 9848,
+			"crop": [
+				69,
+				42,
+				230,
+				209
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "d7cfd6bed6550855f6a66db1e24e716ed570dec1a5ea319ac35b2a497444e43e"
+	},
+	{
+		"id": "windy_whistles",
+		"display_name": "Windy Whistles",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"windywhistles_Mane"
+		],
+		"tails": [
+			"windywhistles_Tail"
+		],
+		"triangles": 14014,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/253",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/175.svg",
+			"source": "http://fav.me/db9yq7l",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "e0873953320fa883c9d0d905d212d0e0a4737c43dd381de372b4b3aa180e7fc4"
+	},
+	{
+		"id": "saffron_masala",
+		"display_name": "Saffron Masala",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"saffronmasala_Mane"
+		],
+		"tails": [
+			"saffronmasala_Tail"
+		],
+		"triangles": 19088,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/158",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/143.svg",
+			"source": "http://fav.me/da62xsm",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_geometry_chain": true
+		},
+		"fingerprint": "2942da9aa53912167165a79ca6935edcddd3a8b2535b73a6d8188a75b04ef21a"
+	},
+	{
+		"id": "tempest_shadow",
+		"display_name": "Tempest Shadow",
+		"race": "unicorn",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/tempestshadow",
+		"tail_entry": "redacted",
+		"manes": [
+			"tempestshadow_Mane"
+		],
+		"tails": [
+			"photofinish_Tail"
+		],
+		"triangles": 5408,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from tempest_shadow",
+		"mark_source": {
+			"booru_id": 2680985,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "tempest_shadow",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "somnambula",
+		"display_name": "Somnambula",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"somnambula_v1_Mane"
+		],
+		"tails": [
+			"somnambula_v1_Tail"
+		],
+		"triangles": 20016,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from somnambula",
+		"mark_source": {
+			"booru_id": 2466654,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "somnambula",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "ms_harshwhinny",
+		"display_name": "Ms. Harshwhinny",
+		"race": "earth",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/harshwhinny",
+		"tail_entry": "redacted",
+		"manes": [
+			"harshwhinny_Mane"
+		],
+		"tails": [
+			"mayormare_Tail"
+		],
+		"triangles": 12112,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from ms_harshwhinny",
+		"mark_source": {
+			"booru_id": 1299646,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "ms_harshwhinny",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "fleur_dis_lee",
+		"display_name": "Fleur Dis Lee",
+		"status": "blocked: Source cutie mark needs a verified UV layout",
+		"fingerprint": "fb734858b26140f395d8c092b74ecfd41ca3cfd5d0efd72fd55cd25caf2dc076",
+		"runner_ups": [
+			"src_revamped_sourcefile_factory_2_0_sfw/fleur"
+		],
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/fleur",
+		"manes": [
+			"fleur_Mane"
+		],
+		"tails": [
+			"fleur_Tail"
+		],
+		"triangles": 17616,
+		"race": "unicorn"
+	},
+	{
+		"id": "sassy_saddles",
+		"display_name": "Sassy Saddles",
+		"status": "blocked: Source cutie mark needs a verified UV layout",
+		"fingerprint": "0dee5f02650262a1ad111e7a5d8ba347ad869c3c2e30d6eecbec29fc7b7013b3",
+		"runner_ups": [
+			"src_revamped_sourcefile_factory_2_0_sfw/sassy"
+		],
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/sassy",
+		"manes": [
+			"sassy_Mane"
+		],
+		"tails": [
+			"sassy_Tail"
+		],
+		"triangles": 10352,
+		"race": "unicorn"
+	},
+	{
+		"id": "peachbottom",
+		"display_name": "Ms. Peachbottom",
+		"status": "blocked: Source cutie mark needs a verified UV layout",
+		"fingerprint": "6dae9d684f7f70810b3f533a9bd13e3d2f37873c4ef86391c1fdaf99479e51a0",
+		"runner_ups": [
+			"src_revamped_sourcefile_factory_2_0_sfw/peachbottom"
+		],
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/peachbottom",
+		"manes": [
+			"peachbottom_Mane"
+		],
+		"tails": [
+			"peachbottom_Tail"
+		],
+		"triangles": 22064,
+		"race": "earth"
+	},
+	{
+		"id": "mane_allgood",
+		"display_name": "Mane Allgood",
+		"status": "blocked: No complete, verified mane/tail pair",
+		"fingerprint": "f46c3555f880f6c6d16c6ae069fb1e128e4973654515ed48342db2adc3dbd52a",
+		"runner_ups": [],
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/maneallgood",
+		"manes": [
+			"maneallgood_Mane"
+		],
+		"tails": [],
+		"triangles": 13360,
+		"race": "pegasus"
+	},
+	{
+		"id": "misty_fly",
+		"display_name": "Misty Fly",
+		"race": "pegasus",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/mistyfly",
+		"tail_entry": "redacted",
+		"manes": [
+			"mistyfly_Mane"
+		],
+		"tails": [
+			"raindrops_Tail"
+		],
+		"triangles": 6096,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from misty_fly",
+		"mark_source": {
+			"booru_id": 2943267,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "misty_fly",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "amethyst_star",
+		"display_name": "Amethyst Star",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"amethyst_star_Mane"
+		],
+		"tails": [
+			"amethyst_star_Tail"
+		],
+		"triangles": 6656,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/174",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/148.svg",
+			"source": "http://fav.me/daaeeju",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "da60b97eba72c4c6aaad7ce403c1f948fb6e43aaedc7720f00f5113fcd8c5377"
+	},
+	{
+		"id": "surprise",
+		"display_name": "Surprise",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"surprise_Mane"
+		],
+		"tails": [
+			"surprise_Tail"
+		],
+		"triangles": 9856,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/449",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				240,
+				249,
+				240
+			],
+			"opaque_pixels": 4100,
+			"crop": [
+				106,
+				17,
+				209,
+				192
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "3999391bc013f36686d0f34136fc2e42df77ca26c2533aada55adb2bf83ffb40"
+	},
+	{
+		"id": "sunshower_raindrops",
+		"display_name": "Sunshower Raindrops",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"raindrops_Mane"
+		],
+		"tails": [
+			"raindrops_Tail"
+		],
+		"triangles": 5520,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/138",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/135.svg",
+			"source": "http://fav.me/da5vt5m",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "ed74f913f6ac6f51899a3ea40b3f50d1dca525181792cc2dfaaca1bf3fb56a99"
+	},
+	{
+		"id": "beauty_brass",
+		"display_name": "Beauty Brass",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"beautybrass_Mane"
+		],
+		"tails": [
+			"beautybrass_Tail"
+		],
+		"triangles": 5187,
+		"runner_ups": [],
+		"guide": "redacted",
+		"palette_method": "source body dominant colour and representative chromatic iris texel; derived coat outline/shade",
+		"mark_source": {
+			"source": "redacted",
+			"method": "original Source right-flank UV; coat removed; mirrored to left frame",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				139,
+				223,
+				240
+			],
+			"opaque_pixels": 6702,
+			"crop": [
+				84,
+				35,
+				241,
+				216
+			]
+		},
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"fingerprint": "425792c38a588a05c8d7ff6cd28ab00c7263586d22722844ddaf975005abf30e"
+	},
+	{
+		"id": "cherry_berry",
+		"display_name": "Cherry Berry",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"berrypunch_Mane"
+		],
+		"tails": [
+			"berrypunch_Tail"
+		],
+		"triangles": 14454,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from berry_punch",
+		"mark_source": {
+			"booru_id": 2515697,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "berry_punch",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "prim_hemline",
+		"display_name": "Prim Hemline",
+		"race": "earth",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/prim",
+		"tail_entry": "redacted",
+		"manes": [
+			"prim_Mane"
+		],
+		"tails": [
+			"mayormare_Tail"
+		],
+		"triangles": 8656,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from prim_hemline",
+		"mark_source": {
+			"booru_id": 3429272,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "prim_hemline",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "sunny_rays",
+		"display_name": "Sunny Rays",
+		"race": "pegasus",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/sunflowerspectacle",
+		"tail_entry": "redacted",
+		"manes": [
+			"sunflowerspectacle_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 5344,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunflower_spectacle",
+		"mark_source": {
+			"booru_id": 3690244,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "sunflower_spectacle",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "suri_polomare",
+		"display_name": "Suri Polomare",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"suripolomare_Mane"
+		],
+		"tails": [
+			"suripolomare_Tail"
+		],
+		"triangles": 14748,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from suri_polomare",
+		"mark_source": {
+			"booru_id": 1698716,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "suri_polomare",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.9
+		}
+	},
+	{
+		"id": "angel_wings",
+		"display_name": "Angel Wings",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twilightvelvet_Mane"
+		],
+		"tails": [
+			"twilightvelvet_Tail"
+		],
+		"triangles": 5360,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twilight_velvet",
+		"mark_source": {
+			"booru_id": 2092012,
+			"url": "https://derpicdn.net/img/download/2019/7/15/2092012.svg",
+			"viewbox": [
+				1000,
+				250,
+				250,
+				250
+			],
+			"symbol": "winged heart",
+			"artist": "cheezedoodle96",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "twilight_velvet",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "apple_bumpkin",
+		"display_name": "Apple Bumpkin",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": "redacted",
+		"manes": [
+			"cheerilee_Mane"
+		],
+		"tails": [
+			"nurseredheart_Tail"
+		],
+		"triangles": 11234,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from cheerilee",
+		"mark_source": {
+			"booru_id": 712003,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "cheerilee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "banana_fluff",
+		"display_name": "Banana Fluff",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"countesscoloratura_Mane"
+		],
+		"tails": [
+			"countesscoloratura_Tail"
+		],
+		"triangles": 9616,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from coloratura",
+		"mark_source": {
+			"booru_id": 253697,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "coloratura",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "blossomforth",
+		"display_name": "Blossomforth",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twilightvelvet_Mane"
+		],
+		"tails": [
+			"twilightvelvet_Tail"
+		],
+		"triangles": 5360,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twilight_velvet",
+		"mark_source": {
+			"svg": "/cg/cutiemark/115.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "twilight_velvet",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "blue_bobbin",
+		"display_name": "Blue Bobbin",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"cloudyquartz_Mane"
+		],
+		"tails": [
+			"cloudyquartz_Tail"
+		],
+		"triangles": 16136,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from cloudy_quartz",
+		"mark_source": {
+			"svg": "/cg/cutiemark/168.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "cloudy_quartz",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "caramel_apple",
+		"display_name": "Caramel Apple",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"carrottop_Mane"
+		],
+		"tails": [
+			"carrottop_Tail"
+		],
+		"triangles": 13304,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from golden_harvest",
+		"mark_source": {
+			"booru_id": 767915,
+			"url": "https://derpicdn.net/img/download/2014/11/19/767915.svg",
+			"crop_pixels": [
+				557,
+				630,
+				646,
+				718
+			],
+			"symbol": "three caramel apples",
+			"artist": "the smiling pony",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "golden_harvest",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "cherry_spices",
+		"display_name": "Cherry Spices",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"berrypunch_Mane"
+		],
+		"tails": [
+			"berrypunch_Tail"
+		],
+		"triangles": 14454,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from berry_punch",
+		"mark_source": {
+			"booru_id": 2563967,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "berry_punch",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "clear_skies",
+		"display_name": "Clear Skies",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"raindrops_Mane"
+		],
+		"tails": [
+			"raindrops_Tail"
+		],
+		"triangles": 5520,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunshower_raindrops",
+		"mark_source": {
+			"booru_id": 2092012,
+			"url": "https://derpicdn.net/img/download/2019/7/15/2092012.svg",
+			"viewbox": [
+				2500,
+				1750,
+				250,
+				250
+			],
+			"symbol": "sun and two clouds",
+			"artist": "cheezedoodle96",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "sunshower_raindrops",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "clear_sky",
+		"display_name": "Clear Sky",
+		"race": "unicorn",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/fleur",
+		"tail_entry": null,
+		"manes": [
+			"fleur_Mane"
+		],
+		"tails": [
+			"fleur_Tail"
+		],
+		"triangles": 17616,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from fleur_dis_lee",
+		"mark_source": {
+			"svg": "/cg/cutiemark/213.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "fleur_dis_lee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "cloud_kicker",
+		"display_name": "Cloud Kicker",
+		"race": "pegasus",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/sunflowerspectacle",
+		"tail_entry": "redacted",
+		"manes": [
+			"sunflowerspectacle_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 5344,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunflower_spectacle",
+		"mark_source": {
+			"booru_id": 2092012,
+			"url": "https://derpicdn.net/img/download/2019/7/15/2092012.svg",
+			"viewbox": [
+				2750,
+				1250,
+				250,
+				250
+			],
+			"symbol": "sun and clouds",
+			"artist": "cheezedoodle96",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "sunflower_spectacle",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "diamond_mint",
+		"display_name": "Diamond Mint",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"lemonhearts_Mane"
+		],
+		"tails": [
+			"lemonhearts_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from lemon_hearts",
+		"mark_source": {
+			"booru_id": 436824,
+			"file": "captures/roster-census/marks_src/diamondmint_436824.png",
+			"symbol": "three brilliant-cut gems",
+			"artist": "axemgr",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "lemon_hearts",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "dr_fauna",
+		"display_name": "Dr. Fauna",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": "redacted",
+		"manes": [
+			"cheerilee_Mane"
+		],
+		"tails": [
+			"nurseredheart_Tail"
+		],
+		"triangles": 11234,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from cheerilee",
+		"mark_source": {
+			"booru_id": 1273834,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "cheerilee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "fiddly_twang",
+		"display_name": "Fiddly Twang",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"octavia_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 8190,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from octavia_melody",
+		"mark_source": {
+			"booru_id": 1074908,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "octavia_melody",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "florina_tart",
+		"display_name": "Florina Tart",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twinkleshine_Mane"
+		],
+		"tails": [
+			"twinkleshine_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twinkleshine",
+		"mark_source": {
+			"booru_id": 2028318,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "twinkleshine",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "helia",
+		"display_name": "Helia",
+		"race": "pegasus",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/sunflowerspectacle",
+		"tail_entry": "redacted",
+		"manes": [
+			"sunflowerspectacle_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 5344,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunflower_spectacle",
+		"mark_source": {
+			"booru_id": 2369401,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "sunflower_spectacle",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "janine_manewitz",
+		"display_name": "Janine Manewitz",
+		"race": "earth",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/prim",
+		"tail_entry": "redacted",
+		"manes": [
+			"prim_Mane"
+		],
+		"tails": [
+			"mayormare_Tail"
+		],
+		"triangles": 8656,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from prim_hemline",
+		"mark_source": {
+			"svg": "/cg/cutiemark/214.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "prim_hemline",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "juniper_montage",
+		"display_name": "Juniper Montage",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"octavia_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 8190,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from octavia_melody",
+		"mark_source": {
+			"booru_id": 2169113,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "octavia_melody",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "lemony_gem",
+		"display_name": "Lemony Gem",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"lemonhearts_Mane"
+		],
+		"tails": [
+			"lemonhearts_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from lemon_hearts",
+		"mark_source": {
+			"booru_id": 436824,
+			"file": "captures/roster-census/marks_src/lemonygem_436824.png",
+			"symbol": "three brilliant-cut gems",
+			"artist": "axemgr",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "lemon_hearts",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "lighthoof",
+		"display_name": "Lighthoof",
+		"race": "earth",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/fleur",
+		"tail_entry": null,
+		"manes": [
+			"fleur_Mane"
+		],
+		"tails": [
+			"fleur_Tail"
+		],
+		"triangles": 17616,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from fleur_dis_lee",
+		"mark_source": {
+			"booru_id": 2114576,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "fleur_dis_lee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "lilac_links",
+		"display_name": "Lilac Links",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"bonbon_Mane"
+		],
+		"tails": [
+			"bonbon_Tail"
+		],
+		"triangles": 4992,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sweetie_drops",
+		"mark_source": {
+			"booru_id": 807682,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "sweetie_drops",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "lily_lace",
+		"display_name": "Lily Lace",
+		"race": "unicorn",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/fleur",
+		"tail_entry": null,
+		"manes": [
+			"fleur_Mane"
+		],
+		"tails": [
+			"fleur_Tail"
+		],
+		"triangles": 17616,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from fleur_dis_lee",
+		"mark_source": {
+			"booru_id": 2092012,
+			"url": "https://derpicdn.net/img/download/2019/7/15/2092012.svg",
+			"viewbox": [
+				500,
+				750,
+				250,
+				250
+			],
+			"symbol": "heart with lace and ribbon",
+			"artist": "cheezedoodle96",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "fleur_dis_lee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "luster_dawn",
+		"display_name": "Luster Dawn",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"sunsetshimmer_Mane"
+		],
+		"tails": [
+			"sunsetshimmer_Tail"
+		],
+		"triangles": 7000,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunset_shimmer",
+		"mark_source": {
+			"svg": "/cg/cutiemark/225.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "sunset_shimmer",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "lyrica_lilac",
+		"display_name": "Lyrica Lilac",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"lemonhearts_Mane"
+		],
+		"tails": [
+			"lemonhearts_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from lemon_hearts",
+		"mark_source": {
+			"booru_id": 1640820,
+			"file": "captures/roster-census/marks_src/lyricalilac_1640820.png",
+			"symbol": "golden lyre",
+			"artist": "the smiling pony",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "lemon_hearts",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "meadow_flower",
+		"display_name": "Meadow Flower",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twilightvelvet_Mane"
+		],
+		"tails": [
+			"twilightvelvet_Tail"
+		],
+		"triangles": 5360,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twilight_velvet",
+		"mark_source": {
+			"svg": "/cg/cutiemark/114.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "twilight_velvet",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "merry_may",
+		"display_name": "Merry May",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"raindrops_Mane"
+		],
+		"tails": [
+			"raindrops_Tail"
+		],
+		"triangles": 5520,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunshower_raindrops",
+		"mark_source": {
+			"booru_id": 3690244,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "sunshower_raindrops",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "orange_swirl",
+		"display_name": "Orange Swirl",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twinkleshine_Mane"
+		],
+		"tails": [
+			"twinkleshine_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twinkleshine",
+		"mark_source": {
+			"svg": "/cg/cutiemark/145.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "twinkleshine",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "peachy_sweet",
+		"display_name": "Peachy Sweet",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twilightvelvet_Mane"
+		],
+		"tails": [
+			"twilightvelvet_Tail"
+		],
+		"triangles": 5360,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twilight_velvet",
+		"mark_source": {
+			"booru_id": 1888887,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "twilight_velvet",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "perfect_pie",
+		"display_name": "Perfect Pie",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twinkleshine_Mane"
+		],
+		"tails": [
+			"twinkleshine_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twinkleshine",
+		"mark_source": {
+			"booru_id": 709181,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "twinkleshine",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "pinny_lane",
+		"display_name": "Pinny Lane",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"lemonhearts_Mane"
+		],
+		"tails": [
+			"lemonhearts_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from lemon_hearts",
+		"mark_source": {
+			"booru_id": 3060367,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "lemon_hearts",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "rainbowshine",
+		"display_name": "Rainbowshine",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": "redacted",
+		"manes": [
+			"cheerilee_Mane"
+		],
+		"tails": [
+			"nurseredheart_Tail"
+		],
+		"triangles": 11234,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from cheerilee",
+		"mark_source": {
+			"booru_id": 3593591,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "cheerilee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "raven_inkwell",
+		"display_name": "Raven Inkwell",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"moondancer_Mane"
+		],
+		"tails": [
+			"moondancer_Tail"
+		],
+		"triangles": 13642,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from moon_dancer",
+		"mark_source": {
+			"svg": "/cg/cutiemark/134.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "moon_dancer",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "red_gala",
+		"display_name": "Red Gala",
+		"race": "earth",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/sunflowerspectacle",
+		"tail_entry": "redacted",
+		"manes": [
+			"sunflowerspectacle_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 5344,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunflower_spectacle",
+		"mark_source": {
+			"booru_id": 2218544,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "sunflower_spectacle",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "royal_ribbon",
+		"display_name": "Royal Ribbon",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twinkleshine_Mane"
+		],
+		"tails": [
+			"twinkleshine_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twinkleshine",
+		"mark_source": {
+			"booru_id": 3593593,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "twinkleshine",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "sassaflash",
+		"display_name": "Sassaflash",
+		"race": "pegasus",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/sunflowerspectacle",
+		"tail_entry": "redacted",
+		"manes": [
+			"sunflowerspectacle_Mane"
+		],
+		"tails": [
+			"octavia_Tail"
+		],
+		"triangles": 5344,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunflower_spectacle",
+		"mark_source": {
+			"booru_id": 767915,
+			"url": "https://derpicdn.net/img/download/2014/11/19/767915.svg",
+			"crop_pixels": [
+				375,
+				465,
+				443,
+				540
+			],
+			"symbol": "two yellow lightning bolts",
+			"artist": "the smiling pony",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "sunflower_spectacle",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "sea_swirl",
+		"display_name": "Sea Swirl",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"lemonhearts_Mane"
+		],
+		"tails": [
+			"lemonhearts_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from lemon_hearts",
+		"mark_source": {
+			"booru_id": 1434687,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "lemon_hearts",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "shimmy_shake",
+		"display_name": "Shimmy Shake",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"lightningdust_Mane"
+		],
+		"tails": [
+			"lightningdust_Tail"
+		],
+		"triangles": 11650,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from lightning_dust",
+		"mark_source": {
+			"booru_id": 2114576,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "lightning_dust",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "shoeshine",
+		"display_name": "Linky (Shoeshine)",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"carrottop_Mane"
+		],
+		"tails": [
+			"carrottop_Tail"
+		],
+		"triangles": 13304,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from golden_harvest",
+		"mark_source": {
+			"booru_id": 807682,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "golden_harvest",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {},
+		"aliases": [
+			"Linky",
+			"Shoeshine"
+		]
+	},
+	{
+		"id": "silver_spanner",
+		"display_name": "Silver Spanner",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"raindrops_Mane"
+		],
+		"tails": [
+			"raindrops_Tail"
+		],
+		"triangles": 5520,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from sunshower_raindrops",
+		"mark_source": {
+			"booru_id": 3623469,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "sunshower_raindrops",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "sprinkle_medley",
+		"display_name": "Sprinkle Medley",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"cloudchaser_Mane"
+		],
+		"tails": [
+			"cloudchaser_Tail"
+		],
+		"triangles": 17268,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from cloudchaser",
+		"mark_source": {
+			"svg": "/cg/cutiemark/155.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "cloudchaser",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "stellar_flare",
+		"display_name": "Stellar Flare",
+		"race": "unicorn",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"cocopommel_Mane",
+			"cocopommel_Mane_2"
+		],
+		"tails": [
+			"cocopommel_Tail"
+		],
+		"triangles": 25436,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from coco_pommel",
+		"mark_source": {
+			"booru_id": 3198064,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "coco_pommel",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82,
+			"tail_geometry_chain": true
+		}
+	},
+	{
+		"id": "strawberry_sunrise",
+		"display_name": "Strawberry Sunrise",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": "redacted",
+		"manes": [
+			"cheerilee_Mane"
+		],
+		"tails": [
+			"nurseredheart_Tail"
+		],
+		"triangles": 11234,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from cheerilee",
+		"mark_source": {
+			"svg": "/cg/cutiemark/197.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "cheerilee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "sunshower",
+		"display_name": "Sunshower",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"twilightvelvet_Mane"
+		],
+		"tails": [
+			"twilightvelvet_Tail"
+		],
+		"triangles": 5360,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from twilight_velvet",
+		"mark_source": {
+			"booru_id": 2092012,
+			"url": "https://derpicdn.net/img/download/2019/7/15/2092012.svg",
+			"viewbox": [
+				2750,
+				1500,
+				250,
+				250
+			],
+			"symbol": "three raindrops",
+			"artist": "cheezedoodle96",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "twilight_velvet",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "twist",
+		"display_name": "Twist",
+		"race": "earth",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"lemonhearts_Mane"
+		],
+		"tails": [
+			"lemonhearts_Tail"
+		],
+		"triangles": 15740,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from lemon_hearts",
+		"mark_source": {
+			"booru_id": 2375056,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "lemon_hearts",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "vapor_trail",
+		"display_name": "Vapor Trail",
+		"race": "pegasus",
+		"entry": "src_revamped_sourcefile_factory_2_0_sfw/fleur",
+		"tail_entry": null,
+		"manes": [
+			"fleur_Mane"
+		],
+		"tails": [
+			"fleur_Tail"
+		],
+		"triangles": 17616,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from fleur_dis_lee",
+		"mark_source": {
+			"svg": "/cg/cutiemark/154.svg",
+			"method": "MLP Vector Club colour guide"
+		},
+		"recolour_of": "fleur_dis_lee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {}
+	},
+	{
+		"id": "white_lightning",
+		"display_name": "White Lightning",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": "redacted",
+		"manes": [
+			"cheerilee_Mane"
+		],
+		"tails": [
+			"nurseredheart_Tail"
+		],
+		"triangles": 11234,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from cheerilee",
+		"mark_source": {
+			"booru_id": 139456,
+			"method": "derpibooru cutie mark only"
+		},
+		"recolour_of": "cheerilee",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82
+		}
+	},
+	{
+		"id": "wild_fire",
+		"display_name": "Wild Fire",
+		"race": "pegasus",
+		"entry": "redacted",
+		"tail_entry": null,
+		"manes": [
+			"marblepie_Mane"
+		],
+		"tails": [
+			"marblepie_Tail"
+		],
+		"triangles": 4848,
+		"runner_ups": [],
+		"guide": "wiki list of ponies colour cells",
+		"palette_method": "wiki HSL; hair recoloured from marble_pie",
+		"mark_source": {
+			"booru_id": 2092012,
+			"url": "https://derpicdn.net/img/download/2019/7/15/2092012.svg",
+			"viewbox": [
+				1250,
+				750,
+				250,
+				250
+			],
+			"symbol": "flame",
+			"artist": "cheezedoodle96",
+			"method": "identified source artwork; isolated symbol"
+		},
+		"recolour_of": "marble_pie",
+		"status": "built; rig PASS; dev visual review pending",
+		"voice_status": "temporary shared Cheerilee voice",
+		"fit_overrides": {
+			"tail_fit_scale": 0.82,
+			"tail_geometry_chain": true
+		}
+	},
+	{
+		"id": "big_mcintosh",
+		"display_name": "Big McIntosh",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"enh_bigmac_Mane"
+		],
+		"tails": [
+			"enh_bigmac_Tail"
+		],
+		"triangles": 8556,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/35",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/93.svg",
+			"source": "http://fav.me/d9zhgk0",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {
+			"tail_fit_scale": 0.75
+		},
+		"validation": "captures/stallions-all/validation-final.json",
+		"home": "ponyville"
+	},
+	{
+		"id": "shining_armor",
+		"display_name": "Shining Armor",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"shiningarmor_Mane"
+		],
+		"tails": [
+			"shiningarmor_Tail"
+		],
+		"triangles": 11936,
+		"runner_ups": [
+			"redacted",
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/44",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/96.svg",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"validation": "captures/stallions-all/validation-final.json",
+		"home": "canterlot"
+	},
+	{
+		"id": "braeburn",
+		"display_name": "Braeburn",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"revamped_braeburn_Mane"
+		],
+		"tails": [
+			"revamped_braeburn_Tail"
+		],
+		"triangles": 16720,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/121",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/130.svg",
+			"source": "http://fav.me/d9zls6n",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "appleloosa",
+		"validation": "captures/braeburn-appearance/rig.json"
+	},
+	{
+		"id": "drwhooves",
+		"display_name": "Dr. Hooves",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"dr_whooves_enh_Mane"
+		],
+		"tails": [
+			"dr_whooves_enh_Tail"
+		],
+		"triangles": 7698,
+		"runner_ups": [
+			"redacted",
+			"src_stenovhouse_enhanced/drwhooves",
+			"src_poninnahka_overhaul/drwhooves",
+			"src_revamped_sourcefile_factory_2_0_sfw/whooves"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/80",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/121.svg",
+			"source": "http://fav.me/da9gbnl",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "ponyville",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "soarin",
+		"display_name": "Soarin",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"revamped_soarin_Mane"
+		],
+		"tails": [
+			"revamped_soarin_Tail"
+		],
+		"triangles": 7218,
+		"runner_ups": [
+			"src_stenovhouse_enhanced/soarin",
+			"src_poninnahka_overhaul/soarin",
+			"src_revamped_sourcefile_factory_2_0_sfw/soarin"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/127",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/131.svg",
+			"source": "http://fav.me/d72vipj",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {
+			"tail_fit_scale": 0.9
+		},
+		"home": "cloudsdale",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "thunderlane",
+		"display_name": "Thunderlane",
+		"race": "pegasus",
+		"entry": "src_poninnahka_overhaul/thunderlane",
+		"manes": [
+			"thunderlane_Mane"
+		],
+		"tails": [
+			"thunderlane_Tail"
+		],
+		"triangles": 2964,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/101",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/126.svg",
+			"source": "http://fav.me/da82bww",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "cloudsdale",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "caramel",
+		"display_name": "Caramel",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"revamped_caramel_Mane"
+		],
+		"tails": [
+			"revamped_caramel_Tail"
+		],
+		"triangles": 4528,
+		"runner_ups": [
+			"src_stenovhouse_enhanced/caramel",
+			"src_poninnahka_overhaul/caramel",
+			"src_revamped_sourcefile_factory_2_0_sfw/caramel"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/147",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/139.svg",
+			"source": "http://fav.me/da4h4c6",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "ponyville",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "pokey_pierce",
+		"display_name": "Pokey Pierce",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"revamped_pokeypierce_Mane"
+		],
+		"tails": [
+			"revamped_pokeypierce_Tail"
+		],
+		"triangles": 6784,
+		"runner_ups": [
+			"src_stenovhouse_enhanced/pokeypierce",
+			"src_poninnahka_overhaul/pokeypierce",
+			"src_revamped_sourcefile_factory_2_0_sfw/pokeypierce"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/477",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.3,
+				0.54,
+				0.4,
+				0.67
+			],
+			"source_coat": [
+				96,
+				148,
+				197
+			],
+			"opaque_pixels": 5161,
+			"crop": [
+				59,
+				31,
+				155,
+				218
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "ponyville",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "noteworthy",
+		"display_name": "Noteworthy",
+		"race": "earth",
+		"entry": "src_poninnahka_overhaul/noteworthy",
+		"manes": [
+			"noteworthy_Mane"
+		],
+		"tails": [
+			"noteworthy_Tail"
+		],
+		"triangles": 6304,
+		"runner_ups": [],
+		"guide": "captures/roster-census/wiki_colours.json: Noteworthy",
+		"palette_method": "cached wiki HSL palette; derived coat outline",
+		"mark_source": {
+			"url": "https://derpicdn.net/img/view/2024/3/1/3312867.png",
+			"author": "Cloudy Glow",
+			"source": "redacted",
+			"facing": "left"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "ponyville",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "night_light",
+		"display_name": "Night Light",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"revamped_nightlight_Mane"
+		],
+		"tails": [
+			"revamped_nightlight_Tail"
+		],
+		"triangles": 5326,
+		"runner_ups": [
+			"src_poninnahka_overhaul/nightlight",
+			"src_revamped_sourcefile_factory_2_0_sfw/nightlight"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/91",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.3,
+				0.54,
+				0.4,
+				0.67
+			],
+			"source_coat": [
+				96,
+				151,
+				195
+			],
+			"opaque_pixels": 14500,
+			"crop": [
+				21,
+				31,
+				193,
+				218
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "canterlot",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "sunburst",
+		"display_name": "Sunburst",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"sunburst_Mane"
+		],
+		"tails": [
+			"sunburst_Tail"
+		],
+		"triangles": 12608,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/62",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/113.svg",
+			"source": "http://fav.me/d9iyv1r",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "crystal_empire",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "double_diamond",
+		"display_name": "Double Diamond",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"doublediamond_Mane"
+		],
+		"tails": [
+			"doublediamond_Tail"
+		],
+		"triangles": 25808,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/27",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/88.svg",
+			"source": "http://fav.me/da8pwr4",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "starlights_village",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "party_favor",
+		"display_name": "Party Favor",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"partyfavor_Mane"
+		],
+		"tails": [
+			"partyfavor_Tail"
+		],
+		"triangles": 8640,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/28",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				184,
+				229,
+				224
+			],
+			"opaque_pixels": 9941,
+			"crop": [
+				56,
+				1,
+				202,
+				187
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "starlights_village",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "dr_caballeron",
+		"display_name": "Dr. Caballeron",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"caballeron_Mane"
+		],
+		"tails": [
+			"caballeron_Tail"
+		],
+		"triangles": 14656,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/160",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				149,
+				141,
+				115
+			],
+			"opaque_pixels": 12324,
+			"crop": [
+				76,
+				37,
+				217,
+				201
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {
+			"tail_fit_scale": 0.65
+		},
+		"home": "everfree",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "prince_blueblood",
+		"display_name": "Prince Blueblood",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"blueblood_Mane"
+		],
+		"tails": [
+			"blueblood_Tail"
+		],
+		"triangles": 5326,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/538",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				237,
+				245,
+				237
+			],
+			"opaque_pixels": 8277,
+			"crop": [
+				75,
+				40,
+				236,
+				201
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "canterlot",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "igneous_rock",
+		"display_name": "Igneous Rock",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"igneousrock_Mane"
+		],
+		"tails": [
+			"igneousrock_Tail"
+		],
+		"triangles": 12144,
+		"runner_ups": [
+			"redacted"
+		],
+		"guide": "https://mlpvector.club/cg/pony/v/53",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				184,
+				153,
+				75
+			],
+			"opaque_pixels": 4112,
+			"crop": [
+				82,
+				38,
+				179,
+				204
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "rock_farm",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "flash_sentry",
+		"display_name": "Flash Sentry",
+		"race": "pegasus",
+		"entry": "stallion_recovered/flashsentry",
+		"manes": [
+			"flashsentry_Mane"
+		],
+		"tails": [
+			"flashsentry_Tail"
+		],
+		"triangles": 9656,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/307",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				237,
+				195,
+				93
+			],
+			"opaque_pixels": 5941,
+			"crop": [
+				140,
+				54,
+				223,
+				172
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "crystal_empire",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "comet_tail",
+		"display_name": "Comet Tail",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"comet_tail_Mane"
+		],
+		"tails": [
+			"comet_tail_Tail"
+		],
+		"triangles": 6304,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/177",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "left",
+			"svg": "/cg/cutiemark/149.svg",
+			"source": "http://fav.me/dabxlg3",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "ponyville",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "compass_star",
+		"display_name": "Compass Star",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"compass_star_Mane"
+		],
+		"tails": [
+			"compass_star_Tail"
+		],
+		"triangles": 6784,
+		"runner_ups": [],
+		"guide": "captures/roster-census/wiki_colours.json: Compass Star",
+		"palette_method": "cached wiki HSL palette; derived coat outline",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				144,
+				117,
+				88
+			],
+			"opaque_pixels": 41656,
+			"crop": [
+				109,
+				7,
+				405,
+				413
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {},
+		"home": "canterlot",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "jackpot",
+		"display_name": "Jackpot",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"jackpot_Mane"
+		],
+		"tails": [
+			"jackpot_Tail"
+		],
+		"triangles": 7968,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/393",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"source": "redacted",
+			"method": "Inspected original right-flank artwork crop; coat removed and mirrored to left-facing sheet",
+			"facing": "right",
+			"canonical_frame": "left",
+			"uv_window": [
+				0.28,
+				0.58,
+				0.412,
+				0.735
+			],
+			"source_coat": [
+				99,
+				153,
+				187
+			],
+			"opaque_pixels": 5363,
+			"crop": [
+				64,
+				81,
+				256,
+				179
+			]
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {
+			"tail_fit_scale": 0.85
+		},
+		"home": "los_pegasus",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "king_sombra",
+		"display_name": "King Sombra",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"vb_kingsombra_Mane"
+		],
+		"tails": [
+			"vb_kingsombra_Tail"
+		],
+		"triangles": 6202,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/132",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"reason": "No cutie mark in colour guide or character design; no substitute emblem."
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese; no approved male TTS voice bank yet",
+		"fit_overrides": {
+			"tail_geometry_chain": true,
+			"tail_geometry_axis": "z"
+		},
+		"home": "crystal_empire",
+		"validation": "captures/stallions-all/validation-final.json"
+	},
+	{
+		"id": "apple_bloom",
+		"display_name": "Apple Bloom",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"applebloom_Mane",
+			"applebloom_Mane_2"
+		],
+		"tails": [
+			"applebloom_Tail"
+		],
+		"triangles": 10544,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/23",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "sweetie_belle",
+		"display_name": "Sweetie Belle",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"sweetiebelle_Mane"
+		],
+		"tails": [
+			"sweetiebelle_Tail"
+		],
+		"triangles": 4992,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/25",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "scootaloo",
+		"display_name": "Scootaloo",
+		"race": "pegasus",
+		"entry": "redacted",
+		"manes": [
+			"scootaloo_Mane"
+		],
+		"tails": [
+			"scootaloo_Tail"
+		],
+		"triangles": 3830,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/24",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "diamond_tiara",
+		"display_name": "Diamond Tiara",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"diamondtiara_Mane",
+			"diamondtiara_Mane_2"
+		],
+		"tails": [
+			"diamondtiara_Tail"
+		],
+		"triangles": 9958,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/74",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": null,
+			"svg": "/cg/cutiemark/161.svg",
+			"source": "http://fav.me/dauj5bo",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "silver_spoon",
+		"display_name": "Silver Spoon",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"silverspoon_Mane",
+			"silverspoon_Mane_2"
+		],
+		"tails": [
+			"silverspoon_Tail"
+		],
+		"triangles": 5166,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/67",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"facing": "right",
+			"svg": "/cg/cutiemark/165.svg",
+			"source": "http://fav.me/dawapki",
+			"contributor": "redacted"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"dropped_primitives": 1,
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "dinky_doo",
+		"display_name": "Dinky Doo",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"dinkydo_filly_Mane"
+		],
+		"tails": [
+			"dinkydo_filly_Tail"
+		],
+		"triangles": 6656,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/37",
+		"palette_method": "show colour guide",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.25,
+			"_why": "1.4 failed the tail floor test (-117 mm); bounded retry"
+		},
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "ruby_pinch",
+		"display_name": "Ruby Pinch",
+		"race": "unicorn",
+		"entry": "redacted",
+		"manes": [
+			"filly_dinkydoo_Mane"
+		],
+		"tails": [
+			"filly_dinkydoo_Tail"
+		],
+		"triangles": 5520,
+		"runner_ups": [],
+		"guide": "https://mlpvector.club/cg/pony/v/38",
+		"palette_method": "show colour guide; hair recoloured to #C24D87",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"recolour_of": "redacted",
+		"recolour_reason": "wiki: shares her design with Dinky Doo",
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "archer",
+		"display_name": "Archer",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"scootaloo_Mane"
+		],
+		"tails": [
+			"scootaloo_Tail"
+		],
+		"triangles": 3830,
+		"runner_ups": [],
+		"guide": "https://mlp.fandom.com/wiki/List_of_ponies/Foals#Archer (colour cells)",
+		"palette_method": "wiki HSL colour cells; derived outline/shadow; hair recoloured to #527ebc",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {
+			"tail_fit_scale": 1.4
+		},
+		"recolour_of": "redacted",
+		"recolour_reason": "wiki: shares Scootaloo's character design without the wings",
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	},
+	{
+		"id": "noi",
+		"display_name": "Noi",
+		"race": "earth",
+		"entry": "redacted",
+		"manes": [
+			"lilyvalley_Mane"
+		],
+		"tails": [
+			"lilyvalley_Tail"
+		],
+		"triangles": 8190,
+		"runner_ups": [],
+		"guide": "https://mlp.fandom.com/wiki/List_of_ponies/Foals#Noi (colour cells)",
+		"palette_method": "wiki HSL colour cells; derived outline/shadow; hair recoloured to #eecc86",
+		"mark_source": {
+			"blank": true,
+			"method": "blank flank (Season 2)"
+		},
+		"status": "built; rig PASS; awaiting dev visual review",
+		"voice_status": "Ponese at filly pitch; no child TTS voice",
+		"fit_overrides": {},
+		"recolour_of": "redacted",
+		"recolour_reason": "by eye: straight shoulder-length mane with a side-swept fringe and a straight tail (Noi ID S1E12)",
+		"filly": true,
+		"home": "ponyville",
+		"validation": "redacted"
+	}
+]

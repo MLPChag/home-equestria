@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/blossomforth.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "blossomforth"
+display_name = "Blossomforth"
+coat_fill = Color(0.9647059, 0.94509804, 0.93333334, 1)
+coat_line = Color(0.69411767, 0.68235296, 0.67058825, 1)
+coat_shade = Color(0.8862745, 0.87058824, 0.85882354, 1)
+mane_line = Color(0.6784314, 0.21568628, 0.43137255, 1)
+iris_color = Color(0.43137255, 0.8627451, 0.9490196, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/blossomforth_hair.scn"
+hair_prefix = "Blossomforth"
+tail_terminal_length = 0.123989088
+ai_profile = "res://world/characters/background/ai/blossomforth.json"

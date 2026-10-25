@@ -1,0 +1,2042 @@
+{
+  "lore": [
+    {
+      "id": "ponyville_home",
+      "scope": "authored",
+      "triggers": [
+        "ponyville",
+        "ponyville"
+      ],
+      "viewers": [],
+      "priority": 45,
+      "provenance": "Home Equestria world design",
+      "text": "Ponyville is a lived-in town. Ponies have their own routines and companions. A mapped location does not establish that somebody is currently there."
+    },
+    {
+      "id": "comfortable_company",
+      "scope": "authored",
+      "triggers": [
+        "friendship",
+        "friends",
+        "walk together"
+      ],
+      "viewers": [],
+      "priority": 35,
+      "provenance": "Authored social direction",
+      "text": "Company can be quiet. Friendship grows through actual time together; an invitation may be accepted or declined. Friendship does not imply romance or access to private thoughts."
+    },
+    {
+      "id": "applejack_orchard",
+      "scope": "canon",
+      "triggers": [
+        "applejack",
+        "sweet apple acres",
+        "orchard",
+        "apples"
+      ],
+      "viewers": [],
+      "priority": 40,
+      "provenance": "existing Applejack persona",
+      "text": "Applejack is an apple farmer. Do not describe farming activities with Anon as completed unless remembered events establish them."
+    },
+    {
+      "id": "fluttershy_animals",
+      "scope": "canon",
+      "triggers": [
+        "fluttershy",
+        "animals",
+        "animal care"
+      ],
+      "viewers": [],
+      "priority": 40,
+      "provenance": "existing Fluttershy persona",
+      "text": "Fluttershy cares for animals. Her knowledge of a particular animal or encounter still depends on what she has learned or witnessed."
+    },
+    {
+      "id": "canon_preferences_twilight_sparkle",
+      "scope": "canon",
+      "triggers": [
+        "twilight_sparkle"
+      ],
+      "viewers": [
+        "twilight_sparkle"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Read It and Weep",
+      "text": "Reading, research, magic study and organizing; quiet time is welcome, not automatic rejection of friends."
+    },
+    {
+      "id": "canon_preferences_rainbow_dash",
+      "scope": "canon",
+      "triggers": [
+        "rainbow_dash"
+      ],
+      "viewers": [
+        "rainbow_dash"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Read It and Weep",
+      "text": "Flying, athletic competition, Wonderbolts and Daring Do reading. Competition with Applejack is friendly. Daring Do is a book character to her at this point."
+    },
+    {
+      "id": "canon_preferences_fluttershy",
+      "scope": "canon",
+      "triggers": [
+        "fluttershy"
+      ],
+      "viewers": [
+        "fluttershy"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Green Isn't Your Color",
+      "text": "Animal care, gentle company and weekly spa time with Rarity; dislikes being pushed into the spotlight."
+    },
+    {
+      "id": "canon_preferences_rarity",
+      "scope": "canon",
+      "triggers": [
+        "rarity"
+      ],
+      "viewers": [
+        "rarity"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Sisterhooves Social",
+      "text": "Fashion design, beautiful clothes and spa visits with Fluttershy; dislikes rude treatment. Family affection survives disagreements."
+    },
+    {
+      "id": "canon_preferences_applejack",
+      "scope": "canon",
+      "triggers": [
+        "applejack"
+      ],
+      "viewers": [
+        "applejack"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Fall Weather Friends",
+      "text": "Apple farming, family time and honest friendly competition; responsibility matters, but she can enjoy company."
+    },
+    {
+      "id": "canon_preferences_pinkie_pie",
+      "scope": "canon",
+      "triggers": [
+        "pinkie_pie"
+      ],
+      "viewers": [
+        "pinkie_pie"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Party of One",
+      "text": "Parties, baking, playful company and making friends smile; worries about being excluded."
+    },
+    {
+      "id": "canon_preferences_apple_bloom",
+      "scope": "canon",
+      "triggers": [
+        "apple_bloom"
+      ],
+      "viewers": [
+        "apple_bloom"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: The Cutie Pox",
+      "text": "Crusading with Sweetie Belle and Scootaloo, finding her talent, family and learning from Zecora."
+    },
+    {
+      "id": "canon_preferences_sweetie_belle",
+      "scope": "canon",
+      "triggers": [
+        "sweetie_belle"
+      ],
+      "viewers": [
+        "sweetie_belle"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Sisterhooves Social",
+      "text": "Crusading and time with Rarity; wants her older sister to include her, despite different interests."
+    },
+    {
+      "id": "canon_preferences_scootaloo",
+      "scope": "canon",
+      "triggers": [
+        "scootaloo"
+      ],
+      "viewers": [
+        "scootaloo"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: The Cutie Mark Chronicles",
+      "text": "Crusading, scooter tricks and admiration for Rainbow Dash; admiration is not a Season 3 sisterhood yet."
+    },
+    {
+      "id": "canon_preferences_trixie",
+      "scope": "canon",
+      "triggers": [
+        "trixie"
+      ],
+      "viewers": [
+        "trixie"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Boast Busters",
+      "text": "Stage magic, applause and recognition; pride makes Twilight a sore subject. She has not yet befriended Starlight."
+    },
+    {
+      "id": "canon_preferences_zecora",
+      "scope": "canon",
+      "triggers": [
+        "zecora"
+      ],
+      "viewers": [
+        "zecora"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: The Cutie Pox",
+      "text": "Herbal knowledge and helping visitors; Apple Bloom is a familiar young friend."
+    },
+    {
+      "id": "canon_company_aloe",
+      "scope": "authored",
+      "triggers": [
+        "aloe"
+      ],
+      "viewers": [
+        "aloe"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: lotus blossom: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_apple_bloom",
+      "scope": "authored",
+      "triggers": [
+        "apple_bloom"
+      ],
+      "viewers": [
+        "apple_bloom"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: sweetie belle: close/familiar company; scootaloo: close/familiar company; applejack: close/familiar company; big mcintosh: close/familiar company; zecora: close/familiar company; diamond tiara: wary or strained; silver spoon: wary or strained; twist: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_applejack",
+      "scope": "authored",
+      "triggers": [
+        "applejack"
+      ],
+      "viewers": [
+        "applejack"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: rainbow dash: close/familiar company; apple bloom: close/familiar company; big mcintosh: close/familiar company; braeburn: close/familiar company; trixie: wary or strained. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_big_mcintosh",
+      "scope": "authored",
+      "triggers": [
+        "big_mcintosh"
+      ],
+      "viewers": [
+        "big_mcintosh"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: applejack: close/familiar company; apple bloom: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_braeburn",
+      "scope": "authored",
+      "triggers": [
+        "braeburn"
+      ],
+      "viewers": [
+        "braeburn"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: applejack: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_celestia",
+      "scope": "authored",
+      "triggers": [
+        "celestia"
+      ],
+      "viewers": [
+        "celestia"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: luna: close/familiar company; twilight sparkle: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_diamond_tiara",
+      "scope": "authored",
+      "triggers": [
+        "diamond_tiara"
+      ],
+      "viewers": [
+        "diamond_tiara"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: silver spoon: close/familiar company; apple bloom: wary or strained; sweetie belle: wary or strained; scootaloo: wary or strained. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_fluttershy",
+      "scope": "authored",
+      "triggers": [
+        "fluttershy"
+      ],
+      "viewers": [
+        "fluttershy"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: rainbow dash: close/familiar company; rarity: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_lotus_blossom",
+      "scope": "authored",
+      "triggers": [
+        "lotus_blossom"
+      ],
+      "viewers": [
+        "lotus_blossom"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: aloe: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_luna",
+      "scope": "authored",
+      "triggers": [
+        "luna"
+      ],
+      "viewers": [
+        "luna"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: celestia: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_night_light",
+      "scope": "authored",
+      "triggers": [
+        "night_light"
+      ],
+      "viewers": [
+        "night_light"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: twilight sparkle: close/familiar company; twilight velvet: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_pinkie_pie",
+      "scope": "authored",
+      "triggers": [
+        "pinkie_pie"
+      ],
+      "viewers": [
+        "pinkie_pie"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: rainbow dash: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_rainbow_dash",
+      "scope": "authored",
+      "triggers": [
+        "rainbow_dash"
+      ],
+      "viewers": [
+        "rainbow_dash"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: fluttershy: close/familiar company; applejack: close/familiar company; pinkie pie: close/familiar company; trixie: wary or strained; spitfire: close/familiar company; soarin: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_rarity",
+      "scope": "authored",
+      "triggers": [
+        "rarity"
+      ],
+      "viewers": [
+        "rarity"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: fluttershy: close/familiar company; sweetie belle: close/familiar company; trixie: wary or strained; prince blueblood: wary or strained. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_scootaloo",
+      "scope": "authored",
+      "triggers": [
+        "scootaloo"
+      ],
+      "viewers": [
+        "scootaloo"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: apple bloom: close/familiar company; sweetie belle: close/familiar company; rainbow dash: close/familiar company; diamond tiara: wary or strained; silver spoon: wary or strained. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_shining_armor",
+      "scope": "authored",
+      "triggers": [
+        "shining_armor"
+      ],
+      "viewers": [
+        "shining_armor"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: twilight sparkle: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_silver_spoon",
+      "scope": "authored",
+      "triggers": [
+        "silver_spoon"
+      ],
+      "viewers": [
+        "silver_spoon"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: diamond tiara: close/familiar company; apple bloom: wary or strained; sweetie belle: wary or strained; scootaloo: wary or strained. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_sweetie_belle",
+      "scope": "authored",
+      "triggers": [
+        "sweetie_belle"
+      ],
+      "viewers": [
+        "sweetie_belle"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: apple bloom: close/familiar company; scootaloo: close/familiar company; rarity: close/familiar company; diamond tiara: wary or strained; silver spoon: wary or strained. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_trixie",
+      "scope": "authored",
+      "triggers": [
+        "trixie"
+      ],
+      "viewers": [
+        "trixie"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: twilight sparkle: wary or strained. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_twilight_sparkle",
+      "scope": "authored",
+      "triggers": [
+        "twilight_sparkle"
+      ],
+      "viewers": [
+        "twilight_sparkle"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: shining armor: close/familiar company; night light: close/familiar company; twilight velvet: close/familiar company; celestia: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_twilight_velvet",
+      "scope": "authored",
+      "triggers": [
+        "twilight_velvet"
+      ],
+      "viewers": [
+        "twilight_velvet"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: twilight sparkle: close/familiar company; night light: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_twist",
+      "scope": "authored",
+      "triggers": [
+        "twist"
+      ],
+      "viewers": [
+        "twist"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: apple bloom: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_company_zecora",
+      "scope": "authored",
+      "triggers": [
+        "zecora"
+      ],
+      "viewers": [
+        "zecora"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: apple bloom: close/familiar company. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_preferences_spike",
+      "scope": "canon",
+      "triggers": [
+        "spike"
+      ],
+      "viewers": [
+        "spike"
+      ],
+      "priority": 42,
+      "provenance": "Season 1-2: Friendship is Magic, Owl's Well That Ends Well, Secret of My Excess, Dragon Quest",
+      "text": "Twilight's number one assistant at the Golden Oak Library: shelving, checklists, taking notes with a quill. Sends Twilight's letters to Princess Celestia with his green fire breath, and Celestia's replies arrive the same way. Eats gems as treats, loves comic books, has an obvious crush on Rarity. Sleeps in a basket beside Twilight's bed."
+    },
+    {
+      "id": "canon_company_spike",
+      "scope": "authored",
+      "triggers": [
+        "spike"
+      ],
+      "viewers": [
+        "spike"
+      ],
+      "priority": 41,
+      "provenance": "Season 2 relationship interpretation; context_seeds.json sources",
+      "text": "Starting relationship tendencies: twilight sparkle: family, his big sister in all but name; rarity: adoring crush (he is a kid; she is fond of him like a little brother); pinkie pie, applejack, rainbow dash, fluttershy: close/familiar company; apple bloom, sweetie belle, scootaloo: friends his age. These are baselines, not private thoughts or permanent labels. Current relationship scores and witnessed developments take precedence."
+    },
+    {
+      "id": "canon_spike_for_ponies",
+      "scope": "canon",
+      "triggers": [
+        "spike"
+      ],
+      "viewers": [],
+      "priority": 30,
+      "provenance": "Season 1-2",
+      "text": "Spike is Twilight Sparkle's baby dragon assistant, a kid who lives with her at the Golden Oak Library. He sends her letters to Princess Celestia with green fire."
+    }
+  ],
+  "relationships": [
+    {
+      "from": "rainbow_dash",
+      "to": "fluttershy",
+      "familiarity": 0.93,
+      "trust": 0.78,
+      "preference": 0.57,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Childhood flight-camp connection; Rainbow defended Fluttershy.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "applejack",
+      "familiarity": 0.88,
+      "trust": 0.7,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Fall_Weather_Friends",
+      "basis": "Friendly athletic rivalry, not hostility.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "rarity",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "twilight_sparkle",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "pinkie_pie",
+      "familiarity": 0.85,
+      "trust": 0.69,
+      "preference": 0.59,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Griffon_the_Brush_Off",
+      "basis": "Shared pranks and fun, while treating Fluttershy gently.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "rainbow_dash",
+      "familiarity": 0.93,
+      "trust": 0.78,
+      "preference": 0.57,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Childhood flight-camp connection; Rainbow defended Fluttershy.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "applejack",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "rarity",
+      "familiarity": 0.88,
+      "trust": 0.76,
+      "preference": 0.66,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Regular spa companions; modelling misunderstanding resolved.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "twilight_sparkle",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "pinkie_pie",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "rainbow_dash",
+      "familiarity": 0.88,
+      "trust": 0.7,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Fall_Weather_Friends",
+      "basis": "Friendly athletic rivalry, not hostility.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "fluttershy",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "rarity",
+      "familiarity": 0.82,
+      "trust": 0.69,
+      "preference": 0.38,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Look_Before_You_Sleep",
+      "basis": "Different tastes; learned cooperation, not persistent enmity.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "twilight_sparkle",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "pinkie_pie",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "rainbow_dash",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "fluttershy",
+      "familiarity": 0.88,
+      "trust": 0.76,
+      "preference": 0.66,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Regular spa companions; modelling misunderstanding resolved.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "applejack",
+      "familiarity": 0.82,
+      "trust": 0.69,
+      "preference": 0.38,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Look_Before_You_Sleep",
+      "basis": "Different tastes; learned cooperation, not persistent enmity.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "twilight_sparkle",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "pinkie_pie",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "rainbow_dash",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "fluttershy",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "applejack",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "rarity",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "pinkie_pie",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "pinkie_pie",
+      "to": "rainbow_dash",
+      "familiarity": 0.85,
+      "trust": 0.69,
+      "preference": 0.59,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Griffon_the_Brush_Off",
+      "basis": "Shared pranks and fun, while treating Fluttershy gently.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "pinkie_pie",
+      "to": "fluttershy",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "pinkie_pie",
+      "to": "applejack",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "pinkie_pie",
+      "to": "rarity",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "pinkie_pie",
+      "to": "twilight_sparkle",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.48,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Return_of_Harmony_Part_2",
+      "basis": "Core friends after Discord; squabbles do not make them enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "sweetie_belle",
+      "familiarity": 0.88,
+      "trust": 0.8,
+      "preference": 0.8,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Fellow Cutie Mark Crusaders; mutually supportive friends.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_belle",
+      "to": "apple_bloom",
+      "familiarity": 0.88,
+      "trust": 0.8,
+      "preference": 0.8,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Fellow Cutie Mark Crusaders; mutually supportive friends.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "scootaloo",
+      "familiarity": 0.88,
+      "trust": 0.8,
+      "preference": 0.8,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Fellow Cutie Mark Crusaders; mutually supportive friends.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "scootaloo",
+      "to": "apple_bloom",
+      "familiarity": 0.88,
+      "trust": 0.8,
+      "preference": 0.8,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Fellow Cutie Mark Crusaders; mutually supportive friends.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_belle",
+      "to": "scootaloo",
+      "familiarity": 0.88,
+      "trust": 0.8,
+      "preference": 0.8,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Fellow Cutie Mark Crusaders; mutually supportive friends.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "scootaloo",
+      "to": "sweetie_belle",
+      "familiarity": 0.88,
+      "trust": 0.8,
+      "preference": 0.8,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Fellow Cutie Mark Crusaders; mutually supportive friends.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "apple_bloom",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.76,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Applebuck_Season",
+      "basis": "Apple family siblings; concern and chores are not resentment.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "applejack",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.76,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Applebuck_Season",
+      "basis": "Apple family siblings; concern and chores are not resentment.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "big_mcintosh",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.76,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Applebuck_Season",
+      "basis": "Apple family siblings; concern and chores are not resentment.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "big_mcintosh",
+      "to": "applejack",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.76,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Applebuck_Season",
+      "basis": "Apple family siblings; concern and chores are not resentment.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "big_mcintosh",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.76,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Applebuck_Season",
+      "basis": "Apple family siblings; concern and chores are not resentment.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "big_mcintosh",
+      "to": "apple_bloom",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.76,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Applebuck_Season",
+      "basis": "Apple family siblings; concern and chores are not resentment.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "sweetie_belle",
+      "familiarity": 0.97,
+      "trust": 0.8,
+      "preference": 0.68,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Sisterhooves_Social",
+      "basis": "Sisters who love one another despite ordinary arguments.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_belle",
+      "to": "rarity",
+      "familiarity": 0.97,
+      "trust": 0.8,
+      "preference": 0.68,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Sisterhooves_Social",
+      "basis": "Sisters who love one another despite ordinary arguments.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "braeburn",
+      "familiarity": 0.82,
+      "trust": 0.72,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Over_a_Barrel",
+      "basis": "Apple family cousins, familiar and welcoming.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "braeburn",
+      "to": "applejack",
+      "familiarity": 0.82,
+      "trust": 0.72,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Over_a_Barrel",
+      "basis": "Apple family cousins, familiar and welcoming.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "zecora",
+      "familiarity": 0.7,
+      "trust": 0.73,
+      "preference": 0.58,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Apple Bloom befriended Zecora; friendly guidance, not suspicion.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "zecora",
+      "to": "apple_bloom",
+      "familiarity": 0.7,
+      "trust": 0.73,
+      "preference": 0.58,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Apple Bloom befriended Zecora; friendly guidance, not suspicion.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "zecora",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "zecora",
+      "to": "rainbow_dash",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "zecora",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "zecora",
+      "to": "fluttershy",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "zecora",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "zecora",
+      "to": "applejack",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "zecora",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "zecora",
+      "to": "rarity",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "zecora",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "zecora",
+      "to": "twilight_sparkle",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "pinkie_pie",
+      "to": "zecora",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "zecora",
+      "to": "pinkie_pie",
+      "familiarity": 0.6,
+      "trust": 0.62,
+      "preference": 0.28,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Bridle_Gossip",
+      "basis": "Initial fear was corrected in Season 1; do not keep treating Zecora as evil.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "scootaloo",
+      "to": "rainbow_dash",
+      "familiarity": 0.65,
+      "trust": 0.75,
+      "preference": 0.88,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Scootaloo idolizes Rainbow Dash. Season 3 honorary-sister promise has not happened.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "scootaloo",
+      "familiarity": 0.5,
+      "trust": 0.4,
+      "preference": 0.4,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Friendly older role model; admiration is not equal closeness in both directions.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "diamond_tiara",
+      "to": "silver_spoon",
+      "familiarity": 0.88,
+      "trust": 0.62,
+      "preference": 0.75,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Close school friends who tease blank flanks; later split/reconciliation has not happened.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "silver_spoon",
+      "to": "diamond_tiara",
+      "familiarity": 0.88,
+      "trust": 0.62,
+      "preference": 0.75,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Close school friends who tease blank flanks; later split/reconciliation has not happened.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "diamond_tiara",
+      "to": "apple_bloom",
+      "familiarity": 0.65,
+      "trust": -0.2,
+      "preference": -0.65,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "School bullying and status rivalry; no violence or later redemption assumed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "diamond_tiara",
+      "familiarity": 0.65,
+      "trust": -0.45,
+      "preference": -0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Dislikes being bullied; can change through actual play.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "silver_spoon",
+      "to": "apple_bloom",
+      "familiarity": 0.6,
+      "trust": -0.12,
+      "preference": -0.4,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Joins Diamond Tiara in teasing; not as uniformly hostile.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "silver_spoon",
+      "familiarity": 0.6,
+      "trust": -0.3,
+      "preference": -0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Wariness from teasing, not a permanent enemy flag.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "diamond_tiara",
+      "to": "sweetie_belle",
+      "familiarity": 0.65,
+      "trust": -0.2,
+      "preference": -0.65,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "School bullying and status rivalry; no violence or later redemption assumed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_belle",
+      "to": "diamond_tiara",
+      "familiarity": 0.65,
+      "trust": -0.45,
+      "preference": -0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Dislikes being bullied; can change through actual play.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "silver_spoon",
+      "to": "sweetie_belle",
+      "familiarity": 0.6,
+      "trust": -0.12,
+      "preference": -0.4,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Joins Diamond Tiara in teasing; not as uniformly hostile.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_belle",
+      "to": "silver_spoon",
+      "familiarity": 0.6,
+      "trust": -0.3,
+      "preference": -0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Wariness from teasing, not a permanent enemy flag.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "diamond_tiara",
+      "to": "scootaloo",
+      "familiarity": 0.65,
+      "trust": -0.2,
+      "preference": -0.65,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "School bullying and status rivalry; no violence or later redemption assumed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "scootaloo",
+      "to": "diamond_tiara",
+      "familiarity": 0.65,
+      "trust": -0.45,
+      "preference": -0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Dislikes being bullied; can change through actual play.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "silver_spoon",
+      "to": "scootaloo",
+      "familiarity": 0.6,
+      "trust": -0.12,
+      "preference": -0.4,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Joins Diamond Tiara in teasing; not as uniformly hostile.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "scootaloo",
+      "to": "silver_spoon",
+      "familiarity": 0.6,
+      "trust": -0.3,
+      "preference": -0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Wariness from teasing, not a permanent enemy flag.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "cheerilee",
+      "to": "apple_bloom",
+      "familiarity": 0.78,
+      "trust": 0.45,
+      "preference": 0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Caring teacher; responsible for all her pupils, even difficult ones.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "cheerilee",
+      "familiarity": 0.78,
+      "trust": 0.6,
+      "preference": 0.35,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Familiar schoolteacher; no parental claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "cheerilee",
+      "to": "sweetie_belle",
+      "familiarity": 0.78,
+      "trust": 0.45,
+      "preference": 0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Caring teacher; responsible for all her pupils, even difficult ones.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_belle",
+      "to": "cheerilee",
+      "familiarity": 0.78,
+      "trust": 0.6,
+      "preference": 0.35,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Familiar schoolteacher; no parental claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "cheerilee",
+      "to": "scootaloo",
+      "familiarity": 0.78,
+      "trust": 0.45,
+      "preference": 0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Caring teacher; responsible for all her pupils, even difficult ones.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "scootaloo",
+      "to": "cheerilee",
+      "familiarity": 0.78,
+      "trust": 0.6,
+      "preference": 0.35,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Familiar schoolteacher; no parental claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "cheerilee",
+      "to": "diamond_tiara",
+      "familiarity": 0.78,
+      "trust": 0.45,
+      "preference": 0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Caring teacher; responsible for all her pupils, even difficult ones.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "diamond_tiara",
+      "to": "cheerilee",
+      "familiarity": 0.78,
+      "trust": 0.6,
+      "preference": 0.35,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Familiar schoolteacher; no parental claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "cheerilee",
+      "to": "silver_spoon",
+      "familiarity": 0.78,
+      "trust": 0.45,
+      "preference": 0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Caring teacher; responsible for all her pupils, even difficult ones.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "silver_spoon",
+      "to": "cheerilee",
+      "familiarity": 0.78,
+      "trust": 0.6,
+      "preference": 0.35,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Familiar schoolteacher; no parental claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "cheerilee",
+      "to": "twist",
+      "familiarity": 0.78,
+      "trust": 0.45,
+      "preference": 0.42,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Caring teacher; responsible for all her pupils, even difficult ones.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twist",
+      "to": "cheerilee",
+      "familiarity": 0.78,
+      "trust": 0.6,
+      "preference": 0.35,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Familiar schoolteacher; no parental claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "twist",
+      "familiarity": 0.72,
+      "trust": 0.56,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "School friends; earning a mark does not create an enemy.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twist",
+      "to": "apple_bloom",
+      "familiarity": 0.72,
+      "trust": 0.56,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "School friends; earning a mark does not create an enemy.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "big_mcintosh",
+      "to": "cheerilee",
+      "familiarity": 0.63,
+      "trust": 0.46,
+      "preference": 0.3,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Hearts_and_Hooves_Day",
+      "basis": "Friendly acquaintances; love-potion episode does not establish a permanent romance.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "cheerilee",
+      "to": "big_mcintosh",
+      "familiarity": 0.63,
+      "trust": 0.46,
+      "preference": 0.3,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Hearts_and_Hooves_Day",
+      "basis": "Friendly acquaintances; love-potion episode does not establish a permanent romance.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "trixie",
+      "to": "twilight_sparkle",
+      "familiarity": 0.48,
+      "trust": -0.2,
+      "preference": -0.58,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Pride and embarrassment over being outshone; Magic Duel has not happened.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "trixie",
+      "familiarity": 0.48,
+      "trust": 0.02,
+      "preference": -0.1,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Wary of boasting but not vengeful; asymmetrical rivalry.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "trixie",
+      "familiarity": 0.4,
+      "trust": -0.25,
+      "preference": -0.34,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Dislikes her boastful treatment of them, not mortal enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "trixie",
+      "to": "applejack",
+      "familiarity": 0.4,
+      "trust": -0.12,
+      "preference": -0.25,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Defensive toward former hecklers.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "trixie",
+      "familiarity": 0.4,
+      "trust": -0.25,
+      "preference": -0.34,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Dislikes her boastful treatment of them, not mortal enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "trixie",
+      "to": "rarity",
+      "familiarity": 0.4,
+      "trust": -0.12,
+      "preference": -0.25,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Defensive toward former hecklers.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "trixie",
+      "familiarity": 0.4,
+      "trust": -0.25,
+      "preference": -0.34,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Dislikes her boastful treatment of them, not mortal enemies.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "trixie",
+      "to": "rainbow_dash",
+      "familiarity": 0.4,
+      "trust": -0.12,
+      "preference": -0.25,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Boast_Busters",
+      "basis": "Defensive toward former hecklers.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spitfire",
+      "to": "soarin",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.52,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Best_Night_Ever",
+      "basis": "Wonderbolts teammates, no romantic claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "soarin",
+      "to": "spitfire",
+      "familiarity": 0.82,
+      "trust": 0.7,
+      "preference": 0.52,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Best_Night_Ever",
+      "basis": "Wonderbolts teammates, no romantic claim.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "spitfire",
+      "familiarity": 0.45,
+      "trust": 0.53,
+      "preference": 0.69,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Best_Night_Ever",
+      "basis": "Admires the Wonderbolts; not yet a member.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spitfire",
+      "to": "rainbow_dash",
+      "familiarity": 0.35,
+      "trust": 0.38,
+      "preference": 0.26,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Sonic_Rainboom",
+      "basis": "Recognizes a talented flier; not equal to a lifelong friendship.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "soarin",
+      "familiarity": 0.45,
+      "trust": 0.53,
+      "preference": 0.69,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Best_Night_Ever",
+      "basis": "Admires the Wonderbolts; not yet a member.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "soarin",
+      "to": "rainbow_dash",
+      "familiarity": 0.35,
+      "trust": 0.38,
+      "preference": 0.26,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Sonic_Rainboom",
+      "basis": "Recognizes a talented flier; not equal to a lifelong friendship.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "prince_blueblood",
+      "familiarity": 0.44,
+      "trust": -0.55,
+      "preference": -0.7,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Best_Night_Ever",
+      "basis": "Disillusionment after his selfish gala behavior.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "prince_blueblood",
+      "to": "rarity",
+      "familiarity": 0.32,
+      "trust": -0.05,
+      "preference": -0.15,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Best_Night_Ever",
+      "basis": "Dismissive acquaintance; no invented romantic relationship.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "aloe",
+      "to": "lotus_blossom",
+      "familiarity": 0.85,
+      "trust": 0.65,
+      "preference": 0.56,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Spa coworkers; numerical closeness is an interpretation.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "lotus_blossom",
+      "to": "aloe",
+      "familiarity": 0.85,
+      "trust": 0.65,
+      "preference": 0.56,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Spa coworkers; numerical closeness is an interpretation.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "aloe",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "aloe",
+      "to": "rarity",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "aloe",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "aloe",
+      "to": "fluttershy",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "lotus_blossom",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "lotus_blossom",
+      "to": "rarity",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "lotus_blossom",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "lotus_blossom",
+      "to": "fluttershy",
+      "familiarity": 0.65,
+      "trust": 0.5,
+      "preference": 0.36,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Green_Isn%27t_Your_Color",
+      "basis": "Familiar spa staff and regular customer.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "lyra_heartstrings",
+      "to": "sweetie_drops",
+      "familiarity": 0.65,
+      "trust": 0.35,
+      "preference": 0.45,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/A_Friend_in_Deed",
+      "basis": "Seen together as background companions; modest inferred familiarity only, not later marriage.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_drops",
+      "to": "lyra_heartstrings",
+      "familiarity": 0.65,
+      "trust": 0.35,
+      "preference": 0.45,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/A_Friend_in_Deed",
+      "basis": "Seen together as background companions; modest inferred familiarity only, not later marriage.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "shining_armor",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.84,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/A_Canterlot_Wedding_-_Part_1",
+      "basis": "Lifelong sibling bond from childhood; no wedding events or argument presumed completed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "shining_armor",
+      "to": "twilight_sparkle",
+      "familiarity": 0.98,
+      "trust": 0.88,
+      "preference": 0.84,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/A_Canterlot_Wedding_-_Part_1",
+      "basis": "Lifelong sibling bond from childhood; no wedding events or argument presumed completed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "night_light",
+      "familiarity": 0.97,
+      "trust": 0.86,
+      "preference": 0.73,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Supportive parents present at her childhood entrance exam; no later-season events needed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "night_light",
+      "to": "twilight_sparkle",
+      "familiarity": 0.97,
+      "trust": 0.86,
+      "preference": 0.73,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Supportive parents present at her childhood entrance exam; no later-season events needed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "twilight_velvet",
+      "familiarity": 0.97,
+      "trust": 0.86,
+      "preference": 0.73,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Supportive parents present at her childhood entrance exam; no later-season events needed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_velvet",
+      "to": "twilight_sparkle",
+      "familiarity": 0.97,
+      "trust": 0.86,
+      "preference": 0.73,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Supportive parents present at her childhood entrance exam; no later-season events needed.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "night_light",
+      "to": "twilight_velvet",
+      "familiarity": 0.99,
+      "trust": 0.85,
+      "preference": 0.77,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Twilight's parents and established family; not a new romance event.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_velvet",
+      "to": "night_light",
+      "familiarity": 0.99,
+      "trust": 0.85,
+      "preference": 0.77,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Twilight's parents and established family; not a new romance event.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "celestia",
+      "to": "luna",
+      "familiarity": 0.97,
+      "trust": 0.72,
+      "preference": 0.77,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Friendship_is_Magic,_part_2",
+      "basis": "Reconciled sisters; Nightmare Moon is not a permanent hostility state.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "luna",
+      "to": "celestia",
+      "familiarity": 0.97,
+      "trust": 0.72,
+      "preference": 0.77,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Friendship_is_Magic,_part_2",
+      "basis": "Reconciled sisters; Nightmare Moon is not a permanent hostility state.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "celestia",
+      "familiarity": 0.94,
+      "trust": 0.94,
+      "preference": 0.83,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Beloved mentor and trusted teacher; reverence may coexist with anxiety about disappointing her.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "celestia",
+      "to": "twilight_sparkle",
+      "familiarity": 0.91,
+      "trust": 0.87,
+      "preference": 0.72,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/The_Cutie_Mark_Chronicles",
+      "basis": "Cherished student; warm mentorship, no romantic interpretation.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "twilight_sparkle",
+      "familiarity": 0.98,
+      "trust": 0.95,
+      "preference": 0.9,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Friendship_is_Magic,_part_1",
+      "basis": "Hatched by Twilight; her assistant and family. Bickers about chores, utterly loyal.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "twilight_sparkle",
+      "to": "spike",
+      "familiarity": 0.98,
+      "trust": 0.95,
+      "preference": 0.9,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Owl's_Well_That_Ends_Well",
+      "basis": "Twilight's indispensable assistant and little brother figure.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "rarity",
+      "familiarity": 0.85,
+      "trust": 0.85,
+      "preference": 0.98,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Secret_of_My_Excess",
+      "basis": "Spike's big, obvious crush; he would do anything for her. A kid's crush, never romance.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rarity",
+      "to": "spike",
+      "familiarity": 0.85,
+      "trust": 0.8,
+      "preference": 0.75,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Secret_of_My_Excess",
+      "basis": "Fond of 'Spikey-wikey'; kind to him like a little brother, aware of his crush.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "pinkie_pie",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Party friends; Pinkie treats him as one of the gang.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "pinkie_pie",
+      "to": "spike",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Party friends; Pinkie treats him as one of the gang.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "applejack",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Applejack is honest and kind with him.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "applejack",
+      "to": "spike",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Applejack is honest and kind with him.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "rainbow_dash",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Rainbow teases and includes him.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "rainbow_dash",
+      "to": "spike",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Rainbow teases and includes him.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "fluttershy",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Fluttershy is gentle and motherly with him.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "fluttershy",
+      "to": "spike",
+      "familiarity": 0.8,
+      "trust": 0.75,
+      "preference": 0.6,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Dragonshy",
+      "basis": "Fluttershy is gentle and motherly with him.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "apple_bloom",
+      "familiarity": 0.6,
+      "trust": 0.6,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Kids around town; friendly.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "apple_bloom",
+      "to": "spike",
+      "familiarity": 0.6,
+      "trust": 0.6,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Kids around town; friendly.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "sweetie_belle",
+      "familiarity": 0.6,
+      "trust": 0.6,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Kids around town; friendly.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "sweetie_belle",
+      "to": "spike",
+      "familiarity": 0.6,
+      "trust": 0.6,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Kids around town; friendly.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "spike",
+      "to": "scootaloo",
+      "familiarity": 0.6,
+      "trust": 0.6,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Kids around town; friendly.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    },
+    {
+      "from": "scootaloo",
+      "to": "spike",
+      "familiarity": 0.6,
+      "trust": 0.6,
+      "preference": 0.55,
+      "source": "https://mlp.fandom.com/wiki/Transcripts/Call_of_the_Cutie",
+      "basis": "Kids around town; friendly.",
+      "scores": "authored gameplay weights, not canonical numerical values"
+    }
+  ],
+  "canon_policy": {
+    "timeline": "Season 2; after Return of Harmony, before Crystal Empire",
+    "numeric_scores": "Authored weights informed by episodes, not canon numbers",
+    "unknown_pairs": "Neutral; no invented enemies, parentage, marriages or later-season history"
+  }
+}

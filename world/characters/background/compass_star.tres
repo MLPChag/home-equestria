@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/compass_star.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "compass_star"
+stallion = true
+display_name = "Compass Star"
+coat_fill = Color(0.5137255, 0.3882353, 0.28627452, 1)
+coat_line = Color(0.36862746, 0.27843136, 0.20784314, 1)
+coat_shade = Color(0.4745098, 0.35686275, 0.2627451, 1)
+mane_line = Color(0.36862746, 0.27843136, 0.20784314, 1)
+iris_color = Color(0.5372549, 0.80784315, 0.33333334, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/compass_star_hair.scn"
+hair_prefix = "CompassStar"
+tail_terminal_length = 0.111357593
+ai_profile = "res://world/characters/background/ai/compass_star.json"

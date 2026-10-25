@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/dinky_doo.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "dinky_doo"
+filly = true
+display_name = "Dinky Doo"
+race = 2
+coat_fill = Color(0.8039216, 0.72156864, 0.9019608, 1)
+coat_line = Color(0.6627451, 0.52156866, 0.827451, 1)
+coat_shade = Color(0.7490196, 0.6392157, 0.8745098, 1)
+mane_line = Color(0.827451, 0.7176471, 0.41568628, 1)
+iris_color = Color(0.9882353, 0.972549, 0.6039216, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/dinky_doo_hair.scn"
+hair_prefix = "DinkyDoo"
+tail_terminal_length = 0.132311777
+ai_profile = "res://world/characters/background/ai/dinky_doo.json"

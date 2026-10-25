@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://world/characters/mane6/marks/rarity.png" id="2_mark"]
+
+[resource]
+script = ExtResource("1_script")
+id = "rarity"
+display_name = "Rarity"
+race = 2
+coat_fill = Color(0.917647, 0.933333, 0.941176, 1)
+coat_line = Color(0.741176, 0.756863, 0.760784, 1)
+coat_shade = Color(0.87451, 0.894118, 0.890196, 1)
+mane_line = Color(0.290196, 0.0901961, 0.403922, 1)
+iris_color = Color(0.223529, 0.466667, 0.721569, 1)
+lash_style = 3
+eyeshadow_color = Color(0.721569, 0.882353, 0.941176, 1)
+cutie_mark = ExtResource("2_mark")
+hair_scene = "res://world/characters/mane6/rarity_devkit_hair.glb"
+hair_prefix = "Rarity"
+tail_mount_offset = Vector3(0.01, 0.035, -0.05)
+blush_color = Color(0.941176, 0.627451, 0.721569, 1)
+notice_distance = 5.5
+close_distance = 1.8
+interest_smile = 0.55
+ai_profile = "res://world/ai/characters/rarity.json"

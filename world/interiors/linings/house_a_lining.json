@@ -1,0 +1,88 @@
+{
+ "design": "house_a",
+ "hide": [
+  "ExteriorRoomFace",
+  "HouseInterior__Skirting",
+  "FloorSlab",
+  "FloorSlabWallFill",
+  "HouseInterior__FloorUnderlay",
+  "AInnerWall__Part0__NativeTimber",
+  "AInnerWall__Part2__ExteriorRoomFace",
+  "InnerThresholdRamp__StoneRamp",
+  "DoorSideWallBaseRoomFace"
+ ],
+ "floor_y": 0.328956842422485,
+ "floor_top_measured": 0.328957,
+ "floor_top_error_cm": 0.0,
+ "triangles": 17081,
+ "collision_triangles": 96,
+ "textures": [
+  {
+   "file": "floor_v2.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_FloorPlanks"
+  },
+  {
+   "file": "plaster_v2.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_Plaster"
+  },
+  {
+   "file": "ceiling_v2.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_Ceiling"
+  },
+  {
+   "file": "timber_v2.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_Timber"
+  },
+  {
+   "file": "atlas_v2.png",
+   "size": [
+    2048,
+    2048
+   ],
+   "material": "M_Paint"
+  },
+  {
+   "file": "atlas_v2.png",
+   "size": [
+    2048,
+    2048
+   ],
+   "material": "M_Decal"
+  }
+ ],
+ "meshes": [
+  "Architecture_Floor",
+  "Architecture_Walls",
+  "Architecture_Ceiling",
+  "Architecture_Timber",
+  "Architecture_Paint",
+  "Architecture_Decals"
+ ],
+ "colliders": [
+  "WallLeft-convcolonly",
+  "WallRight-convcolonly",
+  "WallBack-convcolonly",
+  "WallFrontLeft-convcolonly",
+  "WallFrontRight-convcolonly",
+  "WallFrontOverDoor-convcolonly",
+  "NicheWall-convcolonly",
+  "WindowSeat-convcolonly"
+ ],
+ "units": "metres, house root frame, +Y up (Godot)"
+}

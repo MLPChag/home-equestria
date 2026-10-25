@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/double_diamond.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "double_diamond"
+stallion = true
+display_name = "Double Diamond"
+race = 0
+coat_fill = Color(1, 1, 1, 1)
+coat_line = Color(0.70980394, 0.78431374, 0.8392157, 1)
+coat_shade = Color(0.80784315, 0.87058824, 0.87058824, 1)
+mane_line = Color(0.6, 0.69803923, 0.7921569, 1)
+iris_color = Color(0.65882355, 0.8980392, 1, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/double_diamond_hair.scn"
+hair_prefix = "DoubleDiamond"
+tail_terminal_length = 0.069449805
+ai_profile = "res://world/characters/background/ai/double_diamond.json"

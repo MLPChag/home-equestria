@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/starlight_glimmer.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "starlight_glimmer"
+display_name = "Starlight Glimmer"
+race = 2
+coat_fill = Color(0.9490196, 0.78039217, 0.972549, 1)
+coat_line = Color(0.7647059, 0.5803922, 0.84313726, 1)
+coat_shade = Color(0.85490197, 0.6901961, 0.9137255, 1)
+mane_line = Color(0.3372549, 0.15686275, 0.45882353, 1)
+iris_color = Color(0.59607846, 0.63529414, 0.9372549, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/starlight_glimmer_hair.scn"
+hair_prefix = "StarlightGlimmer"
+tail_terminal_length = 0.1243969
+ai_profile = "res://world/characters/background/ai/starlight_glimmer.json"

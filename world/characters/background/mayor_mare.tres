@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/mayor_mare.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "mayor_mare"
+display_name = "Mayor Mare"
+race = 0
+coat_fill = Color(0.87058824, 0.79607844, 0.60784316, 1)
+coat_line = Color(0.7254902, 0.6392157, 0.4117647, 1)
+coat_shade = Color(0.8117647, 0.72156864, 0.5098039, 1)
+mane_line = Color(0.7294118, 0.7411765, 0.7294118, 1)
+iris_color = Color(0.64705884, 0.8392157, 0.9098039, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/mayor_mare_hair.scn"
+hair_prefix = "MayorMare"
+tail_terminal_length = 0.143660812
+ai_profile = "res://world/characters/background/ai/mayor_mare.json"

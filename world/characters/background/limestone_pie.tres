@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/limestone_pie.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "limestone_pie"
+display_name = "Limestone Pie"
+race = 0
+coat_fill = Color(0.5803922, 0.58431375, 0.7254902, 1)
+coat_line = Color(0.32941177, 0.31764707, 0.4509804, 1)
+coat_shade = Color(0.46666667, 0.4627451, 0.60784316, 1)
+mane_line = Color(0.41960785, 0.48235294, 0.49411765, 1)
+iris_color = Color(0.8666667, 0.8862745, 0.38039216, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/limestone_pie_hair.scn"
+hair_prefix = "LimestonePie"
+tail_terminal_length = 0.118896388
+ai_profile = "res://world/characters/background/ai/limestone_pie.json"

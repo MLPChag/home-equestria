@@ -1,0 +1,221 @@
+{
+ "about": "Measured fits for Ponyville kit activity props, in each kit placement's local frame (Godot: +Y up, the placement's yaw applied). Measured 2026-10-13 from the exported GLBs through the official Blender MCP (vertex and up-facing-face bounds; Blender (x,y,z) -> Godot (x,z,-y)) and the real Applejack rig (upper-lip anchor at local (0.005, 0.706, -0.311) standing). Box position is the minimum corner.",
+ "sources": {
+  "mailbox.glb": "349d80eb764d7e4be884681d478898127f8d9c2691b9eca7e0589b133e34171d",
+  "bench.glb": "1e25350facdba0302d766133126c4bcf96d642007b649a2499852699d291d7e9",
+  "tree_stump.glb": "3a097e8a601fdbfa7e297b88171ba9bb725c99745ff4fb6ef232c85831eeeb5c",
+  "log_pile.glb": "6f0ce0ae0c3047abcdbe0bdc748f20d1b2b1a2698cb51a9a384e16d5ab18b818",
+  "activity/mailbox_flag.glb": "d30e81908694959a7ed773315f0a322bfbd3d6d1661c6cee3dc230a215d5934c",
+  "activity/letter.glb": "e3ff413953e05045582efbe8d09b319bda797829a43611a925714443b7fa9809",
+  "activity/log_whole.glb": "08ce87cc2d075c70ae910dd9a129051443727d7819a704b013b1f05eb6f4a84a",
+  "activity/log_half_a.glb": "7333267ab451be89478deb76b85775570c5174808a6d7f61a092603134b6d5ab",
+  "activity/log_half_b.glb": "41b0eb4dab039318dac6de553009e38538bea58720f666a64af40bcacade4344",
+  "activity/tea_cup.glb": "0afefd8ad098998f6f2406897f47d47c2c7b159dba7e9340aff9216d4ab45355"
+ },
+ "mailbox": {
+  "measured": true,
+  "base_flag_removed": true,
+  "note": "Door faces local -X. Baked flag, arm and hub removed from mailbox.glb (Blender islands at x 0.09..0.31, z 1.11..1.19); the separate flag's pivot hub replaces them. The letter pokes 6 cm out of the door at the box floor, 1.0 m up: above a standing pony's mouth (0.66-0.71 m), so only magic reaches it.",
+  "flag_down": {
+   "origin": [
+    0.11,
+    1.14,
+    0.152
+   ],
+   "rotation_degrees": [
+    0,
+    0,
+    0
+   ]
+  },
+  "flag_up": {
+   "origin": [
+    0.11,
+    1.14,
+    0.152
+   ],
+   "rotation_degrees": [
+    0,
+    0,
+    90
+   ]
+  },
+  "letter_rest": {
+   "origin": [
+    -0.29,
+    0.996,
+    0.0
+   ],
+   "rotation_degrees": [
+    -90,
+    -180,
+    -90
+   ]
+  },
+  "letter_grip": [
+   0,
+   0,
+   0
+  ],
+  "approach": [
+   -1.0,
+   0,
+   0
+  ],
+  "pickup": [
+   -0.29,
+   0.996,
+   0.0
+  ]
+ },
+ "log_pile": {
+  "measured": true,
+  "note": "Pile footprint x -0.54..0.56, z -0.59..0.59 at the ground; the whole log rests on the ground in front (+Z). Halves lie split face up beside where the log was.",
+  "whole": {
+   "origin": [
+    0.0,
+    0.113,
+    0.95
+   ],
+   "rotation_degrees": [
+    0,
+    0,
+    0
+   ]
+  },
+  "half_a": {
+   "origin": [
+    -0.13,
+    0.065,
+    1.06
+   ],
+   "rotation_degrees": [
+    90,
+    20,
+    0
+   ]
+  },
+  "half_b": {
+   "origin": [
+    0.15,
+    0.065,
+    0.84
+   ],
+   "rotation_degrees": [
+    -90,
+    -15,
+    0
+   ]
+  },
+  "approach": [
+   0.0,
+   0.0,
+   1.5
+  ],
+  "facing": [
+   0.0,
+   0.0,
+   1.0
+  ],
+  "contact_box": {
+   "position": [
+    -0.225,
+    0.0,
+    0.837
+   ],
+   "size": [
+    0.45,
+    0.226,
+    0.226
+   ]
+  }
+ },
+ "bench": {
+  "measured": true,
+  "note": "Seat plank top y 0.50, x -0.754..0.755, z -0.179..0.194; backrest x -0.751..0.751, y 0.607..0.977, z -0.302..-0.107. Front faces +Z.",
+  "seat": {
+   "origin": [
+    0.0,
+    0.5,
+    0.0075
+   ],
+   "rotation_degrees": [
+    0,
+    180,
+    0
+   ]
+  },
+  "depth": 0.37,
+  "slabs": [
+   {
+    "position": [
+     -0.754,
+     0.45,
+     -0.179
+    ],
+    "size": [
+     1.509,
+     0.05,
+     0.373
+    ]
+   }
+  ],
+  "upper": [
+   {
+    "position": [
+     -0.751,
+     0.607,
+     -0.302
+    ],
+    "size": [
+     1.502,
+     0.37,
+     0.195
+    ]
+   }
+  ],
+  "tea_rest": {
+   "origin": [
+    0.55,
+    0.5,
+    0.0
+   ],
+   "rotation_degrees": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "tree_stump": {
+  "measured": true,
+  "note": "Top face y 0.40..0.418, radius about 0.41. Support slab is the inscribed square so no box reaches past the round edge.",
+  "seat": {
+   "origin": [
+    0.0,
+    0.418,
+    0.0
+   ],
+   "rotation_degrees": [
+    0,
+    180,
+    0
+   ]
+  },
+  "depth": 0.5,
+  "slabs": [
+   {
+    "position": [
+     -0.29,
+     0.368,
+     -0.29
+    ],
+    "size": [
+     0.58,
+     0.05,
+     0.58
+    ]
+   }
+  ]
+ }
+}

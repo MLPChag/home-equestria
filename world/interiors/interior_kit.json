@@ -1,0 +1,1189 @@
+{
+	"_what": "Furniture kit and room recipes for world/interiors/interior_furnisher.gd. Sizes come from world/props/household/manifest.json (suggested_size_m); every prop faces +Z with its back at -Z. The furnisher seeds each house from its place_id, so a house always gets the same layout and every house gets its own.",
+	"_rules": {
+		"wall": "back against a real wall (measured), front into the room. Tall props keep off windows.",
+		"island": "free-standing, with an aisle all round; falls back to a wall if the area is too small. Not used by the recipes since dev 2026-09-26: the island reads as a cupboard block in the middle of the house; it stands against a wall like a counter.",
+		"face": "in front of the anchor at a distance, turned to face it (sofa facing the fireplace).",
+		"front": "centred in front of the anchor, same heading (coffee table before the sofa).",
+		"between": "flat, centred between the anchor and what it faces (rug between sofa and fireplace).",
+		"flank": "beside the anchor, turned in toward the space in front of it (armchair by the sofa).",
+		"bedside": "beside a bed's headboard, back to the same wall.",
+		"bedrug": "flat, along the open side of a bed or across its foot.",
+		"under_window": "a low prop on the floor under a window.",
+		"open": "free-standing small piece with room around it.",
+		"hang": "on a wall at eye height, clear of windows and tall furniture.",
+		"curtains": "one pair per ground-floor window, by chance.",
+		"door": "flat, just inside the front door.",
+		"bedfoot": "a bench across the foot of a bed, facing the room.",
+		"on": "decor laid on its anchor (offset from the kit 'on' table), no collision.",
+		"ceiling": "a pendant from the real ceiling over its anchor table (or the room centre with 2.05 m headroom)."
+	},
+	"props": {
+		"kitchen-island": {
+			"collide": true,
+			"clear": 0.8,
+			"aisle": 0.85,
+			"activity": {
+				"kind": "cook",
+				"offset": [
+					0.0,
+					0.75
+				],
+				"face": "back"
+			}
+		},
+		"pantry": {
+			"collide": true,
+			"tall": true,
+			"clear": 0.7
+		},
+		"icebox": {
+			"collide": true,
+			"tall": true,
+			"clear": 0.7
+		},
+		"round-cafe-table": {
+			"collide": true,
+			"clear": 0.0,
+			"ring": 0.55
+		},
+		"wooden-bench": {
+			"collide": true,
+			"clear": 0.5,
+			"seating": {
+				"seats": [
+					[
+						-0.38,
+						0.49,
+						0
+					],
+					[
+						0.38,
+						0.49,
+						0
+					]
+				],
+				"depth": 0.38,
+				"solid": [
+					[
+						[
+							0,
+							0.24,
+							0
+						],
+						[
+							1.5,
+							0.485,
+							0.38
+						]
+					]
+				],
+				"upper": []
+			}
+		},
+		"fireplace": {
+			"collide": true,
+			"tall": true,
+			"clear": 0.9,
+			"activity": {
+				"kind": "fireside",
+				"offset": [
+					0.0,
+					1.3
+				],
+				"face": "back"
+			}
+		},
+		"sofa": {
+			"collide": true,
+			"clear": 0.6,
+			"activity": {
+				"kind": "sofa",
+				"offset": [
+					0.0,
+					0.9
+				],
+				"face": "front"
+			},
+			"seating": {
+				"seats": [
+					[
+						-0.42,
+						0.42,
+						0.12
+					],
+					[
+						0.42,
+						0.42,
+						0.12
+					]
+				],
+				"depth": 0.5,
+				"solid": [
+					[
+						[
+							0,
+							0.21,
+							0.02
+						],
+						[
+							1.6,
+							0.42,
+							0.62
+						]
+					]
+				],
+				"upper": [
+					[
+						[
+							0,
+							0.62,
+							-0.26
+						],
+						[
+							1.95,
+							0.44,
+							0.22
+						]
+					],
+					[
+						[
+							-0.88,
+							0.51,
+							0.02
+						],
+						[
+							0.22,
+							0.2,
+							0.66
+						]
+					],
+					[
+						[
+							0.88,
+							0.51,
+							0.02
+						],
+						[
+							0.22,
+							0.2,
+							0.66
+						]
+					]
+				]
+			}
+		},
+		"armchair": {
+			"collide": true,
+			"clear": 0.5,
+			"seating": {
+				"seats": [
+					[
+						0,
+						0.42,
+						0.12
+					]
+				],
+				"depth": 0.5,
+				"solid": [
+					[
+						[
+							0,
+							0.2,
+							0.08
+						],
+						[
+							0.6,
+							0.4,
+							0.66
+						]
+					]
+				],
+				"upper": [
+					[
+						[
+							0,
+							0.62,
+							-0.32
+						],
+						[
+							1.0,
+							0.46,
+							0.2
+						]
+					],
+					[
+						[
+							-0.4,
+							0.46,
+							0.04
+						],
+						[
+							0.2,
+							0.18,
+							0.72
+						]
+					],
+					[
+						[
+							0.4,
+							0.46,
+							0.04
+						],
+						[
+							0.2,
+							0.18,
+							0.72
+						]
+					]
+				]
+			}
+		},
+		"chaise-longue": {
+			"collide": true,
+			"clear": 0.6,
+			"seating": {
+				"seats": [
+					[
+						-0.1,
+						0.46,
+						0.05
+					],
+					[
+						0.5,
+						0.46,
+						0.05
+					]
+				],
+				"depth": 0.6,
+				"solid": [
+					[
+						[
+							0.15,
+							0.22,
+							0
+						],
+						[
+							1.45,
+							0.45,
+							0.78
+						]
+					]
+				],
+				"upper": [
+					[
+						[
+							-0.76,
+							0.62,
+							0
+						],
+						[
+							0.26,
+							0.36,
+							0.78
+						]
+					]
+				]
+			}
+		},
+		"footstool": {
+			"collide": true,
+			"clear": 0.0,
+			"seating": {
+				"seats": [
+					[
+						0,
+						0.39,
+						0
+					]
+				],
+				"depth": 0.5,
+				"solid": [
+					[
+						[
+							0,
+							0.19,
+							0
+						],
+						[
+							0.62,
+							0.38,
+							0.5
+						]
+					]
+				],
+				"upper": []
+			}
+		},
+		"coffee-table": {
+			"collide": true,
+			"clear": 0.0
+		},
+		"bookshelf": {
+			"collide": true,
+			"tall": true,
+			"clear": 0.7,
+			"activity": {
+				"kind": "read",
+				"offset": [
+					0.0,
+					0.8
+				],
+				"face": "back"
+			}
+		},
+		"dresser": {
+			"collide": true,
+			"clear": 0.7
+		},
+		"vanity": {
+			"collide": true,
+			"tall": true,
+			"clear": 0.7
+		},
+		"bedside-table": {
+			"collide": true,
+			"clear": 0.0
+		},
+		"rug-round": {
+			"flat": true
+		},
+		"rug-oval": {
+			"flat": true
+		},
+		"doormat": {
+			"flat": true
+		},
+		"floor-cushion": {
+			"flat": true,
+			"no_lane": true,
+			"activity": {
+				"kind": "window_seat",
+				"offset": [
+					0.0,
+					0.0
+				],
+				"face": "front"
+			},
+			"seating": {
+				"seats": [
+					[
+						0,
+						0.2,
+						0
+					]
+				],
+				"depth": 0.6,
+				"solid": [
+					[
+						[
+							0,
+							0.1,
+							0
+						],
+						[
+							0.6,
+							0.2,
+							0.6
+						]
+					]
+				],
+				"upper": []
+			}
+		},
+		"clock": {
+			"hang": 1.75
+		},
+		"curtains": {
+			"curtain": true
+		},
+		"wardrobe": {
+			"model": "pantry",
+			"collide": true,
+			"tall": true,
+			"clear": 0.7
+		},
+		"folded-blanket": {
+			"decor": true
+		},
+		"compact-kitchen": {
+			"collide": true,
+			"clear": 0.7,
+			"activity": {
+				"kind": "cook",
+				"offset": [
+					0,
+					0.7
+				],
+				"face": "back"
+			}
+		},
+		"cottage-tea-set": {
+			"collide": false,
+			"decor": true
+		},
+		"cottage-crockery-rack": {
+			"collide": false,
+			"decor": true,
+			"hang": 1.75
+		},
+		"table-lamp": {
+			"lamp": "table_lamp",
+			"decor": true
+		},
+		"side-table-lamp": {
+			"lamp": "side_table_lamp"
+		},
+		"floor-lamp": {
+			"lamp": "cone_lamp"
+		},
+		"pendant-lamp": {
+			"lamp": "pendant",
+			"decor": true
+		},
+		"wall-sconce": {
+			"lamp": "wall_sconce",
+			"hang": 1.7
+		},
+		"candle-niche": {
+			"lamp": "candle_niche",
+			"hang": 1.3
+		},
+		"wall-lantern": {
+			"lamp": "wall_lantern"
+		}
+	},
+	"recipes": {
+		"kitchen": [
+			{
+				"prop": "kitchen-island",
+				"rule": "wall",
+				"corner": false
+			},
+			{
+				"prop": "icebox",
+				"rule": "wall",
+				"near": "kitchen-island",
+				"chance": 0.85
+			},
+			{
+				"prop": "pantry",
+				"rule": "wall",
+				"near": "kitchen-island",
+				"chance": 0.5
+			},
+			{
+				"prop": "round-cafe-table",
+				"rule": "open",
+				"chance": 0.55
+			},
+			{
+				"prop": "wooden-bench",
+				"rule": "front",
+				"anchor": "round-cafe-table",
+				"gap": [
+					0.05,
+					0.15
+				],
+				"chance": 0.7,
+				"turn": 180
+			},
+			{
+				"prop": "bookshelf",
+				"rule": "wall",
+				"chance": 0.2
+			},
+			{
+				"prop": "cottage-tea-set",
+				"rule": "on",
+				"anchor": "round-cafe-table",
+				"chance": 0.7
+			},
+			{
+				"prop": "cottage-crockery-rack",
+				"rule": "hang",
+				"chance": 0.75
+			}
+		],
+		"living": [
+			{
+				"prop": "fireplace",
+				"rule": "wall",
+				"mid_wall": true,
+				"chance": 0.85
+			},
+			{
+				"prop": "sofa",
+				"rule": "face",
+				"anchor": "fireplace",
+				"distance": [
+					2.3,
+					3.1
+				],
+				"else": "wall"
+			},
+			{
+				"prop": "rug-round",
+				"rule": "between",
+				"anchor": "sofa",
+				"chance": 0.7
+			},
+			{
+				"prop": "coffee-table",
+				"rule": "front",
+				"anchor": "sofa",
+				"gap": [
+					0.35,
+					0.5
+				],
+				"chance": 0.7
+			},
+			{
+				"prop": "armchair",
+				"rule": "flank",
+				"anchor": "sofa",
+				"chance": 0.65
+			},
+			{
+				"prop": "footstool",
+				"rule": "front",
+				"anchor": "armchair",
+				"gap": [
+					0.25,
+					0.4
+				],
+				"chance": 0.45
+			},
+			{
+				"prop": "bookshelf",
+				"rule": "wall",
+				"chance": 0.6
+			},
+			{
+				"prop": "chaise-longue",
+				"rule": "wall",
+				"chance": 0.3
+			},
+			{
+				"prop": "wooden-bench",
+				"rule": "wall",
+				"chance": 0.35
+			},
+			{
+				"prop": "clock",
+				"rule": "hang",
+				"chance": 0.6
+			},
+			{
+				"prop": "cottage-tea-set",
+				"rule": "on",
+				"anchor": "coffee-table",
+				"chance": 0.7
+			}
+		],
+		"living_kitchen": [
+			{
+				"prop": "sofa",
+				"rule": "wall",
+				"chance": 0.95
+			},
+			{
+				"prop": "rug-round",
+				"rule": "between",
+				"anchor": "sofa",
+				"chance": 0.75
+			},
+			{
+				"prop": "coffee-table",
+				"rule": "front",
+				"anchor": "sofa",
+				"gap": [
+					0.35,
+					0.5
+				],
+				"chance": 0.65
+			},
+			{
+				"prop": "kitchen-island",
+				"rule": "wall",
+				"corner": false
+			},
+			{
+				"prop": "icebox",
+				"rule": "wall",
+				"near": "kitchen-island",
+				"chance": 0.85
+			},
+			{
+				"prop": "pantry",
+				"rule": "wall",
+				"chance": 0.35,
+				"near": "kitchen-island"
+			},
+			{
+				"prop": "armchair",
+				"rule": "flank",
+				"anchor": "sofa",
+				"chance": 0.45
+			},
+			{
+				"prop": "fireplace",
+				"rule": "wall",
+				"mid_wall": true,
+				"chance": 0.45
+			},
+			{
+				"prop": "bookshelf",
+				"rule": "wall",
+				"chance": 0.35
+			},
+			{
+				"prop": "clock",
+				"rule": "hang",
+				"chance": 0.55
+			},
+			{
+				"prop": "cottage-tea-set",
+				"rule": "on",
+				"anchor": "coffee-table",
+				"chance": 0.7
+			},
+			{
+				"prop": "cottage-crockery-rack",
+				"rule": "hang",
+				"chance": 0.75
+			}
+		],
+		"bedroom": [
+			{
+				"prop": "bedside-table",
+				"rule": "bedside",
+				"chance": 0.85
+			},
+			{
+				"prop": "wardrobe",
+				"rule": "wall",
+				"near_bed": true,
+				"chance": 0.8
+			},
+			{
+				"prop": "rug-oval",
+				"rule": "bedrug",
+				"chance": 0.6
+			},
+			{
+				"prop": "wooden-bench",
+				"rule": "bedfoot",
+				"chance": 0.3
+			},
+			{
+				"prop": "dresser",
+				"rule": "wall",
+				"near_bed": true,
+				"chance": 0.8
+			},
+			{
+				"prop": "vanity",
+				"rule": "wall",
+				"chance": 0.35
+			},
+			{
+				"prop": "chaise-longue",
+				"rule": "wall",
+				"chance": 0.2
+			},
+			{
+				"prop": "bookshelf",
+				"rule": "wall",
+				"chance": 0.25
+			},
+			{
+				"prop": "floor-cushion",
+				"rule": "under_window",
+				"chance": 0.3
+			}
+		],
+		"nook": [
+			{
+				"prop": "bookshelf",
+				"rule": "wall",
+				"chance": 0.9
+			},
+			{
+				"prop": "floor-cushion",
+				"rule": "under_window",
+				"chance": 0.8
+			},
+			{
+				"prop": "rug-oval",
+				"rule": "open_flat",
+				"chance": 0.6
+			},
+			{
+				"prop": "armchair",
+				"rule": "wall",
+				"chance": 0.5
+			}
+		],
+		"house": [
+			{
+				"prop": "doormat",
+				"rule": "door",
+				"chance": 0.9
+			},
+			{
+				"prop": "curtains",
+				"rule": "curtains",
+				"chance": 0.45
+			}
+		]
+	},
+	"_style": "Each house draws one style (weighted), then one wood finish and one fabric palette from that style's lists, so everything in a house matches. A style's 'chance' multiplies recipe chances (0 = never in that style); 'extra' adds recipe steps.",
+	"finishes": {
+		"honey oak": {
+			"keep": true
+		},
+		"dark walnut": {
+			"color": "5b3b26",
+			"contrast": 1.0,
+			"roughness": 0.6
+		},
+		"cherry": {
+			"color": "8c4a30",
+			"contrast": 1.0,
+			"roughness": 0.55
+		},
+		"ebony": {
+			"color": "2b2320",
+			"contrast": 0.8,
+			"roughness": 0.45
+		},
+		"grey wash": {
+			"color": "a9a397",
+			"contrast": 0.8,
+			"roughness": 0.8
+		},
+		"white paint": {
+			"color": "efe9de",
+			"contrast": 0.25,
+			"roughness": 0.55
+		},
+		"cream paint": {
+			"color": "eadcbc",
+			"contrast": 0.3,
+			"roughness": 0.55
+		},
+		"mint paint": {
+			"color": "b3d6c0",
+			"contrast": 0.25,
+			"roughness": 0.55
+		},
+		"sky paint": {
+			"color": "b3cbe0",
+			"contrast": 0.25,
+			"roughness": 0.55
+		},
+		"rose paint": {
+			"color": "e6b8c1",
+			"contrast": 0.25,
+			"roughness": 0.55
+		},
+		"black paint": {
+			"color": "262424",
+			"contrast": 0.3,
+			"roughness": 0.5
+		}
+	},
+	"palettes": {
+		"rose and cream": {
+			"fabric": "d8939f",
+			"linen": "f2e9d9"
+		},
+		"sage and linen": {
+			"fabric": "98b08b",
+			"linen": "efe5d0"
+		},
+		"lavender": {
+			"fabric": "ad9acb",
+			"linen": "f3edf3"
+		},
+		"sky and white": {
+			"fabric": "8fb3d4",
+			"linen": "f5f2ec"
+		},
+		"butter and sage": {
+			"fabric": "e6cb72",
+			"linen": "dfe8d2"
+		},
+		"teal and mustard": {
+			"fabric": "3d8789",
+			"linen": "e4c264"
+		},
+		"burgundy and gold": {
+			"fabric": "8c2c3a",
+			"linen": "e9d39b"
+		},
+		"forest and oat": {
+			"fabric": "4f7049",
+			"linen": "e8dcc2"
+		},
+		"charcoal and chalk": {
+			"fabric": "4b4b53",
+			"linen": "dcd7ce"
+		},
+		"coral and aqua": {
+			"fabric": "e9876f",
+			"linen": "b9e0dc"
+		},
+		"plum and blush": {
+			"fabric": "6d3a60",
+			"linen": "efcfd6"
+		}
+	},
+	"styles": {
+		"cosy": {
+			"weight": 3,
+			"finishes": [
+				"honey oak",
+				"cherry",
+				"dark walnut"
+			],
+			"palettes": [
+				"rose and cream",
+				"sage and linen",
+				"butter and sage",
+				"burgundy and gold"
+			],
+			"chance": {},
+			"curtains": 0.6,
+			"books": 1.0
+		},
+		"tidy": {
+			"weight": 2,
+			"finishes": [
+				"white paint",
+				"grey wash",
+				"black paint",
+				"honey oak"
+			],
+			"palettes": [
+				"sky and white",
+				"sage and linen",
+				"charcoal and chalk"
+			],
+			"chance": {
+				"rug-round": 0.25,
+				"rug-oval": 0.25,
+				"vanity": 0.4,
+				"chaise-longue": 0,
+				"footstool": 0,
+				"armchair": 0.6,
+				"wooden-bench": 0.3,
+				"clock": 0.6,
+				"floor-cushion": 0,
+				"bookshelf": 0.6,
+				"round-cafe-table": 0.6
+			},
+			"curtains": 0.3,
+			"books": 0.6
+		},
+		"rustic": {
+			"weight": 2,
+			"finishes": [
+				"dark walnut",
+				"grey wash",
+				"ebony"
+			],
+			"palettes": [
+				"forest and oat",
+				"burgundy and gold",
+				"butter and sage"
+			],
+			"chance": {
+				"vanity": 0,
+				"chaise-longue": 0,
+				"wooden-bench": 2.5,
+				"rug-round": 0.7,
+				"clock": 1.3,
+				"round-cafe-table": 1.5
+			},
+			"curtains": 0.4,
+			"books": 0.8
+		},
+		"fancy": {
+			"weight": 2,
+			"finishes": [
+				"white paint",
+				"rose paint",
+				"mint paint",
+				"sky paint",
+				"cream paint",
+				"black paint"
+			],
+			"palettes": [
+				"lavender",
+				"rose and cream",
+				"teal and mustard",
+				"plum and blush",
+				"coral and aqua"
+			],
+			"chance": {
+				"vanity": 2.5,
+				"chaise-longue": 3,
+				"bookshelf": 0.5,
+				"wooden-bench": 0.4
+			},
+			"curtains": 0.85,
+			"extra": {
+				"living": [
+					{
+						"prop": "folded-blanket",
+						"rule": "on",
+						"anchor": "sofa",
+						"chance": 0.7
+					}
+				]
+			},
+			"books": 0.9
+		},
+		"bookish": {
+			"weight": 1,
+			"finishes": [
+				"dark walnut",
+				"honey oak",
+				"ebony",
+				"cherry"
+			],
+			"palettes": [
+				"forest and oat",
+				"teal and mustard",
+				"burgundy and gold",
+				"charcoal and chalk"
+			],
+			"chance": {
+				"bookshelf": 2.5,
+				"armchair": 1.6,
+				"floor-cushion": 2.5,
+				"vanity": 0.3
+			},
+			"extra": {
+				"living": [
+					{
+						"prop": "bookshelf",
+						"rule": "wall",
+						"chance": 0.8
+					}
+				],
+				"bedroom": [
+					{
+						"prop": "bookshelf",
+						"rule": "wall",
+						"chance": 0.6
+					}
+				]
+			},
+			"books": 1.6
+		}
+	},
+	"on": {
+		"sofa": {
+			"offset": [
+				0.62,
+				0.42,
+				0.08
+			],
+			"yaw": 14
+		},
+		"armchair": {
+			"offset": [
+				0.0,
+				0.44,
+				0.05
+			],
+			"yaw": -8
+		},
+		"round-cafe-table": {
+			"offset": [
+				0,
+				0.728,
+				0
+			]
+		},
+		"coffee-table": {
+			"offset": [
+				0,
+				0.4,
+				0
+			]
+		},
+		"bedside-table": {
+			"offset": [
+				0.0,
+				0.505,
+				-0.03
+			]
+		}
+	},
+	"shelves": {
+		"_why": "Bookcase shelf levels [floor y, clear height] in metres from the bottom centre, measured from bookshelf.glb (2026-09-26); x = inner span, front = where spines line up.",
+		"bookshelf": {
+			"levels": [
+				[
+					0.23,
+					0.31
+				],
+				[
+					0.56,
+					0.3
+				],
+				[
+					0.88,
+					0.31
+				],
+				[
+					1.21,
+					0.19
+				]
+			],
+			"x": [
+				-0.48,
+				0.48
+			],
+			"front": 0.2
+		}
+	},
+	"_seating": "Seatable props: 'seating' gives seat spots [x, y, z] (metres from the prop's bottom centre, +Z out of the front; the sitter faces +Z), a solid block per entry in 'solid' [centre, size] that a sitter rests on, and 'upper' parts (back, arms) a seated pony may overlap. These replace the prop's plain collision box. Measured from the GLBs 2026-09-26.",
+	"lamps": {
+		"_why": "dev 2026-10-14: \"add lamps to every house and recreate these lamps\". world/interiors/furnish_lamps.gd runs these after the rooms: per area the first standing step whose role, anchor and chance fit, and an upper step by upper_chance; then the fallbacks in any room until the home has one of each, and the door lantern outside. Models: world/props/lamps/kit (Blender MCP, art-source/lamps-2026-10-14).",
+		"standing": [
+			{
+				"prop": "table-lamp",
+				"rule": "on",
+				"anchor": "bedside-table",
+				"roles": [
+					"bedroom"
+				],
+				"chance": 0.9
+			},
+			{
+				"prop": "floor-lamp",
+				"rule": "flank",
+				"anchor": "sofa",
+				"roles": [
+					"living",
+					"living_kitchen"
+				],
+				"chance": 0.55
+			},
+			{
+				"prop": "side-table-lamp",
+				"rule": "flank",
+				"anchor": "armchair",
+				"roles": [
+					"living",
+					"living_kitchen"
+				],
+				"chance": 0.6
+			},
+			{
+				"prop": "side-table-lamp",
+				"rule": "flank",
+				"anchor": "sofa",
+				"roles": [
+					"living",
+					"living_kitchen"
+				],
+				"chance": 0.8
+			},
+			{
+				"prop": "floor-lamp",
+				"rule": "wall",
+				"roles": [
+					"nook",
+					"bedroom"
+				],
+				"chance": 0.4
+			}
+		],
+		"standing_fallback": [
+			{
+				"prop": "floor-lamp",
+				"rule": "wall"
+			},
+			{
+				"prop": "side-table-lamp",
+				"rule": "wall"
+			},
+			{
+				"prop": "table-lamp",
+				"rule": "on",
+				"anchor": "bedside-table"
+			}
+		],
+		"upper_chance": 0.65,
+		"upper": [
+			{
+				"prop": "pendant-lamp",
+				"rule": "ceiling",
+				"anchor": "round-cafe-table",
+				"roles": [
+					"kitchen",
+					"living_kitchen"
+				],
+				"chance": 0.85
+			},
+			{
+				"prop": "pendant-lamp",
+				"rule": "ceiling",
+				"anchor": "coffee-table",
+				"roles": [
+					"living",
+					"living_kitchen"
+				],
+				"chance": 0.4
+			},
+			{
+				"prop": "pendant-lamp",
+				"rule": "ceiling",
+				"centre": true,
+				"roles": [
+					"kitchen",
+					"living",
+					"living_kitchen"
+				],
+				"chance": 0.5
+			},
+			{
+				"prop": "wall-sconce",
+				"rule": "hang",
+				"chance": 0.7
+			},
+			{
+				"prop": "candle-niche",
+				"rule": "hang",
+				"roles": [
+					"bedroom",
+					"nook",
+					"living"
+				],
+				"chance": 0.6
+			}
+		],
+		"upper_fallback": [
+			{
+				"prop": "wall-sconce",
+				"rule": "hang"
+			},
+			{
+				"prop": "candle-niche",
+				"rule": "hang"
+			},
+			{
+				"prop": "pendant-lamp",
+				"rule": "ceiling",
+				"centre": true
+			}
+		],
+		"door": "wall-lantern"
+	}
+}

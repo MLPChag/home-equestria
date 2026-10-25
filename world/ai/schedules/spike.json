@@ -1,0 +1,45 @@
+{
+    "character_tag": "spike",
+    "default_location": "golden_oak_library",
+    "schedules": [
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "golden_oak_library", "activity_hint": "Shelving books and helping Twilight with her checklist.", "weight": 70 },
+                { "location_id": "sugarcube_corner", "activity_hint": "Picking up breakfast treats for Twilight.", "weight": 15 },
+                { "location_id": "carousel_boutique", "activity_hint": "Dropping by the boutique, hoping to see Rarity.", "weight": 15 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "golden_oak_library", "activity_hint": "Reading comic books when Twilight is not looking.", "weight": 45 },
+                { "location_id": "carousel_boutique", "activity_hint": "Helping Rarity find gems for a dress.", "weight": 25 },
+                { "location_id": "ponyville_market", "activity_hint": "Running errands at the market for Twilight.", "weight": 20 },
+                { "location_id": "sugarcube_corner", "activity_hint": "Getting a snack with the Cutie Mark Crusaders.", "weight": 10 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Saturday", "Sunday"],
+            "time_slots": ["morning", "afternoon"],
+            "choices": [
+                { "location_id": "golden_oak_library", "activity_hint": "Lazing around with a comic book and a bowl of gems.", "weight": 40 },
+                { "location_id": "carousel_boutique", "activity_hint": "Visiting Rarity.", "weight": 25 },
+                { "location_id": "sugarcube_corner", "activity_hint": "Hanging out at Sugarcube Corner.", "weight": 20 },
+                { "location_id": "ponyville_market", "activity_hint": "Wandering the market stalls.", "weight": 15 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "time_slots": ["evening"],
+            "location_id": "golden_oak_library",
+            "activity_hint": "Home at the library, getting ready for bed in his basket.",
+            "priority": 0
+        }
+    ]
+}

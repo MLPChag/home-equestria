@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=2 format=3]
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "celestia"
+display_name = "Princess Celestia"
+race = 3
+coat_fill = Color(0.9411764705882353, 0.9764705882352941, 0.9411764705882353, 1)
+coat_line = Color(0.6549019607843137, 0.6549019607843137, 0.7490196078431373, 1)
+coat_shade = Color(0.8549019607843137, 0.8901960784313725, 0.8745098039215686, 1)
+iris_color = Color(0.6627450980392157, 0.4196078431372549, 0.6666666666666666, 1)
+hair_scene = ""
+ai_profile = "res://world/characters/princesses/celestia.json"

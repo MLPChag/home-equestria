@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/king_sombra.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "king_sombra"
+stallion = true
+display_name = "King Sombra"
+race = 2
+coat_fill = Color(0.3137255, 0.3137255, 0.3137255, 1)
+coat_line = Color(0.11764706, 0.11764706, 0.11764706, 1)
+coat_shade = Color(0.23921569, 0.23921569, 0.23921569, 1)
+mane_line = Color(0.25098038, 0.25098038, 0.25098038, 1)
+iris_color = Color(0.92156863, 0.5764706, 0.34901962, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/king_sombra_hair.scn"
+hair_prefix = "KingSombra"
+tail_terminal_length = 0.077460838
+ai_profile = "res://world/characters/background/ai/king_sombra.json"

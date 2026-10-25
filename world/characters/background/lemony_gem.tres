@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/lemony_gem.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "lemony_gem"
+display_name = "Lemony Gem"
+race = 2
+coat_fill = Color(0.8901961, 0.87058824, 0.49019608, 1)
+coat_line = Color(0.6392157, 0.627451, 0.3529412, 1)
+coat_shade = Color(0.81960785, 0.8, 0.4509804, 1)
+mane_line = Color(0.11764706, 0.52941173, 0.58431375, 1)
+iris_color = Color(0.15294118, 0.6784314, 0.74509805, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/lemony_gem_hair.scn"
+hair_prefix = "LemonyGem"
+tail_terminal_length = 0.153006162
+ai_profile = "res://world/characters/background/ai/lemony_gem.json"

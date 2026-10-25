@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://c10vh5m86df5o"
+path="res://.godot/imported/bit.fnt-63c089123f1be473b8b558ce12708ce1.fontdata"
+
+[deps]
+
+source_file="res://world/ui/currency/bit.fnt"
+dest_files=["res://.godot/imported/bit.fnt-63c089123f1be473b8b558ce12708ce1.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

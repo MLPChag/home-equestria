@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/vinyl_scratch.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "vinyl_scratch"
+display_name = "Vinyl Scratch"
+race = 2
+coat_fill = Color(1, 1, 0.8862745, 1)
+coat_line = Color(0.74509805, 0.63529414, 0.6901961, 1)
+coat_shade = Color(0.9607843, 0.93333334, 0.8627451, 1)
+mane_line = Color(0.12156863, 0.24313726, 0.49019608, 1)
+iris_color = Color(0.7372549, 0.11372549, 0.45882353, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/vinyl_scratch_hair.scn"
+hair_prefix = "VinylScratch"
+tail_terminal_length = 0.124366
+ai_profile = "res://world/characters/background/ai/vinyl_scratch.json"

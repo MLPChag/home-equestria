@@ -1,0 +1,1240 @@
+{
+  "version": 1,
+  "textures": {
+    "res://world/zones/ponyville/Ponyville_0.png": {
+      "cutoff": 0.5,
+      "source_material": "None.004.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_1.png": {
+      "cutoff": 0.5,
+      "source_material": "shrub_01-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_3.png": {
+      "cutoff": 0.5,
+      "source_material": "cloverPatch-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_5.png": {
+      "cutoff": 0.5,
+      "source_material": "grass_patch_2-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_8.png": {
+      "cutoff": 0.5,
+      "source_material": "None.005.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_16.png": {
+      "cutoff": 0.5,
+      "source_material": "SAABush1_Snow.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_20.png": {
+      "cutoff": 0.5769231,
+      "source_material": "blue flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_21.png": {
+      "cutoff": 0.5769231,
+      "source_material": "yellow flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_31.png": {
+      "cutoff": 0.5,
+      "source_material": "hay type 1.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_34.png": {
+      "cutoff": 0.5,
+      "source_material": "Ponyville_Houses_Detail(Summer).mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_37.png": {
+      "cutoff": 0.5,
+      "source_material": "House 2 details.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_42.png": {
+      "cutoff": 0.5,
+      "source_material": "Small_Bridge_House_Detils1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_45.png": {
+      "cutoff": 0.5,
+      "source_material": "Small_Bridge_House_Detils2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_51.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Fair_Prefabs.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_62.png": {
+      "cutoff": 0.5,
+      "source_material": "HolidayTreeTex.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_103.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_104.png": {
+      "cutoff": 0.5,
+      "source_material": "HangingMoss-TM_u0_v0.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_110.png": {
+      "cutoff": 0.5,
+      "source_material": "AppleCart-01 - Default.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_111.png": {
+      "cutoff": 0.5,
+      "source_material": "Pavillion2Tex.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_112.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_115.png": {
+      "cutoff": 0.5,
+      "source_material": "brambleRoof.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_117.png": {
+      "cutoff": 0.5,
+      "source_material": "PoisonJokeNoFlowers-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_118.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Fair_Tents.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_120.png": {
+      "cutoff": 0.5,
+      "source_material": "School Details.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_122.png": {
+      "cutoff": 0.5,
+      "source_material": "School walls.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_123.png": {
+      "cutoff": 0.5,
+      "source_material": "HospitalAccessoriesUVTemplateTextureFinal.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_126.png": {
+      "cutoff": 0.5,
+      "source_material": "iceshop__tex_alpha.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_128.png": {
+      "cutoff": 0.5,
+      "source_material": "Prank Shop-Material__Prank_Shop_png.mat",
+      "source_shader": "Toon_Transparent_Cutout Normal.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_130.png": {
+      "cutoff": 0.5,
+      "source_material": "SCC Texture.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_133.png": {
+      "cutoff": 0.7835821,
+      "source_material": "UV2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_141.png": {
+      "cutoff": 0.5,
+      "source_material": "RarityBoutiqueTex1.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_142.png": {
+      "cutoff": 0.5,
+      "source_material": "Clock Tower.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_145.png": {
+      "cutoff": 0.5,
+      "source_material": "Clover Cafe ext texture.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_146.png": {
+      "cutoff": 0.5,
+      "source_material": "FlowerShop.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_149.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_150.png": {
+      "cutoff": 0.46551722,
+      "source_material": "Train_Station_Details.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_155.png": {
+      "cutoff": 0.5,
+      "source_material": "TownHall2-RailingStruts.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_186.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff1and4_snowy.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_187.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff2_Snow.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_188.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff3_Snow.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_194.png": {
+      "cutoff": 0.5,
+      "source_material": "InnTreeSpots_snow.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_201.png": {
+      "cutoff": 0.5,
+      "source_material": "vines.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_203.png": {
+      "cutoff": 0.289,
+      "source_material": "Untitled-1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_204.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBackground_Canopy.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_206.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree01.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_207.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree02.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_208.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree03.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_209.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree04.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_210.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree05_Diff.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ponyville/Ponyville_211.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree06.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_0.png": {
+      "cutoff": 0.5,
+      "source_material": "shrub_01-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_1.png": {
+      "cutoff": 0.5,
+      "source_material": "catTails-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_2.png": {
+      "cutoff": 0.5,
+      "source_material": "grass_patch_2-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_3.png": {
+      "cutoff": 0.5,
+      "source_material": "Grass.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_4.png": {
+      "cutoff": 0.5,
+      "source_material": "SAABush1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_7.png": {
+      "cutoff": 0.5769231,
+      "source_material": "Tub Flowerbed-14 - Default.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_11.png": {
+      "cutoff": 0.69402987,
+      "source_material": "largeLeaves.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_16.png": {
+      "cutoff": 0.5,
+      "source_material": "AppleCart-01 - Default.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_19.png": {
+      "cutoff": 0.5298507,
+      "source_material": "Entrance-fauna1.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_23.png": {
+      "cutoff": 0.5,
+      "source_material": "hay type 1.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_32.png": {
+      "cutoff": 0.59184843,
+      "source_material": "BGHill-01 - Default.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_33.png": {
+      "cutoff": 0.5,
+      "source_material": "SAA_BGDetail01.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_34.png": {
+      "cutoff": 0.5,
+      "source_material": "SAA_BGDetail02.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_35.png": {
+      "cutoff": 0.5,
+      "source_material": "SAA_BGDetail03.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_37.png": {
+      "cutoff": 0.5,
+      "source_material": "ChickenCoop 1-01 - Default.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_39.png": {
+      "cutoff": 0.5,
+      "source_material": "CarrotTopBrewery.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_44.png": {
+      "cutoff": 0.59615386,
+      "source_material": "SAAPagoda.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_45.png": {
+      "cutoff": 0.5,
+      "source_material": "CMCTreeHouse.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_47.png": {
+      "cutoff": 0.5,
+      "source_material": "bush.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_52.png": {
+      "cutoff": 0.51785713,
+      "source_material": "AppleTreeBillboard2-05 - Default.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_63.png": {
+      "cutoff": 0.5,
+      "source_material": "SAABarn.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_69.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_1.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree05_Diff.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_2.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree04.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_3.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree03.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_4.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree06.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_5.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree02.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_6.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree01.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_7.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBush01.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_8.png": {
+      "cutoff": 0.3,
+      "source_material": "plantDeco.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_10.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBush02.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_14.png": {
+      "cutoff": 0.3,
+      "source_material": "Bush3-4-5-6.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_15.png": {
+      "cutoff": 0.5,
+      "source_material": "bush003.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_16.png": {
+      "cutoff": 0.5,
+      "source_material": "GrassyLump.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_18.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBackground_Canopy.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_19.png": {
+      "cutoff": 0.289,
+      "source_material": "Untitled-1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_22.png": {
+      "cutoff": 0.5,
+      "source_material": "Everfree_TerrainDetail01.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree/Everfree_38.png": {
+      "cutoff": 0.5,
+      "source_material": "HangingMoss-TM_u0_v0.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_0.png": {
+      "cutoff": 0.289,
+      "source_material": "Untitled-1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_1.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree03.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_2.png": {
+      "cutoff": 0.3,
+      "source_material": "plantDeco.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_3.png": {
+      "cutoff": 0.5,
+      "source_material": "poisonJokewithFLowers-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_4.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree01.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_5.png": {
+      "cutoff": 0.5,
+      "source_material": "poisonJokewithFLowers-poisonjoke_file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_6.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree06.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_8.png": {
+      "cutoff": 0.3,
+      "source_material": "Bush3-4-5-6.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_9.png": {
+      "cutoff": 0.5,
+      "source_material": "bush003.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_11.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree05_Diff.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_12.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBackground_Canopy.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_13.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree02.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_16.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBush01.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_20.png": {
+      "cutoff": 0.69402987,
+      "source_material": "largeLeaves.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_21.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree04.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_22.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBush02.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_35.png": {
+      "cutoff": 0.5,
+      "source_material": "ZacoraTreeTex1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_seclude/Everfree_Seclude_36.png": {
+      "cutoff": 0.2,
+      "source_material": "TikiMask.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_1.png": {
+      "cutoff": 0.3,
+      "source_material": "plantDeco.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_2.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBush02.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_3.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBush01.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_5.png": {
+      "cutoff": 0.3,
+      "source_material": "Bush3-4-5-6.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_6.png": {
+      "cutoff": 0.5,
+      "source_material": "GrassyLump.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_7.png": {
+      "cutoff": 0.289,
+      "source_material": "Untitled-1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_8.png": {
+      "cutoff": 0.5,
+      "source_material": "EverfreeBackground_Canopy.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_10.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree05_Diff.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_11.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree02.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_14.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree01.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_15.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree04.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_16.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree06.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_20.png": {
+      "cutoff": 0.5,
+      "source_material": "Tree03.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_35.png": {
+      "cutoff": 0.88,
+      "source_material": "Bridge.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_36.png": {
+      "cutoff": 0.5,
+      "source_material": "BridgePylon.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_53.png": {
+      "cutoff": 0.1716418,
+      "source_material": "plantTex2.mat",
+      "source_shader": "Lambert_Transparent_Quarter Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_54.png": {
+      "cutoff": 0.1716418,
+      "source_material": "plantTex.mat",
+      "source_shader": "Lambert_Transparent_Quarter Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_57.png": {
+      "cutoff": 0.5,
+      "source_material": "SurfaceShape58.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_60.png": {
+      "cutoff": 0.5,
+      "source_material": "statue.mat",
+      "source_shader": "Lambert_Transparent_Quarter Cutout.shader"
+    },
+    "res://world/zones/everfree_castle/Everfree_CastleGrounds_66.png": {
+      "cutoff": 0.5,
+      "source_material": "bush003.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_2.png": {
+      "cutoff": 0.5,
+      "source_material": "brambleRoof.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_3.png": {
+      "cutoff": 0.5,
+      "source_material": "brambleCliff1_cliffTopper1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_13.png": {
+      "cutoff": 0.866,
+      "source_material": "brambleBushes.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_27.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff2.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_28.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff3.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_29.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff1and4.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_32.png": {
+      "cutoff": 0.5,
+      "source_material": "BrambleTreeBridge1and2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail/Bramble_Woods_33.png": {
+      "cutoff": 0.5,
+      "source_material": "brambleTreeBridge3and2INSIDE.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/appaloosa/Appaloosa_1.png": {
+      "cutoff": 0.866,
+      "source_material": "brambleBushes.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/appaloosa/Appaloosa_14.png": {
+      "cutoff": 0.5,
+      "source_material": "hay type 1.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/appaloosa/Appaloosa_57.png": {
+      "cutoff": 0.5,
+      "source_material": "Grass.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/appaloosa/Appaloosa_65.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/appaloosa/Appaloosa_66.png": {
+      "cutoff": 0.5,
+      "source_material": "SAABarn_Nobrand.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/white_tail_park/White_Tail_Park_2.png": {
+      "cutoff": 0.8214286,
+      "source_material": "PineTreeTex2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail_park/White_Tail_Park_4.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail_park/White_Tail_Park_7.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Fair_Tents.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/white_tail_park/White_Tail_Park_13.png": {
+      "cutoff": 0.5,
+      "source_material": "InnTreeSpots_snow.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_5.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff1and4_snowy.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_6.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff2_Snow.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_7.png": {
+      "cutoff": 0.5,
+      "source_material": "TransitionCliff3_Snow.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_8.png": {
+      "cutoff": 0.5,
+      "source_material": "brambleCliff1_cliffTopper1_snowy.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_15.png": {
+      "cutoff": 0.5,
+      "source_material": "InnTreeSpots_snow.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_23.png": {
+      "cutoff": 0.5,
+      "source_material": "None.003.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_24.png": {
+      "cutoff": 0.5,
+      "source_material": "None.002.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_25.png": {
+      "cutoff": 0.5,
+      "source_material": "None.001.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_26.png": {
+      "cutoff": 0.5,
+      "source_material": "None.004.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_30.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_41.png": {
+      "cutoff": 0.8214286,
+      "source_material": "PineTreeTex2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_45.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Decorations_Flowers.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_53.png": {
+      "cutoff": 0.5,
+      "source_material": "None.005.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_67.png": {
+      "cutoff": 0.5,
+      "source_material": "AppleCart-01 - Default.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_68.png": {
+      "cutoff": 0.5,
+      "source_material": "HolidayTreeTex.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_78.png": {
+      "cutoff": 0.866,
+      "source_material": "brambleBushes.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_79.png": {
+      "cutoff": 0.5,
+      "source_material": "brambleRoof_snowy.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_95.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_96.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_97.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_104.png": {
+      "cutoff": 0.5,
+      "source_material": "AppleWoodAssetsTex.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_106.png": {
+      "cutoff": 0.5,
+      "source_material": "Hermit-House.mat",
+      "source_shader": "Toon_Transparent_Cutout Culled.shader"
+    },
+    "res://world/zones/heartland/Heartland_107.png": {
+      "cutoff": 0.5,
+      "source_material": "lambert2_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_108.png": {
+      "cutoff": 0.5,
+      "source_material": "Grass.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_109.png": {
+      "cutoff": 0.69402987,
+      "source_material": "largeLeaves.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_111.png": {
+      "cutoff": 0.5,
+      "source_material": "CloverPlanter_and_Ironwork.mat",
+      "source_shader": "Toon_Transparent_Cutout Culled.shader"
+    },
+    "res://world/zones/heartland/Heartland_116.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Fair_Tents.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_117.png": {
+      "cutoff": 0.5,
+      "source_material": "TraOrphUV.mat",
+      "source_shader": "Toon_Transparent_Cutout Culled.shader"
+    },
+    "res://world/zones/heartland/Heartland_120.png": {
+      "cutoff": 0.5,
+      "source_material": "Taproot Tavern Tree Spots.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_121.png": {
+      "cutoff": 0.5,
+      "source_material": "checkerUV_BCM_1K.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_122.png": {
+      "cutoff": 0.5,
+      "source_material": "lambert2_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_127.png": {
+      "cutoff": 0.5,
+      "source_material": "tex_pumpkinfarm_mainbldg_trans.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_143.png": {
+      "cutoff": 0.6,
+      "source_material": "Stean Ship Alpha.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_147.png": {
+      "cutoff": 0.5,
+      "source_material": "TableCloth.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_151.png": {
+      "cutoff": 0.5,
+      "source_material": "wheatfarm2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_152.png": {
+      "cutoff": 0.5,
+      "source_material": "wheatfarm1.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_156.png": {
+      "cutoff": 0.5769231,
+      "source_material": "blue flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/heartland/Heartland_157.png": {
+      "cutoff": 0.5769231,
+      "source_material": "yellow flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_8.png": {
+      "cutoff": 0.5,
+      "source_material": "HolidayTreeTex.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_41.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_50.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_53.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_66.png": {
+      "cutoff": 0.5,
+      "source_material": "SAABush1_Snow.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_73.png": {
+      "cutoff": 0.5769231,
+      "source_material": "blue flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_74.png": {
+      "cutoff": 0.5769231,
+      "source_material": "yellow flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_80.png": {
+      "cutoff": 0.5,
+      "source_material": "Transparent.mat",
+      "source_shader": "Toon_Transparent_Cutout Culled.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_99.png": {
+      "cutoff": 0.5,
+      "source_material": "polySurface167Mat.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_102.png": {
+      "cutoff": 0.5,
+      "source_material": "transparent.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_105.png": {
+      "cutoff": 0.5,
+      "source_material": "transparency.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_109.png": {
+      "cutoff": 0.5,
+      "source_material": "Paso Fino Railing.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_124.png": {
+      "cutoff": 0.38059703,
+      "source_material": "rutter.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_126.png": {
+      "cutoff": 0.5226751,
+      "source_material": "Untitled-2.mat",
+      "source_shader": "Toon_Transparent_Diffuse Separate Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_127.png": {
+      "cutoff": 0.5,
+      "source_material": "whale.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_128.png": {
+      "cutoff": 0.53846157,
+      "source_material": "lamp_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_132.png": {
+      "cutoff": 0.5,
+      "source_material": "transparency.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_136.png": {
+      "cutoff": 0.5,
+      "source_material": "UV002.mat",
+      "source_shader": "Toon_Transparent_Cutout Culled.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_146.png": {
+      "cutoff": 0.5,
+      "source_material": "Texture_Canterlot_WBHQ_Flag.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_154.png": {
+      "cutoff": 0.5,
+      "source_material": "defaultMat_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_160.png": {
+      "cutoff": 0.5,
+      "source_material": "Railings.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_167.png": {
+      "cutoff": 0.5,
+      "source_material": "Water.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_169.png": {
+      "cutoff": 0.5,
+      "source_material": "black.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_176.png": {
+      "cutoff": 0.5,
+      "source_material": "Grass.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_177.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Decorations_Flowers.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_179.png": {
+      "cutoff": 0.5,
+      "source_material": "PoppyFLowers.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_180.png": {
+      "cutoff": 0.5,
+      "source_material": "grass_patch_2-file1Material.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/canterlot/Canterlot_182.png": {
+      "cutoff": 0.69402987,
+      "source_material": "largeLeaves.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_4.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_6.png": {
+      "cutoff": 0.69402987,
+      "source_material": "largeLeaves.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_13.png": {
+      "cutoff": 0.5,
+      "source_material": "Cloudsdale_House2_2.mat",
+      "source_shader": "Toon_Transparent_Cutout Culled.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_23.png": {
+      "cutoff": 0.38059703,
+      "source_material": "rutter.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_25.png": {
+      "cutoff": 0.5226751,
+      "source_material": "Untitled-2.mat",
+      "source_shader": "Toon_Transparent_Diffuse Separate Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_26.png": {
+      "cutoff": 0.5,
+      "source_material": "whale.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_27.png": {
+      "cutoff": 0.53846157,
+      "source_material": "lamp_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_38.png": {
+      "cutoff": 0.5,
+      "source_material": "Cloudsdale_Windtunnel_2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_51.png": {
+      "cutoff": 0.5,
+      "source_material": "lambert2_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_61.png": {
+      "cutoff": 0.5769231,
+      "source_material": "blue flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_62.png": {
+      "cutoff": 0.5769231,
+      "source_material": "yellow flower.mat",
+      "source_shader": "NoDir_Cutout.shader"
+    },
+    "res://world/zones/cloudsdale/Cloudsdale_68.png": {
+      "cutoff": 0.5,
+      "source_material": "HolidayTreeTex.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_6.png": {
+      "cutoff": 0.8214286,
+      "source_material": "PineTreeTex2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_7.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Fair_Tents.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_12.png": {
+      "cutoff": 0.5,
+      "source_material": "CafeOutside.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_14.png": {
+      "cutoff": 0.5,
+      "source_material": "CafeLogo.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_17.png": {
+      "cutoff": 0.5,
+      "source_material": "SnowConeStand.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_21.png": {
+      "cutoff": 0.5,
+      "source_material": "Clock Tower.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_31.png": {
+      "cutoff": 0.5,
+      "source_material": "FoodIcon.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_33.png": {
+      "cutoff": 0.53846157,
+      "source_material": "Carrot-24 - Default.mat",
+      "source_shader": "Toon_Transparent_Diffuse Separate Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_38.png": {
+      "cutoff": 0.5,
+      "source_material": "CKMPineTreeRemake.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_50.png": {
+      "cutoff": 0.5,
+      "source_material": "BlueberryPie.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_51.png": {
+      "cutoff": 0.5,
+      "source_material": "CherryPie.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_52.png": {
+      "cutoff": 0.5,
+      "source_material": "GooseberryPie.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_53.png": {
+      "cutoff": 0.5,
+      "source_material": "StrawberryPie.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_54.png": {
+      "cutoff": 0.5,
+      "source_material": "RaspberryPie.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/crystal_mountains/CrystalMountains_58.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ck/CK_0.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Decorations_Flowers.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ck/CK_2.png": {
+      "cutoff": 0.5,
+      "source_material": "CK_Fair_Tents.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ck/CK_7.png": {
+      "cutoff": 0.8214286,
+      "source_material": "PineTreeTex2.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ck/CK_22.png": {
+      "cutoff": 0.5,
+      "source_material": "Sign_0.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    },
+    "res://world/zones/ck/CK_23.png": {
+      "cutoff": 0.5,
+      "source_material": "HolidayTreeTex.mat",
+      "source_shader": "Toon_Transparent_Cutout.shader"
+    }
+  },
+  "unresolved_shared_thresholds": [
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_18.png",
+    "res://world/zones/sweet_apple_acres/SweetAppleAcres_8.png"
+  ],
+  "unresolved_shared_modes": [
+    "res://world/zones/appaloosa/Appaloosa_2.png",
+    "res://world/zones/appaloosa/Appaloosa_62.png",
+    "res://world/zones/white_tail/Bramble_Woods_17.png",
+    "res://world/zones/ck/CK_37.png",
+    "res://world/zones/ck/CK_41.png",
+    "res://world/zones/ck/CK_45.png",
+    "res://world/zones/ck/CK_59.png",
+    "res://world/zones/ck/CK_60.png",
+    "res://world/zones/ck/CK_8.png",
+    "res://world/zones/cloudsdale/Cloudsdale_72.png",
+    "res://world/zones/crystal_mountains/CrystalMountains_19.png",
+    "res://world/zones/crystal_mountains/CrystalMountains_23.png",
+    "res://world/zones/crystal_mountains/CrystalMountains_60.png",
+    "res://world/zones/crystal_mountains/CrystalMountains_9.png",
+    "res://world/zones/everfree_seclude/Everfree_Seclude_42.png",
+    "res://world/zones/heartland/Heartland_10.png",
+    "res://world/zones/heartland/Heartland_119.png",
+    "res://world/zones/heartland/Heartland_71.png",
+    "res://world/zones/ponyville/Ponyville_109.png",
+    "res://world/zones/ponyville/Ponyville_131.png",
+    "res://world/zones/ponyville/Ponyville_140.png",
+    "res://world/zones/ponyville/Ponyville_212.png",
+    "res://world/zones/ponyville/Ponyville_28.png",
+    "res://world/zones/white_tail_park/White_Tail_Park_8.png"
+  ]
+}

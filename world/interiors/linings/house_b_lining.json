@@ -1,0 +1,72 @@
+{
+ "house": "house_b",
+ "glb": "house_b_lining.glb",
+ "hide": [
+  "ExteriorRoomFace",
+  "HouseInterior__FloorUnderlay",
+  "HouseInterior__Skirting",
+  "FloorSlab",
+  "FloorSlabWallFill",
+  "InnerThresholdRamp__StoneRamp"
+ ],
+ "floor_y": 0.296737253665924,
+ "floor_top_measured": 0.296737,
+ "floor_top_error_cm": 0.0,
+ "triangles": 21207,
+ "textures": [
+  {
+   "name": "ceiling_planks.png",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "floor_planks.png",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "ornament_atlas.png",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  {
+   "name": "plaster.png",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "timber.png",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ ],
+ "visible_meshes": [
+  "Architecture_Ceiling",
+  "Architecture_Floor",
+  "Architecture_Ornaments",
+  "Architecture_RoofPlaster",
+  "Architecture_RoofTimber",
+  "Architecture_Timber",
+  "Architecture_Walls"
+ ],
+ "colliders": [
+  "Collision_FrontLintel-convcolonly",
+  "Collision_FrontLowerLeft-convcolonly",
+  "Collision_FrontLowerRight-convcolonly",
+  "Collision_FrontUpper-convcolonly",
+  "Collision_WallBack-convcolonly",
+  "Collision_WallLeft-convcolonly",
+  "Collision_WallRight-convcolonly"
+ ],
+ "notes": "Godot frame: side walls at x -2.425 / 2.44, back wall at z -2.905, upper front wall at z 2.645, thick lower front wall face at z 2.25 (door and front window sit in deep reveals). Threshold ramp re-modelled in plank wood on the shell ramp surface; shell ramp collision unchanged."
+}

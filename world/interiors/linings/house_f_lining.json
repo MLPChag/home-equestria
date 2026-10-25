@@ -1,0 +1,101 @@
+{
+ "design": "house_f",
+ "hide": [
+  "ExteriorRoomFace",
+  "FloorSlab",
+  "HouseInterior__FloorUnderlay",
+  "HouseInterior__Skirting",
+  "InteriorDoorTrim"
+ ],
+ "hide_note": "visual meshes only; keep the FloorSlab and DoorReveal colliders",
+ "floor_top_y": 0.588253,
+ "floor_top_error_m": 0.0,
+ "contract_floor_y": 0.588253140449524,
+ "triangles": 13181,
+ "collider_triangles": 84,
+ "visible_meshes": [
+  "Architecture_Alcove",
+  "Architecture_Beams",
+  "Architecture_Ceiling",
+  "Architecture_Decals",
+  "Architecture_Floor",
+  "Architecture_Timber",
+  "Architecture_Walls",
+  "Architecture_WindowSeat"
+ ],
+ "colliders": [
+  "WallBack-convcolonly",
+  "WallFrontLeft-convcolonly",
+  "WallFrontRight-convcolonly",
+  "WallFrontTop-convcolonly",
+  "WallLeft-convcolonly",
+  "WallRight-convcolonly",
+  "WindowSeat-convcolonly"
+ ],
+ "textures": [
+  {
+   "name": "f_atlas.png",
+   "size": [
+    2048,
+    2048
+   ]
+  },
+  {
+   "name": "f_ceiling_boards.png",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "f_floor_planks.png",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "f_plaster.png",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "f_timber.png",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ ],
+ "materials": [
+  "F_CeilingBoards",
+  "F_Decals",
+  "F_FloorPlanks",
+  "F_PaintedTrim",
+  "F_Plaster",
+  "F_Timber"
+ ],
+ "lining_faces_godot": {
+  "x": [
+   -4.61,
+   4.61
+  ],
+  "z": [
+   -2.43,
+   2.185
+  ],
+  "ceiling_y": 3.58
+ },
+ "door": {
+  "centre_x": 0.0,
+  "width_m": 1.38899073155451,
+  "top_y": 2.67490530014038,
+  "clear_in_front_m": 1.2
+ },
+ "built_ins": [
+  "window seat under the right window (has WindowSeat-convcolonly)",
+  "arched shelf alcove on the back wall between the posts"
+ ]
+}

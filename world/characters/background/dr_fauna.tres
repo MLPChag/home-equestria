@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/dr_fauna.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "dr_fauna"
+display_name = "Dr. Fauna"
+race = 0
+coat_fill = Color(0.8980392, 0.83137256, 0.4, 1)
+coat_line = Color(0.64705884, 0.6, 0.28627452, 1)
+coat_shade = Color(0.827451, 0.7647059, 0.36862746, 1)
+mane_line = Color(0.3764706, 0.5803922, 0.7058824, 1)
+iris_color = Color(0.50196075, 0.4, 0.09803922, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/dr_fauna_hair.scn"
+hair_prefix = "DrFauna"
+tail_terminal_length = 0.120956763
+ai_profile = "res://world/characters/background/ai/dr_fauna.json"

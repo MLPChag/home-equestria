@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="Script" path="res://world/characters/princesses/princess_hybrid.gd" id="1"]
+[ext_resource type="PackedScene" path="res://world/characters/princesses/luna_body.glb" id="2"]
+[ext_resource type="Resource" path="res://world/characters/princesses/luna.tres" id="3"]
+[node name="PrincessLuna" type="CharacterBody3D"]
+script = ExtResource("1")
+model_scene = ExtResource("2")
+identity = ExtResource("3")
+preserve_model_materials = true
+head_width = 1.0
+head_scale = Vector3(1.0956528186798096, 1.1212897300720215, 1.1194125413894653)
+head_offset = Vector3(1.4901161193847656e-08, -0.03617656230926514, 0.07236050814390182)

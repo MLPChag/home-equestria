@@ -1,0 +1,12 @@
+{
+	"res://world/buildings/house_b/house_b_structure.scn::ArrayMesh_h846u": "res://world/buildings/door_panels/b-FrontDoor.res",
+	"res://world/buildings/house_c/house_c_automatic.scn::ArrayMesh_5s2fo": "res://world/buildings/door_panels/c-FrontDoor.res",
+	"res://world/buildings/house_d/house_d_structure.scn::ArrayMesh_jqudl": "res://world/buildings/door_panels/d-FrontDoor.res",
+	"res://world/towns/ponyville/house_a.scn::ArrayMesh_xtvfx": "res://world/buildings/door_panels/a-FrontDoor.res",
+	"res://world/towns/ponyville/house_e.scn::ArrayMesh_c8qhj": "res://world/buildings/door_panels/e-FrontDoor.res",
+	"res://world/towns/ponyville/house_f.scn::ArrayMesh_7m8wt": "res://world/buildings/door_panels/f-FrontDoor.res",
+	"res://world/towns/ponyville/house_g.scn::ArrayMesh_2aid8": "res://world/buildings/door_panels/g-FrontDoor.res",
+	"res://world/towns/ponyville/house_h.scn::ArrayMesh_2bym6": "res://world/buildings/door_panels/h-BalconyDoor.res",
+	"res://world/towns/ponyville/house_h.scn::ArrayMesh_tq5j5": "res://world/buildings/door_panels/h-FrontDoor.res",
+	"res://world/towns/ponyville/sugarcube.scn::ArrayMesh_66i8d": "res://world/buildings/door_panels/sugarcube-FrontDoor.res"
+}

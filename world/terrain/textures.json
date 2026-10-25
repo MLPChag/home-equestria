@@ -1,0 +1,316 @@
+{
+  "_comment": "Global Terrain3D texture set (max 32). ids are stable; zone splat layers map onto them by file name (tools/world_gen/zones.py). Terrain3D uv_scale 0.1 = one repeat per 10 m, so uv_scale = 1 / tile_m (the native tile size). Grass-family layers leave cellwise detiling disabled because randomized rotation/shift introduces discontinuities at every texture-size cell; Terrain3D's continuous world-space macro variation still breaks up repetition.",
+  "textures": [
+    {
+      "id": 0,
+      "name": "grass",
+      "file": "res://world/terrain/textures_gen/pv_grass.png",
+      "aliases": [
+        "grassx.png"
+      ],
+      "uv_scale": 0.08333333333333333,
+      "tile_m": 12,
+      "detiling_rotation": 0.0,
+      "detiling_shift": 0.0,
+      "height_alpha": true
+    },
+    {
+      "id": 1,
+      "name": "dirt_trail",
+      "file": "res://world/terrain/textures_gen/pv_dirt_trail.png",
+      "aliases": [
+        "tex_dirt_trail_by_kitwarrior_0.png",
+        "tex_dirt_trail_by_kitwarrior.png"
+      ],
+      "uv_scale": 0.2,
+      "tile_m": 5,
+      "navigation_trail": true,
+      "height_alpha": true
+    },
+    {
+      "id": 2,
+      "name": "grass_light",
+      "file": "res://world/terrain/textures_gen/pv_grass_light.png",
+      "aliases": [
+        "grassy.png",
+        "dyellowgrass.png"
+      ],
+      "uv_scale": 0.08333333333333333,
+      "tile_m": 12,
+      "detiling_rotation": 0.0,
+      "detiling_shift": 0.0,
+      "height_alpha": true
+    },
+    {
+      "id": 3,
+      "name": "dirt",
+      "file": "res://world/terrain/textures_gen/pv_field_dirt.png",
+      "aliases": [
+        "dirt2.png",
+        "SAADirtTex2.png"
+      ],
+      "uv_scale": 0.0667,
+      "tile_m": 15,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 4,
+      "name": "town_dirt",
+      "file": "res://world/terrain/textures_gen/pv_town_dirt.png",
+      "aliases": [
+        "ponyville_dirt.png"
+      ],
+      "uv_scale": 0.2,
+      "tile_m": 5,
+      "navigation_trail": true,
+      "height_alpha": true
+    },
+    {
+      "id": 5,
+      "name": "gravel",
+      "file": "res://world/terrain/textures_gen/pv_gravel.png",
+      "aliases": [
+        "tex_gravel01_a.png"
+      ],
+      "uv_scale": 0.3333,
+      "tile_m": 3,
+      "height_alpha": true
+    },
+    {
+      "id": 6,
+      "name": "cliff",
+      "file": "res://world/terrain/textures_gen/cliff.png",
+      "aliases": [
+        "cliffslant1.png",
+        "tex_mountain_03.png"
+      ],
+      "uv_scale": 0.0333,
+      "tile_m": 30,
+      "height_alpha": true
+    },
+    {
+      "id": 7,
+      "name": "cliff_dark",
+      "file": "res://world/terrain/textures_gen/cliff_dark.png",
+      "aliases": [
+        "cliffslant2.png"
+      ],
+      "uv_scale": 0.0667,
+      "tile_m": 15,
+      "height_alpha": true
+    },
+    {
+      "id": 8,
+      "name": "sand",
+      "file": "res://world/terrain/textures_gen/sand.png",
+      "aliases": [
+        "CK_Sand_01.png"
+      ],
+      "uv_scale": 0.0833,
+      "tile_m": 12,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 9,
+      "name": "desert_dirt",
+      "file": "res://world/terrain/textures_gen/desert_dirt.png",
+      "aliases": [
+        "lightdirt_2.png",
+        "lightdirt_1.png",
+        "dirt1.png",
+        "DirtTex.png",
+        "Dirt.png",
+        "Dirt_0.png"
+      ],
+      "uv_scale": 0.1,
+      "tile_m": 10,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 10,
+      "name": "gloomy_grass",
+      "file": "res://world/terrain/textures_gen/gloomy_grass.png",
+      "aliases": [
+        "GloomyGrass.png",
+        "GloomyGrassLeaves.png",
+        "tex_grass03_aREVDark.png"
+      ],
+      "uv_scale": 0.3333333333333333,
+      "tile_m": 3.0,
+      "detiling_rotation": 0.0,
+      "detiling_shift": 0.0,
+      "height_alpha": true
+    },
+    {
+      "id": 11,
+      "name": "damp_forest_floor",
+      "file": "res://world/terrain/textures_gen/forest_floor.png",
+      "aliases": [
+        "GloomyGrass_Dark.png",
+        "Dirt_Dark.png",
+        "DirtLeaves.png"
+      ],
+      "uv_scale": 0.3333333333333333,
+      "tile_m": 3.0,
+      "detiling_rotation": 0.0,
+      "detiling_shift": 0.0,
+      "height_alpha": true
+    },
+    {
+      "id": 12,
+      "name": "rock_face",
+      "file": "res://world/terrain/textures_gen/rock_face.png",
+      "aliases": [
+        "RockFace01_Tileable.png",
+        "dcliff2.png"
+      ],
+      "uv_scale": 0.0667,
+      "tile_m": 15,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 13,
+      "name": "brown_rock",
+      "file": "res://world/terrain/textures_gen/brown_rock.png",
+      "aliases": [
+        "BrownRock2.png"
+      ],
+      "uv_scale": 0.0667,
+      "tile_m": 15,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 14,
+      "name": "mountain",
+      "file": "res://world/terrain/textures_gen/mountain.png",
+      "aliases": [
+        "tex_mountain_02b.png",
+        "tex_mountain_02b_Light.png"
+      ],
+      "uv_scale": 0.025,
+      "tile_m": 40,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 15,
+      "name": "mountain_dark",
+      "file": "res://world/terrain/textures_gen/mountain_dark.png",
+      "aliases": [
+        "tex_mountain_02b_Dark.png"
+      ],
+      "uv_scale": 0.025,
+      "tile_m": 40,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 16,
+      "name": "mud",
+      "file": "res://world/terrain/textures_gen/mud.png",
+      "aliases": [
+        "TerrainMud.png",
+        "GroundDark.png",
+        "Ground.png"
+      ],
+      "uv_scale": 0.08333333333333333,
+      "tile_m": 12,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 17,
+      "name": "bright_grass",
+      "file": "res://world/terrain/textures_gen/bright_grass.png",
+      "aliases": [
+        "brightgrass.png",
+        "brightgrass2.png",
+        "mediumgrass.png",
+        "softgrassAlt.png",
+        "grassw.png",
+        "grassz.png",
+        "grassx_90.png",
+        "grassx_Darker.png",
+        "yellowgrass.png",
+        "tex_grass_09.png",
+        "tex_grass_45.png",
+        "tex_grass_678.png",
+        "tex_grass03_aREV.png",
+        "tex_grass03_aREVLight.png"
+      ],
+      "uv_scale": 0.08333333333333333,
+      "tile_m": 12,
+      "detiling_rotation": 0.0,
+      "detiling_shift": 0.0,
+      "height_alpha": true
+    },
+    {
+      "id": 18,
+      "name": "river_bed",
+      "file": "res://world/terrain/textures_gen/river_bed.png",
+      "aliases": [
+        "tex_river_02.png"
+      ],
+      "uv_scale": 0.1667,
+      "tile_m": 6,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35,
+      "height_alpha": true
+    },
+    {
+      "id": 19,
+      "name": "snow",
+      "file": "res://world/terrain/textures_gen/snow.png",
+      "aliases": [
+        "snow.png"
+      ],
+      "uv_scale": 0.0714,
+      "tile_m": 14,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35
+    },
+    {
+      "id": 20,
+      "name": "crystal_ice",
+      "file": "res://world/terrain/textures_gen/crystal_ice.png",
+      "aliases": [
+        "crystal_ice.png"
+      ],
+      "uv_scale": 0.1,
+      "tile_m": 10,
+      "detiling_rotation": 0.65,
+      "detiling_shift": 0.35
+    },
+    {
+      "id": 21,
+      "name": "mountain_stone",
+      "file": "res://world/terrain/textures_gen/mountain.png",
+      "aliases": [],
+      "uv_scale": 0.015625,
+      "tile_m": 64,
+      "detiling_rotation": 0.2,
+      "detiling_shift": 0.15,
+      "albedo_color": [
+        0.9,
+        0.94,
+        0.9
+      ],
+      "height_alpha": true
+    }
+  ],
+  "_comment_ponyville_2026_10_13": "Ids 0-5 use hand-painted Ponyville textures (tools/ground_textures/paint.py in the private root) matching the Golden Oak reference; height_alpha keeps the PNG alpha as Terrain3D blend height so lawn edges break up over paths.",
+  "_comment_wild_2026_10_17": "redacted"
+}

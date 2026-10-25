@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-393 -573 767 1290"
+   width="500"
+   height="841"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="cmpinkiepie.svg">
+  <metadata
+     id="metadata33">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs31">
+    <defs
+       id="defmain">
+      <g
+         id="def51">
+        <path
+           d="m -45 -193 q -31 79 -40 121 q -15 73 40 137 q 109 127 46 192 q -20 20 -44 17 q -26 -3 -33 -31 q -8 -30 9 -45 q 18 -16 45 6"
+           stroke-width="14"
+           stroke-miterlimit="4"
+           stroke-linejoin="miter"
+           stroke-linecap="butt"
+           stroke="rgb(128, 209, 245)"
+           fill="none"
+           id="def51:0" />
+        <path
+           d="m 193 188 q -59 67 -74 127 q -19 78 26 165 q 49 94 43 164 q -7 70 -63 65 q -39 -3 -58 -45 q -18 -41 -1 -82"
+           stroke-width="14"
+           stroke-miterlimit="4"
+           stroke-linejoin="miter"
+           stroke-linecap="butt"
+           stroke="rgb(253, 246, 174)"
+           fill="none"
+           id="def51:1" />
+        <path
+           d="m -205 244 q 52 30 64 75 q 11 37 -2 102 q -16 76 9 135 q 30 71 103 35 q 49 -24 37 -87 q -12 -62 -71 -72"
+           stroke-width="14"
+           stroke-miterlimit="4"
+           stroke-linejoin="miter"
+           stroke-linecap="butt"
+           stroke="rgb(253, 246, 174)"
+           fill="none"
+           id="def51:2" />
+        <path
+           d="m 6 -529 q 39 48 46 122 q 6 59 -13 108 q -19 48 -54 69 l 32 90 l -110 -24 l 25 -56 q -44 -5 -77 -52 q -33 -47 -40 -113 q -7 -73 23 -128 q 30 -55 79 -60 q 49 -4 89 44"
+           fill="rgb(253, 246, 174)"
+           id="def51:3" />
+        <path
+           d="m 126 83 q -12 -56 10 -119 q 23 -70 73 -108 q 50 -38 97 -22 q 47 16 63 77 q 16 60 -8 130 q -19 56 -57 93 q -37 36 -77 40 l 2 90 l -118 -38 l 64 -63 q -38 -23 -49 -80"
+           fill="rgb(128, 209, 245)"
+           id="def51:4" />
+        <path
+           d="m -383 36 q -18 -71 3 -130 q 21 -59 68 -72 q 48 -12 95 30 q 46 42 65 113 q 15 57 3 109 q -11 50 -42 76 l 39 67 l -108 49 l 19 -97 q -44 1 -84 -40 q -41 -41 -58 -105"
+           fill="rgb(128, 209, 245)"
+           id="def51:5" />
+      </g>
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="0.62068965"
+     inkscape:cx="38.245271"
+     inkscape:cy="420.65983"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:none;stroke:#80d1f5;stroke-width:14;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4"
+     inkscape:connector-curvature="0"
+     d="m -45,-193 q -31,79 -40,121 -15,73 40,137 109,127 46,192 -20,20 -44,17 -26,-3 -33,-31 -8,-30 9,-45 18,-16 45,6"
+     stroke-miterlimit="4"
+     id="path17" />
+  <path
+     style="fill:none;stroke:#fdf6ae;stroke-width:14;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4"
+     inkscape:connector-curvature="0"
+     d="m 193,188 q -59,67 -74,127 -19,78 26,165 49,94 43,164 -7,70 -63,65 -39,-3 -58,-45 -18,-41 -1,-82"
+     stroke-miterlimit="4"
+     id="path19" />
+  <path
+     style="fill:none;stroke:#fdf6ae;stroke-width:14;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4"
+     inkscape:connector-curvature="0"
+     d="m -205,244 q 52,30 64,75 11,37 -2,102 -16,76 9,135 30,71 103,35 49,-24 37,-87 -12,-62 -71,-72"
+     stroke-miterlimit="4"
+     id="path21" />
+  <path
+     style="fill:#fdf6ae"
+     inkscape:connector-curvature="0"
+     d="m 6,-529 q 39,48 46,122 6,59 -13,108 -19,48 -54,69 l 32,90 -110,-24 25,-56 q -44,-5 -77,-52 -33,-47 -40,-113 -7,-73 23,-128 30,-55 79,-60 49,-4 89,44"
+     id="path23" />
+  <path
+     style="fill:#80d1f5"
+     inkscape:connector-curvature="0"
+     d="m 126,83 q -12,-56 10,-119 23,-70 73,-108 50,-38 97,-22 47,16 63,77 16,60 -8,130 -19,56 -57,93 -37,36 -77,40 l 2,90 -118,-38 64,-63 Q 137,140 126,83"
+     id="path25" />
+  <path
+     style="fill:#80d1f5"
+     inkscape:connector-curvature="0"
+     d="m -383,36 q -18,-71 3,-130 21,-59 68,-72 48,-12 95,30 46,42 65,113 15,57 3,109 -11,50 -42,76 l 39,67 -108,49 19,-97 q -44,1 -84,-40 -41,-41 -58,-105"
+     id="path27" />
+</svg>

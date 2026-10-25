@@ -1,0 +1,73 @@
+{
+    "character_tag": "shy",
+    "default_location": "fluttershy_cottage",
+    "schedules": [
+        {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "fluttershy_cottage", "activity_hint": "Tending to her animal friends.", "weight": 70 },
+                { "location_id": "ponyville_market", "activity_hint": "Picking up feed and supplies from the market.", "weight": 15 },
+                { "location_id": "sweet_apple_acres", "activity_hint": "Helping with the farm animals at the orchard.", "weight": 15 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Monday", "Wednesday"],
+            "time_slots": ["afternoon"],
+            "location_id": "everfree_forest",
+            "activity_hint": "Gathering herbs in the Everfree Forest.",
+            "priority": 0
+        },
+        {
+            "days": ["Tuesday", "Friday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "fluttershy_cottage", "activity_hint": "Giving her animal friends their check-ups.", "weight": 55 },
+                { "location_id": "flower_shop", "activity_hint": "Picking up gentle flowers and asking the trio about pollinator-friendly plants.", "weight": 15 },
+                { "location_id": "ponyville_spa", "activity_hint": "Enjoying a spa day with Rarity.", "weight": 30 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Thursday"],
+            "time_slots": ["afternoon"],
+            "location_id": "ponyville_town_hall",
+            "activity_hint": "Running the weekly animal adoption program.",
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["morning"],
+            "location_id": "zecora_hut",
+            "activity_hint": "Learning about medicinal plants from Zecora.",
+            "priority": 0
+        },
+        {
+            "days": ["Saturday"],
+            "time_slots": ["afternoon"],
+            "location_id": "sugarcube_corner",
+            "activity_hint": "Having tea with friends, albeit nervously.",
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["morning"],
+            "choices": [
+                { "location_id": "ponyville_spa", "activity_hint": "Sunday spa morning with Rarity.", "weight": 50 },
+                { "location_id": "fluttershy_bedroom", "activity_hint": "Sleeping in and tending to her animals.", "weight": 50 }
+            ],
+            "priority": 0
+        },
+        {
+            "days": ["Sunday"],
+            "time_slots": ["afternoon"],
+            "choices": [
+                { "location_id": "fluttershy_cottage", "activity_hint": "Relaxing with her animal friends.", "weight": 70 },
+                { "location_id": "flower_shop", "activity_hint": "Quietly choosing fresh flowers for her animal friends and garden.", "weight": 15 },
+                { "location_id": "fluttershy_parents_home", "activity_hint": "Making a quiet Cloudsdale visit to see her parents.", "weight": 15 }
+            ],
+            "priority": 0
+        }
+    ]
+}

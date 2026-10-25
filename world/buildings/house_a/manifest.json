@@ -1,0 +1,28 @@
+{
+  "profile": "enterable_building",
+  "scope": "hollow shell preparation; not yet enterable through doors",
+  "scene": "res://world/buildings/house_a/house_a_shell.scn",
+  "source": "art/models/house-a/house-a-source.glb",
+  "source_unchanged": true,
+  "triangles": 96263,
+  "shell_added_triangles": 16,
+  "collision_shapes": 7,
+  "materials": 2,
+  "forward": "+Z",
+  "review_scale": 10,
+  "interior_layout": false,
+  "opening_panels": false,
+  "world_integrated": false,
+  "style_references": [
+    "art/concepts/ponyville-buildings/tripo-inputs/house-a/front.png",
+    "art/concepts/ponyville-buildings/tripo-inputs/house-a/left.png",
+    "art/concepts/ponyville-buildings/tripo-inputs/house-a/back.png"
+  ],
+  "validation": [
+    "captures/house-a/cavity-audit.json",
+    "captures/house-a/check-shell-final.log",
+    "captures/house-a/lab-regression.log",
+    "captures/house-a/lab-review.log"
+  ],
+  "visual_review": "captures/house-a/hollow-*.png; user lab approval pending"
+}

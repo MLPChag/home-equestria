@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+id = "rainbow_dash"
+display_name = "Rainbow Dash"
+race = 1
+coat_fill = Color(0.607843, 0.858824, 0.960784, 1)
+coat_line = Color(0.419608, 0.670588, 0.854902, 1)
+coat_shade = Color(0.54902, 0.780392, 0.905882, 1)
+mane_line = Color(0.105882, 0.596078, 0.819608, 1)
+iris_color = Color(0.768627, 0.168627, 0.482353, 1)
+lash_style = 0
+hair_scene = "res://world/characters/hybrid_mare/dash_devkit_hair.glb"
+hair_prefix = "Dash"
+notice_distance = 5
+close_distance = 1.8
+interest_smile = 0.5
+ai_profile = "res://world/ai/characters/rainbow_dash.json"

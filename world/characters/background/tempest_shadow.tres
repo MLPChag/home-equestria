@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/tempest_shadow.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "tempest_shadow"
+display_name = "Tempest Shadow"
+race = 2
+coat_fill = Color(0.32941177, 0.12941176, 0.30588236, 1)
+coat_line = Color(0.23529412, 0.09411765, 0.21960784, 1)
+coat_shade = Color(0.30196077, 0.11764706, 0.28235295, 1)
+mane_line = Color(0.38039216, 0.03529412, 0.20784314, 1)
+iris_color = Color(0.20784314, 0.7137255, 0.6627451, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/tempest_shadow_hair.scn"
+hair_prefix = "TempestShadow"
+tail_terminal_length = 0.119972054
+ai_profile = "res://world/characters/background/ai/tempest_shadow.json"

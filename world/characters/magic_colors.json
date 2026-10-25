@@ -1,0 +1,202 @@
+{
+	"_why": "Canonical magic aura colours, MLP Vector Club colour guide 'Magic' group.",
+	"ponies": {
+		"amethyst_star": {
+			"name": "Amethyst Star",
+			"aura": "#B572E0",
+			"source": "mlpvector.club appearance 174 (Amethyst Star)"
+		},
+		"clear_sky": {
+			"name": "Clear Sky",
+			"aura": "#67C1C9",
+			"source": "mlpvector.club appearance 483 (Clear Sky)"
+		},
+		"diamond_mint": {
+			"name": "Diamond Mint",
+			"aura": "#B0A4F0",
+			"source": "mlpvector.club appearance 567 (Diamond Mint)"
+		},
+		"lemon_hearts": {
+			"name": "Lemon Hearts",
+			"aura": "#D9539D",
+			"source": "mlpvector.club appearance 17 (Lemon Hearts)"
+		},
+		"lily_lace": {
+			"name": "Lily Lace",
+			"aura": "#80C2E7",
+			"source": "mlpvector.club appearance 259 (Lily Lace)"
+		},
+		"lyra_heartstrings": {
+			"name": "Lyra Heartstrings",
+			"aura": "#EEA92A",
+			"source": "mlpvector.club appearance 12 (Lyra Heartstrings)"
+		},
+		"minuette": {
+			"name": "Colgate",
+			"aura": "#F8EA96",
+			"source": "mlpvector.club appearance 10 (Minuette)"
+		},
+		"moon_dancer": {
+			"name": "Moon Dancer",
+			"aura": "#E3BFD0",
+			"source": "mlpvector.club appearance 36 (Moon Dancer)"
+		},
+		"night_light": {
+			"name": "Night Light",
+			"aura": "#E4D480",
+			"source": "mlpvector.club appearance 91 (Night Light)"
+		},
+		"party_favor": {
+			"name": "Party Favor",
+			"aura": "#E79AC3",
+			"source": "mlpvector.club appearance 28 (Party Favor)"
+		},
+		"saffron_masala": {
+			"name": "Saffron Masala",
+			"aura": "#824581",
+			"source": "mlpvector.club appearance 158 (Saffron Masala)"
+		},
+		"sea_swirl": {
+			"name": "Sea Swirl",
+			"aura": "#AE2E6D",
+			"source": "mlpvector.club appearance 312 (Sea Swirl)"
+		},
+		"shining_armor": {
+			"name": "Shining Armor",
+			"aura": "#EA428B",
+			"source": "mlpvector.club appearance 44 (Shining Armor)"
+		},
+		"starlight_glimmer": {
+			"name": "Starlight Glimmer",
+			"aura": "#9BE9D8",
+			"source": "mlpvector.club appearance 29 (Starlight Glimmer)"
+		},
+		"stellar_flare": {
+			"name": "Stellar Flare",
+			"aura": "#C0F3C5",
+			"source": "mlpvector.club appearance 401 (Stellar Flare)"
+		},
+		"sugar_belle": {
+			"name": "Sugar Belle",
+			"aura": "#21C4C2",
+			"source": "mlpvector.club appearance 22 (Sugar Belle)"
+		},
+		"sunburst": {
+			"name": "Sunburst",
+			"aura": "#FEF78A",
+			"source": "mlpvector.club appearance 62 (Sunburst)"
+		},
+		"sunset_shimmer": {
+			"name": "Sunset Shimmer",
+			"aura": "#FF2844",
+			"source": "mlpvector.club appearance 313 (Sunset Shimmer)"
+		},
+		"tempest_shadow": {
+			"name": "Tempest Shadow",
+			"aura": "#99FBFF",
+			"source": "mlpvector.club appearance 526 (Tempest Shadow)"
+		},
+		"trixie": {
+			"name": "Trixie Lulamoon",
+			"aura": "#E3B2DA",
+			"source": "mlpvector.club appearance 32 (Trixie Lulamoon)"
+		},
+		"twilight_velvet": {
+			"name": "Twilight Velvet",
+			"aura": "#EB448E",
+			"source": "mlpvector.club appearance 89 (Twilight Velvet)"
+		},
+		"twinkleshine": {
+			"name": "Twinkleshine",
+			"aura": "#6BF0ED",
+			"source": "mlpvector.club appearance 16 (Twinkleshine)"
+		},
+		"vinyl_scratch": {
+			"name": "Vinyl Scratch",
+			"aura": "#CB4DB6",
+			"source": "mlpvector.club appearance 69 (Vinyl Scratch / DJ Pon-3)"
+		},
+		"rarity": {
+			"name": "Rarity",
+			"aura": "#82C1DC",
+			"source": "mlpvector.club appearance 6 (Rarity)"
+		},
+		"twilight_sparkle": {
+			"name": "Twilight Sparkle",
+			"aura": "#EA428B",
+			"source": "mlpvector.club appearance 1 (Twilight Sparkle)"
+		},
+		"celestia": {
+			"name": "Princess Celestia",
+			"aura": "#FEFD96",
+			"source": "mlpvector.club appearance 34 (Princess Celestia)"
+		},
+		"luna": {
+			"name": "Princess Luna",
+			"aura": "#5684E5",
+			"source": "mlpvector.club appearance 9 (Princess Luna)"
+		},
+		"king_sombra": {
+			"name": "King Sombra",
+			"aura": "#DE2C12",
+			"source": "show: red horn aura (The Crystal Empire); the guide has no Magic group, hex is its iris red (appearance 132)"
+		}
+	},
+	"missing": [
+		{
+			"id": "banana_fluff",
+			"name": "Banana Fluff",
+			"guide_label": null
+		},
+		{
+			"id": "cherry_spices",
+			"name": "Cherry Spices",
+			"guide_label": null
+		},
+		{
+			"id": "comet_tail",
+			"name": "Comet Tail",
+			"guide_label": "Comet Tail"
+		},
+		{
+			"id": "jackpot",
+			"name": "Jackpot",
+			"guide_label": null
+		},
+		{
+			"id": "lemony_gem",
+			"name": "Lemony Gem",
+			"guide_label": null
+		},
+		{
+			"id": "pinny_lane",
+			"name": "Pinny Lane",
+			"guide_label": null
+		},
+		{
+			"id": "pokey_pierce",
+			"name": "Pokey Pierce",
+			"guide_label": null
+		},
+		{
+			"id": "prince_blueblood",
+			"name": "Prince Blueblood",
+			"guide_label": "Prince Blueblood"
+		},
+		{
+			"id": "royal_ribbon",
+			"name": "Royal Ribbon",
+			"guide_label": null
+		},
+		{
+			"id": "silver_spanner",
+			"name": "Silver Spanner",
+			"guide_label": null
+		},
+		{
+			"id": "luster_dawn",
+			"name": "Luster Dawn",
+			"guide_label": "Luster Dawn (Magic group empty)"
+		}
+	]
+}

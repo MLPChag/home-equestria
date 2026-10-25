@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://world/characters/mane6/marks/applejack.png" id="2_mark"]
+
+[resource]
+script = ExtResource("1_script")
+id = "applejack"
+display_name = "Applejack"
+race = 0
+coat_fill = Color(0.980392, 0.729412, 0.384314, 1)
+coat_line = Color(0.937255, 0.435294, 0.184314, 1)
+coat_shade = Color(0.937255, 0.611765, 0.329412, 1)
+mane_line = Color(0.905882, 0.831373, 0.384314, 1)
+iris_color = Color(0.380392, 0.729412, 0.305882, 1)
+lash_style = 0
+cutie_mark = ExtResource("2_mark")
+hair_scene = "res://world/characters/mane6/applejack_devkit_hair.glb"
+hair_prefix = "Applejack"
+tail_mount_offset = Vector3(0.0, 0.059, -0.043)
+accessories = Array[String](["ApplejackHat", "ApplejackTie", "ApplejackTailTie"])
+blush_color = Color(0.941176, 0.501961, 0.376471, 1)
+notice_distance = 5
+close_distance = 1.8
+interest_smile = 0.5
+ai_profile = "res://world/ai/characters/applejack.json"

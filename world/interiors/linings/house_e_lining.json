@@ -1,0 +1,95 @@
+{
+ "design": "house_e",
+ "hide": [
+  "RootNode__ExteriorRoomFace",
+  "HouseInterior__Skirting",
+  "HouseInterior__WingOpeningFrame",
+  "HouseInterior__FloorUnderlay",
+  "HouseInterior___MeshInstance3D_2",
+  "FloorSlab"
+ ],
+ "floor_y": 0.877457857131958,
+ "floor_top_measured": 0.877458,
+ "floor_top_min": 0.877458,
+ "floor_top_error_cm": 0.0,
+ "triangles": 21140,
+ "collision_triangles": 324,
+ "textures": [
+  {
+   "file": "T_floor_planks.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_FloorPlanks"
+  },
+  {
+   "file": "T_plaster.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_Plaster"
+  },
+  {
+   "file": "T_timber.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_Timber"
+  },
+  {
+   "file": "T_ceiling_boards.png",
+   "size": [
+    1024,
+    1024
+   ],
+   "material": "M_CeilingBoards"
+  },
+  {
+   "file": "T_decal_atlas.png",
+   "size": [
+    2048,
+    2048
+   ],
+   "material": "M_Decals"
+  }
+ ],
+ "meshes": [
+  "Architecture_Shell",
+  "Architecture_Floor",
+  "Architecture_Timber",
+  "Architecture_Decals"
+ ],
+ "colliders": [
+  "WallFrontLeft-convcolonly",
+  "WallFrontRight-convcolonly",
+  "DoorJambLeft-convcolonly",
+  "DoorStopRight-convcolonly",
+  "DoorJambRight-convcolonly",
+  "WallLeft-convcolonly",
+  "WallBack-convcolonly",
+  "PostBackLeft-convcolonly",
+  "PostBackCentre-convcolonly",
+  "PostFrontRight-convcolonly",
+  "PostBackRight-convcolonly",
+  "PierFront-convcolonly",
+  "PierBack-convcolonly",
+  "ArchJambFront-convcolonly",
+  "ArchJambBack-convcolonly",
+  "WingFront-convcolonly",
+  "WingBack-convcolonly",
+  "WingRight-convcolonly",
+  "WingPanel-convcolonly",
+  "WindowSeat-convcolonly",
+  "WingKneeFront-convcolonly",
+  "WingKneeBack-convcolonly",
+  "WingEnd-convcolonly",
+  "UpperFront-convcolonly",
+  "UpperBack-convcolonly",
+  "UpperLeft-convcolonly",
+  "UpperRight-convcolonly"
+ ],
+ "notes": "Blender coords converted to Godot by the glTF exporter (+Y up). Exterior MergedWindows0 door reveal, glass, sashes, door leaf and PonyBed stay visible."
+}

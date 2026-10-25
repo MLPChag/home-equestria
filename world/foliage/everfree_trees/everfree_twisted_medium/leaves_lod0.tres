@@ -1,0 +1,28 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+
+[ext_resource type="Shader" path="res://world/terrain/kits/grassy_fields/leaves.gdshader" id="1_nxwm8"]
+[ext_resource type="Texture2D" path="res://world/foliage/everfree_trees/leaf_mask.res" id="2_rkjin"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_nxwm8")
+shader_parameter/ground_hue_strength = 0.35
+shader_parameter/opacity_mask = ExtResource("2_rkjin")
+shader_parameter/leaf_color = Color(0.17, 0.33, 0.26, 1)
+shader_parameter/underside_color = Color(0.09, 0.16, 0.16, 1)
+shader_parameter/highlight_color = Color(0.34, 0.55, 0.36, 1)
+shader_parameter/gradient_height = 1.0
+shader_parameter/gradient_strength = 0.511615
+shader_parameter/fresnel_exponent = 1.5
+shader_parameter/highlight_strength = 0.25
+shader_parameter/billboard_size_cm = 5.0
+shader_parameter/inflate_cm = -1.5
+shader_parameter/billboard_scale = 14.4
+shader_parameter/cutoff = 0.3332999945
+shader_parameter/wind_intensity = 2.0
+shader_parameter/wind_speed = 0.1
+shader_parameter/wind_direction = Vector2(-1, 0)
+shader_parameter/wind_influence = 1.0
+shader_parameter/wind_directional_strength = 10.0
+shader_parameter/review_time = null
+shader_parameter/effects_enabled = null

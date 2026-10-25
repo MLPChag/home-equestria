@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "x": [
+    -650,
+    -200,
+    1400,
+    1900
+  ],
+  "z": [
+    -1750,
+    -1430,
+    -620,
+    -440
+  ],
+  "south_height": 12,
+  "north_height": 65,
+  "zone_origin": [
+    795,
+    240,
+    -1895
+  ],
+  "mesh_names": [
+    "Bottom Terrain",
+    "Outer Terrain (South)"
+  ],
+  "note": "Lower the intervening foothills only; north of z=-1750, Canterlot's city, station and supporting mountain remain untouched. Feather all boundaries."
+}

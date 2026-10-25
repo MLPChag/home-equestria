@@ -1,0 +1,14 @@
+{
+  "windows.zip": {
+    "sha256": "243a65f552a0d34841f405a29ed9da3eacf834dc71d67aee8d6d3f18c307ba52",
+    "size": 1914671
+  },
+  "base.en.bin": {
+    "sha256": "a03779c86df3323075f5e796cb2ce5029f00ec8869eee3fdfb897afe36c6d002",
+    "size": 147964211
+  },
+  "linux.zip": {
+    "sha256": "4605f30975b6ac1f6b5a93af238ee3098de5354b06aaacc859e8139e11d8d988",
+    "size": 1482062
+  }
+}

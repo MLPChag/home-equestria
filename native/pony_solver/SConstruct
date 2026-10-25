@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# Native pony leg/pose solver (docs/NATIVE_SOLVER_2026_09_25.md).
+# Build: GODOT_CPP=/home/dev/tools/godot-cpp scons platform=linux target=template_debug
+#        (and target=template_release) from this folder, with scons from /home/dev/tools/scons-venv.
+import os
+
+godot_cpp = os.environ.get("GODOT_CPP", "/home/dev/tools/godot-cpp")
+env = SConscript(os.path.join(godot_cpp, "SConstruct"))
+env.Append(CPPPATH=["src/", "nav_air/"])
+# Shipped binaries must not carry this machine's paths (assert/__FILE__ strings from headers).
+env.Append(CCFLAGS=["-ffile-prefix-map=" + os.path.expanduser("~") + "/=~/"])
+# The Godot-independent air navigation core (nav_air/), without its offline baker and test space.
+sources = Glob("src/*.cpp") + [f for f in Glob("nav_air/*.cpp") if f.name not in ("air_bake_main.cpp", "air_test_space.cpp")]
+library = env.SharedLibrary(
+    "bin/libpony_solver{}{}".format(env["suffix"], env["SHLIBSUFFIX"]),
+    source=sources,
+)
+Default(library)

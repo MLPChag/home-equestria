@@ -1,0 +1,11 @@
+{
+  "id": "sugar_belle",
+  "name": "Sugar Belle",
+  "tag": "sugar_belle",
+  "prompt": "res://world/characters/background/ai/sugar_belle.md",
+  "tts_speaker_id": 6,
+  "tts_default_emotion": "neutral",
+  "tts_style_strength": 1.0,
+  "earshot_m": 10.0,
+  "voice_status": "temporary shared Cheerilee voice"
+}

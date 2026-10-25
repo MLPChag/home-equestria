@@ -1,0 +1,17 @@
+; godot-sqlite v4.7 (2shady4u, MIT; SQLite 3.51.0; built for Godot 4.5-stable), release bin.zip
+; sha256 123c92c2d0d023b8998672eb2d8f7843f4f090b7ef1ecd900dd3568d89ae6775. Only the platforms we ship.
+[configuration]
+
+entry_symbol = "sqlite_library_init"
+compatibility_minimum = "4.5"
+
+[libraries]
+
+windows.debug.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.linux.template_release.x86_64.so"
+android.debug.arm64 = "res://addons/godot-sqlite/bin/libgdsqlite.android.template_debug.arm64.so"
+android.release.arm64 = "res://addons/godot-sqlite/bin/libgdsqlite.android.template_release.arm64.so"
+android.debug.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.android.template_debug.x86_64.so"
+android.release.x86_64 = "res://addons/godot-sqlite/bin/libgdsqlite.android.template_release.x86_64.so"

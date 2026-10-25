@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/pinny_lane.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "pinny_lane"
+display_name = "Pinny Lane"
+race = 2
+coat_fill = Color(0.9764706, 0.99215686, 0.84705883, 1)
+coat_line = Color(0.7019608, 0.7137255, 0.6117647, 1)
+coat_shade = Color(0.8980392, 0.9137255, 0.78039217, 1)
+mane_line = Color(0.23921569, 0.5372549, 0.59607846, 1)
+iris_color = Color(0.6666667, 0.8352941, 0.8117647, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/pinny_lane_hair.scn"
+hair_prefix = "PinnyLane"
+tail_terminal_length = 0.153006162
+ai_profile = "res://world/characters/background/ai/pinny_lane.json"

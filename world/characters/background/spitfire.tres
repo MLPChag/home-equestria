@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/spitfire.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "spitfire"
+display_name = "Spitfire"
+coat_fill = Color(0.972549, 0.91764706, 0.38431373, 1)
+coat_line = Color(0.74509805, 0.69803923, 0.01960784, 1)
+coat_shade = Color(0.8666667, 0.80784315, 0.32156864, 1)
+mane_line = Color(0.6666667, 0.26666668, 0, 1)
+iris_color = Color(0.8117647, 0.43137255, 0, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/spitfire_hair.scn"
+hair_prefix = "Spitfire"
+tail_terminal_length = 0.146406995
+ai_profile = "res://world/characters/background/ai/spitfire.json"

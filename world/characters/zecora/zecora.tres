@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=2 format=3]
+[ext_resource type="Script" path="res://world/characters/zecora/zecora_identity.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "zecora"
+display_name = "Zecora"
+race = 0
+can_fly = false
+hair_scene = ""
+hair_prefix = ""
+coat_fill = Color(0.7, 0.7, 0.73, 1)
+coat_line = Color(0.2, 0.19, 0.24, 1)
+iris_color = Color(0.1882352941, 0.6666666667, 0.7372549020, 1)
+notice_distance = 4.0
+ai_profile = "res://world/ai/characters/zecora.json"

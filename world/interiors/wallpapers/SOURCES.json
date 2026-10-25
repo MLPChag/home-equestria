@@ -1,0 +1,15 @@
+{
+  "tool": "built-in imagegen",
+  "status": "applied_to_runtime_interiors_2026_09_26_further_surface_cleanup_pending",
+  "reference": "https://derpibooru.org/images/2553244",
+  "assets": {
+    "apple_sage.png": {
+      "prompt": "Seamless flat tone-on-tone sage wallpaper, loose curled stems and sparse apple silhouettes, matching the right wall of the actual Apple family kitchen screenshot; no lighting, furniture, text, perspective or border.",
+      "generation": "exec-fe502909-e648-4322-b9b7-db859bf9f450"
+    },
+    "cottage_cream.png": {
+      "prompt": "Seamless flat buttercream wallpaper, subtle pastel sage curlicue stems and sparse peach five-petal flowers; restrained clean show background-art shapes; no grain, lighting, furniture, text, perspective or border.",
+      "generation": "exec-71ba6952-0a64-4e87-a1fa-81eb29eea4a4"
+    }
+  }
+}

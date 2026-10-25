@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/aloe.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "aloe"
+display_name = "Aloe"
+race = 0
+coat_fill = Color(1, 0.69803923, 0.8392157, 1)
+coat_line = Color(1, 0.5686275, 0.78431374, 1)
+coat_shade = Color(1, 0.6666667, 0.83137256, 1)
+mane_line = Color(0.26666668, 0.6156863, 0.84313726, 1)
+iris_color = Color(0.21960784, 0.46666667, 0.72156864, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/aloe_hair.scn"
+hair_prefix = "Aloe"
+tail_terminal_length = 0.131710532
+ai_profile = "res://world/characters/background/ai/aloe.json"

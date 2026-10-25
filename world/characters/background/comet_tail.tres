@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/comet_tail.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "comet_tail"
+stallion = true
+display_name = "Comet Tail"
+race = 2
+coat_fill = Color(0.92156863, 0.9137255, 0.5137255, 1)
+coat_line = Color(0.7647059, 0.70980394, 0.2, 1)
+coat_shade = Color(0.85882354, 0.8352941, 0.38431373, 1)
+mane_line = Color(0.30980393, 0.30980393, 0.45882353, 1)
+iris_color = Color(0.61960787, 0.79607844, 0.91764706, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/comet_tail_hair.scn"
+hair_prefix = "CometTail"
+tail_terminal_length = 0.099794035
+ai_profile = "res://world/characters/background/ai/comet_tail.json"

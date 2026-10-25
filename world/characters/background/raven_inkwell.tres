@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/raven_inkwell.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "raven_inkwell"
+display_name = "Raven Inkwell"
+race = 0
+coat_fill = Color(0.96862745, 0.96862745, 0.96862745, 1)
+coat_line = Color(0.69803923, 0.69803923, 0.69803923, 1)
+coat_shade = Color(0.8901961, 0.8901961, 0.8901961, 1)
+mane_line = Color(0.25098038, 0.22352941, 0.19607843, 1)
+iris_color = Color(0.63529414, 0.45490196, 0.30588236, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/raven_inkwell_hair.scn"
+hair_prefix = "RavenInkwell"
+tail_terminal_length = 0.143538247
+ai_profile = "res://world/characters/background/ai/raven_inkwell.json"

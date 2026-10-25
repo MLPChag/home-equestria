@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://world/foliage/everfree_trees/far_crown.gdshader" id="1_tcdb7"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_tcdb7")
+shader_parameter/leaf_color = Color(0.17, 0.33, 0.26, 1)
+shader_parameter/underside_color = Color(0.09, 0.16, 0.16, 1)
+shader_parameter/ground_hue_strength = 0.35

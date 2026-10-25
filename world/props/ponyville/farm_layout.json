@@ -1,0 +1,9 @@
+{
+	"_why": "Sweet Apple Acres dressing on Ponyville's north outskirts (dev 2026-09-23: moved closer, 'add fences and shit'). World XZ metres; heights come from the ground at runtime. Fence runs are open polylines; a gate is a gap between runs.",
+	"fences": [
+		{"points": [[54, -368], [2, -368], [2, -494], [150, -494], [150, -424]]},
+		{"points": [[150, -412], [150, -368], [66, -368]]}
+	],
+	"fence": {"post_spacing": 2.4, "post_height": 1.15, "post_width": 0.13, "rail_heights": [0.45, 0.9], "rail_thickness": 0.07, "color": "8a5a36"},
+	"orchard": {"x": [18, 106], "z": [-488, -458], "spacing": [7.5, 8.0], "jitter": 0.8, "scale": [0.5, 0.62], "apples_per_tree": 36, "apple_scale": 2.6}
+}

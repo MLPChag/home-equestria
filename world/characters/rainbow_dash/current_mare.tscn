@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://world/characters/locomotion/mare.tscn" id="1_mare"]
+[ext_resource type="PackedScene" path="res://world/characters/rainbow_dash/rainbow_dash_current.glb" id="2_current"]
+
+[node name="RainbowDash" instance=ExtResource("1_mare")]
+model_scene = ExtResource("2_current")
+preserve_model_materials = true

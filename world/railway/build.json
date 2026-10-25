@@ -1,0 +1,24 @@
+{
+  "aisle_width": 1.7,
+  "carriage_size": [
+    3.65,
+    3.7,
+    12.2
+  ],
+  "chunks": 57,
+  "collision": "deck per chunk; carriage floor, benches, walls and station doors",
+  "route_revision": "4e13097be97df0255e73fa8fe42442c753562a292ccfa3a311e1c945c7573827",
+  "style_references": [
+    "Ponyville Train_station cream walls",
+    "Ponyville train rounded silhouette",
+    "Canterlot station brass and masonry"
+  ],
+  "triangles": 92208,
+  "visual_review": "pending GPU availability",
+  "locomotive": {
+    "status": "removed",
+    "replacement": "Project-authored locomotive planned; no locomotive visual or collider until then",
+    "date": "2026-09-22"
+  },
+  "triangles_note": "Original build total includes the removed engine; not a current triangle total."
+}

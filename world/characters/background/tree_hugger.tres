@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/tree_hugger.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "tree_hugger"
+display_name = "Tree Hugger"
+race = 0
+coat_fill = Color(0.7254902, 0.8745098, 0.50196075, 1)
+coat_line = Color(0.39215687, 0.6313726, 0.32156864, 1)
+coat_shade = Color(0.58431375, 0.7764706, 0.42745098, 1)
+mane_line = Color(0.84313726, 0.2901961, 0.30980393, 1)
+iris_color = Color(0.7882353, 0.64705884, 0.8784314, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/tree_hugger_hair.scn"
+hair_prefix = "TreeHugger"
+tail_terminal_length = 0.078189516
+ai_profile = "res://world/characters/background/ai/tree_hugger.json"

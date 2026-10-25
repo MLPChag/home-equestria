@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=2 format=3]
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "luna"
+display_name = "Princess Luna"
+race = 3
+coat_fill = Color(0.13725490196078433, 0.17647058823529413, 0.42745098039215684, 1)
+coat_line = Color(0.06666666666666667, 0.09019607843137255, 0.23921568627450981, 1)
+coat_shade = Color(0.10980392156862745, 0.13333333333333333, 0.32941176470588235, 1)
+iris_color = Color(0.12941176470588237, 0.6549019607843137, 0.7176470588235294, 1)
+hair_scene = ""
+ai_profile = "res://world/characters/princesses/luna.json"

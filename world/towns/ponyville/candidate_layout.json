@@ -1,0 +1,5587 @@
+{
+  "source": "Ponyville residential plot and landmark transforms",
+  "source_sha256": "1d2be7b913f3de2d1aacbfb0eb888f46ab2152cabd57b830d99f056f1f9ec4dd",
+  "coordinates": "Existing Ponyville terrain world coordinates; Y is remeasured from public terrain",
+  "plots": [
+    {
+      "id": "plot_2227",
+      "position": [
+        0.5911562000000146,
+        -13.376755,
+        -235.195707
+      ],
+      "yaw": 1.5274090251077799,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -42.012634,
+        -13.376755,
+        -243.85101
+      ]
+    },
+    {
+      "id": "plot_2231",
+      "position": [
+        36.826217650000004,
+        -11.691681,
+        -269.008094
+      ],
+      "yaw": 0.2546414725056234,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        9.7517395,
+        -11.691681,
+        -292.15442
+      ]
+    },
+    {
+      "id": "plot_2235",
+      "position": [
+        2.580199900000011,
+        -12.954117,
+        -244.90679999999998
+      ],
+      "yaw": 1.3497653554287872,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -39.171143,
+        -12.954117,
+        -257.724
+      ]
+    },
+    {
+      "id": "plot_2240",
+      "position": [
+        54.90742100000001,
+        -10.686996,
+        -272.103942
+      ],
+      "yaw": 0.21782420692761112,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        35.58203,
+        -10.686996,
+        -296.57706
+      ]
+    },
+    {
+      "id": "plot_2247",
+      "position": [
+        11.838430700000004,
+        -13.481537,
+        -227.138385
+      ],
+      "yaw": -1.6310727253397068,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -25.945099,
+        -13.481537,
+        -232.34055
+      ]
+    },
+    {
+      "id": "plot_2254",
+      "position": [
+        12.999151800000007,
+        -12.984146,
+        -237.241702
+      ],
+      "yaw": -1.7412700954552585,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -24.286926,
+        -12.984146,
+        -246.77386
+      ]
+    },
+    {
+      "id": "plot_2259",
+      "position": [
+        18.2888425,
+        -12.30928,
+        -265.623405
+      ],
+      "yaw": 0.02227289193879292,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -16.730225,
+        -12.30928,
+        -287.31915
+      ]
+    },
+    {
+      "id": "plot_2266",
+      "position": [
+        64.2617618,
+        -10.326508,
+        -274.726268
+      ],
+      "yaw": 0.20048820482226443,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        48.945374,
+        -10.326508,
+        -300.32324
+      ]
+    },
+    {
+      "id": "plot_2270",
+      "position": [
+        59.652011200000004,
+        -10.930008,
+        -263.538
+      ],
+      "yaw": -3.0083982702421066,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        42.360016,
+        -10.930008,
+        -284.34
+      ]
+    },
+    {
+      "id": "plot_2277",
+      "position": [
+        1.0736452000000014,
+        -12.235535,
+        -262.343912
+      ],
+      "yaw": 0.5753264182745204,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -41.323364,
+        -12.235535,
+        -282.63416
+      ]
+    },
+    {
+      "id": "plot_2281",
+      "position": [
+        48.038821500000005,
+        -11.412689,
+        -260.189886
+      ],
+      "yaw": -3.0681538575841576,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        25.769745,
+        -11.412689,
+        -279.55698
+      ]
+    },
+    {
+      "id": "plot_2286",
+      "position": [
+        28.04851074000001,
+        -12.016495,
+        -266.638566
+      ],
+      "yaw": 0.4378662171641705,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -2.7878418,
+        -12.016495,
+        -288.76938
+      ]
+    },
+    {
+      "id": "plot_2291",
+      "position": [
+        124.15301,
+        -5.5405426,
+        -279.14095799999996
+      ],
+      "yaw": -2.9201770440428256,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        134.5043,
+        -5.5405426,
+        -306.62994
+      ]
+    },
+    {
+      "id": "plot_2296",
+      "position": [
+        133.349953,
+        -5.3520355,
+        -279.93879
+      ],
+      "yaw": -3.0456516818437747,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        147.64279,
+        -5.3520355,
+        -307.7697
+      ]
+    },
+    {
+      "id": "plot_2300",
+      "position": [
+        119.16769120000001,
+        -7.5064087,
+        -262.88646800000004
+      ],
+      "yaw": 2.400520893151839,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        127.382416,
+        -7.5064087,
+        -283.40924
+      ]
+    },
+    {
+      "id": "plot_2307",
+      "position": [
+        132.19167,
+        -7.62,
+        -267.82838399999997
+      ],
+      "yaw": -0.6297001996115423,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        145.9881,
+        -7.62,
+        -290.46912
+      ]
+    },
+    {
+      "id": "plot_2311",
+      "position": [
+        101.67482700000001,
+        -8.276154,
+        -270.069952
+      ],
+      "yaw": -2.964340344099308,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        102.39261,
+        -8.276154,
+        -293.67136
+      ]
+    },
+    {
+      "id": "plot_2318",
+      "position": [
+        91.027575,
+        -9.031479,
+        -266.802758
+      ],
+      "yaw": -2.9211443643240163,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        87.18225,
+        -9.031479,
+        -289.00394
+      ]
+    },
+    {
+      "id": "plot_2323",
+      "position": [
+        103.650325,
+        -7.3899994,
+        -282.64331000000004
+      ],
+      "yaw": 0.6075752670708476,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        105.21475,
+        -7.3899994,
+        -311.6333
+      ]
+    },
+    {
+      "id": "plot_2327",
+      "position": [
+        125.155312,
+        -5.5318756,
+        -288.42041
+      ],
+      "yaw": 0.18097982535500431,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        135.93616,
+        -5.5318756,
+        -319.8863
+      ]
+    },
+    {
+      "id": "plot_2334",
+      "position": [
+        140.08036199999998,
+        -7.095169,
+        -264.46279100000004
+      ],
+      "yaw": -0.5332702733896019,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        157.25766,
+        -7.095169,
+        -285.66113
+      ]
+    },
+    {
+      "id": "plot_2339",
+      "position": [
+        111.789428,
+        -7.5440826,
+        -269.762015
+      ],
+      "yaw": 2.2554761234836875,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        116.84204,
+        -7.5440826,
+        -293.23145
+      ]
+    },
+    {
+      "id": "plot_2343",
+      "position": [
+        93.469777,
+        -8.395966,
+        -278.33609099999995
+      ],
+      "yaw": -0.01944170727299452,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        90.67111,
+        -8.395966,
+        -305.48013
+      ]
+    },
+    {
+      "id": "plot_2348",
+      "position": [
+        82.92889,
+        -8.917999,
+        -276.7036
+      ],
+      "yaw": 0.06654912000395156,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        75.6127,
+        -8.917999,
+        -303.148
+      ]
+    },
+    {
+      "id": "plot_2355",
+      "position": [
+        115.50801,
+        -5.6960907,
+        -286.952902
+      ],
+      "yaw": 0.1872395694412316,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        122.1543,
+        -5.6960907,
+        -317.78986
+      ]
+    },
+    {
+      "id": "plot_2360",
+      "position": [
+        159.46276699999999,
+        -6.3970947,
+        -255.715675
+      ],
+      "yaw": 0.6860282899188268,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        184.94681,
+        -6.3970947,
+        -273.16525
+      ]
+    },
+    {
+      "id": "plot_2365",
+      "position": [
+        171.803599,
+        -2.8676758,
+        -294.99413799999996
+      ],
+      "yaw": -0.1045939877440394,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        202.57657,
+        -2.8676758,
+        -329.27734
+      ]
+    },
+    {
+      "id": "plot_2369",
+      "position": [
+        194.03230200000002,
+        -1.0599976,
+        -294.60483999999997
+      ],
+      "yaw": -0.0545886739925487,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        234.33186,
+        -1.0599976,
+        -328.7212
+      ]
+    },
+    {
+      "id": "plot_2376",
+      "position": [
+        183.02248500000002,
+        -3.0248108,
+        -280.607101
+      ],
+      "yaw": 1.145597118553995,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        218.60355,
+        -3.0248108,
+        -308.72443
+      ]
+    },
+    {
+      "id": "plot_2380",
+      "position": [
+        167.96803999999997,
+        -5.1768494,
+        -262.369546
+      ],
+      "yaw": 0.8382137005452172,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        197.0972,
+        -5.1768494,
+        -282.67078
+      ]
+    },
+    {
+      "id": "plot_2385",
+      "position": [
+        154.163375,
+        -4.6991577,
+        -292.705551
+      ],
+      "yaw": 0.028638916943152806,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        177.37625,
+        -4.6991577,
+        -326.00793
+      ]
+    },
+    {
+      "id": "plot_2392",
+      "position": [
+        177.275275,
+        -4.7046356,
+        -271.24163999999996
+      ],
+      "yaw": 0.9553309350260817,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        210.39325,
+        -4.7046356,
+        -295.3452
+      ]
+    },
+    {
+      "id": "plot_2399",
+      "position": [
+        142.81685099999999,
+        -4.9930267,
+        -292.604296
+      ],
+      "yaw": 0.0723721810163427,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        161.16693,
+        -4.9930267,
+        -325.86328
+      ]
+    },
+    {
+      "id": "plot_2403",
+      "position": [
+        152.739001,
+        -4.703781,
+        -283.83177
+      ],
+      "yaw": 3.1397289044583307,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        175.34143,
+        -4.703781,
+        -313.3311
+      ]
+    },
+    {
+      "id": "plot_2410",
+      "position": [
+        41.08376780000001,
+        -14.470001,
+        -187.074683
+      ],
+      "yaw": -0.5698395987714896,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        15.833954,
+        -14.470001,
+        -175.10669
+      ]
+    },
+    {
+      "id": "plot_2417",
+      "position": [
+        54.331921599999994,
+        -12.836517,
+        -215.804251
+      ],
+      "yaw": -2.9618223197890052,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        34.759888,
+        -12.836517,
+        -216.14893
+      ]
+    },
+    {
+      "id": "plot_2424",
+      "position": [
+        11.0526828,
+        -13.384659,
+        -196.427054
+      ],
+      "yaw": 2.395688464638437,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -27.067596,
+        -13.384659,
+        -188.46722
+      ]
+    },
+    {
+      "id": "plot_2431",
+      "position": [
+        36.7629849,
+        -13.739807,
+        -176.204369
+      ],
+      "yaw": 2.569738613753087,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        9.661407,
+        -13.739807,
+        -159.57767
+      ]
+    },
+    {
+      "id": "plot_2435",
+      "position": [
+        42.229343,
+        -13.024857,
+        -221.590976
+      ],
+      "yaw": 0.3778520331945101,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        17.47049,
+        -13.024857,
+        -224.41568
+      ]
+    },
+    {
+      "id": "plot_2442",
+      "position": [
+        16.5038299,
+        -13.855568,
+        -207.406491
+      ],
+      "yaw": 0.6860282899188268,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -19.280243,
+        -13.855568,
+        -204.15213
+      ]
+    },
+    {
+      "id": "plot_2447",
+      "position": [
+        31.814855980000004,
+        -14.076996,
+        -193.138181
+      ],
+      "yaw": -0.6234601556036503,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        2.5926514,
+        -14.076996,
+        -183.76883
+      ]
+    },
+    {
+      "id": "plot_2452",
+      "position": [
+        27.45416867,
+        -13.797272,
+        -213.62242799999999
+      ],
+      "yaw": 0.6144671689461432,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -3.6369019,
+        -13.797272,
+        -213.03204
+      ]
+    },
+    {
+      "id": "plot_2457",
+      "position": [
+        25.297024520000008,
+        -13.856041,
+        -199.550293
+      ],
+      "yaw": -0.6150064124318172,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -6.7185364,
+        -13.856041,
+        -192.92899
+      ]
+    },
+    {
+      "id": "plot_2461",
+      "position": [
+        32.458523549999995,
+        -13.865143,
+        -205.345796
+      ],
+      "yaw": -2.632391187300657,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        3.5121765,
+        -13.865143,
+        -201.20828
+      ]
+    },
+    {
+      "id": "plot_2465",
+      "position": [
+        97.7813325,
+        -11.859665,
+        -221.70264
+      ],
+      "yaw": -2.910885045732048,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        96.830475,
+        -11.859665,
+        -224.5752
+      ]
+    },
+    {
+      "id": "plot_2470",
+      "position": [
+        92.1767608,
+        -13.244919,
+        -198.330095
+      ],
+      "yaw": 2.324247953116743,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        88.823944,
+        -13.244919,
+        -191.18585
+      ]
+    },
+    {
+      "id": "plot_2474",
+      "position": [
+        95.83817450000001,
+        -13.092667,
+        -211.233699
+      ],
+      "yaw": -1.086111353020161,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        94.054535,
+        -13.092667,
+        -209.61957
+      ]
+    },
+    {
+      "id": "plot_2479",
+      "position": [
+        84.3393802,
+        -12.352936,
+        -215.258139
+      ],
+      "yaw": 1.8190303453059136,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        77.627686,
+        -12.352936,
+        -215.36877
+      ]
+    },
+    {
+      "id": "plot_2486",
+      "position": [
+        74.41815,
+        -12.489998,
+        -227.962964
+      ],
+      "yaw": 0.1552007584358896,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        63.4545,
+        -12.489998,
+        -233.51852
+      ]
+    },
+    {
+      "id": "plot_2493",
+      "position": [
+        74.15898200000001,
+        -12.548996,
+        -218.802316
+      ],
+      "yaw": 3.1243432176117274,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        63.08426,
+        -12.548996,
+        -220.43188
+      ]
+    },
+    {
+      "id": "plot_2498",
+      "position": [
+        98.654943,
+        -11.343903,
+        -231.859367
+      ],
+      "yaw": 0.20453398005270743,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        98.07849,
+        -11.343903,
+        -239.08481
+      ]
+    },
+    {
+      "id": "plot_2505",
+      "position": [
+        101.521464,
+        -13.289291,
+        -205.448892
+      ],
+      "yaw": -0.6002894643167791,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        102.17352,
+        -13.289291,
+        -201.35556
+      ]
+    },
+    {
+      "id": "plot_2509",
+      "position": [
+        88.104018,
+        -13.173096,
+        -204.99550200000002
+      ],
+      "yaw": 2.064058603579374,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        83.00574,
+        -13.173096,
+        -200.70786
+      ]
+    },
+    {
+      "id": "plot_2514",
+      "position": [
+        123.143813,
+        -10.578201,
+        -227.319874
+      ],
+      "yaw": -2.9011195615513654,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        133.06259,
+        -10.578201,
+        -232.59982
+      ]
+    },
+    {
+      "id": "plot_2518",
+      "position": [
+        143.301433,
+        -8.993378,
+        -233.76569800000001
+      ],
+      "yaw": -2.796545946679904,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        161.85919,
+        -8.993378,
+        -241.80814
+      ]
+    },
+    {
+      "id": "plot_2525",
+      "position": [
+        119.915287,
+        -9.9726715,
+        -237.42555
+      ],
+      "yaw": 0.17195880593128696,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        128.45041,
+        -9.9726715,
+        -247.0365
+      ]
+    },
+    {
+      "id": "plot_2530",
+      "position": [
+        141.67296,
+        -8.442703,
+        -245.86524000000003
+      ],
+      "yaw": 0.39590609875309785,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        159.5328,
+        -8.442703,
+        -259.0932
+      ]
+    },
+    {
+      "id": "plot_2534",
+      "position": [
+        114.76015799999999,
+        -11.213821,
+        -223.859438
+      ],
+      "yaw": -2.89714123846765,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        121.08594,
+        -11.213821,
+        -227.65634
+      ]
+    },
+    {
+      "id": "plot_2538",
+      "position": [
+        161.803154,
+        -7.7309723,
+        -239.668056
+      ],
+      "yaw": 2.554494054303242,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        188.29022,
+        -7.7309723,
+        -250.24008
+      ]
+    },
+    {
+      "id": "plot_2545",
+      "position": [
+        132.571063,
+        -9.318481,
+        -240.145379
+      ],
+      "yaw": 0.49019466675682677,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        146.53009,
+        -9.318481,
+        -250.92197
+      ]
+    },
+    {
+      "id": "plot_2550",
+      "position": [
+        168.860638,
+        -7.875412,
+        -232.36804999999998
+      ],
+      "yaw": 2.3884910422320296,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        198.37234,
+        -7.875412,
+        -239.8115
+      ]
+    },
+    {
+      "id": "plot_2554",
+      "position": [
+        -59.12676079999997,
+        -16.64952,
+        -124.44514749999999
+      ],
+      "yaw": 2.7413241602908474,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -127.323944,
+        -16.64952,
+        -85.635925
+      ]
+    },
+    {
+      "id": "plot_2558",
+      "position": [
+        -47.65738399999998,
+        -15.696373,
+        -118.66008500000001
+      ],
+      "yaw": 2.86102371624816,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -110.93912,
+        -15.696373,
+        -77.37155
+      ]
+    },
+    {
+      "id": "plot_2565",
+      "position": [
+        -57.464999999999975,
+        -16.9,
+        -136.236
+      ],
+      "yaw": -0.6619560060029867,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -124.95,
+        -16.9,
+        -102.48
+      ]
+    },
+    {
+      "id": "plot_2569",
+      "position": [
+        -35.345,
+        -15.109581,
+        -115.432
+      ],
+      "yaw": 2.9016448412081313,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -93.35,
+        -15.109581,
+        -72.76
+      ]
+    },
+    {
+      "id": "plot_2574",
+      "position": [
+        52.112036100000005,
+        -16.254036,
+        -140.4349822
+      ],
+      "yaw": 1.367926684691078,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        31.588623,
+        -16.254036,
+        -108.478546
+      ]
+    },
+    {
+      "id": "plot_2579",
+      "position": [
+        9.237783699999994,
+        -15.42,
+        -114.908372
+      ],
+      "yaw": -0.15504810614878006,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -29.660309,
+        -15.42,
+        -72.01196
+      ]
+    },
+    {
+      "id": "plot_2583",
+      "position": [
+        45.439477200000006,
+        -16.707443,
+        -114.413472
+      ],
+      "yaw": -2.485997334340879,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        22.056396,
+        -16.707443,
+        -71.30496
+      ]
+    },
+    {
+      "id": "plot_2587",
+      "position": [
+        21.20810850000001,
+        -16.36779,
+        -105.6272855
+      ],
+      "yaw": 3.0912347794114985,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -12.559845,
+        -16.36779,
+        -58.753265
+      ]
+    },
+    {
+      "id": "plot_2592",
+      "position": [
+        25.96049502000001,
+        -16.235878,
+        -116.3670992
+      ],
+      "yaw": 0.1608435596179533,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -5.7707214,
+        -16.235878,
+        -74.095856
+      ]
+    },
+    {
+      "id": "plot_2596",
+      "position": [
+        43.869968,
+        -16.44526,
+        -124.34715800000002
+      ],
+      "yaw": 0.7999751242670923,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        19.81424,
+        -16.44526,
+        -85.49594
+      ]
+    },
+    {
+      "id": "plot_2603",
+      "position": [
+        36.45876490000001,
+        -16.693115,
+        -109.5012332
+      ],
+      "yaw": -2.674893164218983,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        9.226807,
+        -16.693115,
+        -64.287476
+      ]
+    },
+    {
+      "id": "plot_2610",
+      "position": [
+        62.028759,
+        -18.65168,
+        -75.63191835
+      ],
+      "yaw": 0.48728283671659894,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        45.75537,
+        -18.65168,
+        -15.9027405
+      ]
+    },
+    {
+      "id": "plot_2614",
+      "position": [
+        74.08884900000001,
+        -19.071281,
+        -67.94932861000001
+      ],
+      "yaw": -2.848781573208362,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        62.98407,
+        -19.071281,
+        -4.9276123
+      ]
+    },
+    {
+      "id": "plot_2619",
+      "position": [
+        85.872187,
+        -19.028214,
+        -78.3987429
+      ],
+      "yaw": 0.007178816001352354,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        79.81741,
+        -19.028214,
+        -19.855347
+      ]
+    },
+    {
+      "id": "plot_2626",
+      "position": [
+        67.25782480000001,
+        -19.34,
+        -66.32592165000003
+      ],
+      "yaw": -2.7926850858379444,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        53.225464,
+        -19.34,
+        -2.6084595
+      ]
+    },
+    {
+      "id": "plot_2631",
+      "position": [
+        89.978793,
+        -14.991364,
+        -173.207151
+      ],
+      "yaw": -3.1222389439341294,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        85.68399,
+        -14.991364,
+        -155.29593
+      ]
+    },
+    {
+      "id": "plot_2635",
+      "position": [
+        68.06884480000001,
+        -15.43,
+        -164.189331
+      ],
+      "yaw": -1.3547440092305252,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        54.384064,
+        -15.43,
+        -142.41333
+      ]
+    },
+    {
+      "id": "plot_2639",
+      "position": [
+        70.198473,
+        -15.508003,
+        -146.83824900000002
+      ],
+      "yaw": 2.4376670531166984,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        57.42639,
+        -15.508003,
+        -117.62607
+      ]
+    },
+    {
+      "id": "plot_2644",
+      "position": [
+        79.779919,
+        -15.5224,
+        -152.2189635
+      ],
+      "yaw": -0.6547105556107163,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        71.11417,
+        -15.5224,
+        -125.312805
+      ]
+    },
+    {
+      "id": "plot_2651",
+      "position": [
+        82.285331,
+        -14.379997,
+        -183.94891
+      ],
+      "yaw": 0.3068972370895837,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        74.69333,
+        -14.379997,
+        -170.6413
+      ]
+    },
+    {
+      "id": "plot_2658",
+      "position": [
+        90.0689208,
+        -14.2324295,
+        -144.993546
+      ],
+      "yaw": -0.6115243539784898,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        85.812744,
+        -14.2324295,
+        -114.99078
+      ]
+    },
+    {
+      "id": "plot_2662",
+      "position": [
+        64.8701388,
+        -15.7261505,
+        -152.004445
+      ],
+      "yaw": 2.272861303126103,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        49.814484,
+        -15.7261505,
+        -125.00635
+      ]
+    },
+    {
+      "id": "plot_2666",
+      "position": [
+        104.222239,
+        -14.4053955,
+        -173.87688300000002
+      ],
+      "yaw": -3.1084851938862514,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        106.03177,
+        -14.4053955,
+        -156.25269
+      ]
+    },
+    {
+      "id": "plot_2670",
+      "position": [
+        82.11526599999999,
+        -15.09903,
+        -171.721807
+      ],
+      "yaw": -2.8913067555042113,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        74.45038,
+        -15.09903,
+        -153.17401
+      ]
+    },
+    {
+      "id": "plot_2677",
+      "position": [
+        127.580168,
+        -14.4053955,
+        -187.567147
+      ],
+      "yaw": 0.03947503584529818,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        139.40024,
+        -14.4053955,
+        -175.81021
+      ]
+    },
+    {
+      "id": "plot_2681",
+      "position": [
+        119.382636,
+        -14.363266,
+        -196.109891
+      ],
+      "yaw": -2.5200213539961687,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        127.68948,
+        -14.363266,
+        -188.01413
+      ]
+    },
+    {
+      "id": "plot_2685",
+      "position": [
+        134.367312,
+        -12.021713,
+        -203.134202
+      ],
+      "yaw": 3.0751850742992537,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        149.09616,
+        -12.021713,
+        -198.04886
+      ]
+    },
+    {
+      "id": "plot_2692",
+      "position": [
+        151.389331,
+        -11.694,
+        -202.475985
+      ],
+      "yaw": 3.0893960326743253,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        173.41333,
+        -11.694,
+        -197.10855
+      ]
+    },
+    {
+      "id": "plot_2697",
+      "position": [
+        160.816,
+        -10.350006,
+        -203.695
+      ],
+      "yaw": 3.1164730115010157,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        186.88,
+        -10.350006,
+        -198.85
+      ]
+    },
+    {
+      "id": "plot_2704",
+      "position": [
+        117.036649,
+        -14.4053955,
+        -187.24124799999998
+      ],
+      "yaw": -0.1023833967160711,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        124.33807,
+        -14.4053955,
+        -175.34464
+      ]
+    },
+    {
+      "id": "plot_2708",
+      "position": [
+        144.397514,
+        -11.795578,
+        -202.865997
+      ],
+      "yaw": 3.1224966562437495,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        163.42502,
+        -11.795578,
+        -197.66571
+      ]
+    },
+    {
+      "id": "plot_2713",
+      "position": [
+        159.84077399999998,
+        -10.413544,
+        -210.935947
+      ],
+      "yaw": 0.10350311321770374,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        185.48682,
+        -10.413544,
+        -209.19421
+      ]
+    },
+    {
+      "id": "plot_2718",
+      "position": [
+        197.389635,
+        -9.794769,
+        -194.647766
+      ],
+      "yaw": 2.1137220888344634,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        239.12805,
+        -9.794769,
+        -185.92538
+      ]
+    },
+    {
+      "id": "plot_2722",
+      "position": [
+        181.101713,
+        -8.82785,
+        -216.16382
+      ],
+      "yaw": 0.39759320438243473,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        215.85959,
+        -8.82785,
+        -216.6626
+      ]
+    },
+    {
+      "id": "plot_2726",
+      "position": [
+        179.036342,
+        -9.666412,
+        -204.048017
+      ],
+      "yaw": -2.9713671133547366,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        212.90906,
+        -9.666412,
+        -199.35431
+      ]
+    },
+    {
+      "id": "plot_2731",
+      "position": [
+        105.624374,
+        -15.29821,
+        -136.257007
+      ],
+      "yaw": 0.05799161495881862,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        108.03482,
+        -15.29821,
+        -102.51001
+      ]
+    },
+    {
+      "id": "plot_2736",
+      "position": [
+        118.67563179999999,
+        -17.132347,
+        -126.862013
+      ],
+      "yaw": -3.0456516818437747,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        126.679474,
+        -17.132347,
+        -89.08859
+      ]
+    },
+    {
+      "id": "plot_2740",
+      "position": [
+        121.94422999999999,
+        -16.365326,
+        -138.745696
+      ],
+      "yaw": 0.4395450055173167,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        131.3489,
+        -16.365326,
+        -106.06528
+      ]
+    },
+    {
+      "id": "plot_2744",
+      "position": [
+        132.80235,
+        -15.951584,
+        -141.095547
+      ],
+      "yaw": 0.27238169747355767,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        146.8605,
+        -15.951584,
+        -109.42221
+      ]
+    },
+    {
+      "id": "plot_2751",
+      "position": [
+        143.289085,
+        -16.014244,
+        -135.871223
+      ],
+      "yaw": -3.0137222138122723,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        161.84155,
+        -16.014244,
+        -101.95889
+      ]
+    },
+    {
+      "id": "plot_2758",
+      "position": [
+        104.34079799999999,
+        -15.178879,
+        -128.647692
+      ],
+      "yaw": 3.092671671470008,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        106.20114,
+        -15.178879,
+        -91.63956
+      ]
+    },
+    {
+      "id": "plot_2765",
+      "position": [
+        133.632879,
+        -16.421204,
+        -132.301713
+      ],
+      "yaw": -2.9254022548625134,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        148.04697,
+        -16.421204,
+        -96.85959
+      ]
+    },
+    {
+      "id": "plot_2769",
+      "position": [
+        148.06816,
+        -14.204124,
+        -179.274814
+      ],
+      "yaw": -0.7872899374982668,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        168.6688,
+        -14.204124,
+        -163.96402
+      ]
+    },
+    {
+      "id": "plot_2776",
+      "position": [
+        156.16126599999998,
+        -15.671532,
+        -136.69519300000002
+      ],
+      "yaw": -2.953825073837478,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        180.23038,
+        -15.671532,
+        -103.13599
+      ]
+    },
+    {
+      "id": "plot_2781",
+      "position": [
+        146.451223,
+        -14.414764,
+        -160.00137800000002
+      ],
+      "yaw": -2.7981772773954106,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        166.35889,
+        -14.414764,
+        -136.43054
+      ]
+    },
+    {
+      "id": "plot_2788",
+      "position": [
+        158.100147,
+        -14.7896805,
+        -152.9622865
+      ],
+      "yaw": 0.9389377288834988,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        183.00021,
+        -14.7896805,
+        -126.374695
+      ]
+    },
+    {
+      "id": "plot_2795",
+      "position": [
+        152.395882,
+        -15.417282,
+        -145.892605
+      ],
+      "yaw": 0.3645487424750555,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        174.85126,
+        -15.417282,
+        -116.27515
+      ]
+    },
+    {
+      "id": "plot_2799",
+      "position": [
+        154.334833,
+        -14.4053955,
+        -172.02868
+      ],
+      "yaw": -0.9596763814354222,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        177.62119,
+        -14.4053955,
+        -153.6124
+      ]
+    },
+    {
+      "id": "plot_2804",
+      "position": [
+        137.7398,
+        -14.5504,
+        -156.708508
+      ],
+      "yaw": -3.042130468230555,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        153.914,
+        -14.5504,
+        -131.72644
+      ]
+    },
+    {
+      "id": "plot_2808",
+      "position": [
+        186.607346,
+        -12.975258,
+        -159.773122
+      ],
+      "yaw": -3.0456516818437747,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        223.72478,
+        -12.975258,
+        -136.10446
+      ]
+    },
+    {
+      "id": "plot_2812",
+      "position": [
+        172.088786,
+        -14.832031,
+        -140.4878112
+      ],
+      "yaw": -3.0239823046630687,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        202.98398,
+        -14.832031,
+        -108.554016
+      ]
+    },
+    {
+      "id": "plot_2817",
+      "position": [
+        193.969561,
+        -13.262581,
+        -169.90725300000003
+      ],
+      "yaw": 0.11087406785405088,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        234.24223,
+        -13.262581,
+        -150.58179
+      ]
+    },
+    {
+      "id": "plot_2824",
+      "position": [
+        176.613579,
+        -13.556305,
+        -157.454498
+      ],
+      "yaw": -2.551768544900149,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        209.44797,
+        -13.556305,
+        -132.79214
+      ]
+    },
+    {
+      "id": "plot_2829",
+      "position": [
+        167.547074,
+        -14.755997,
+        -151.958259
+      ],
+      "yaw": -2.4823957034729487,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        196.49582,
+        -14.755997,
+        -124.94037
+      ]
+    },
+    {
+      "id": "plot_2834",
+      "position": [
+        192.055096,
+        -12.177872,
+        -151.92456800000002
+      ],
+      "yaw": 0.06403257982272376,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        231.50728,
+        -12.177872,
+        -124.89224
+      ]
+    },
+    {
+      "id": "plot_2838",
+      "position": [
+        201.853612,
+        -13.02874,
+        -172.582198
+      ],
+      "yaw": 0.36306873798980693,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        245.50516,
+        -13.02874,
+        -154.40314
+      ]
+    },
+    {
+      "id": "plot_2842",
+      "position": [
+        183.201657,
+        -14.083542,
+        -141.52516500000002
+      ],
+      "yaw": 3.0758539072417603,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        218.85951,
+        -14.083542,
+        -110.03595
+      ]
+    },
+    {
+      "id": "plot_2849",
+      "position": [
+        174.946417,
+        -13.23262,
+        -169.459582
+      ],
+      "yaw": 0.09360789444988624,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        207.06631,
+        -13.23262,
+        -149.94226
+      ]
+    },
+    {
+      "id": "plot_2853",
+      "position": [
+        203.73325899999998,
+        -12.0659485,
+        -132.578353
+      ],
+      "yaw": 2.135519680343837,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        248.19037,
+        -12.0659485,
+        -97.25479
+      ]
+    },
+    {
+      "id": "plot_2860",
+      "position": [
+        216.63406999999998,
+        -12.155991,
+        -174.16984
+      ],
+      "yaw": -1.4214577874264593,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        266.6201,
+        -12.155991,
+        -156.6712
+      ]
+    },
+    {
+      "id": "plot_2864",
+      "position": [
+        210.812961,
+        -12.17157,
+        -161.594452
+      ],
+      "yaw": 0.49490943797757564,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        258.30423,
+        -12.17157,
+        -138.70636
+      ]
+    },
+    {
+      "id": "plot_2869",
+      "position": [
+        205.361578,
+        -12.21846,
+        -157.0484
+      ],
+      "yaw": 1.0857193026452403,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        250.51654,
+        -12.21846,
+        -132.212
+      ]
+    },
+    {
+      "id": "plot_2873",
+      "position": [
+        235.75035599999998,
+        -15.710136,
+        -89.35452900000001
+      ],
+      "yaw": 1.4251691792091181,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        293.92908,
+        -15.710136,
+        -35.50647
+      ]
+    },
+    {
+      "id": "plot_2880",
+      "position": [
+        252.16103,
+        -15.167534,
+        -83.99101000000002
+      ],
+      "yaw": -3.052337010411083,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        317.3729,
+        -15.167534,
+        -27.8443
+      ]
+    },
+    {
+      "id": "plot_2887",
+      "position": [
+        279.794468,
+        -14.150002,
+        -91.31044100000001
+      ],
+      "yaw": -2.4564152364549394,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        356.84924,
+        -14.150002,
+        -38.30063
+      ]
+    },
+    {
+      "id": "plot_2891",
+      "position": [
+        270.29012,
+        -14.464668,
+        -85.93557710000002
+      ],
+      "yaw": -2.693896900027944,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        343.2716,
+        -14.464668,
+        -30.622253
+      ]
+    },
+    {
+      "id": "plot_2895",
+      "position": [
+        253.703235,
+        -14.614197,
+        -94.61484700000001
+      ],
+      "yaw": 0.05089624799434605,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        319.57605,
+        -14.614197,
+        -43.02121
+      ]
+    },
+    {
+      "id": "plot_2899",
+      "position": [
+        246.11235099999996,
+        -14.952362,
+        -92.75194680000001
+      ],
+      "yaw": 0.10023883913204154,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        308.73193,
+        -14.952362,
+        -40.359924
+      ]
+    },
+    {
+      "id": "plot_2904",
+      "position": [
+        262.09323900000004,
+        -14.583878,
+        -94.35747380000001
+      ],
+      "yaw": 0.16319609563726903,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        331.56177,
+        -14.583878,
+        -42.653534
+      ]
+    },
+    {
+      "id": "plot_2909",
+      "position": [
+        262.49142,
+        -14.442871,
+        -85.2728759
+      ],
+      "yaw": -2.879651051997585,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        332.1306,
+        -14.442871,
+        -29.675537
+      ]
+    },
+    {
+      "id": "plot_2914",
+      "position": [
+        316.141275,
+        -11.770004,
+        -138.136696
+      ],
+      "yaw": -2.146484879105116,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        408.77325,
+        -11.770004,
+        -105.19528
+      ]
+    },
+    {
+      "id": "plot_2921",
+      "position": [
+        298.953468,
+        -11.367844,
+        -133.56963000000002
+      ],
+      "yaw": 0.8327143661960771,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        384.21924,
+        -11.367844,
+        -98.6709
+      ]
+    },
+    {
+      "id": "plot_2928",
+      "position": [
+        310.31400599999995,
+        -11.440338,
+        -130.3699832
+      ],
+      "yaw": -2.402908443719469,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        400.44858,
+        -11.440338,
+        -94.099976
+      ]
+    },
+    {
+      "id": "plot_2932",
+      "position": [
+        243.045322,
+        4.5399933,
+        -232.92051800000002
+      ],
+      "yaw": 1.2811203494874055,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        304.35046,
+        4.5399933,
+        -240.60074
+      ]
+    },
+    {
+      "id": "plot_2939",
+      "position": [
+        221.13984399999998,
+        1.3373718,
+        -209.740088
+      ],
+      "yaw": -3.1218346669411177,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        273.05692,
+        1.3373718,
+        -207.48584
+      ]
+    },
+    {
+      "id": "plot_2944",
+      "position": [
+        228.559249,
+        1.6074829,
+        -213.084828
+      ],
+      "yaw": -3.0545196015635137,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        283.65607,
+        1.6074829,
+        -212.26404
+      ]
+    },
+    {
+      "id": "plot_2951",
+      "position": [
+        243.50361199999998,
+        3.9489594,
+        -243.430388
+      ],
+      "yaw": 1.4893392649832964,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        305.00516,
+        3.9489594,
+        -255.61484
+      ]
+    },
+    {
+      "id": "plot_2955",
+      "position": [
+        268.599382,
+        -7.8131866,
+        -181.47126
+      ],
+      "yaw": 1.6538135707751624,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        340.85626,
+        -7.8131866,
+        -167.1018
+      ]
+    },
+    {
+      "id": "plot_2962",
+      "position": [
+        260.903316,
+        -12.061493,
+        -162.33830700000001
+      ],
+      "yaw": 0.7216078232756203,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        329.86188,
+        -12.061493,
+        -139.76901
+      ]
+    },
+    {
+      "id": "plot_2967",
+      "position": [
+        245.70580499999997,
+        6.927307,
+        -276.66083000000003
+      ],
+      "yaw": -0.9888459759276155,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        308.15115,
+        6.927307,
+        -303.0869
+      ]
+    },
+    {
+      "id": "plot_2971",
+      "position": [
+        238.20531199999996,
+        6.954727,
+        -283.228384
+      ],
+      "yaw": -0.7225145547652498,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        297.43616,
+        6.954727,
+        -312.46912
+      ]
+    },
+    {
+      "id": "plot_2978",
+      "position": [
+        326.45889,
+        -3.6567535,
+        -244.882874
+      ],
+      "yaw": -1.1811439271676536,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        423.5127,
+        -3.6567535,
+        -257.68982
+      ]
+    },
+    {
+      "id": "plot_2982",
+      "position": [
+        318.76071,
+        -2.9611664,
+        -252.571464
+      ],
+      "yaw": -0.6560939817831904,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        412.5153,
+        -2.9611664,
+        -268.67352
+      ]
+    },
+    {
+      "id": "plot_2989",
+      "position": [
+        303.73105899999996,
+        -2.643921,
+        -248.75315999999998
+      ],
+      "yaw": 2.897524055785395,
+      "source_variant": "House5Prefab",
+      "fixed_site": false,
+      "source_position": [
+        391.04437,
+        -2.643921,
+        -263.2188
+      ]
+    },
+    {
+      "id": "plot_2996",
+      "position": [
+        300.85835,
+        -1.8310547,
+        -261.694214
+      ],
+      "yaw": -0.1561170825468491,
+      "source_variant": "House1Prefab",
+      "fixed_site": false,
+      "source_position": [
+        386.9405,
+        -1.8310547,
+        -281.70602
+      ]
+    },
+    {
+      "id": "plot_3000",
+      "position": [
+        309.949908,
+        -2.2308807,
+        -259.204139
+      ],
+      "yaw": -0.2697478437274156,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        399.92844,
+        -2.2308807,
+        -278.14877
+      ]
+    },
+    {
+      "id": "plot_3005",
+      "position": [
+        315.941068,
+        -3.2471008,
+        -243.92736
+      ],
+      "yaw": 2.4124273645379986,
+      "source_variant": "House6Prefab",
+      "fixed_site": false,
+      "source_position": [
+        408.48724,
+        -3.2471008,
+        -256.3248
+      ]
+    },
+    {
+      "id": "plot_3010",
+      "position": [
+        292.611405,
+        -2.2724304,
+        -250.21504000000002
+      ],
+      "yaw": -3.0613856989362573,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        375.15915,
+        -2.2724304,
+        -265.3072
+      ]
+    },
+    {
+      "id": "plot_3015",
+      "position": [
+        -94.115565,
+        -4.574814,
+        -290.57288900000003
+      ],
+      "yaw": 1.058438354791759,
+      "source_variant": "House3Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -177.30795,
+        -4.574814,
+        -322.96127
+      ]
+    },
+    {
+      "id": "plot_3019",
+      "position": [
+        -96.79615199999998,
+        -4.4705353,
+        -289.239606
+      ],
+      "yaw": -2.019168547571596,
+      "source_variant": "House4Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -181.13736,
+        -4.4705353,
+        -321.05658
+      ]
+    },
+    {
+      "id": "plot_3191",
+      "position": [
+        52.153243700000004,
+        -13.10817,
+        -225.35743100000002
+      ],
+      "yaw": 0.24067683833700368,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        31.647491,
+        -13.10817,
+        -229.79633
+      ]
+    },
+    {
+      "id": "plot_3196",
+      "position": [
+        164.612639,
+        -15.15,
+        -140.604812
+      ],
+      "yaw": -2.970935398651483,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        192.30377,
+        -15.15,
+        -108.72116
+      ]
+    },
+    {
+      "id": "plot_3201",
+      "position": [
+        1.0309844000000083,
+        -13.375191,
+        -225.34957
+      ],
+      "yaw": 1.5835058073683235,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -41.384308,
+        -13.375191,
+        -229.7851
+      ]
+    },
+    {
+      "id": "plot_3206",
+      "position": [
+        239.07163899999998,
+        3.9559479,
+        -224.068899
+      ],
+      "yaw": 1.1705625379375688,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        298.67377,
+        3.9559479,
+        -227.95557
+      ]
+    },
+    {
+      "id": "plot_3211",
+      "position": [
+        73.0535035,
+        -15.518997,
+        -158.083259
+      ],
+      "yaw": -0.8437847646369196,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        61.505005,
+        -15.518997,
+        -133.69037
+      ]
+    },
+    {
+      "id": "plot_3216",
+      "position": [
+        194.891188,
+        -12.261002,
+        -142.88822950000002
+      ],
+      "yaw": 3.1014297053003785,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        235.55884,
+        -12.261002,
+        -111.983185
+      ]
+    },
+    {
+      "id": "plot_3221",
+      "position": [
+        183.60474499999998,
+        -1.7836304,
+        -292.99239
+      ],
+      "yaw": -0.04327166992868824,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        219.43535,
+        -1.7836304,
+        -326.4177
+      ]
+    },
+    {
+      "id": "plot_3226",
+      "position": [
+        290.82310099999995,
+        -1.7367554,
+        -261.42092
+      ],
+      "yaw": -0.004927048213812244,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        372.60443,
+        -1.7367554,
+        -281.3156
+      ]
+    },
+    {
+      "id": "plot_3231",
+      "position": [
+        45.09434780000001,
+        -11.316116,
+        -270.651071
+      ],
+      "yaw": 0.27422374742343325,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        21.563354,
+        -11.316116,
+        -294.50153
+      ]
+    },
+    {
+      "id": "plot_3236",
+      "position": [
+        18.044885500000007,
+        -12.710602,
+        -246.728788
+      ],
+      "yaw": -2.7781252598439954,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -17.078735,
+        -12.710602,
+        -260.32684
+      ]
+    },
+    {
+      "id": "plot_3241",
+      "position": [
+        112.8173185,
+        -14.945496,
+        -165.267828
+      ],
+      "yaw": 2.3987635485946175,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        118.310455,
+        -14.945496,
+        -143.95404
+      ]
+    },
+    {
+      "id": "plot_3246",
+      "position": [
+        203.71167099999997,
+        -11.921982,
+        -186.778366
+      ],
+      "yaw": 2.150447755465842,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        248.15953,
+        -11.921982,
+        -174.68338
+      ]
+    },
+    {
+      "id": "plot_3251",
+      "position": [
+        71.023507,
+        -18.94545,
+        -77.08968200000001
+      ],
+      "yaw": 0.2715672827379286,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        58.60501,
+        -18.94545,
+        -17.98526
+      ]
+    },
+    {
+      "id": "plot_3256",
+      "position": [
+        126.532261,
+        -16.40268,
+        -131.19003880000002
+      ],
+      "yaw": -2.905888660784077,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        137.90323,
+        -16.40268,
+        -95.271484
+      ]
+    },
+    {
+      "id": "plot_3261",
+      "position": [
+        16.678787200000002,
+        -15.34,
+        -114.74123300000001
+      ],
+      "yaw": -0.04753138028855614,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        -19.030304,
+        -15.34,
+        -71.77319
+      ]
+    },
+    {
+      "id": "plot_3266",
+      "position": [
+        130.789766,
+        -14.594437,
+        -157.860981
+      ],
+      "yaw": 3.1246151861888833,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        143.98538,
+        -14.594437,
+        -133.37283
+      ]
+    },
+    {
+      "id": "plot_3271",
+      "position": [
+        243.54949,
+        -15.527153,
+        -84.9562225
+      ],
+      "yaw": 3.100612253976349,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        305.0707,
+        -15.527153,
+        -29.223175
+      ]
+    },
+    {
+      "id": "plot_3276",
+      "position": [
+        108.736245,
+        -13.79174,
+        -203.09496
+      ],
+      "yaw": -0.4272246140899262,
+      "source_variant": "House2Prefab",
+      "fixed_site": false,
+      "source_position": [
+        112.48035,
+        -13.79174,
+        -197.9928
+      ]
+    },
+    {
+      "id": "plot_3312",
+      "position": [
+        65.3053099,
+        -12.935272,
+        -217.47660000000002
+      ],
+      "yaw": -3.048514662026724,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        50.436157,
+        -12.935272,
+        -218.538
+      ]
+    },
+    {
+      "id": "plot_3317",
+      "position": [
+        141.99419,
+        -5.048218,
+        -282.504864
+      ],
+      "yaw": -3.030574805009425,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        159.9917,
+        -5.048218,
+        -311.43552
+      ]
+    },
+    {
+      "id": "plot_3322",
+      "position": [
+        132.795665,
+        -10.0950775,
+        -229.88367300000002
+      ],
+      "yaw": -2.9070688394202278,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        146.85095,
+        -10.0950775,
+        -236.26239
+      ]
+    },
+    {
+      "id": "plot_3327",
+      "position": [
+        197.675998,
+        -12.813538,
+        -162.61403
+      ],
+      "yaw": -3.124959063238364,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        239.53714,
+        -12.813538,
+        -140.1629
+      ]
+    },
+    {
+      "id": "plot_3332",
+      "position": [
+        97.205663,
+        -14.848549,
+        -138.422933
+      ],
+      "yaw": -0.464470619660974,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        96.00809,
+        -14.848549,
+        -105.60419
+      ]
+    },
+    {
+      "id": "plot_3337",
+      "position": [
+        76.937961,
+        -14.0130005,
+        -141.656863
+      ],
+      "yaw": 2.3522522049639027,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        67.05423,
+        -14.0130005,
+        -110.22409
+      ]
+    },
+    {
+      "id": "plot_3342",
+      "position": [
+        165.415672,
+        -3.8454285,
+        -284.66981
+      ],
+      "yaw": -3.11256193865528,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        193.45096,
+        -3.8454285,
+        -314.5283
+      ]
+    },
+    {
+      "id": "plot_3347",
+      "position": [
+        176.48670399999997,
+        -7.905182,
+        -225.04157
+      ],
+      "yaw": 2.4330775282407298,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        209.26672,
+        -7.905182,
+        -229.3451
+      ]
+    },
+    {
+      "id": "plot_3352",
+      "position": [
+        304.85947999999996,
+        -11.540817,
+        -142.1647522
+      ],
+      "yaw": 0.9799108678016099,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        392.6564,
+        -11.540817,
+        -110.949646
+      ]
+    },
+    {
+      "id": "plot_3357",
+      "position": [
+        182.42437,
+        -13.238678,
+        -168.874382
+      ],
+      "yaw": 0.02378320642566947,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        217.7491,
+        -13.238678,
+        -149.10626
+      ]
+    },
+    {
+      "id": "plot_3362",
+      "position": [
+        71.55880400000001,
+        -9.716354,
+        -274.883691
+      ],
+      "yaw": 0.16896549450114323,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        59.36972,
+        -9.716354,
+        -300.54813
+      ]
+    },
+    {
+      "id": "plot_3367",
+      "position": [
+        229.566696,
+        6.9490967,
+        -286.993572
+      ],
+      "yaw": -0.52410383084136,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        285.09528,
+        6.9490967,
+        -317.84796
+      ]
+    },
+    {
+      "id": "plot_3372",
+      "position": [
+        38.131027100000004,
+        -11.733688,
+        -258.44811100000004
+      ],
+      "yaw": -2.9226910225772573,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        11.615753,
+        -11.733688,
+        -277.06873
+      ]
+    },
+    {
+      "id": "plot_3377",
+      "position": [
+        80.45329799999999,
+        -9.596481,
+        -266.77374999999995
+      ],
+      "yaw": -3.1144092924297744,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        72.07614,
+        -9.596481,
+        -288.9625
+      ]
+    },
+    {
+      "id": "plot_3382",
+      "position": [
+        132.870565,
+        -5.267288,
+        -289.82517
+      ],
+      "yaw": 0.10173495028518852,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false,
+      "source_position": [
+        146.95795,
+        -5.267288,
+        -321.8931
+      ]
+    },
+    {
+      "id": "plot_3412",
+      "position": [
+        172.34535,
+        -9.718033,
+        -203.800574
+      ],
+      "yaw": 3.134417828162755,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        203.3505,
+        -9.718033,
+        -199.00082
+      ]
+    },
+    {
+      "id": "plot_3417",
+      "position": [
+        107.523656,
+        -11.666794,
+        -222.237762
+      ],
+      "yaw": -2.8759026961791814,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        110.74808,
+        -11.666794,
+        -225.33966
+      ]
+    },
+    {
+      "id": "plot_3422",
+      "position": [
+        125.72021199999999,
+        -12.765244,
+        -201.499709
+      ],
+      "yaw": -2.8499206165526183,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        136.74316,
+        -12.765244,
+        -195.71387
+      ]
+    },
+    {
+      "id": "plot_3427",
+      "position": [
+        162.481902,
+        -3.8494873,
+        -293.189944
+      ],
+      "yaw": -0.08152136571046976,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        189.25986,
+        -3.8494873,
+        -326.69992
+      ]
+    },
+    {
+      "id": "plot_3432",
+      "position": [
+        164.64551799999998,
+        -14.724266,
+        -158.871123
+      ],
+      "yaw": 0.7210797114335596,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        192.35074,
+        -14.724266,
+        -134.81589
+      ]
+    },
+    {
+      "id": "plot_3437",
+      "position": [
+        267.180202,
+        -14.490311,
+        -97.70988160000002
+      ],
+      "yaw": 0.4685794234436595,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        338.82886,
+        -14.490311,
+        -47.442688
+      ]
+    },
+    {
+      "id": "plot_3442",
+      "position": [
+        89.595256,
+        -14.190865,
+        -186.48641
+      ],
+      "yaw": 0.2510546529127977,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        85.13608,
+        -14.190865,
+        -174.2663
+      ]
+    },
+    {
+      "id": "plot_3447",
+      "position": [
+        320.89853800000003,
+        -11.789993,
+        -148.80576000000002
+      ],
+      "yaw": -1.924370635033069,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        415.56934,
+        -11.789993,
+        -120.4368
+      ]
+    },
+    {
+      "id": "plot_3452",
+      "position": [
+        108.673161,
+        -10.928757,
+        -233.202436
+      ],
+      "yaw": 0.2761667170751226,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        112.39023,
+        -10.928757,
+        -241.00348
+      ]
+    },
+    {
+      "id": "plot_3457",
+      "position": [
+        9.615426,
+        -12.541183,
+        -264.02388399999995
+      ],
+      "yaw": 0.21225210201436104,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        -29.12082,
+        -12.541183,
+        -285.03412
+      ]
+    },
+    {
+      "id": "plot_3462",
+      "position": [
+        98.313147,
+        -14.518547,
+        -175.43033
+      ],
+      "yaw": -2.97168313347503,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        97.59021,
+        -14.518547,
+        -158.4719
+      ]
+    },
+    {
+      "id": "plot_3467",
+      "position": [
+        257.58895599999994,
+        -12.061493,
+        -143.90428300000002
+      ],
+      "yaw": -1.7721221450052154,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        325.12708,
+        -12.061493,
+        -113.43469
+      ]
+    },
+    {
+      "id": "plot_3472",
+      "position": [
+        13.478308100000007,
+        -16.192223,
+        -105.0159818
+      ],
+      "yaw": 3.1210116179373917,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        -23.602417,
+        -16.192223,
+        -57.879974
+      ]
+    },
+    {
+      "id": "plot_3477",
+      "position": [
+        142.03623199999998,
+        -15.765869,
+        -143.02652920000003
+      ],
+      "yaw": 0.19027252759189908,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        160.05176,
+        -15.765869,
+        -112.180756
+      ]
+    },
+    {
+      "id": "plot_3482",
+      "position": [
+        50.01615910000001,
+        -16.225029,
+        -131.75716549999999
+      ],
+      "yaw": 1.0118391051869362,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false,
+      "source_position": [
+        28.594513,
+        -16.225029,
+        -96.081665
+      ]
+    },
+    {
+      "id": "plot_3512",
+      "position": [
+        255.462741,
+        -12.079483,
+        -154.024337
+      ],
+      "yaw": -0.928270429917685,
+      "source_variant": "Small_Bridge_House",
+      "fixed_site": true,
+      "source_position": [
+        322.08963,
+        -12.079483,
+        -127.89191
+      ]
+    },
+    {
+      "id": "plot_3516",
+      "position": [
+        201.43807099999998,
+        -12.172546,
+        -146.24411700000002
+      ],
+      "yaw": 1.454488568462592,
+      "source_variant": "Small_Bridge_House",
+      "fixed_site": true,
+      "source_position": [
+        244.91153,
+        -12.172546,
+        -116.77731
+      ]
+    },
+    {
+      "id": "plot_2227_outer",
+      "position": [
+        -42.012634,
+        -13.376755,
+        -243.85101
+      ],
+      "yaw": 1.5274090251077799,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2231_outer",
+      "position": [
+        9.7517395,
+        -11.691681,
+        -292.15442
+      ],
+      "yaw": 0.2546414725056234,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2235_outer",
+      "position": [
+        -39.171143,
+        -12.954117,
+        -257.724
+      ],
+      "yaw": 1.3497653554287872,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2240_outer",
+      "position": [
+        35.58203,
+        -10.686996,
+        -296.57706
+      ],
+      "yaw": 0.21782420692761112,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2247_outer",
+      "position": [
+        -25.945099,
+        -13.481537,
+        -232.34055
+      ],
+      "yaw": -1.6310727253397068,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2254_outer",
+      "position": [
+        -24.286926,
+        -12.984146,
+        -246.77386
+      ],
+      "yaw": -1.7412700954552585,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2259_outer",
+      "position": [
+        -16.730225,
+        -12.30928,
+        -287.31915
+      ],
+      "yaw": 0.02227289193879292,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2266_outer",
+      "position": [
+        48.945374,
+        -10.326508,
+        -300.32324
+      ],
+      "yaw": 0.20048820482226443,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2270_outer",
+      "position": [
+        42.360016,
+        -10.930008,
+        -284.34
+      ],
+      "yaw": -3.0083982702421066,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2277_outer",
+      "position": [
+        -41.323364,
+        -12.235535,
+        -282.63416
+      ],
+      "yaw": 0.5753264182745204,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2281_outer",
+      "position": [
+        25.769745,
+        -11.412689,
+        -279.55698
+      ],
+      "yaw": -3.0681538575841576,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2286_outer",
+      "position": [
+        -2.7878418,
+        -12.016495,
+        -288.76938
+      ],
+      "yaw": 0.4378662171641705,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2291_outer",
+      "position": [
+        134.5043,
+        -5.5405426,
+        -306.62994
+      ],
+      "yaw": -2.9201770440428256,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2296_outer",
+      "position": [
+        147.64279,
+        -5.3520355,
+        -307.7697
+      ],
+      "yaw": -3.0456516818437747,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2300_outer",
+      "position": [
+        127.382416,
+        -7.5064087,
+        -283.40924
+      ],
+      "yaw": 2.400520893151839,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2307_outer",
+      "position": [
+        145.9881,
+        -7.62,
+        -290.46912
+      ],
+      "yaw": -0.6297001996115423,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2311_outer",
+      "position": [
+        102.39261,
+        -8.276154,
+        -293.67136
+      ],
+      "yaw": -2.964340344099308,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2318_outer",
+      "position": [
+        87.18225,
+        -9.031479,
+        -289.00394
+      ],
+      "yaw": -2.9211443643240163,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2323_outer",
+      "position": [
+        105.21475,
+        -7.3899994,
+        -311.6333
+      ],
+      "yaw": 0.6075752670708476,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2327_outer",
+      "position": [
+        135.93616,
+        -5.5318756,
+        -319.8863
+      ],
+      "yaw": 0.18097982535500431,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2334_outer",
+      "position": [
+        157.25766,
+        -7.095169,
+        -285.66113
+      ],
+      "yaw": -0.5332702733896019,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2339_outer",
+      "position": [
+        116.84204,
+        -7.5440826,
+        -293.23145
+      ],
+      "yaw": 2.2554761234836875,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2343_outer",
+      "position": [
+        90.67111,
+        -8.395966,
+        -305.48013
+      ],
+      "yaw": -0.01944170727299452,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2348_outer",
+      "position": [
+        75.6127,
+        -8.917999,
+        -303.148
+      ],
+      "yaw": 0.06654912000395156,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2355_outer",
+      "position": [
+        122.1543,
+        -5.6960907,
+        -317.78986
+      ],
+      "yaw": 0.1872395694412316,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2360_outer",
+      "position": [
+        184.94681,
+        -6.3970947,
+        -273.16525
+      ],
+      "yaw": 0.6860282899188268,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2365_outer",
+      "position": [
+        202.57657,
+        -2.8676758,
+        -329.27734
+      ],
+      "yaw": -0.1045939877440394,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2369_outer",
+      "position": [
+        234.33186,
+        -1.0599976,
+        -328.7212
+      ],
+      "yaw": -0.0545886739925487,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2376_outer",
+      "position": [
+        218.60355,
+        -3.0248108,
+        -308.72443
+      ],
+      "yaw": 1.145597118553995,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2380_outer",
+      "position": [
+        197.0972,
+        -5.1768494,
+        -282.67078
+      ],
+      "yaw": 0.8382137005452172,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2385_outer",
+      "position": [
+        177.37625,
+        -4.6991577,
+        -326.00793
+      ],
+      "yaw": 0.028638916943152806,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2392_outer",
+      "position": [
+        210.39325,
+        -4.7046356,
+        -295.3452
+      ],
+      "yaw": 0.9553309350260817,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2399_outer",
+      "position": [
+        161.16693,
+        -4.9930267,
+        -325.86328
+      ],
+      "yaw": 0.0723721810163427,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2403_outer",
+      "position": [
+        175.34143,
+        -4.703781,
+        -313.3311
+      ],
+      "yaw": 3.1397289044583307,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2410_outer",
+      "position": [
+        15.833954,
+        -14.470001,
+        -175.10669
+      ],
+      "yaw": -0.5698395987714896,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2417_outer",
+      "position": [
+        34.759888,
+        -12.836517,
+        -216.14893
+      ],
+      "yaw": -2.9618223197890052,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2424_outer",
+      "position": [
+        -27.067596,
+        -13.384659,
+        -188.46722
+      ],
+      "yaw": 2.395688464638437,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2431_outer",
+      "position": [
+        9.661407,
+        -13.739807,
+        -159.57767
+      ],
+      "yaw": 2.569738613753087,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2435_outer",
+      "position": [
+        17.47049,
+        -13.024857,
+        -224.41568
+      ],
+      "yaw": 0.3778520331945101,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2442_outer",
+      "position": [
+        -19.280243,
+        -13.855568,
+        -204.15213
+      ],
+      "yaw": 0.6860282899188268,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2447_outer",
+      "position": [
+        2.5926514,
+        -14.076996,
+        -183.76883
+      ],
+      "yaw": -0.6234601556036503,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2452_outer",
+      "position": [
+        -3.6369019,
+        -13.797272,
+        -213.03204
+      ],
+      "yaw": 0.6144671689461432,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2457_outer",
+      "position": [
+        -6.7185364,
+        -13.856041,
+        -192.92899
+      ],
+      "yaw": -0.6150064124318172,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2461_outer",
+      "position": [
+        3.5121765,
+        -13.865143,
+        -201.20828
+      ],
+      "yaw": -2.632391187300657,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2465_outer",
+      "position": [
+        96.830475,
+        -11.859665,
+        -224.5752
+      ],
+      "yaw": -2.910885045732048,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2470_outer",
+      "position": [
+        88.823944,
+        -13.244919,
+        -191.18585
+      ],
+      "yaw": 2.324247953116743,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2474_outer",
+      "position": [
+        94.054535,
+        -13.092667,
+        -209.61957
+      ],
+      "yaw": -1.086111353020161,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2479_outer",
+      "position": [
+        77.627686,
+        -12.352936,
+        -215.36877
+      ],
+      "yaw": 1.8190303453059136,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2486_outer",
+      "position": [
+        63.4545,
+        -12.489998,
+        -233.51852
+      ],
+      "yaw": 0.1552007584358896,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2493_outer",
+      "position": [
+        63.08426,
+        -12.548996,
+        -220.43188
+      ],
+      "yaw": 3.1243432176117274,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2498_outer",
+      "position": [
+        98.07849,
+        -11.343903,
+        -239.08481
+      ],
+      "yaw": 0.20453398005270743,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2505_outer",
+      "position": [
+        102.17352,
+        -13.289291,
+        -201.35556
+      ],
+      "yaw": -0.6002894643167791,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2509_outer",
+      "position": [
+        83.00574,
+        -13.173096,
+        -200.70786
+      ],
+      "yaw": 2.064058603579374,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2514_outer",
+      "position": [
+        133.06259,
+        -10.578201,
+        -232.59982
+      ],
+      "yaw": -2.9011195615513654,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2518_outer",
+      "position": [
+        161.85919,
+        -8.993378,
+        -241.80814
+      ],
+      "yaw": -2.796545946679904,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2525_outer",
+      "position": [
+        128.45041,
+        -9.9726715,
+        -247.0365
+      ],
+      "yaw": 0.17195880593128696,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2530_outer",
+      "position": [
+        159.5328,
+        -8.442703,
+        -259.0932
+      ],
+      "yaw": 0.39590609875309785,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2534_outer",
+      "position": [
+        121.08594,
+        -11.213821,
+        -227.65634
+      ],
+      "yaw": -2.89714123846765,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2538_outer",
+      "position": [
+        188.29022,
+        -7.7309723,
+        -250.24008
+      ],
+      "yaw": 2.554494054303242,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2545_outer",
+      "position": [
+        146.53009,
+        -9.318481,
+        -250.92197
+      ],
+      "yaw": 0.49019466675682677,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2550_outer",
+      "position": [
+        198.37234,
+        -7.875412,
+        -239.8115
+      ],
+      "yaw": 2.3884910422320296,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2554_outer",
+      "position": [
+        -127.323944,
+        -16.64952,
+        -85.635925
+      ],
+      "yaw": 2.7413241602908474,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2558_outer",
+      "position": [
+        -110.93912,
+        -15.696373,
+        -77.37155
+      ],
+      "yaw": 2.86102371624816,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2565_outer",
+      "position": [
+        -124.95,
+        -16.9,
+        -102.48
+      ],
+      "yaw": -0.6619560060029867,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2569_outer",
+      "position": [
+        -93.35,
+        -15.109581,
+        -72.76
+      ],
+      "yaw": 2.9016448412081313,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2574_outer",
+      "position": [
+        31.588623,
+        -16.254036,
+        -108.478546
+      ],
+      "yaw": 1.367926684691078,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2579_outer",
+      "position": [
+        -29.660309,
+        -15.42,
+        -72.01196
+      ],
+      "yaw": -0.15504810614878006,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2583_outer",
+      "position": [
+        22.056396,
+        -16.707443,
+        -71.30496
+      ],
+      "yaw": -2.485997334340879,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2587_outer",
+      "position": [
+        -12.559845,
+        -16.36779,
+        -58.753265
+      ],
+      "yaw": 3.0912347794114985,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2592_outer",
+      "position": [
+        -5.7707214,
+        -16.235878,
+        -74.095856
+      ],
+      "yaw": 0.1608435596179533,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2596_outer",
+      "position": [
+        19.81424,
+        -16.44526,
+        -85.49594
+      ],
+      "yaw": 0.7999751242670923,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2603_outer",
+      "position": [
+        9.226807,
+        -16.693115,
+        -64.287476
+      ],
+      "yaw": -2.674893164218983,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2610_outer",
+      "position": [
+        45.75537,
+        -18.65168,
+        -15.9027405
+      ],
+      "yaw": 0.48728283671659894,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2614_outer",
+      "position": [
+        62.98407,
+        -19.071281,
+        -4.9276123
+      ],
+      "yaw": -2.848781573208362,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2619_outer",
+      "position": [
+        79.81741,
+        -19.028214,
+        -19.855347
+      ],
+      "yaw": 0.007178816001352354,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2626_outer",
+      "position": [
+        53.225464,
+        -19.34,
+        -2.6084595
+      ],
+      "yaw": -2.7926850858379444,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2631_outer",
+      "position": [
+        85.68399,
+        -14.991364,
+        -155.29593
+      ],
+      "yaw": -3.1222389439341294,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2635_outer",
+      "position": [
+        54.384064,
+        -15.43,
+        -142.41333
+      ],
+      "yaw": -1.3547440092305252,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2639_outer",
+      "position": [
+        57.42639,
+        -15.508003,
+        -117.62607
+      ],
+      "yaw": 2.4376670531166984,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2644_outer",
+      "position": [
+        71.11417,
+        -15.5224,
+        -125.312805
+      ],
+      "yaw": -0.6547105556107163,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2651_outer",
+      "position": [
+        74.69333,
+        -14.379997,
+        -170.6413
+      ],
+      "yaw": 0.3068972370895837,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2658_outer",
+      "position": [
+        85.812744,
+        -14.2324295,
+        -114.99078
+      ],
+      "yaw": -0.6115243539784898,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2662_outer",
+      "position": [
+        49.814484,
+        -15.7261505,
+        -125.00635
+      ],
+      "yaw": 2.272861303126103,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2666_outer",
+      "position": [
+        106.03177,
+        -14.4053955,
+        -156.25269
+      ],
+      "yaw": -3.1084851938862514,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2670_outer",
+      "position": [
+        74.45038,
+        -15.09903,
+        -153.17401
+      ],
+      "yaw": -2.8913067555042113,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2677_outer",
+      "position": [
+        139.40024,
+        -14.4053955,
+        -175.81021
+      ],
+      "yaw": 0.03947503584529818,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2681_outer",
+      "position": [
+        127.68948,
+        -14.363266,
+        -188.01413
+      ],
+      "yaw": -2.5200213539961687,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2685_outer",
+      "position": [
+        149.09616,
+        -12.021713,
+        -198.04886
+      ],
+      "yaw": 3.0751850742992537,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2692_outer",
+      "position": [
+        173.41333,
+        -11.694,
+        -197.10855
+      ],
+      "yaw": 3.0893960326743253,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2697_outer",
+      "position": [
+        186.88,
+        -10.350006,
+        -198.85
+      ],
+      "yaw": 3.1164730115010157,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2704_outer",
+      "position": [
+        124.33807,
+        -14.4053955,
+        -175.34464
+      ],
+      "yaw": -0.1023833967160711,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2708_outer",
+      "position": [
+        163.42502,
+        -11.795578,
+        -197.66571
+      ],
+      "yaw": 3.1224966562437495,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2713_outer",
+      "position": [
+        185.48682,
+        -10.413544,
+        -209.19421
+      ],
+      "yaw": 0.10350311321770374,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2718_outer",
+      "position": [
+        239.12805,
+        -9.794769,
+        -185.92538
+      ],
+      "yaw": 2.1137220888344634,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2722_outer",
+      "position": [
+        215.85959,
+        -8.82785,
+        -216.6626
+      ],
+      "yaw": 0.39759320438243473,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2726_outer",
+      "position": [
+        212.90906,
+        -9.666412,
+        -199.35431
+      ],
+      "yaw": -2.9713671133547366,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2731_outer",
+      "position": [
+        108.03482,
+        -15.29821,
+        -102.51001
+      ],
+      "yaw": 0.05799161495881862,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2736_outer",
+      "position": [
+        126.679474,
+        -17.132347,
+        -89.08859
+      ],
+      "yaw": -3.0456516818437747,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2740_outer",
+      "position": [
+        131.3489,
+        -16.365326,
+        -106.06528
+      ],
+      "yaw": 0.4395450055173167,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2744_outer",
+      "position": [
+        146.8605,
+        -15.951584,
+        -109.42221
+      ],
+      "yaw": 0.27238169747355767,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2751_outer",
+      "position": [
+        161.84155,
+        -16.014244,
+        -101.95889
+      ],
+      "yaw": -3.0137222138122723,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2758_outer",
+      "position": [
+        106.20114,
+        -15.178879,
+        -91.63956
+      ],
+      "yaw": 3.092671671470008,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2765_outer",
+      "position": [
+        148.04697,
+        -16.421204,
+        -96.85959
+      ],
+      "yaw": -2.9254022548625134,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2769_outer",
+      "position": [
+        168.6688,
+        -14.204124,
+        -163.96402
+      ],
+      "yaw": -0.7872899374982668,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2776_outer",
+      "position": [
+        180.23038,
+        -15.671532,
+        -103.13599
+      ],
+      "yaw": -2.953825073837478,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2781_outer",
+      "position": [
+        166.35889,
+        -14.414764,
+        -136.43054
+      ],
+      "yaw": -2.7981772773954106,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2788_outer",
+      "position": [
+        183.00021,
+        -14.7896805,
+        -126.374695
+      ],
+      "yaw": 0.9389377288834988,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2795_outer",
+      "position": [
+        174.85126,
+        -15.417282,
+        -116.27515
+      ],
+      "yaw": 0.3645487424750555,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2799_outer",
+      "position": [
+        177.62119,
+        -14.4053955,
+        -153.6124
+      ],
+      "yaw": -0.9596763814354222,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2804_outer",
+      "position": [
+        153.914,
+        -14.5504,
+        -131.72644
+      ],
+      "yaw": -3.042130468230555,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2808_outer",
+      "position": [
+        223.72478,
+        -12.975258,
+        -136.10446
+      ],
+      "yaw": -3.0456516818437747,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2812_outer",
+      "position": [
+        202.98398,
+        -14.832031,
+        -108.554016
+      ],
+      "yaw": -3.0239823046630687,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2817_outer",
+      "position": [
+        234.24223,
+        -13.262581,
+        -150.58179
+      ],
+      "yaw": 0.11087406785405088,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2824_outer",
+      "position": [
+        209.44797,
+        -13.556305,
+        -132.79214
+      ],
+      "yaw": -2.551768544900149,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2829_outer",
+      "position": [
+        196.49582,
+        -14.755997,
+        -124.94037
+      ],
+      "yaw": -2.4823957034729487,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2834_outer",
+      "position": [
+        231.50728,
+        -12.177872,
+        -124.89224
+      ],
+      "yaw": 0.06403257982272376,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2838_outer",
+      "position": [
+        245.50516,
+        -13.02874,
+        -154.40314
+      ],
+      "yaw": 0.36306873798980693,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2842_outer",
+      "position": [
+        218.85951,
+        -14.083542,
+        -110.03595
+      ],
+      "yaw": 3.0758539072417603,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2849_outer",
+      "position": [
+        207.06631,
+        -13.23262,
+        -149.94226
+      ],
+      "yaw": 0.09360789444988624,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2853_outer",
+      "position": [
+        248.19037,
+        -12.0659485,
+        -97.25479
+      ],
+      "yaw": 2.135519680343837,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2860_outer",
+      "position": [
+        266.6201,
+        -12.155991,
+        -156.6712
+      ],
+      "yaw": -1.4214577874264593,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2864_outer",
+      "position": [
+        258.30423,
+        -12.17157,
+        -138.70636
+      ],
+      "yaw": 0.49490943797757564,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2869_outer",
+      "position": [
+        250.51654,
+        -12.21846,
+        -132.212
+      ],
+      "yaw": 1.0857193026452403,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2873_outer",
+      "position": [
+        293.92908,
+        -15.710136,
+        -35.50647
+      ],
+      "yaw": 1.4251691792091181,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2880_outer",
+      "position": [
+        317.3729,
+        -15.167534,
+        -27.8443
+      ],
+      "yaw": -3.052337010411083,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2887_outer",
+      "position": [
+        356.84924,
+        -14.150002,
+        -38.30063
+      ],
+      "yaw": -2.4564152364549394,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2891_outer",
+      "position": [
+        343.2716,
+        -14.464668,
+        -30.622253
+      ],
+      "yaw": -2.693896900027944,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2895_outer",
+      "position": [
+        319.57605,
+        -14.614197,
+        -43.02121
+      ],
+      "yaw": 0.05089624799434605,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2899_outer",
+      "position": [
+        308.73193,
+        -14.952362,
+        -40.359924
+      ],
+      "yaw": 0.10023883913204154,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2904_outer",
+      "position": [
+        331.56177,
+        -14.583878,
+        -42.653534
+      ],
+      "yaw": 0.16319609563726903,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2909_outer",
+      "position": [
+        332.1306,
+        -14.442871,
+        -29.675537
+      ],
+      "yaw": -2.879651051997585,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2914_outer",
+      "position": [
+        408.77325,
+        -11.770004,
+        -105.19528
+      ],
+      "yaw": -2.146484879105116,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2921_outer",
+      "position": [
+        384.21924,
+        -11.367844,
+        -98.6709
+      ],
+      "yaw": 0.8327143661960771,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2928_outer",
+      "position": [
+        400.44858,
+        -11.440338,
+        -94.099976
+      ],
+      "yaw": -2.402908443719469,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2932_outer",
+      "position": [
+        304.35046,
+        4.5399933,
+        -240.60074
+      ],
+      "yaw": 1.2811203494874055,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2939_outer",
+      "position": [
+        273.05692,
+        1.3373718,
+        -207.48584
+      ],
+      "yaw": -3.1218346669411177,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2944_outer",
+      "position": [
+        283.65607,
+        1.6074829,
+        -212.26404
+      ],
+      "yaw": -3.0545196015635137,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2951_outer",
+      "position": [
+        305.00516,
+        3.9489594,
+        -255.61484
+      ],
+      "yaw": 1.4893392649832964,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2955_outer",
+      "position": [
+        340.85626,
+        -7.8131866,
+        -167.1018
+      ],
+      "yaw": 1.6538135707751624,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2962_outer",
+      "position": [
+        329.86188,
+        -12.061493,
+        -139.76901
+      ],
+      "yaw": 0.7216078232756203,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2967_outer",
+      "position": [
+        308.15115,
+        6.927307,
+        -303.0869
+      ],
+      "yaw": -0.9888459759276155,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2971_outer",
+      "position": [
+        297.43616,
+        6.954727,
+        -312.46912
+      ],
+      "yaw": -0.7225145547652498,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2978_outer",
+      "position": [
+        423.5127,
+        -3.6567535,
+        -257.68982
+      ],
+      "yaw": -1.1811439271676536,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2982_outer",
+      "position": [
+        412.5153,
+        -2.9611664,
+        -268.67352
+      ],
+      "yaw": -0.6560939817831904,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2989_outer",
+      "position": [
+        391.04437,
+        -2.643921,
+        -263.2188
+      ],
+      "yaw": 2.897524055785395,
+      "source_variant": "House5Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_2996_outer",
+      "position": [
+        386.9405,
+        -1.8310547,
+        -281.70602
+      ],
+      "yaw": -0.1561170825468491,
+      "source_variant": "House1Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3000_outer",
+      "position": [
+        399.92844,
+        -2.2308807,
+        -278.14877
+      ],
+      "yaw": -0.2697478437274156,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3005_outer",
+      "position": [
+        408.48724,
+        -3.2471008,
+        -256.3248
+      ],
+      "yaw": 2.4124273645379986,
+      "source_variant": "House6Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3010_outer",
+      "position": [
+        375.15915,
+        -2.2724304,
+        -265.3072
+      ],
+      "yaw": -3.0613856989362573,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3015_outer",
+      "position": [
+        -177.30795,
+        -4.574814,
+        -322.96127
+      ],
+      "yaw": 1.058438354791759,
+      "source_variant": "House3Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3019_outer",
+      "position": [
+        -181.13736,
+        -4.4705353,
+        -321.05658
+      ],
+      "yaw": -2.019168547571596,
+      "source_variant": "House4Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3191_outer",
+      "position": [
+        31.647491,
+        -13.10817,
+        -229.79633
+      ],
+      "yaw": 0.24067683833700368,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3196_outer",
+      "position": [
+        192.30377,
+        -15.15,
+        -108.72116
+      ],
+      "yaw": -2.970935398651483,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3201_outer",
+      "position": [
+        -41.384308,
+        -13.375191,
+        -229.7851
+      ],
+      "yaw": 1.5835058073683235,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3206_outer",
+      "position": [
+        298.67377,
+        3.9559479,
+        -227.95557
+      ],
+      "yaw": 1.1705625379375688,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3211_outer",
+      "position": [
+        61.505005,
+        -15.518997,
+        -133.69037
+      ],
+      "yaw": -0.8437847646369196,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3216_outer",
+      "position": [
+        235.55884,
+        -12.261002,
+        -111.983185
+      ],
+      "yaw": 3.1014297053003785,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3221_outer",
+      "position": [
+        219.43535,
+        -1.7836304,
+        -326.4177
+      ],
+      "yaw": -0.04327166992868824,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3226_outer",
+      "position": [
+        372.60443,
+        -1.7367554,
+        -281.3156
+      ],
+      "yaw": -0.004927048213812244,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3231_outer",
+      "position": [
+        21.563354,
+        -11.316116,
+        -294.50153
+      ],
+      "yaw": 0.27422374742343325,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3236_outer",
+      "position": [
+        -17.078735,
+        -12.710602,
+        -260.32684
+      ],
+      "yaw": -2.7781252598439954,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3241_outer",
+      "position": [
+        118.310455,
+        -14.945496,
+        -143.95404
+      ],
+      "yaw": 2.3987635485946175,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3246_outer",
+      "position": [
+        248.15953,
+        -11.921982,
+        -174.68338
+      ],
+      "yaw": 2.150447755465842,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3251_outer",
+      "position": [
+        58.60501,
+        -18.94545,
+        -17.98526
+      ],
+      "yaw": 0.2715672827379286,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3256_outer",
+      "position": [
+        137.90323,
+        -16.40268,
+        -95.271484
+      ],
+      "yaw": -2.905888660784077,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3261_outer",
+      "position": [
+        -19.030304,
+        -15.34,
+        -71.77319
+      ],
+      "yaw": -0.04753138028855614,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3266_outer",
+      "position": [
+        143.98538,
+        -14.594437,
+        -133.37283
+      ],
+      "yaw": 3.1246151861888833,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3271_outer",
+      "position": [
+        305.0707,
+        -15.527153,
+        -29.223175
+      ],
+      "yaw": 3.100612253976349,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3276_outer",
+      "position": [
+        112.48035,
+        -13.79174,
+        -197.9928
+      ],
+      "yaw": -0.4272246140899262,
+      "source_variant": "House2Prefab",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3312_outer",
+      "position": [
+        50.436157,
+        -12.935272,
+        -218.538
+      ],
+      "yaw": -3.048514662026724,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3317_outer",
+      "position": [
+        159.9917,
+        -5.048218,
+        -311.43552
+      ],
+      "yaw": -3.030574805009425,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3322_outer",
+      "position": [
+        146.85095,
+        -10.0950775,
+        -236.26239
+      ],
+      "yaw": -2.9070688394202278,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3327_outer",
+      "position": [
+        239.53714,
+        -12.813538,
+        -140.1629
+      ],
+      "yaw": -3.124959063238364,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3332_outer",
+      "position": [
+        96.00809,
+        -14.848549,
+        -105.60419
+      ],
+      "yaw": -0.464470619660974,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3337_outer",
+      "position": [
+        67.05423,
+        -14.0130005,
+        -110.22409
+      ],
+      "yaw": 2.3522522049639027,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3342_outer",
+      "position": [
+        193.45096,
+        -3.8454285,
+        -314.5283
+      ],
+      "yaw": -3.11256193865528,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3347_outer",
+      "position": [
+        209.26672,
+        -7.905182,
+        -229.3451
+      ],
+      "yaw": 2.4330775282407298,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3352_outer",
+      "position": [
+        392.6564,
+        -11.540817,
+        -110.949646
+      ],
+      "yaw": 0.9799108678016099,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3357_outer",
+      "position": [
+        217.7491,
+        -13.238678,
+        -149.10626
+      ],
+      "yaw": 0.02378320642566947,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3362_outer",
+      "position": [
+        59.36972,
+        -9.716354,
+        -300.54813
+      ],
+      "yaw": 0.16896549450114323,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3367_outer",
+      "position": [
+        285.09528,
+        6.9490967,
+        -317.84796
+      ],
+      "yaw": -0.52410383084136,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3372_outer",
+      "position": [
+        11.615753,
+        -11.733688,
+        -277.06873
+      ],
+      "yaw": -2.9226910225772573,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3377_outer",
+      "position": [
+        72.07614,
+        -9.596481,
+        -288.9625
+      ],
+      "yaw": -3.1144092924297744,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3382_outer",
+      "position": [
+        146.95795,
+        -5.267288,
+        -321.8931
+      ],
+      "yaw": 0.10173495028518852,
+      "source_variant": "House2Prefab v2",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3412_outer",
+      "position": [
+        203.3505,
+        -9.718033,
+        -199.00082
+      ],
+      "yaw": 3.134417828162755,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3417_outer",
+      "position": [
+        110.74808,
+        -11.666794,
+        -225.33966
+      ],
+      "yaw": -2.8759026961791814,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3422_outer",
+      "position": [
+        136.74316,
+        -12.765244,
+        -195.71387
+      ],
+      "yaw": -2.8499206165526183,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3427_outer",
+      "position": [
+        189.25986,
+        -3.8494873,
+        -326.69992
+      ],
+      "yaw": -0.08152136571046976,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3432_outer",
+      "position": [
+        192.35074,
+        -14.724266,
+        -134.81589
+      ],
+      "yaw": 0.7210797114335596,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3437_outer",
+      "position": [
+        338.82886,
+        -14.490311,
+        -47.442688
+      ],
+      "yaw": 0.4685794234436595,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3442_outer",
+      "position": [
+        85.13608,
+        -14.190865,
+        -174.2663
+      ],
+      "yaw": 0.2510546529127977,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3447_outer",
+      "position": [
+        415.56934,
+        -11.789993,
+        -120.4368
+      ],
+      "yaw": -1.924370635033069,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3452_outer",
+      "position": [
+        112.39023,
+        -10.928757,
+        -241.00348
+      ],
+      "yaw": 0.2761667170751226,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3457_outer",
+      "position": [
+        -29.12082,
+        -12.541183,
+        -285.03412
+      ],
+      "yaw": 0.21225210201436104,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3462_outer",
+      "position": [
+        97.59021,
+        -14.518547,
+        -158.4719
+      ],
+      "yaw": -2.97168313347503,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3467_outer",
+      "position": [
+        325.12708,
+        -12.061493,
+        -113.43469
+      ],
+      "yaw": -1.7721221450052154,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3472_outer",
+      "position": [
+        -23.602417,
+        -16.192223,
+        -57.879974
+      ],
+      "yaw": 3.1210116179373917,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3477_outer",
+      "position": [
+        160.05176,
+        -15.765869,
+        -112.180756
+      ],
+      "yaw": 0.19027252759189908,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3482_outer",
+      "position": [
+        28.594513,
+        -16.225029,
+        -96.081665
+      ],
+      "yaw": 1.0118391051869362,
+      "source_variant": "House2Prefab v3",
+      "fixed_site": false
+    },
+    {
+      "id": "plot_3512_outer",
+      "position": [
+        322.08963,
+        -12.079483,
+        -127.89191
+      ],
+      "yaw": -0.928270429917685,
+      "source_variant": "Small_Bridge_House",
+      "fixed_site": true
+    },
+    {
+      "id": "plot_3516_outer",
+      "position": [
+        244.91153,
+        -12.172546,
+        -116.77731
+      ],
+      "yaw": 1.454488568462592,
+      "source_variant": "Small_Bridge_House",
+      "fixed_site": true
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Market hall",
+      "position": [
+        100.360565,
+        -13.953812,
+        -180.45303
+      ],
+      "source_name": "Auction House"
+    },
+    {
+      "name": "School",
+      "position": [
+        48.82718,
+        -12.88,
+        -164.14404
+      ],
+      "source_name": "School"
+    },
+    {
+      "name": "Hospital",
+      "position": [
+        -56.09671,
+        -16.11,
+        -42.781647
+      ],
+      "source_name": "Hospital"
+    },
+    {
+      "name": "Ice cream shop",
+      "position": [
+        273.43,
+        -12.17,
+        -150.86
+      ],
+      "source_name": "Ice Cream Shop"
+    },
+    {
+      "name": "Prank shop",
+      "position": [
+        283.3,
+        -12.06,
+        -150.86
+      ],
+      "source_name": "Prank Shop"
+    },
+    {
+      "name": "Bakery",
+      "position": [
+        154.39291,
+        -14.437065,
+        -174.81488
+      ],
+      "source_name": "SCC_Prefab"
+    },
+    {
+      "name": "Spa",
+      "position": [
+        295.97964,
+        -12.212799,
+        -150.6825
+      ],
+      "source_name": "spa_end"
+    },
+    {
+      "name": "Bowling alley",
+      "position": [
+        202.42,
+        -9.7,
+        -211.75
+      ],
+      "source_name": "Bowling Alley"
+    },
+    {
+      "name": "Boutique",
+      "position": [
+        378.51358,
+        -3.177948,
+        -65.280396
+      ],
+      "source_name": "CarouselBoutique"
+    },
+    {
+      "name": "Clock tower",
+      "position": [
+        52.03543,
+        -13.652908,
+        -76.82654
+      ],
+      "source_name": "Clock Tower"
+    },
+    {
+      "name": "Cafe",
+      "position": [
+        273.16,
+        6.99,
+        -295.76
+      ],
+      "source_name": "CloverCafe"
+    },
+    {
+      "name": "Flower shop",
+      "position": [
+        131.16962,
+        -14.377327,
+        -136.18079
+      ],
+      "source_name": "flowerShop"
+    },
+    {
+      "name": "Library",
+      "position": [
+        -4.6264343,
+        -12.421356,
+        -261.55832
+      ],
+      "source_name": "Golden Oaks Library"
+    },
+    {
+      "name": "Salon",
+      "position": [
+        308.9225,
+        -12.0733185,
+        -143.54407
+      ],
+      "source_name": "Hair Salon"
+    },
+    {
+      "name": "Station",
+      "position": [
+        -69.29,
+        -11.48,
+        -257.48
+      ],
+      "source_name": "Trainstation"
+    },
+    {
+      "name": "Town Hall / town square",
+      "position": [
+        286.55075,
+        -11.92,
+        -114.130066
+      ],
+      "source_name": "TownHall2"
+    }
+  ],
+  "coordinate_compaction": {
+    "center": [
+      100,
+      -215
+    ],
+    "scale": 0.7
+  }
+}

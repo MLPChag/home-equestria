@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/noi.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "noi"
+filly = true
+display_name = "Noi"
+race = 0
+coat_fill = Color(0.90588236, 0.8666667, 0.654902, 1)
+coat_line = Color(0.6509804, 0.62352943, 0.47058824, 1)
+coat_shade = Color(0.8352941, 0.79607844, 0.6039216, 1)
+mane_line = Color(0.67058825, 0.5764706, 0.3764706, 1)
+iris_color = Color(0.85490197, 0.7921569, 0.87058824, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/noi_hair.scn"
+hair_prefix = "Noi"
+tail_terminal_length = 0.13171021
+ai_profile = "res://world/characters/background/ai/noi.json"

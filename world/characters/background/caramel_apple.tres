@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/caramel_apple.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "caramel_apple"
+display_name = "Caramel Apple"
+race = 0
+coat_fill = Color(0.972549, 0.9372549, 0.7058824, 1)
+coat_line = Color(0.7019608, 0.6745098, 0.5098039, 1)
+coat_shade = Color(0.89411765, 0.8627451, 0.6509804, 1)
+mane_line = Color(0.7137255, 0.49411765, 0.16470589, 1)
+iris_color = Color(0.5372549, 0.84705883, 0.4745098, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/caramel_apple_hair.scn"
+hair_prefix = "CaramelApple"
+tail_terminal_length = 0.153006238
+ai_profile = "res://world/characters/background/ai/caramel_apple.json"

@@ -1,0 +1,33 @@
+{
+  "design": "house_h",
+  "glb": "house_h_lining.glb",
+  "hide": [
+    "RootNode__ExteriorRoomFace",
+    "HouseInterior__Skirting",
+    "HouseInterior__WingOpeningFrame",
+    "HouseInterior__FloorUnderlay",
+    "HouseInterior___MeshInstance3D_4",
+    "FloorSlab"
+  ],
+  "hide_note": "FloorSlab is hidden only as a visual (the lining floor sits at the same height); its FloorSlab_col collision must stay.",
+  "floor_top_y_measured": 0.594,
+  "floor_y_contract": 0.59400886297226,
+  "floor_top_error_cm": 0.0,
+  "triangles_visible": 20630,
+  "triangles_collision": 168,
+  "textures": [
+    {"name": "floor", "size": [1024, 1024], "use": "honey plank floor, 15 cm boards, 1.8 m tile"},
+    {"name": "plaster", "size": [1024, 1024], "use": "cream hand-painted plaster, 1.6 m tile"},
+    {"name": "timber", "size": [1024, 1024], "use": "beams, posts, trims, 1 m tile"},
+    {"name": "ceiling", "size": [1024, 1024], "use": "ceiling and soffit boards, 1.5 m tile"},
+    {"name": "atlas", "size": [2048, 2048], "use": "vine frieze strip, rose wainscot strip, decal cells, painted panels, scalloped valance (H_Decal uses alpha MASK)"}
+  ],
+  "materials": ["H_Plaster", "H_Floor", "H_Timber", "H_Ceiling", "H_Trim", "H_Decal"],
+  "collision_boxes": ["ColLeft", "ColBack", "ColFrontL", "ColFrontR", "ColFrontTop", "ColRightF", "ColRightB", "ColJambF", "ColJambB", "ColBeam", "ColJetty", "ColWingF", "ColWingB", "ColWingEnd"],
+  "notes": [
+    "Back wall face moved to z_godot = -3.41 (from the contract floor edge -3.517) because the exterior skin has a ledge at y 3.77 that pokes 10 cm into the room; the floor still covers the full floors rectangle.",
+    "Upper main-room right wall is jettied to x = 0.82 above y 3.32 because skin pieces of the wing roof poke up to 40 cm into the room there; the floor and lower wall are unchanged.",
+    "Wing opening is framed by timber jambs (opening z_godot -1.93 .. 1.95) that cover skin fins at |z| = 2.41 and the main-wall return at x = 1.325.",
+    "Wing end wall face at x = 4.236 (skin strip at 4.266); the PonyBed visual reaches 4.238, 2 mm into that wall."
+  ]
+}

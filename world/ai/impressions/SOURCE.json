@@ -1,0 +1,10 @@
+{
+	"source": "redacted",
+	"sha256": "3fbf768fa35423b69976494e5fd3ceb1979660295337213ec9a9a10448107261",
+	"baseline_v27_sha256": "6969188a2836a4844df179372acc91b735cc4de8b79cbe33effb74038eee5444",
+	"verification": "Newest discovered local relationship source: July 30 signed-delta amendment; v27 July 4/5 baseline verified against compilation source. Public latest release unverified: no Impressions listing found in community catalogue or exact-name search.",
+	"changes": [
+		"Remove PPP autoload/log/display-name dependencies; caller supplies lifecycle and save handling.",
+		"Keep signed apply_delta, magnitude caps/budgets, tier ladders and staging/commit."
+	]
+}

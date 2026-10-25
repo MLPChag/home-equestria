@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/merry_may.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "merry_may"
+display_name = "Merry May"
+race = 1
+coat_fill = Color(0.7411765, 0.8901961, 0.52941173, 1)
+coat_line = Color(0.5333333, 0.6392157, 0.38039216, 1)
+coat_shade = Color(0.68235296, 0.81960785, 0.4862745, 1)
+mane_line = Color(0.6, 0.29803923, 0.61960787, 1)
+iris_color = Color(0.73333335, 0.29411766, 0.84705883, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/merry_may_hair.scn"
+hair_prefix = "MerryMay"
+tail_terminal_length = 0.137938075
+ai_profile = "res://world/characters/background/ai/merry_may.json"

@@ -1,0 +1,12 @@
+{
+  "height_reference": "above_local_ground",
+  "plans": [],
+  "point_format": [
+    "x",
+    "z",
+    "height",
+    "width"
+  ],
+  "units": "metres",
+  "version": 1
+}

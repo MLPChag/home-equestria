@@ -1,0 +1,18 @@
+{
+	"build_ms": 10247,
+	"cell": 16.0,
+	"fingerprint": "15e56435b49cae9e20f402ed697c5b91aaa25e255478dcb6296179431c0e0c04",
+	"format": "rgba8-srgb",
+	"half_resolution": true,
+	"origin": [
+		-8192.0,
+		-8192.0
+	],
+	"regions": 234,
+	"samples": 988650,
+	"size": [
+		1153,
+		897
+	],
+	"packed_fingerprint": "3541927e4c9154377afcc865e2109f8ecd854595941ddc8ccc1efd10b23ea49b"
+}

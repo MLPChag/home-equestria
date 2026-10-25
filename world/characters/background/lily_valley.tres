@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/lily_valley.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "lily_valley"
+display_name = "Lily Valley"
+race = 0
+coat_fill = Color(0.9490196, 0.5882353, 0.73333335, 1)
+coat_line = Color(0.84313726, 0.3529412, 0.54509807, 1)
+coat_shade = Color(0.8901961, 0.50196075, 0.67058825, 1)
+mane_line = Color(0.8784314, 0.7764706, 0.3647059, 1)
+iris_color = Color(1, 0.9529412, 0.654902, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/lily_valley_hair.scn"
+hair_prefix = "LilyValley"
+tail_terminal_length = 0.13171021
+ai_profile = "res://world/characters/background/ai/lily_valley.json"

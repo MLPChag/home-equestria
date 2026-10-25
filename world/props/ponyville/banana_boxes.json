@@ -1,0 +1,14 @@
+{
+ "keep": [
+  "crate_small_01",
+  "crate_small_03",
+  "crate_small_05",
+  "crate_medium_02"
+ ],
+ "prefabs": {
+  "crate_small_01": "res://world/props/food/banana_boxes/crate_small_01.scn",
+  "crate_small_03": "res://world/props/food/banana_boxes/crate_small_03.scn",
+  "crate_small_05": "res://world/props/food/banana_boxes/crate_small_05.scn",
+  "crate_medium_02": "res://world/props/food/banana_boxes/crate_medium_02.scn"
+ }
+}

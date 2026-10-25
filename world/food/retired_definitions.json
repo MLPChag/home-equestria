@@ -1,0 +1,380 @@
+{
+  "_note": "Food items no longer sold or kept (dev 2026-10-14: pre-made food only). Models stay in world/props/food. Old saves turn each into 'becomes' (empty containers into 'empty_becomes'); a stack bigger than the new item allows is refunded in bits at the old price.",
+  "items": {
+    "chimi-cherry-chonga": {
+      "name": "Chimi-Cherry-Chonga",
+      "category": "sweets",
+      "stack": 8,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.18,
+        0.0967,
+        0.095
+      ],
+      "price_bits": 12,
+      "becomes": "food:cupcake"
+    },
+    "marzipan-mascarpone-meringue-madness": {
+      "name": "Marzipan Mascarpone Meringue Madness",
+      "category": "sweets",
+      "stack": 1,
+      "consume": false,
+      "drink": false,
+      "container": "",
+      "description": "A sharing cake; slicing is not implemented yet.",
+      "mass": 4.0,
+      "size_m": [
+        0.776,
+        0.95,
+        0.7687
+      ],
+      "price_bits": 30,
+      "becomes": "food:apple-pie"
+    },
+    "spicy-rainbow": {
+      "name": "Spicy Rainbow",
+      "category": "sweets",
+      "stack": 8,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.244,
+        0.1223,
+        0.064
+      ],
+      "price_bits": 12,
+      "becomes": "food:cupcake"
+    },
+    "zap-apple-jam": {
+      "name": "Zap Apple Jam",
+      "category": "apple-family",
+      "stack": 8,
+      "consume": false,
+      "drink": false,
+      "container": "Empty Jam Jar",
+      "description": "A sealed jar; opening and spreading are not implemented yet.",
+      "mass": 0.35,
+      "size_m": [
+        0.11,
+        0.16,
+        0.11
+      ],
+      "price_bits": 8,
+      "becomes": "food:apple-pie",
+      "empty_becomes": "food-empty:sweet-apple-acres-cider"
+    },
+    "crystal-berries": {
+      "name": "Crystal Berries",
+      "category": "regional",
+      "stack": 8,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.102,
+        0.045,
+        0.098
+      ],
+      "price_bits": 4,
+      "becomes": "food:strawberry"
+    },
+    "crystal-corn": {
+      "name": "Crystal Corn",
+      "category": "regional",
+      "stack": 8,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.3295,
+        0.188,
+        0.2858
+      ],
+      "price_bits": 4,
+      "becomes": "food:buttered-corn"
+    },
+    "edible-gems": {
+      "name": "Edible Gems",
+      "category": "regional",
+      "stack": 8,
+      "consume": false,
+      "drink": false,
+      "container": "",
+      "description": "For gem eaters; carry or display for now.",
+      "mass": 0.15,
+      "size_m": [
+        0.182,
+        0.07,
+        0.0624
+      ],
+      "price_bits": 8,
+      "becomes": "food:cupcake"
+    },
+    "blueberries": {
+      "name": "Blueberries",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.106,
+        0.0381,
+        0.102
+      ],
+      "price_bits": 3,
+      "becomes": "food:strawberry"
+    },
+    "raspberries": {
+      "name": "Raspberries",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.1098,
+        0.04,
+        0.0989
+      ],
+      "price_bits": 4,
+      "becomes": "food:strawberry"
+    },
+    "cherries": {
+      "name": "Cherries",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.094,
+        0.1156,
+        0.044
+      ],
+      "price_bits": 3,
+      "becomes": "food:strawberry"
+    },
+    "pear": {
+      "name": "Pear",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.1,
+        0.1605,
+        0.1005
+      ],
+      "price_bits": 3,
+      "becomes": "food:green-apple"
+    },
+    "peach": {
+      "name": "Peach",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.098,
+        0.111,
+        0.094
+      ],
+      "price_bits": 3,
+      "becomes": "apple"
+    },
+    "potato": {
+      "name": "Potato",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": false,
+      "drink": false,
+      "container": "",
+      "description": "A cooking ingredient.",
+      "mass": 0.15,
+      "size_m": [
+        0.13,
+        0.066,
+        0.08
+      ],
+      "price_bits": 2,
+      "becomes": "food:hay-fries"
+    },
+    "tomato": {
+      "name": "Tomato",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.1207,
+        0.123,
+        0.1241
+      ],
+      "price_bits": 2,
+      "becomes": "food:daffodil-daisy-sandwich"
+    },
+    "lettuce": {
+      "name": "Lettuce",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.2092,
+        0.0917,
+        0.199
+      ],
+      "price_bits": 3,
+      "becomes": "food:daffodil-daisy-sandwich"
+    },
+    "corn": {
+      "name": "Corn",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.3295,
+        0.188,
+        0.2858
+      ],
+      "price_bits": 3,
+      "becomes": "food:buttered-corn"
+    },
+    "burger-bun-bottom": {
+      "name": "Burger Bun Bottom",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.18,
+        0.037,
+        0.18
+      ],
+      "price_bits": 2,
+      "becomes": "food:hayburger"
+    },
+    "burger-bun-top": {
+      "name": "Burger Bun Top",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.18,
+        0.07,
+        0.18
+      ],
+      "price_bits": 2,
+      "becomes": "food:hayburger"
+    },
+    "hay-patty": {
+      "name": "Hay Patty",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": false,
+      "drink": false,
+      "container": "",
+      "description": "An uncooked kitchen ingredient.",
+      "mass": 0.15,
+      "size_m": [
+        0.166,
+        0.035,
+        0.1682
+      ],
+      "price_bits": 3,
+      "becomes": "food:hayburger"
+    },
+    "cheese-slice": {
+      "name": "Cheese Slice",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.157,
+        0.008,
+        0.157
+      ],
+      "price_bits": 2,
+      "becomes": "food:hayburger"
+    },
+    "tomato-slice": {
+      "name": "Tomato Slice",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.15,
+        0.018,
+        0.15
+      ],
+      "price_bits": 2,
+      "becomes": "food:hayburger"
+    },
+    "lettuce-leaf": {
+      "name": "Lettuce Leaf",
+      "category": "ingredients",
+      "stack": 32,
+      "consume": true,
+      "drink": false,
+      "container": "",
+      "description": "Hold to your mouth in VR; hold right-click on desktop.",
+      "mass": 0.15,
+      "size_m": [
+        0.2092,
+        0.0287,
+        0.199
+      ],
+      "price_bits": 2,
+      "becomes": "food:hayburger"
+    }
+  }
+}

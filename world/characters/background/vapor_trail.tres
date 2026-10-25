@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/vapor_trail.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "vapor_trail"
+display_name = "Vapor Trail"
+coat_fill = Color(0.95686275, 0.98039216, 0.9372549, 1)
+coat_line = Color(0.6901961, 0.7058824, 0.6745098, 1)
+coat_shade = Color(0.8784314, 0.9019608, 0.8627451, 1)
+mane_line = Color(0.5882353, 0.7019608, 0.7058824, 1)
+iris_color = Color(0.57254905, 0.8901961, 0.8156863, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/vapor_trail_hair.scn"
+hair_prefix = "VaporTrail"
+tail_terminal_length = 0.118166945
+ai_profile = "res://world/characters/background/ai/vapor_trail.json"

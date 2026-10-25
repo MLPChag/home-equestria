@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/sassaflash.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "sassaflash"
+display_name = "Sassaflash"
+race = 1
+coat_fill = Color(0.69411767, 0.8784314, 0.90588236, 1)
+coat_line = Color(0.49803922, 0.6313726, 0.6509804, 1)
+coat_shade = Color(0.6392157, 0.80784315, 0.8352941, 1)
+mane_line = Color(0.7058824, 0.6784314, 0.5333333, 1)
+iris_color = Color(1, 0.6509804, 0, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/sassaflash_hair.scn"
+hair_prefix = "Sassaflash"
+tail_terminal_length = 0.178101657
+ai_profile = "res://world/characters/background/ai/sassaflash.json"

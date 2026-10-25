@@ -1,0 +1,11 @@
+{
+  "id": "trixie",
+  "name": "Trixie Lulamoon",
+  "tag": "trixie",
+  "prompt": "res://world/characters/background/ai/trixie.md",
+  "tts_speaker_id": 30,
+  "tts_default_emotion": "neutral",
+  "tts_style_strength": 1.0,
+  "earshot_m": 10.0,
+  "voice_status": "character voice"
+}

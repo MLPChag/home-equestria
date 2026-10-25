@@ -1,0 +1,16 @@
+{
+  "building": "House A",
+  "revision": "rustic-interior",
+  "appearance_approval": "perfect!",
+  "recorded_at": "2026-09-21T03:08:57.889765+00:00",
+  "scene": "world/buildings/house_a/house_a_structure.scn",
+  "scene_sha256": "732c3fe2fb4e25bb37d9f5ac6a5aec2de53029273843e91c33c2f24055315f5a",
+  "workflow": "docs/BUILDING_WORKFLOW.md",
+  "excludes": [
+    "world scale",
+    "world integration",
+    "working hinges",
+    "rooms/stairs/props",
+    "VR performance"
+  ]
+}

@@ -1,0 +1,1304 @@
+{
+  "_adjacent_why": "pairs allowed to touch: canon neighbours (Ponyville/orchards/Everfree/Zecora) and Cloudsdale, which floats 600 m above whatever is under it.",
+  "_comment": "World frame for the 15 km Equestria (WORLD.md). Centres are world metres (+X east, -Z north). Native zones carry a zone-local footprint (xmin,zmin,xmax,zmax); zones.json origins are derived by tools/world_layout.py --write-zones. Generated regions are placed by canon pixel through `canon`. footprint_source approx = to be measured by tools/inspect_zone.gd --footprint when the zone is stitched (Phase 3).",
+  "adjacent": [
+    [
+      "ponyville",
+      "sweet_apple_acres"
+    ],
+    [
+      "everfree",
+      "zecoras_hut"
+    ],
+    [
+      "everfree",
+      "sweet_apple_acres"
+    ],
+    [
+      "everfree",
+      "ponyville"
+    ],
+    [
+      "canterlot",
+      "cloudsdale"
+    ],
+    [
+      "heartland",
+      "cloudsdale"
+    ]
+  ],
+  "canon": {
+    "image": "docs/reference/equestria-map.jpg",
+    "m_per_px": 16.0,
+    "ponyville_px": [
+      505.0,
+      455.0
+    ],
+    "ponyville_world": [
+      137.0,
+      -227.0
+    ],
+    "size_px": [
+      1400.0,
+      860.0
+    ]
+  },
+  "links": [
+    {
+      "from": "ponyville",
+      "id": "rail_ponyville_canterlot",
+      "kind": "rail",
+      "stations": [
+        "ponyville",
+        "canterlot"
+      ],
+      "to": "canterlot",
+      "via": [
+        [
+          900.0,
+          -900.0
+        ]
+      ]
+    },
+    {
+      "from": "ponyville",
+      "id": "rail_ponyville_appleloosa",
+      "kind": "rail",
+      "stations": [
+        "ponyville",
+        "appleloosa"
+      ],
+      "to": "appleloosa",
+      "via": [
+        [
+          600.0,
+          1900.0
+        ]
+      ]
+    },
+    {
+      "from": "appleloosa",
+      "id": "rail_appleloosa_dodge",
+      "kind": "rail",
+      "stations": [
+        "appleloosa",
+        "dodge_city"
+      ],
+      "to": "dodge_city",
+      "via": []
+    },
+    {
+      "from": "canterlot",
+      "id": "rail_canterlot_fillydelphia",
+      "kind": "rail",
+      "stations": [
+        "canterlot",
+        "fillydelphia"
+      ],
+      "to": "fillydelphia",
+      "via": [
+        [
+          3200.0,
+          -1500.0
+        ]
+      ]
+    },
+    {
+      "from": "fillydelphia",
+      "id": "rail_fillydelphia_manehattan",
+      "kind": "rail",
+      "stations": [
+        "fillydelphia",
+        "manehattan"
+      ],
+      "to": "manehattan",
+      "via": []
+    },
+    {
+      "from": "canterlot",
+      "id": "rail_canterlot_crystal_empire",
+      "kind": "rail",
+      "stations": [
+        "canterlot",
+        "crystal_empire"
+      ],
+      "to": "crystal_empire",
+      "via": [
+        [
+          1000.0,
+          -4500.0
+        ]
+      ]
+    },
+    {
+      "from": "ponyville",
+      "id": "rail_ponyville_vanhoover",
+      "kind": "rail",
+      "stations": [
+        "ponyville",
+        "vanhoover"
+      ],
+      "to": "vanhoover",
+      "via": [
+        [
+          -1500.0,
+          -1500.0
+        ],
+        [
+          -3600.0,
+          -2600.0
+        ]
+      ]
+    },
+    {
+      "from": "ponyville",
+      "id": "road_ponyville_sweet_apple_acres",
+      "kind": "road",
+      "to": "sweet_apple_acres",
+      "width": 6.0
+    },
+    {
+      "from": "ponyville",
+      "id": "road_ponyville_everfree",
+      "kind": "road",
+      "to": "everfree",
+      "width": 4.0
+    },
+    {
+      "from": "everfree",
+      "id": "road_everfree_zecora",
+      "kind": "road",
+      "to": "zecoras_hut",
+      "width": 3.0
+    },
+    {
+      "from": "ponyville",
+      "id": "road_ponyville_whitetail",
+      "kind": "road",
+      "to": "whitetail_woods",
+      "via": [
+        [
+          -1200.0,
+          300.0
+        ]
+      ],
+      "width": 5.0
+    },
+    {
+      "from": "ponyville",
+      "id": "road_ponyville_canterlot",
+      "kind": "road",
+      "to": "canterlot",
+      "via": [
+        [
+          400.0,
+          -1000.0
+        ]
+      ],
+      "width": 6.0
+    },
+    {
+      "from": "ponyville",
+      "id": "road_ponyville_heartland",
+      "kind": "road",
+      "to": "heartland",
+      "width": 5.0
+    },
+    {
+      "from": "canterlot",
+      "id": "road_canterlot_baltimare",
+      "kind": "road",
+      "to": "baltimare",
+      "via": [
+        [
+          3000.0,
+          -600.0
+        ]
+      ],
+      "width": 6.0
+    },
+    {
+      "from": "baltimare",
+      "id": "road_baltimare_hayseed",
+      "kind": "road",
+      "to": "hayseed_swamps",
+      "width": 4.0
+    },
+    {
+      "from": "appleloosa",
+      "id": "road_appleloosa_los_pegasus",
+      "kind": "road",
+      "to": "los_pegasus",
+      "via": [
+        [
+          -1500.0,
+          2900.0
+        ]
+      ],
+      "width": 5.0
+    },
+    {
+      "depth": 3.0,
+      "from": "neighagra_falls",
+      "id": "river_neighagra",
+      "kind": "river",
+      "to": "saddle_lake",
+      "width": 18.0
+    },
+    {
+      "depth": 2.5,
+      "from": "saddle_lake",
+      "id": "river_saddle_ponyville",
+      "kind": "river",
+      "to": "ponyville",
+      "width": 14.0
+    },
+    {
+      "depth": 3.0,
+      "from": "ponyville",
+      "id": "river_ponyville_sea",
+      "kind": "river",
+      "to": "horseshoe_bay",
+      "via": [
+        [
+          1200.0,
+          900.0
+        ],
+        [
+          4200.0,
+          1500.0
+        ]
+      ],
+      "width": 22.0
+    },
+    {
+      "depth": 3.0,
+      "from": "galloping_gorge",
+      "id": "river_galloping_luna",
+      "kind": "river",
+      "to": "luna_bay",
+      "width": 16.0
+    }
+  ],
+  "region_size": 1024.0,
+  "regions": [
+    {
+      "_note": "centre = the zone-local footprint centre so the zone origin stays (0,0,0); pinned in the layout tool",
+      "biome": "plain",
+      "canon_px": [
+        505.0,
+        455.0
+      ],
+      "center": [
+        117,
+        0,
+        -164
+      ],
+      "footprint": [
+        -233.0,
+        -514.0,
+        467.0,
+        186.0
+      ],
+      "footprint_source": "measured",
+      "id": "ponyville",
+      "kind": "town",
+      "lighting": "default",
+      "name": "Ponyville",
+      "radius": 350.0,
+      "spawn": [
+        132.0,
+        -128.0
+      ]
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "plain",
+      "canon_px": [
+        540.0,
+        470.0
+      ],
+      "center": [
+        950.0,
+        99.6,
+        50.0
+      ],
+      "footprint": [
+        -500.0,
+        -500.0,
+        500.0,
+        500.0
+      ],
+      "footprint_source": "terrain",
+      "id": "sweet_apple_acres",
+      "kind": "farm",
+      "lighting": "default",
+      "name": "Sweet Apple Acres",
+      "radius": 500.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "dark_forest",
+      "canon_px": [
+        500.0,
+        500.0
+      ],
+      "center": [
+        60.0,
+        -18.7,
+        800.0
+      ],
+      "footprint": [
+        -500.0,
+        -500.0,
+        500.0,
+        500.0
+      ],
+      "footprint_source": "terrain",
+      "id": "everfree",
+      "kind": "forest",
+      "lighting": "everfree",
+      "name": "Everfree Forest",
+      "radius": 500.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "dark_forest",
+      "canon_px": [
+        520.0,
+        520.0
+      ],
+      "center": [
+        -40.0,
+        -40.0,
+        1000.0
+      ],
+      "footprint": [
+        -300.0,
+        -300.0,
+        300.0,
+        300.0
+      ],
+      "footprint_source": "terrain",
+      "id": "zecoras_hut",
+      "kind": "hamlet",
+      "lighting": "everfree",
+      "name": "Zecora's Hut",
+      "radius": 300.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "dark_forest",
+      "canon_px": [
+        600.0,
+        520.0
+      ],
+      "center": [
+        2520.0,
+        -4.1,
+        1900.0
+      ],
+      "footprint": [
+        -1689.8,
+        -1534.0,
+        310.2,
+        1199.8
+      ],
+      "footprint_source": "terrain",
+      "id": "castle_of_two_sisters",
+      "kind": "ruin",
+      "lighting": "everfree",
+      "name": "Castle of the Two Sisters",
+      "radius": 1000.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "forest",
+      "canon_px": [
+        450.0,
+        560.0
+      ],
+      "center": [
+        -300.0,
+        -100.0,
+        2000.0
+      ],
+      "footprint": [
+        -1000.0,
+        0.0,
+        -0.0,
+        1000.0
+      ],
+      "footprint_source": "terrain",
+      "id": "white_tail",
+      "kind": "forest",
+      "lighting": "default",
+      "name": "Bramble Woods",
+      "radius": 500.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "desert",
+      "canon_px": [
+        560.0,
+        610.0
+      ],
+      "center": [
+        960.0,
+        0.0,
+        2820.0
+      ],
+      "footprint": [
+        -542.0,
+        -432.0,
+        458.0,
+        1568.0
+      ],
+      "footprint_source": "terrain",
+      "id": "appleloosa",
+      "kind": "town",
+      "lighting": "desert",
+      "name": "Appleloosa",
+      "radius": 1000.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "forest",
+      "canon_px": [
+        300.0,
+        515.0
+      ],
+      "center": [
+        -3140.0,
+        -31.3,
+        730.0
+      ],
+      "footprint": [
+        -1000.0,
+        0.0,
+        -0.0,
+        1000.0
+      ],
+      "footprint_source": "terrain",
+      "id": "whitetail_woods",
+      "kind": "forest",
+      "lighting": "default",
+      "name": "Whitetail Woods",
+      "radius": 500.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "plain",
+      "canon_px": [
+        430.0,
+        380.0
+      ],
+      "center": [
+        -1800.0,
+        -166.3,
+        -2000.0
+      ],
+      "footprint": [
+        -4142.0,
+        1402.9,
+        -403.0,
+        3989.2
+      ],
+      "footprint_source": "terrain",
+      "id": "heartland",
+      "kind": "plain",
+      "lighting": "default",
+      "name": "Heartland",
+      "radius": 1300.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "mountain",
+      "canon_px": [
+        545.0,
+        345.0
+      ],
+      "center": [
+        780.0,
+        240.0,
+        -1990.0
+      ],
+      "elevation": 250.0,
+      "footprint": [
+        -630.0,
+        -450.0,
+        600.0,
+        260.0
+      ],
+      "footprint_source": "meshes: Houses/Walls/Trees/Decor bounds (tools/glb_bounds.py); town ground y 0..50 local",
+      "id": "canterlot",
+      "kind": "city",
+      "lighting": "default",
+      "name": "Canterlot",
+      "radius": 1264.0,
+      "generated": {
+        "flatten": false,
+        "peak": false
+      }
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "sky",
+      "canon_px": [
+        510.0,
+        240.0
+      ],
+      "center": [
+        220.0,
+        450.0,
+        -3670.0
+      ],
+      "elevation": 600.0,
+      "flight_only": true,
+      "footprint": [
+        -500.0,
+        -470.0,
+        700.0,
+        280.0
+      ],
+      "footprint_source": "meshes: Buildings/Clouds/Cylinder Platforms bounds; platform level ~150 local",
+      "id": "cloudsdale",
+      "kind": "sky_city",
+      "lighting": "sky",
+      "name": "Cloudsdale",
+      "radius": 750.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "mountain",
+      "canon_px": [
+        760.0,
+        225.0
+      ],
+      "center": [
+        4220.0,
+        300.0,
+        -3910.0
+      ],
+      "elevation": 300.0,
+      "footprint": [
+        -300.0,
+        -850.0,
+        700.0,
+        500.0
+      ],
+      "footprint_source": "meshes: POIs/ski lifts/cafe bounds; ground ~0 local",
+      "id": "crystal_mountains",
+      "kind": "range",
+      "lighting": "snow",
+      "name": "Crystal Mountains",
+      "radius": 1000.0
+    },
+    {
+      "_note": "placed in tools/layout_lab.gd",
+      "biome": "crystal",
+      "canon_px": [
+        560.0,
+        140.0
+      ],
+      "center": [
+        1020.0,
+        12.9,
+        -5400.0
+      ],
+      "elevation": 60.0,
+      "footprint": [
+        -885.0,
+        -885.0,
+        885.0,
+        885.0
+      ],
+      "footprint_source": "terrain",
+      "id": "crystal_empire",
+      "kind": "city",
+      "lighting": "crystal",
+      "name": "Crystal Empire",
+      "radius": 885.0,
+      "generated": {
+        "flatten": false,
+        "peak": false
+      }
+    },
+    {
+      "biome": "plain",
+      "canon_px": [
+        590.0,
+        450.0
+      ],
+      "center": [
+        1497.0,
+        0.0,
+        -307.0
+      ],
+      "generated": {
+        "level": -20.0
+      },
+      "id": "saddle_lake",
+      "kind": "lake",
+      "lighting": "default",
+      "name": "Saddle Lake",
+      "radius": 350.0
+    },
+    {
+      "biome": "hills",
+      "canon_px": [
+        660.0,
+        470.0
+      ],
+      "center": [
+        2617.0,
+        0.0,
+        13.0
+      ],
+      "generated": {},
+      "id": "rambling_rock_ridge",
+      "kind": "rocks",
+      "lighting": "default",
+      "name": "Rambling Rock Ridge",
+      "radius": 400.0
+    },
+    {
+      "biome": "mountain",
+      "canon_px": [
+        730.0,
+        405.0
+      ],
+      "center": [
+        3737.0,
+        0.0,
+        -1027.0
+      ],
+      "generated": {
+        "height": 500.0
+      },
+      "id": "foal_mountain",
+      "kind": "peak",
+      "lighting": "default",
+      "name": "Foal Mountain",
+      "radius": 900.0
+    },
+    {
+      "biome": "dark_forest",
+      "canon_px": [
+        830.0,
+        380.0
+      ],
+      "center": [
+        5337.0,
+        0.0,
+        -1427.0
+      ],
+      "generated": {},
+      "id": "hollow_shades",
+      "kind": "dark_forest",
+      "lighting": "everfree",
+      "name": "Hollow Shades",
+      "radius": 700.0
+    },
+    {
+      "_note": "moved off its canon pixel to clear a native footprint",
+      "biome": "mountain",
+      "canon_px": [
+        640.0,
+        290.0
+      ],
+      "center": [
+        2600.0,
+        0.0,
+        -2870.0
+      ],
+      "generated": {
+        "drop": 120.0
+      },
+      "id": "neighagra_falls",
+      "kind": "falls",
+      "lighting": "default",
+      "name": "Neighagra Falls",
+      "radius": 300.0
+    },
+    {
+      "biome": "plain",
+      "canon_px": [
+        830.0,
+        265.0
+      ],
+      "center": [
+        5337.0,
+        0.0,
+        -3267.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "starlights_village",
+      "kind": "village",
+      "lighting": "default",
+      "name": "Starlight's Village",
+      "radius": 300.0
+    },
+    {
+      "biome": "hills",
+      "canon_px": [
+        420.0,
+        545.0
+      ],
+      "center": [
+        -1223.0,
+        0.0,
+        1213.0
+      ],
+      "generated": {
+        "depth": 90.0
+      },
+      "id": "ghastly_gorge",
+      "kind": "gorge",
+      "lighting": "default",
+      "name": "Ghastly Gorge",
+      "radius": 500.0
+    },
+    {
+      "_note": "moved off its canon pixel to clear a native footprint",
+      "biome": "mountain",
+      "canon_px": [
+        320.0,
+        270.0
+      ],
+      "center": [
+        -2663.0,
+        0.0,
+        -3507.0
+      ],
+      "generated": {
+        "depth": 140.0
+      },
+      "id": "galloping_gorge",
+      "kind": "gorge",
+      "lighting": "default",
+      "name": "Galloping Gorge",
+      "radius": 700.0
+    },
+    {
+      "_note": "moved off its canon pixel to clear a native footprint",
+      "biome": "mountain",
+      "canon_px": [
+        300.0,
+        340.0
+      ],
+      "center": [
+        -4300.0,
+        0.0,
+        -2500.0
+      ],
+      "generated": {},
+      "id": "unicorn_range",
+      "kind": "range",
+      "lighting": "default",
+      "name": "Unicorn Range",
+      "radius": 1200.0
+    },
+    {
+      "biome": "mountain",
+      "canon_px": [
+        190.0,
+        380.0
+      ],
+      "center": [
+        -4903.0,
+        0.0,
+        -1427.0
+      ],
+      "generated": {},
+      "id": "smokey_mountains",
+      "kind": "range",
+      "lighting": "default",
+      "name": "Smokey Mountains",
+      "radius": 1200.0
+    },
+    {
+      "biome": "coast",
+      "canon_px": [
+        160.0,
+        280.0
+      ],
+      "center": [
+        -5320.0,
+        0.0,
+        -2930.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "vanhoover",
+      "kind": "city",
+      "lighting": "default",
+      "name": "Vanhoover",
+      "radius": 600.0
+    },
+    {
+      "biome": "coast",
+      "canon_px": [
+        100.0,
+        355.0
+      ],
+      "center": [
+        -6343.0,
+        0.0,
+        -1827.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "tall_tale",
+      "kind": "town",
+      "lighting": "default",
+      "name": "Tall Tale",
+      "radius": 400.0
+    },
+    {
+      "biome": "sea",
+      "canon_px": [
+        90.0,
+        215.0
+      ],
+      "center": [
+        -6630.0,
+        0.0,
+        -3760.0
+      ],
+      "generated": {},
+      "id": "luna_bay",
+      "kind": "bay",
+      "lighting": "default",
+      "name": "Luna Bay",
+      "radius": 900.0
+    },
+    {
+      "biome": "coast",
+      "canon_px": [
+        250.0,
+        570.0
+      ],
+      "center": [
+        -3870.0,
+        0.0,
+        1850.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "los_pegasus",
+      "kind": "city",
+      "lighting": "default",
+      "name": "Los Pegasus",
+      "radius": 700.0
+    },
+    {
+      "biome": "plain",
+      "canon_px": [
+        280.0,
+        600.0
+      ],
+      "center": [
+        -3470.0,
+        0.0,
+        2310.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "applewood",
+      "kind": "town",
+      "lighting": "default",
+      "name": "Applewood",
+      "radius": 350.0
+    },
+    {
+      "biome": "desert",
+      "canon_px": [
+        260.0,
+        650.0
+      ],
+      "center": [
+        -3760.0,
+        0.0,
+        3750.0
+      ],
+      "generated": {},
+      "id": "san_palomino",
+      "kind": "desert",
+      "lighting": "desert",
+      "name": "San Palomino Desert",
+      "radius": 1800.0
+    },
+    {
+      "biome": "hills",
+      "canon_px": [
+        390.0,
+        635.0
+      ],
+      "center": [
+        -1840.0,
+        0.0,
+        3080.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "rock_farm",
+      "kind": "farm",
+      "lighting": "default",
+      "name": "Rock Farm",
+      "radius": 300.0
+    },
+    {
+      "_note": "moved off its canon pixel to clear a native footprint",
+      "biome": "desert",
+      "canon_px": [
+        665.0,
+        575.0
+      ],
+      "center": [
+        3800.0,
+        0.0,
+        1900.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "dodge_city",
+      "kind": "town",
+      "lighting": "desert",
+      "name": "Dodge City",
+      "radius": 400.0
+    },
+    {
+      "biome": "hills",
+      "canon_px": [
+        500.0,
+        700.0
+      ],
+      "center": [
+        450.0,
+        0.0,
+        4040.0
+      ],
+      "generated": {},
+      "id": "macintosh_hills",
+      "kind": "hills",
+      "lighting": "default",
+      "name": "Macintosh Hills",
+      "radius": 1200.0
+    },
+    {
+      "biome": "badlands",
+      "canon_px": [
+        830.0,
+        690.0
+      ],
+      "center": [
+        5337.0,
+        0.0,
+        3533.0
+      ],
+      "generated": {},
+      "id": "badlands",
+      "kind": "badlands",
+      "lighting": "desert",
+      "name": "Badlands",
+      "radius": 1400.0
+    },
+    {
+      "biome": "swamp",
+      "canon_px": [
+        850.0,
+        590.0
+      ],
+      "center": [
+        5657.0,
+        0.0,
+        1933.0
+      ],
+      "generated": {},
+      "id": "hayseed_swamps",
+      "kind": "swamp",
+      "lighting": "swamp",
+      "name": "Hayseed Swamps",
+      "radius": 1000.0
+    },
+    {
+      "biome": "jungle",
+      "canon_px": [
+        800.0,
+        830.0
+      ],
+      "center": [
+        4857.0,
+        0.0,
+        5773.0
+      ],
+      "generated": {},
+      "id": "forbidden_jungle",
+      "kind": "jungle",
+      "lighting": "swamp",
+      "name": "Forbidden Jungle",
+      "radius": 1200.0
+    },
+    {
+      "biome": "badlands",
+      "canon_px": [
+        440.0,
+        800.0
+      ],
+      "center": [
+        -980.0,
+        0.0,
+        5410.0
+      ],
+      "generated": {},
+      "id": "arimaspi_territory",
+      "kind": "scrub",
+      "lighting": "desert",
+      "name": "Arimaspi Territory",
+      "radius": 900.0
+    },
+    {
+      "biome": "coast",
+      "canon_px": [
+        900.0,
+        410.0
+      ],
+      "center": [
+        6457.0,
+        0.0,
+        -947.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "fillydelphia",
+      "kind": "city",
+      "lighting": "default",
+      "name": "Fillydelphia",
+      "radius": 700.0
+    },
+    {
+      "biome": "coast",
+      "canon_px": [
+        880.0,
+        495.0
+      ],
+      "center": [
+        6137.0,
+        0.0,
+        413.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "baltimare",
+      "kind": "city",
+      "lighting": "default",
+      "name": "Baltimare",
+      "radius": 600.0
+    },
+    {
+      "biome": "sea",
+      "canon_px": [
+        950.0,
+        590.0
+      ],
+      "center": [
+        7257.0,
+        0.0,
+        1933.0
+      ],
+      "generated": {},
+      "id": "horseshoe_bay",
+      "kind": "bay",
+      "lighting": "default",
+      "name": "Horseshoe Bay",
+      "radius": 900.0
+    },
+    {
+      "biome": "coast",
+      "canon_px": [
+        975.0,
+        310.0
+      ],
+      "center": [
+        7657.0,
+        0.0,
+        -2547.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "manehattan",
+      "kind": "city",
+      "lighting": "default",
+      "name": "Manehattan",
+      "radius": 700.0
+    },
+    {
+      "biome": "snow",
+      "canon_px": [
+        450.0,
+        150.0
+      ],
+      "center": [
+        -1390.0,
+        0.0,
+        -5250.0
+      ],
+      "generated": {},
+      "id": "frozen_north",
+      "kind": "snow",
+      "lighting": "snow",
+      "name": "Frozen North",
+      "radius": 1600.0
+    },
+    {
+      "biome": "snow",
+      "canon_px": [
+        220.0,
+        110.0
+      ],
+      "center": [
+        -3400.0,
+        0.0,
+        -6160.0
+      ],
+      "generated": {
+        "flatten": true
+      },
+      "id": "yakyakistan",
+      "kind": "village",
+      "lighting": "snow",
+      "name": "Yakyakistan",
+      "radius": 500.0
+    },
+    {
+      "biome": "snow",
+      "canon_px": [
+        600.0,
+        40.0
+      ],
+      "center": [
+        1490.0,
+        0.0,
+        -6900.0
+      ],
+      "generated": {
+        "height": 1500.0
+      },
+      "id": "mount_everhoof",
+      "kind": "peak",
+      "lighting": "snow",
+      "name": "Mount Everhoof",
+      "radius": 1600.0
+    },
+    {
+      "biome": "snow",
+      "canon_px": [
+        800.0,
+        110.0
+      ],
+      "center": [
+        4857.0,
+        0.0,
+        -5747.0
+      ],
+      "generated": {},
+      "id": "yaket_range",
+      "kind": "range",
+      "lighting": "snow",
+      "name": "Yaket Range",
+      "radius": 1600.0
+    },
+    {
+      "biome": "hills",
+      "canon_px": [
+        1180.0,
+        480.0
+      ],
+      "center": [
+        12000.0,
+        0.0,
+        -20.0
+      ],
+      "generated": {},
+      "id": "griffonstone",
+      "kind": "city",
+      "lighting": "default",
+      "name": "Griffonstone",
+      "phase": "7+",
+      "radius": 800.0
+    },
+    {
+      "biome": "plain",
+      "canon_px": [
+        1150.0,
+        270.0
+      ],
+      "center": [
+        10480.0,
+        0.0,
+        -2870.0
+      ],
+      "generated": {},
+      "id": "trottingham",
+      "kind": "town",
+      "lighting": "default",
+      "name": "Trottingham",
+      "phase": "7+",
+      "radius": 800.0
+    },
+    {
+      "biome": "badlands",
+      "canon_px": [
+        1130.0,
+        700.0
+      ],
+      "center": [
+        10137.0,
+        0.0,
+        3693.0
+      ],
+      "generated": {},
+      "id": "dragon_lands",
+      "kind": "volcanic",
+      "lighting": "desert",
+      "name": "Dragon Lands",
+      "phase": "7+",
+      "radius": 800.0
+    },
+    {
+      "biome": "snow",
+      "canon_px": [
+        1230.0,
+        160.0
+      ],
+      "center": [
+        12000.0,
+        0.0,
+        -4880.0
+      ],
+      "generated": {},
+      "id": "bug_bear_territory",
+      "kind": "snow",
+      "lighting": "snow",
+      "name": "Bug Bear Territory",
+      "phase": "7+",
+      "radius": 800.0
+    }
+  ],
+  "sea_level": -80.0,
+  "seed": 20260909.0,
+  "version": 1.0,
+  "vertex_spacing": 1.0
+}

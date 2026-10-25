@@ -1,0 +1,33 @@
+{
+  "origin": [
+    -8192,
+    -8192
+  ],
+  "cell": 16.0,
+  "width": 1152,
+  "height": 896,
+  "sea_level": -80.0,
+  "note": "tools/ocean/bake_coast.py; A = ground above sea, effective depth, dir*exposure (x, z); T = travel time (s)",
+  "beaches": [
+    [
+      -1128.0,
+      -4488.0
+    ],
+    [
+      7640.0,
+      -2040.0
+    ],
+    [
+      9576.0,
+      3976.0
+    ],
+    [
+      -5560.0,
+      -4088.0
+    ],
+    [
+      -5768.0,
+      3288.0
+    ]
+  ]
+}

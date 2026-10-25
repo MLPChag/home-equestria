@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/silver_spoon.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "silver_spoon"
+filly = true
+display_name = "Silver Spoon"
+race = 0
+coat_fill = Color(0.67058825, 0.72156864, 0.75686276, 1)
+coat_line = Color(0.48235294, 0.5764706, 0.60784316, 1)
+coat_shade = Color(0.6, 0.6509804, 0.69411767, 1)
+mane_line = Color(0.7294118, 0.79607844, 0.84313726, 1)
+iris_color = Color(0.6509804, 0.5176471, 0.8235294, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/silver_spoon_hair.scn"
+hair_prefix = "SilverSpoon"
+tail_terminal_length = 0.094904716
+ai_profile = "res://world/characters/background/ai/silver_spoon.json"

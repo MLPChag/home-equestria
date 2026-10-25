@@ -1,0 +1,43 @@
+{
+	"design": "house_d",
+	"glb": "house_d_lining.glb",
+	"hide": [
+		"ExteriorRoomFace",
+		"FittedFloor",
+		"Baseboard",
+		"HouseInterior__WingOpeningFrame"
+	],
+	"hide_notes": "FittedFloor and Baseboard: meshes only; their collision (FittedFloorCollision boxes, SunkenLanding, BaseboardCollision) stays. The lining floor is exactly floor_y everywhere except the sunken entry landing under the door swing, where it copies FittedFloor's own surface so it matches the SunkenLanding collider. HouseInterior__WingOpeningFrame is replaced by the lining's timber archway.",
+	"floor_y": 0.728335380554199,
+	"floor_top_measured": 0.728335380554199,
+	"floor_top_error_cm": 0.0,
+	"floor_coverage": "37414 downward samples (5 cm) over both floors rectangles: 35083 hit the lining floor at floor_y (max deviation 0.014 cm); 2048 lie in the sunken entry landing and match FittedFloor within 1 cm (mean 0.03 cm); 283 (0.8 %) miss because the rectangles reach under the inset walls or past the skin.",
+	"triangles": 15926,
+	"collision_triangles": 240,
+	"meshes": ["Architecture_Floor", "Architecture_Walls", "Architecture_Ceiling", "Architecture_Timber", "Architecture_Decals", "Architecture_Trim"],
+	"colliders": [
+		"Collision_MainLeftLower-convcolonly", "Collision_MainLeftUpper-convcolonly", "Collision_MainRightLower-convcolonly",
+		"Collision_MainRightUpper-convcolonly", "Collision_MainBack-convcolonly", "Collision_FrontPierLeft-convcolonly",
+		"Collision_FrontArchLintel-convcolonly", "Collision_FrontPierMid-convcolonly", "Collision_FrontDoorLintel-convcolonly",
+		"Collision_FrontPierDoorNiche-convcolonly", "Collision_FrontNicheLintel-convcolonly", "Collision_FrontPierRight-convcolonly",
+		"Collision_NicheBack-convcolonly", "Collision_NicheSeat-convcolonly", "Collision_WingNW-convcolonly", "Collision_WingLeft-convcolonly",
+		"Collision_WingSW-convcolonly", "Collision_WingFrontLower-convcolonly", "Collision_WingRight-convcolonly", "Collision_WingFrontUpper-convcolonly"
+	],
+	"textures": [
+		{"file": "hd_floor_planks.png", "size": 1024, "tile_m": 2.24, "material": "M_HD_FloorPlanks", "use": "honey plank floor, 16 boards of 14 cm, staggered butt joints with nails"},
+		{"file": "hd_plaster.png", "size": 1024, "tile_m": 2.0, "material": "M_HD_Plaster", "use": "warm ivory hand-trowelled wall plaster"},
+		{"file": "hd_ceiling.png", "size": 1024, "tile_m": 2.0, "material": "M_HD_Ceiling", "use": "lighter cream ceiling plaster"},
+		{"file": "hd_timber.png", "size": 1024, "tile_m": 2.0, "material": "M_HD_Timber", "use": "beams, posts, trusses, braces, casings, skirting, window seat"},
+		{"file": "hd_atlas.png", "size": 2048, "material": "M_HD_Decals", "use": "alpha-clip (alphaMode MASK) slate-blue vine friezes, sprigs, clay-rose hearts; opaque lavender/slate/rose swatches for the gable transoms and the entry-well inlay"}
+	],
+	"features": [
+		"window seat in an arched niche at the front window",
+		"elliptical timber archway into the side wing",
+		"slope-flat-slope ceiling with two rounded tray trusses, crease beams and a summer beam",
+		"jettied upper gables on wall plates with curved brackets; half-timber gable trusses",
+		"sweeping arched braces in the three back-wall bays",
+		"painted vine friezes, ceiling garlands, sprigs and hearts",
+		"painted inlay ring around the sunken entry well inside the door"
+	],
+	"units": "metres, house root frame, glTF +Y up (Godot coordinates)"
+}

@@ -1,0 +1,779 @@
+{
+	"ponies": {
+		"aloe": {
+			"anchor": [
+				0.000202424824237823486,
+				0.563507914543151855,
+				0.251275829970836639
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253805,
+			"samples": 104,
+			"source": "res://world/characters/background/aloe_hair.scn"
+		},
+		"amethyst_star": {
+			"anchor": [
+				-0.00453389156609773636,
+				0.560088574886322021,
+				0.250886604189872742
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253809,
+			"samples": 51,
+			"source": "res://world/characters/background/amethyst_star_hair.scn"
+		},
+		"applejack": {
+			"anchor": [
+				0.000759851187467575073,
+				0.600262641906738281,
+				0.279529482126235962
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0590000003576278687,
+				-0.043000001460313797
+			],
+			"mtime": 1788895668,
+			"samples": 621,
+			"source": "res://world/characters/mane6/applejack_devkit_hair.glb"
+		},
+		"beauty_brass": {
+			"anchor": [
+				0.000454694963991641998,
+				0.558994412422180176,
+				0.252216584980487823
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253810,
+			"samples": 40,
+			"source": "res://world/characters/background/beauty_brass_hair.scn"
+		},
+		"berry_punch": {
+			"anchor": [
+				-0.00416425056755542755,
+				0.536768436431884766,
+				0.251421079039573669
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253803,
+			"samples": 23,
+			"source": "res://world/characters/background/berry_punch_hair.scn"
+		},
+		"cloudchaser": {
+			"anchor": [
+				0.00010369718074798584,
+				0.562103807926177979,
+				0.252119816839694977
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253803,
+			"samples": 78,
+			"source": "res://world/characters/background/cloudchaser_hair.scn"
+		},
+		"cloudy_quartz": {
+			"anchor": [
+				0.0000623341184109449387,
+				0.566269874572753906,
+				0.251326695084571838
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253807,
+			"samples": 12,
+			"source": "res://world/characters/background/cloudy_quartz_hair.scn"
+		},
+		"coloratura": {
+			"anchor": [
+				-0.0000000121071934700012207,
+				0.558196961879730225,
+				0.249598026275634766
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253808,
+			"samples": 40,
+			"source": "res://world/characters/background/coloratura_hair.scn"
+		},
+		"daisy": {
+			"anchor": [
+				-0.00282464129850268364,
+				0.550621330738067627,
+				0.253474421799182892
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253805,
+			"samples": 7,
+			"source": "res://world/characters/background/daisy_hair.scn"
+		},
+		"daring_do": {
+			"anchor": [
+				-0.00354234827682375908,
+				0.55896461009979248,
+				0.252065777778625488
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253808,
+			"samples": 35,
+			"source": "res://world/characters/background/daring_do_hair.scn"
+		},
+		"derpy_hooves": {
+			"anchor": [
+				0.00037904130294919014,
+				0.557904720306396484,
+				0.251531593501567841
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789258796,
+			"samples": 38,
+			"source": "res://world/characters/background/derpy_hooves_hair.scn"
+		},
+		"fleetfoot": {
+			"anchor": [
+				0.00245281076058745384,
+				0.551323533058166504,
+				0.254556179046630859
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253804,
+			"samples": 4,
+			"source": "res://world/characters/background/fleetfoot_hair.scn"
+		},
+		"flitter": {
+			"anchor": [
+				0.000251065939664840698,
+				0.549362599849700928,
+				0.250280663371086121
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253803,
+			"samples": 5,
+			"source": "res://world/characters/background/flitter_hair.scn"
+		},
+		"fluttershy": {
+			"anchor": [
+				0.00294706225395202637,
+				0.62639850378036499,
+				0.258349359035491943
+			],
+			"anchor_version": 1,
+			"mount": [
+				-0.00999999977648258209,
+				0.0450000017881393433,
+				-0.0500000007450580597
+			],
+			"mtime": 1788897244,
+			"samples": 31,
+			"source": "res://world/characters/mane6/fluttershy_devkit_hair.glb"
+		},
+		"golden_harvest": {
+			"anchor": [
+				-0.00282463990151882172,
+				0.550621271133422852,
+				0.253474444150924683
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253803,
+			"samples": 7,
+			"source": "res://world/characters/background/golden_harvest_hair.scn"
+		},
+		"lemon_hearts": {
+			"anchor": [
+				-0.00282464176416397095,
+				0.550621211528778076,
+				0.253474444150924683
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253807,
+			"samples": 7,
+			"source": "res://world/characters/background/lemon_hearts_hair.scn"
+		},
+		"lightning_dust": {
+			"anchor": [
+				0.00240491051226854324,
+				0.550420761108398438,
+				0.250957123935222626
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253804,
+			"samples": 16,
+			"source": "res://world/characters/background/lightning_dust_hair.scn"
+		},
+		"lily_valley": {
+			"anchor": [
+				0.000202421098947525024,
+				0.563507974147796631,
+				0.251275800168514252
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253805,
+			"samples": 104,
+			"source": "res://world/characters/background/lily_valley_hair.scn"
+		},
+		"limestone_pie": {
+			"anchor": [
+				0.00285647762939333916,
+				0.5617523193359375,
+				0.250752054154872894
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253807,
+			"samples": 34,
+			"source": "res://world/characters/background/limestone_pie_hair.scn"
+		},
+		"lotus_blossom": {
+			"anchor": [
+				0.000202424824237823486,
+				0.563507914543151855,
+				0.251275829970836639
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253805,
+			"samples": 104,
+			"source": "res://world/characters/background/lotus_blossom_hair.scn"
+		},
+		"lyra_heartstrings": {
+			"anchor": [
+				-0.00453394441865384579,
+				0.560088574886322021,
+				0.250886648893356323
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253801,
+			"samples": 51,
+			"source": "res://world/characters/background/lyra_heartstrings_hair.scn"
+		},
+		"maud_pie": {
+			"anchor": [
+				-0.000226155389100313187,
+				0.559828102588653564,
+				0.251783035695552826
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253807,
+			"samples": 84,
+			"source": "res://world/characters/background/maud_pie_hair.scn"
+		},
+		"mayor_mare": {
+			"anchor": [
+				0.000625551678240299225,
+				0.564989328384399414,
+				0.251289673149585724
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253806,
+			"samples": 77,
+			"source": "res://world/characters/background/mayor_mare_hair.scn"
+		},
+		"minuette": {
+			"anchor": [
+				0.00308209937065839767,
+				0.518735408782958984,
+				0.234260797500610352
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253802,
+			"samples": 20,
+			"source": "res://world/characters/background/minuette_hair.scn"
+		},
+		"moon_dancer": {
+			"anchor": [
+				0.000014878343790769577,
+				0.562836885452270508,
+				0.250328972935676575
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253806,
+			"samples": 16,
+			"source": "res://world/characters/background/moon_dancer_hair.scn"
+		},
+		"mrs_shy": {
+			"anchor": [
+				0.00557195721194148064,
+				0.559652984142303467,
+				0.249007634818553925
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253809,
+			"samples": 26,
+			"source": "res://world/characters/background/mrs_shy_hair.scn"
+		},
+		"night_glider": {
+			"anchor": [
+				0.00245281076058745384,
+				0.551323533058166504,
+				0.254556179046630859
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253808,
+			"samples": 4,
+			"source": "res://world/characters/background/night_glider_hair.scn"
+		},
+		"nurse_redheart": {
+			"anchor": [
+				0.00176511798053979874,
+				0.554593563079833984,
+				0.249993480741977692
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253806,
+			"samples": 20,
+			"source": "res://world/characters/background/nurse_redheart_hair.scn"
+		},
+		"octavia_melody": {
+			"anchor": [
+				-0.00013948976993560791,
+				0.559157967567443848,
+				0.251031428575515747
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253801,
+			"samples": 38,
+			"source": "res://world/characters/background/octavia_melody_hair.scn"
+		},
+		"photo_finish": {
+			"anchor": [
+				0.000014889054000377655,
+				0.562836885452270508,
+				0.250328972935676575
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253806,
+			"samples": 16,
+			"source": "res://world/characters/background/photo_finish_hair.scn"
+		},
+		"pinkie_pie": {
+			"anchor": [
+				0.00557529833167791367,
+				0.602135419845581055,
+				0.275030016899108887
+			],
+			"anchor_version": 1,
+			"mount": [
+				-0.0329999998211860657,
+				0.0329999998211860657,
+				-0.0439999997615814209
+			],
+			"mtime": 1788895647,
+			"samples": 238,
+			"source": "res://world/characters/mane6/pinkie_pie_devkit_hair.glb"
+		},
+		"rainbow_dash": {
+			"anchor": [
+				0.0017838762141764164,
+				0.594591379165649414,
+				0.272471755743026733
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1788864327,
+			"samples": 1237,
+			"source": "res://world/characters/hybrid_mare/dash_devkit_hair.glb"
+		},
+		"rarity": {
+			"anchor": [
+				0.00727913016453385353,
+				0.602623939514160156,
+				0.270325079560279846
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.00999999977648258209,
+				0.0350000001490116119,
+				-0.0500000007450580597
+			],
+			"mtime": 1788895591,
+			"samples": 76,
+			"source": "res://world/characters/mane6/rarity_devkit_hair.glb"
+		},
+		"roseluck": {
+			"anchor": [
+				-0.00453394441865384579,
+				0.560088574886322021,
+				0.250886648893356323
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253805,
+			"samples": 51,
+			"source": "res://world/characters/background/roseluck_hair.scn"
+		},
+		"saffron_masala": {
+			"anchor": [
+				0.0000000121071934700012207,
+				0.561513721942901611,
+				0.250958949327468872
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789254446,
+			"samples": 59,
+			"source": "res://world/characters/background/saffron_masala_hair.scn"
+		},
+		"spitfire": {
+			"anchor": [
+				0.00245281076058745384,
+				0.551323533058166504,
+				0.254556179046630859
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253804,
+			"samples": 4,
+			"source": "res://world/characters/background/spitfire_hair.scn"
+		},
+		"starlight_glimmer": {
+			"anchor": [
+				-0.00000000605359673500061035,
+				0.563307046890258789,
+				0.252562537789344788
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253802,
+			"samples": 42,
+			"source": "res://world/characters/background/starlight_glimmer_hair.scn"
+		},
+		"sugar_belle": {
+			"anchor": [
+				-0.0000000176951289176940918,
+				0.558959901332855225,
+				0.251535899937152863
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253808,
+			"samples": 52,
+			"source": "res://world/characters/background/sugar_belle_hair.scn"
+		},
+		"sunset_shimmer": {
+			"anchor": [
+				-0.00251457653939723969,
+				0.565603554248809814,
+				0.252136290073394775
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253806,
+			"samples": 20,
+			"source": "res://world/characters/background/sunset_shimmer_hair.scn"
+		},
+		"sunshower_raindrops": {
+			"anchor": [
+				0.00037904130294919014,
+				0.557904720306396484,
+				0.251531593501567841
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789258797,
+			"samples": 38,
+			"source": "res://world/characters/background/sunshower_raindrops_hair.scn"
+		},
+		"surprise": {
+			"anchor": [
+				0.00245281076058745384,
+				0.551323533058166504,
+				0.254556179046630859
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253809,
+			"samples": 4,
+			"source": "res://world/characters/background/surprise_hair.scn"
+		},
+		"sweetie_drops": {
+			"anchor": [
+				0.000078181736171245575,
+				0.564785301685333252,
+				0.25072372704744339
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253801,
+			"samples": 30,
+			"source": "res://world/characters/background/sweetie_drops_hair.scn"
+		},
+		"trixie": {
+			"anchor": [
+				0.00170044600963592529,
+				0.56005781888961792,
+				0.252059347927570343
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253802,
+			"samples": 42,
+			"source": "res://world/characters/background/trixie_hair.scn"
+		},
+		"twilight_sparkle": {
+			"anchor": [
+				0.00117747858166694641,
+				0.60830080509185791,
+				0.25656069815158844
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0250000003725290298,
+				-0.0750000029802322388
+			],
+			"mtime": 1788897209,
+			"samples": 928,
+			"source": "res://world/characters/mane6/twilight_sparkle_devkit_hair.glb"
+		},
+		"twilight_velvet": {
+			"anchor": [
+				0.0037930663675069809,
+				0.5654335618019104,
+				0.250915944576263428
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253804,
+			"samples": 15,
+			"source": "res://world/characters/background/twilight_velvet_hair.scn"
+		},
+		"twinkleshine": {
+			"anchor": [
+				-0.00282464176416397095,
+				0.550621211528778076,
+				0.253474444150924683
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253802,
+			"samples": 7,
+			"source": "res://world/characters/background/twinkleshine_hair.scn"
+		},
+		"vinyl_scratch": {
+			"anchor": [
+				-0.00180436298251152039,
+				0.547247529029846191,
+				0.251457080245018005
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253802,
+			"samples": 34,
+			"source": "res://world/characters/background/vinyl_scratch_hair.scn"
+		},
+		"windy_whistles": {
+			"anchor": [
+				0.000000201864168047904968,
+				0.570318102836608887,
+				0.252351410686969757
+			],
+			"anchor_version": 1,
+			"mount": [
+				0.0,
+				0.0750000029802322388,
+				-0.0250000003725290298
+			],
+			"mtime": 1789253809,
+			"samples": 235,
+			"source": "res://world/characters/background/windy_whistles_hair.scn"
+		}
+	},
+	"reference": [
+		0.0017838762141764164,
+		0.594591379165649414,
+		0.272471755743026733
+	],
+	"reference_id": "rainbow_dash",
+	"version": 1
+}

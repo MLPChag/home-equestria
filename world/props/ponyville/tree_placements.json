@@ -1,0 +1,1560 @@
+{
+	"bake": {
+		"collision_checks": 110.0,
+		"lod": 1.0,
+		"max_ground_adjustment_m": 0.656852722167969,
+		"scene_sha256": "28f5d4fe00eb87bb5ca9789e6ed97d1389f03037036f3e10ee2c254f56408952",
+		"terrain_checks": 990.0,
+		"trees": 110.0,
+		"triangles": 129002.0,
+		"visual_batches": 220,
+		"visual_note": "one near and one far MeshInstance3D per tree (tools/trees/split_town_tree_batches.gd)"
+	},
+	"entries": [
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.91396363846907,
+			"id": "tree_001",
+			"position": [
+				82.0,
+				-10.5664587020874,
+				-259.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.24369144535507,
+			"species": "sm_tree2v2",
+			"yaw": 0.91427412489088
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.35409859538491,
+			"id": "tree_002",
+			"position": [
+				102.0,
+				-11.7868232727051,
+				-224.0
+			],
+			"root_radius": 0.5,
+			"scale": 0.729102027859079,
+			"species": "sm_tree4",
+			"yaw": 1.44520018689666
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.7717595845073,
+			"id": "tree_003",
+			"position": [
+				-7.0,
+				-13.6567630767822,
+				-214.0
+			],
+			"root_radius": 0.857589242701568,
+			"scale": 1.50727228047333,
+			"species": "sm_tree1",
+			"yaw": 2.08431166575029
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.993252381113,
+			"id": "tree_004",
+			"position": [
+				172.0,
+				-10.5883913040161,
+				-214.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.27753220082552,
+			"species": "sm_tree2v2",
+			"yaw": -0.243355361454103
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.60663862478276,
+			"id": "tree_005",
+			"position": [
+				108.0,
+				-12.5904006958008,
+				-205.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.20350348076809,
+			"species": "sm_tree3",
+			"yaw": -1.89208640243631
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.12534551596267,
+			"id": "tree_006",
+			"position": [
+				170.0,
+				-11.6220197677612,
+				-197.0
+			],
+			"root_radius": 0.593114208995485,
+			"scale": 1.44299411943898,
+			"species": "sm_tree3",
+			"yaw": 1.22742180540455
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.82760984511217,
+			"id": "tree_007",
+			"position": [
+				137.0,
+				-5.65510416030884,
+				-301.0
+			],
+			"root_radius": 0.534934104826973,
+			"scale": 0.875756043568979,
+			"species": "sm_tree4",
+			"yaw": 0.792325462785142
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.79301586494849,
+			"id": "tree_008",
+			"position": [
+				102.0,
+				-13.9292917251587,
+				-172.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.11541521577965,
+			"species": "sm_tree2",
+			"yaw": -2.2485282039783
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.98488968991494,
+			"id": "tree_009",
+			"position": [
+				112.0,
+				-7.52690649032593,
+				-290.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.19204169920328,
+			"species": "sm_tree2",
+			"yaw": -0.045456750826145
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.65533584025482,
+			"id": "tree_010",
+			"position": [
+				10.0,
+				-12.914589881897,
+				-238.0
+			],
+			"root_radius": 0.502342889765027,
+			"scale": 0.822400025883422,
+			"species": "sm_tree4",
+			"yaw": 1.69113252757448
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.94978681764042,
+			"id": "tree_011",
+			"position": [
+				126.0,
+				-14.1576013565063,
+				-135.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.17802306137743,
+			"species": "sm_tree2",
+			"yaw": 2.36449495969578
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.85329620048369,
+			"id": "tree_012",
+			"position": [
+				121.0,
+				-11.5780553817749,
+				-222.0
+			],
+			"root_radius": 0.648757184266746,
+			"scale": 1.14023552525306,
+			"species": "sm_tree1",
+			"yaw": -1.91753842982443
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.47738418551059,
+			"id": "tree_013",
+			"position": [
+				127.0,
+				-14.4053926467896,
+				-148.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.38872366616563,
+			"species": "sm_tree2",
+			"yaw": -0.036183235255125
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.54722309436939,
+			"id": "tree_014",
+			"position": [
+				52.0,
+				-10.8854160308838,
+				-276.0
+			],
+			"root_radius": 0.673176264512749,
+			"scale": 1.6377779798649,
+			"species": "sm_tree3",
+			"yaw": -1.94903684329724
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.13932788085818,
+			"id": "tree_015",
+			"position": [
+				64.0,
+				-9.26156234741211,
+				-308.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.33987781386292,
+			"species": "sm_tree2v2",
+			"yaw": 2.11822956313868
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.83985200110581,
+			"id": "tree_016",
+			"position": [
+				126.0,
+				-5.48482847213745,
+				-330.0
+			],
+			"root_radius": 0.538934516103031,
+			"scale": 1.31117974532504,
+			"species": "sm_tree3",
+			"yaw": 1.74109949237857
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.99264973748102,
+			"id": "tree_017",
+			"position": [
+				149.0,
+				-9.79217910766602,
+				-240.0
+			],
+			"root_radius": 0.680442155586821,
+			"scale": 1.19592404908283,
+			"species": "sm_tree1",
+			"yaw": 2.37455130814087
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.9133890469726,
+			"id": "tree_018",
+			"position": [
+				86.0,
+				-8.17668342590332,
+				-308.0
+			],
+			"root_radius": 0.552890050481031,
+			"scale": 1.34513231927398,
+			"species": "sm_tree3",
+			"yaw": 1.69606056810051
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.81678521970734,
+			"id": "tree_019",
+			"position": [
+				155.0,
+				-14.726185798645,
+				-133.0
+			],
+			"root_radius": 0.640455641272625,
+			"scale": 1.12564499051083,
+			"species": "sm_tree1",
+			"yaw": 1.32398560484755
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.57710443814949,
+			"id": "tree_020",
+			"position": [
+				91.0,
+				-9.05707931518555,
+				-286.0
+			],
+			"root_radius": 0.67884701339134,
+			"scale": 1.65157440753518,
+			"species": "sm_tree3",
+			"yaw": 1.28436488859083
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.5339345920646,
+			"id": "tree_021",
+			"position": [
+				10.0,
+				-14.0574741363525,
+				-187.0
+			],
+			"root_radius": 0.670654431488851,
+			"scale": 1.63164258440733,
+			"species": "sm_tree3",
+			"yaw": -1.60482073498624
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.35564426228826,
+			"id": "tree_022",
+			"position": [
+				126.0,
+				-14.3321504592896,
+				-185.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.34010576734373,
+			"species": "sm_tree2",
+			"yaw": 1.15576907169159
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.85093922242471,
+			"id": "tree_023",
+			"position": [
+				108.0,
+				-6.13252735137939,
+				-324.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.13854741316128,
+			"species": "sm_tree2",
+			"yaw": 2.18590234750088
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.72363263262069,
+			"id": "tree_024",
+			"position": [
+				47.0,
+				-13.4040489196777,
+				-208.0
+			],
+			"root_radius": 0.515263442984186,
+			"scale": 0.843552636019569,
+			"species": "sm_tree4",
+			"yaw": 0.0557306077415607
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.38515977487602,
+			"id": "tree_025",
+			"position": [
+				47.0,
+				-12.8695993423462,
+				-216.0
+			],
+			"root_radius": 0.5,
+			"scale": 0.738722172486438,
+			"species": "sm_tree4",
+			"yaw": -1.44725537364134
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.62238709125541,
+			"id": "tree_026",
+			"position": [
+				28.0,
+				-16.2168312072754,
+				-100.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.44663183970299,
+			"species": "sm_tree2",
+			"yaw": 2.77962039460732
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.81992715467898,
+			"id": "tree_027",
+			"position": [
+				66.0,
+				-15.4921846389771,
+				-138.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.20355629442283,
+			"species": "sm_tree2v2",
+			"yaw": 0.0219143364267769
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.60198424493303,
+			"id": "tree_028",
+			"position": [
+				3.0,
+				-13.7827978134155,
+				-207.0
+			],
+			"root_radius": 0.522384078283815,
+			"scale": 1.53734141791849,
+			"species": "sm_tree2v2",
+			"yaw": 3.02505719300585
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.28859467256751,
+			"id": "tree_029",
+			"position": [
+				146.0,
+				-14.4053926467896,
+				-150.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.40358548319473,
+			"species": "sm_tree2v2",
+			"yaw": 1.04010516454916
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.718826758189,
+			"id": "tree_030",
+			"position": [
+				133.0,
+				-12.8159370422363,
+				-197.0
+			],
+			"root_radius": 0.515966882331191,
+			"scale": 1.25530153507895,
+			"species": "sm_tree3",
+			"yaw": 3.01396164872067
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.86832397482214,
+			"id": "tree_031",
+			"position": [
+				52.0,
+				-14.2412128448486,
+				-156.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.14549016547071,
+			"species": "sm_tree2",
+			"yaw": -1.23182836787211
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.60178319352622,
+			"id": "tree_032",
+			"position": [
+				83.0,
+				-12.5559225082397,
+				-211.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.03904478260901,
+			"species": "sm_tree2",
+			"yaw": 0.515485451192868
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.11620930116829,
+			"id": "tree_033",
+			"position": [
+				66.0,
+				-14.3591527938843,
+				-179.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.33001071071534,
+			"species": "sm_tree2v2",
+			"yaw": -2.25328113523071
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.10609611543413,
+			"id": "tree_034",
+			"position": [
+				101.0,
+				-10.3342227935791,
+				-257.0
+			],
+			"root_radius": 0.5,
+			"scale": 0.652291688903573,
+			"species": "sm_tree4",
+			"yaw": 1.8142917836748
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.90622739044552,
+			"id": "tree_035",
+			"position": [
+				69.0,
+				-11.3406038284302,
+				-259.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.16062722467862,
+			"species": "sm_tree2",
+			"yaw": 2.90700463061039
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.59674516586056,
+			"id": "tree_036",
+			"position": [
+				90.0,
+				-13.9292917251587,
+				-180.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.1083013205493,
+			"species": "sm_tree2v2",
+			"yaw": 1.69773453452084
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.03612308227506,
+			"id": "tree_037",
+			"position": [
+				103.0,
+				-14.95432472229,
+				-150.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.29582958916206,
+			"species": "sm_tree2v2",
+			"yaw": -2.75611615495169
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.65551506570947,
+			"id": "tree_038",
+			"position": [
+				62.0,
+				-12.5702676773071,
+				-214.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.06050307382664,
+			"species": "sm_tree2",
+			"yaw": 2.16275083318048
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.25070692521666,
+			"id": "tree_039",
+			"position": [
+				91.0,
+				-14.8479156494141,
+				-157.0
+			],
+			"root_radius": 0.739116910232618,
+			"scale": 1.29904897980443,
+			"species": "sm_tree1",
+			"yaw": 2.19814838776452
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.99139298387382,
+			"id": "tree_040",
+			"position": [
+				50.0,
+				-11.7634534835815,
+				-256.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.27673860257695,
+			"species": "sm_tree2v2",
+			"yaw": -1.88290948617303
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.13341968248553,
+			"id": "tree_041",
+			"position": [
+				107.0,
+				-13.6801319122314,
+				-196.0
+			],
+			"root_radius": 0.594646488503796,
+			"scale": 1.44672201920313,
+			"species": "sm_tree3",
+			"yaw": 0.194283334974448
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.7727771965489,
+			"id": "tree_042",
+			"position": [
+				155.0,
+				-8.64087104797363,
+				-255.0
+			],
+			"root_radius": 0.857820618302417,
+			"scale": 1.50767893906019,
+			"species": "sm_tree1",
+			"yaw": 2.72454586214147
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.61812450443362,
+			"id": "tree_043",
+			"position": [
+				82.0,
+				-15.5224075317383,
+				-124.0
+			],
+			"root_radius": 0.686631619618968,
+			"scale": 1.67051366213109,
+			"species": "sm_tree3",
+			"yaw": -0.955555963742392
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.76289579200935,
+			"id": "tree_044",
+			"position": [
+				165.0,
+				-9.90482044219971,
+				-229.0
+			],
+			"root_radius": 0.524330108093608,
+			"scale": 1.2756485195411,
+			"species": "sm_tree3",
+			"yaw": -1.51331980447668
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.59415033972037,
+			"id": "tree_045",
+			"position": [
+				46.0,
+				-16.1742324829102,
+				-109.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.1977375512685,
+			"species": "sm_tree3",
+			"yaw": -0.220839860294685
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.52317262762273,
+			"id": "tree_046",
+			"position": [
+				198.0,
+				-9.36390209197998,
+				-220.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.40700967938871,
+			"species": "sm_tree2",
+			"yaw": 1.15219723365889
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.32793876425313,
+			"id": "tree_047",
+			"position": [
+				38.0,
+				-15.1378774642944,
+				-128.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.32904133535931,
+			"species": "sm_tree2",
+			"yaw": -0.949386617620274
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.99562985448873,
+			"id": "tree_048",
+			"position": [
+				157.0,
+				-4.9719820022583,
+				-303.0
+			],
+			"root_radius": 0.681119748161464,
+			"scale": 1.19711496479674,
+			"species": "sm_tree1",
+			"yaw": -1.23381872647345
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.03779426220123,
+			"id": "tree_049",
+			"position": [
+				137.0,
+				-9.30424785614014,
+				-252.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.21316960100041,
+			"species": "sm_tree2",
+			"yaw": -2.31475076025722
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.50945422330058,
+			"id": "tree_050",
+			"position": [
+				192.0,
+				-8.40928363800049,
+				-240.0
+			],
+			"root_radius": 0.66600865569183,
+			"scale": 1.62033982508432,
+			"species": "sm_tree3",
+			"yaw": 0.830978264968204
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.89159978205713,
+			"id": "tree_051",
+			"position": [
+				153.0,
+				-14.4053926467896,
+				-146.0
+			],
+			"root_radius": 0.547039876667015,
+			"scale": 0.895574751621654,
+			"species": "sm_tree4",
+			"yaw": 2.835208339469
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.87610947054584,
+			"id": "tree_052",
+			"position": [
+				7.0,
+				-11.9430465698242,
+				-273.0
+			],
+			"root_radius": 0.545815297826928,
+			"scale": 1.32792007528872,
+			"species": "sm_tree3",
+			"yaw": 0.57162044864704
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.96093180501991,
+			"id": "tree_053",
+			"position": [
+				48.0,
+				-15.1195487976074,
+				-145.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.26373764846211,
+			"species": "sm_tree2v2",
+			"yaw": 1.72945212409459
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.47682566650967,
+			"id": "tree_054",
+			"position": [
+				125.0,
+				-13.9445848464966,
+				-194.0
+			],
+			"root_radius": 0.5,
+			"scale": 0.767112566842318,
+			"species": "sm_tree4",
+			"yaw": 0.450617641430294
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.16432519145991,
+			"id": "tree_055",
+			"position": [
+				31.0,
+				-12.3295650482178,
+				-247.0
+			],
+			"root_radius": 0.719476197728039,
+			"scale": 1.26452907207606,
+			"species": "sm_tree1",
+			"yaw": -0.656269737297082
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.93390269764354,
+			"id": "tree_056",
+			"position": [
+				27.0,
+				-13.1606349945068,
+				-206.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.17167959968925,
+			"species": "sm_tree2",
+			"yaw": 1.17996753865261
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.15579567142667,
+			"id": "tree_057",
+			"position": [
+				129.0,
+				-9.54219722747803,
+				-253.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.34690633336246,
+			"species": "sm_tree2v2",
+			"yaw": 0.950131325466091
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.26472511986773,
+			"id": "tree_058",
+			"position": [
+				19.0,
+				-12.9953908920288,
+				-220.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.30379641581652,
+			"species": "sm_tree2",
+			"yaw": -0.104745244433824
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.22419055680505,
+			"id": "tree_059",
+			"position": [
+				175.0,
+				-8.25629425048828,
+				-251.0
+			],
+			"root_radius": 0.733087853556071,
+			"scale": 1.28845249660073,
+			"species": "sm_tree1",
+			"yaw": -2.07085715660877
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.18293465290498,
+			"id": "tree_060",
+			"position": [
+				119.0,
+				-10.7051982879639,
+				-243.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.27113268035375,
+			"species": "sm_tree2",
+			"yaw": 0.685123330387842
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.45444005908535,
+			"id": "tree_061",
+			"position": [
+				76.0,
+				-13.264575958252,
+				-195.0
+			],
+			"root_radius": 0.785439943308571,
+			"scale": 1.38046490741434,
+			"species": "sm_tree1",
+			"yaw": 1.36366887216245
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.29935114819144,
+			"id": "tree_062",
+			"position": [
+				-7.0,
+				-13.0363473892212,
+				-236.0
+			],
+			"root_radius": 0.626136226047041,
+			"scale": 1.52333374997676,
+			"species": "sm_tree3",
+			"yaw": -1.87836378404693
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.15915407037969,
+			"id": "tree_063",
+			"position": [
+				32.0,
+				-11.3839645385742,
+				-277.0
+			],
+			"root_radius": 0.718300434079339,
+			"scale": 1.26246258631827,
+			"species": "sm_tree1",
+			"yaw": -1.88345318622983
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.71036712610148,
+			"id": "tree_064",
+			"position": [
+				159.0,
+				-11.7205228805542,
+				-195.0
+			],
+			"root_radius": 0.512753842210517,
+			"scale": 0.83944409624868,
+			"species": "sm_tree4",
+			"yaw": -1.52429266790852
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.66038439469231,
+			"id": "tree_065",
+			"position": [
+				25.0,
+				-14.4018030166626,
+				-179.0
+			],
+			"root_radius": 0.503297987567277,
+			"scale": 0.823963644028111,
+			"species": "sm_tree4",
+			"yaw": 2.33381724229659
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.64058493489566,
+			"id": "tree_066",
+			"position": [
+				176.0,
+				-4.58627986907959,
+				-298.0
+			],
+			"root_radius": 0.690894060484835,
+			"scale": 1.68088380166007,
+			"species": "sm_tree3",
+			"yaw": 0.818174154153529
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.60701236811286,
+			"id": "tree_067",
+			"position": [
+				69.0,
+				-15.2154865264893,
+				-145.0
+			],
+			"root_radius": 0.5,
+			"scale": 0.807433472825294,
+			"species": "sm_tree4",
+			"yaw": 2.29598224425261
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.70370861024995,
+			"id": "tree_068",
+			"position": [
+				81.0,
+				-13.864616394043,
+				-181.0
+			],
+			"root_radius": 0.513097827274543,
+			"scale": 1.24832137929732,
+			"species": "sm_tree3",
+			"yaw": -1.42556062956911
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.35615271294313,
+			"id": "tree_069",
+			"position": [
+				25.0,
+				-11.6669921875,
+				-272.0
+			],
+			"root_radius": 0.636915775052211,
+			"scale": 1.5495594339829,
+			"species": "sm_tree3",
+			"yaw": 2.14083264050728
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 3.00991008874507,
+			"id": "tree_070",
+			"position": [
+				44.0,
+				-12.034553527832,
+				-251.0
+			],
+			"root_radius": 0.684366661175698,
+			"scale": 1.2028216385046,
+			"species": "sm_tree1",
+			"yaw": 2.62194063602815
+		},
+		{
+			"area": "Town garden",
+			"canopy_radius": 2.79518857308853,
+			"id": "tree_071",
+			"position": [
+				109.0,
+				-14.8934755325317,
+				-143.0
+			],
+			"root_radius": 0.635545187304457,
+			"scale": 1.11701452876735,
+			"species": "sm_tree1",
+			"yaw": 2.72637696548632
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.87459269091444,
+			"id": "tree_072",
+			"position": [
+				56.0,
+				-15.5749921798706,
+				-125.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.22688776598763,
+			"species": "sm_tree2v2",
+			"yaw": -1.63573158680863
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 4.03393585062555,
+			"id": "tree_073",
+			"position": [
+				2.0,
+				-13.9246463775635,
+				-194.0
+			],
+			"root_radius": 0.765542452494356,
+			"scale": 1.86249670025804,
+			"species": "sm_tree3",
+			"yaw": 1.78516109543052
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.25850888372936,
+			"id": "tree_074",
+			"position": [
+				197.0,
+				-3.81916856765747,
+				-317.0
+			],
+			"root_radius": 0.740890850363899,
+			"scale": 1.30216680201343,
+			"species": "sm_tree1",
+			"yaw": 0.153568091079209
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.28114284918285,
+			"id": "tree_075",
+			"position": [
+				146.0,
+				-16.0351295471191,
+				-107.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.31035297903424,
+			"species": "sm_tree2",
+			"yaw": 1.29807054878359
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.0456497930174,
+			"id": "tree_076",
+			"position": [
+				203.0,
+				-8.45068168640137,
+				-230.0
+			],
+			"root_radius": 0.577989908199435,
+			"scale": 1.40619804074397,
+			"species": "sm_tree3",
+			"yaw": -0.259652319432369
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.1897360244349,
+			"id": "tree_077",
+			"position": [
+				176.0,
+				-9.29439735412598,
+				-230.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.27384886732134,
+			"species": "sm_tree2",
+			"yaw": -2.59819772008629
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.78844060708191,
+			"id": "tree_078",
+			"position": [
+				179.0,
+				-4.5699143409729,
+				-317.0
+			],
+			"root_radius": 0.529177889789525,
+			"scale": 1.2874427412499,
+			"species": "sm_tree3",
+			"yaw": 2.57029411996097
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.82591454047664,
+			"id": "tree_079",
+			"position": [
+				104.0,
+				-15.4880924224854,
+				-113.0
+			],
+			"root_radius": 0.534613382974493,
+			"scale": 0.875230980578829,
+			"species": "sm_tree4",
+			"yaw": 2.06228859571027
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.67165702420951,
+			"id": "tree_080",
+			"position": [
+				125.0,
+				-15.3477716445923,
+				-122.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.46630821662127,
+			"species": "sm_tree2",
+			"yaw": 1.18185831878043
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.14395417191737,
+			"id": "tree_081",
+			"position": [
+				17.0,
+				-14.4719982147217,
+				-194.0
+			],
+			"root_radius": 0.594780893650809,
+			"scale": 0.973732946757128,
+			"species": "sm_tree4",
+			"yaw": 1.22551781551341
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.4385679859837,
+			"id": "tree_082",
+			"position": [
+				-7.0,
+				-12.8296308517456,
+				-245.0
+			],
+			"root_radius": 0.5,
+			"scale": 0.755263550617019,
+			"species": "sm_tree4",
+			"yaw": -1.05197547158047
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.77075700951155,
+			"id": "tree_083",
+			"position": [
+				170.0,
+				-4.62370491027832,
+				-326.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.10652594796281,
+			"species": "sm_tree2",
+			"yaw": 2.79831953829766
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.5174141995322,
+			"id": "tree_084",
+			"position": [
+				-4.0,
+				-11.5968408584595,
+				-296.0
+			],
+			"root_radius": 0.667519264673182,
+			"scale": 1.62401500238374,
+			"species": "sm_tree3",
+			"yaw": -0.343113546763091
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.02042203989186,
+			"id": "tree_085",
+			"position": [
+				14.0,
+				-12.2805280685425,
+				-143.0
+			],
+			"root_radius": 0.571410784589736,
+			"scale": 0.935473067522618,
+			"species": "sm_tree4",
+			"yaw": -1.40186249714674
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.46674879927562,
+			"id": "tree_086",
+			"position": [
+				29.0,
+				-14.7832851409912,
+				-194.0
+			],
+			"root_radius": 0.502771320751511,
+			"scale": 1.47962238372997,
+			"species": "sm_tree2v2",
+			"yaw": -1.94880110349209
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.09318380181214,
+			"id": "tree_087",
+			"position": [
+				104.0,
+				-7.47626543045044,
+				-308.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.32018333462999,
+			"species": "sm_tree2v2",
+			"yaw": -1.48366559109901
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.79355710222555,
+			"id": "tree_088",
+			"position": [
+				122.0,
+				-16.2036266326904,
+				-113.0
+			],
+			"root_radius": 0.514789157784741,
+			"scale": 1.51499007465515,
+			"species": "sm_tree2",
+			"yaw": -0.768760522455698
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.85885160756863,
+			"id": "tree_089",
+			"position": [
+				14.0,
+				-11.9903125762939,
+				-125.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.14170729309372,
+			"species": "sm_tree2",
+			"yaw": 2.58172293203475
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.56271492928037,
+			"id": "tree_090",
+			"position": [
+				161.0,
+				-15.712986946106,
+				-113.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.42280124201082,
+			"species": "sm_tree2",
+			"yaw": 1.86053903837025
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.52215040786508,
+			"id": "tree_091",
+			"position": [
+				164.0,
+				-5.45777416229248,
+				-296.0
+			],
+			"root_radius": 0.5,
+			"scale": 0.781150364961397,
+			"species": "sm_tree4",
+			"yaw": 1.48772049981271
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.88991824139964,
+			"id": "tree_092",
+			"position": [
+				173.0,
+				-14.4053926467896,
+				-140.0
+			],
+			"root_radius": 0.527865452233956,
+			"scale": 1.55347273499143,
+			"species": "sm_tree2",
+			"yaw": 2.86689186511641
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.84076346855971,
+			"id": "tree_093",
+			"position": [
+				185.0,
+				-9.33957004547119,
+				-227.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.13448363721375,
+			"species": "sm_tree2",
+			"yaw": 1.86451103882457
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.97034431028979,
+			"id": "tree_094",
+			"position": [
+				167.0,
+				-16.0049324035645,
+				-101.0
+			],
+			"root_radius": 0.538779343115843,
+			"scale": 1.58559158619855,
+			"species": "sm_tree2",
+			"yaw": 1.84045742897939
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.63814847899498,
+			"id": "tree_095",
+			"position": [
+				80.0,
+				-7.80258941650391,
+				-323.0
+			],
+			"root_radius": 0.527628859713347,
+			"scale": 1.55277645902089,
+			"species": "sm_tree2v2",
+			"yaw": -1.75230881905329
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.19116011554048,
+			"id": "tree_096",
+			"position": [
+				188.0,
+				-3.71851968765259,
+				-320.0
+			],
+			"root_radius": 0.603711428829909,
+			"scale": 0.988353383339558,
+			"species": "sm_tree4",
+			"yaw": 0.264434066243528
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.4924312026175,
+			"id": "tree_097",
+			"position": [
+				-4.0,
+				-13.8060760498047,
+				-179.0
+			],
+			"root_radius": 0.794078032582588,
+			"scale": 1.39564694547019,
+			"species": "sm_tree1",
+			"yaw": -1.05216160751759
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.02589183578187,
+			"id": "tree_098",
+			"position": [
+				188.0,
+				-13.366268157959,
+				-155.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.20841626332715,
+			"species": "sm_tree2",
+			"yaw": -2.77026550225758
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.04427532667415,
+			"id": "tree_099",
+			"position": [
+				56.0,
+				-9.80142021179199,
+				-302.0
+			],
+			"root_radius": 0.577729068073501,
+			"scale": 1.40556343991646,
+			"species": "sm_tree3",
+			"yaw": -2.20655508422288
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.70708175283288,
+			"id": "tree_100",
+			"position": [
+				185.0,
+				-15.594765663147,
+				-101.0
+			],
+			"root_radius": 0.513737967311759,
+			"scale": 1.24987878307438,
+			"species": "sm_tree3",
+			"yaw": -2.03394213286542
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.63265543640467,
+			"id": "tree_101",
+			"position": [
+				119.0,
+				-7.24947261810303,
+				-296.0
+			],
+			"root_radius": 0.689389235433911,
+			"scale": 1.67722269614896,
+			"species": "sm_tree3",
+			"yaw": -0.344498600056474
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.43209143628047,
+			"id": "tree_102",
+			"position": [
+				95.0,
+				-6.69452571868896,
+				-329.0
+			],
+			"root_radius": 0.780358511664468,
+			"scale": 1.3715339406054,
+			"species": "sm_tree1",
+			"yaw": 2.80537676706991
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.86431434834805,
+			"id": "tree_103",
+			"position": [
+				176.0,
+				-14.0351114273071,
+				-158.0
+			],
+			"root_radius": 0.524390980600905,
+			"scale": 1.54324759726437,
+			"species": "sm_tree2",
+			"yaw": -2.91440858955795
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.98944316455074,
+			"id": "tree_104",
+			"position": [
+				-4.0,
+				-13.7223606109619,
+				-170.0
+			],
+			"root_radius": 0.567323263563494,
+			"scale": 1.38024704302655,
+			"species": "sm_tree3",
+			"yaw": 0.267555892320813
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.69133360543307,
+			"id": "tree_105",
+			"position": [
+				62.0,
+				-13.9802694320679,
+				-110.0
+			],
+			"root_radius": 0.510749353751922,
+			"scale": 1.24260775208791,
+			"species": "sm_tree3",
+			"yaw": -0.16974417624403
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.99262810944556,
+			"id": "tree_106",
+			"position": [
+				8.0,
+				-10.2863636016846,
+				-308.0
+			],
+			"root_radius": 0.56615266125684,
+			"scale": 0.926864842238301,
+			"species": "sm_tree4",
+			"yaw": -2.234347987613
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 4.03615512842642,
+			"id": "tree_107",
+			"position": [
+				182.0,
+				-15.3576030731201,
+				-110.0
+			],
+			"root_radius": 0.54770993114411,
+			"scale": 1.61187370970302,
+			"species": "sm_tree2",
+			"yaw": 1.14619258875748
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 3.48000175265946,
+			"id": "tree_108",
+			"position": [
+				140.0,
+				-5.41313457489014,
+				-323.0
+			],
+			"root_radius": 0.791251934487551,
+			"scale": 1.39067988302532,
+			"species": "sm_tree1",
+			"yaw": 0.175883071944896
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.75241252391024,
+			"id": "tree_109",
+			"position": [
+				20.0,
+				-14.5797090530396,
+				-185.0
+			],
+			"root_radius": 0.5,
+			"scale": 1.09919991783812,
+			"species": "sm_tree2",
+			"yaw": 1.07921761943224
+		},
+		{
+			"area": "Town edge",
+			"canopy_radius": 2.88364219008032,
+			"id": "tree_110",
+			"position": [
+				200.0,
+				-7.8974494934082,
+				-242.0
+			],
+			"root_radius": 0.545534440070785,
+			"scale": 0.893110157972713,
+			"species": "sm_tree4",
+			"yaw": 1.16835825823086
+		}
+	],
+	"layout_sha256": "267d68eeb9aeec0eca23167d1081f28fea711849a38b6959d10502d25fe8cfbf",
+	"rules": "Dry roots; <=0.35m root footprint relief; crown+1m building clearance; roots+1.8m road clearance; door and prop clearance; crowns separated by 1.8m.",
+	"source": "Approved Grassy Fields portable trees",
+	"terrain_revision": "5506e1205708b53ffb2525225455256cc591e27457c705a35b9b3029cf4ecac3:town:2844b0a830158ce48e07c85970f61eb0:houses:6acf2c2b3d96f49e76240d1c14a29636:stairs:157d4a1859bce21b560829f19fc4b550:7bb95a13d03b8b4e7ceed43e44fbec30",
+	"version": 1.0
+}

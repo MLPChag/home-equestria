@@ -1,0 +1,35 @@
+{
+	"design": "house_g",
+	"glb": "house_g_lining.glb",
+	"hide": [
+		"ExteriorRoomFace",
+		"HouseInterior__Skirting",
+		"HouseInterior__WingOpeningFrame",
+		"HouseInterior__FloorUnderlay",
+		"HouseInterior___MeshInstance3D_3",
+		"FloorSlab"
+	],
+	"hide_notes": "FloorSlab: mesh only; its FloorSlab_col collision stays. The lining floor top sits exactly at floor_y; the StairBrush stone ramp top shows inside the door tunnel as the threshold.",
+	"floor_y": 0.577639818191528,
+	"floor_top_measured": 0.577639818191528,
+	"floor_top_error_cm": 0.0,
+	"floor_coverage": "6300 downward samples over both floors rectangles: all hit the lining floor at floor_y, except 26 inside the door threshold where the existing stone ramp top (also at floor_y) is the floor.",
+	"triangles": 29428,
+	"meshes": ["Architecture_Plaster", "Architecture_Ceiling", "Architecture_Floor", "Architecture_Timber", "Architecture_Stone", "Architecture_Decals"],
+	"colliders": [
+		"WallLeftFront-convcolonly", "WallLeftBack-convcolonly", "WindowSeat-convcolonly", "WallBack-convcolonly",
+		"WallRightFront-convcolonly", "WallRightBack-convcolonly", "WallFrontLeft-convcolonly", "WallFrontRight-convcolonly",
+		"DoorPortalLeft-convcolonly", "DoorPortalRight-convcolonly", "FrontAboveDoor-convcolonly", "Fireplace-convcolonly",
+		"WallFrontGable-convcolonly", "OpeningPost0-convcolonly", "OpeningPost1-convcolonly", "WingSide0-convcolonly",
+		"WingSide1-convcolonly", "WingEnd-convcolonly", "WingEndGable-convcolonly"
+	],
+	"textures": [
+		{"name": "floor_planks", "size": 1024, "tile_m": 2.048, "use": "honey plank floor, 12-18 cm boards, staggered joints"},
+		{"name": "plaster_wall", "size": 1024, "tile_m": 1.6, "use": "cream hand-painted wall plaster"},
+		{"name": "plaster_ceiling", "size": 1024, "tile_m": 1.9, "use": "vaulted ceiling plaster"},
+		{"name": "timber", "size": 1024, "tile_m": 1.0, "use": "beams, posts, braces, frames, skirting"},
+		{"name": "atlas", "size": 2048, "use": "fireplace stone, firebox brick, alpha-clip vine/heart/flower decals (material HG_Decal, alphaMode MASK)"}
+	],
+	"features": ["window seat alcove at the left window", "fireplace breast under the outside chimney with an empty hearth, mantel and arched display niche", "arched timber door portal around the existing door reveal", "half-timber trusses, curved braces, painted vine friezes and hearts"],
+	"units": "metres, house root frame, glTF +Y up (Godot coordinates)"
+}

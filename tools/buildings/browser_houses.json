@@ -1,0 +1,225 @@
+{
+  "a": {
+    "roof": [
+      0.945,
+      1.0
+    ],
+    "footprint": [
+      [
+        -0.33,
+        -0.37
+      ],
+      [
+        0.33,
+        -0.37
+      ],
+      [
+        0.33,
+        0.36
+      ],
+      [
+        -0.33,
+        0.36
+      ]
+    ],
+    "floor": 0.034,
+    "door": [
+      0,
+      0.4
+    ],
+    "scene": "res://world/towns/ponyville/house_a.tscn",
+    "ground_offset": 0.0,
+    "floor_rectangles": [
+      [
+        -0.33,
+        -0.37,
+        0.33,
+        0.36
+      ]
+    ],
+    "source": "res://art/models/house-a/browser-5k-2026-09-21/house-a-browser-retextured.glb",
+    "stair_brush": {
+      "center_x": 0.00057,
+      "width": 0.19,
+      "back_z": 0.359619140625,
+      "landing_z": 0.399619140625,
+      "toe_z": 0.5044578503024193,
+      "height": 0.04
+    },
+    "windows": "res://tools/buildings/house_a_windows.json"
+  },
+  "b": {
+    "roof": [
+      0.709,
+      0.876
+    ],
+    "footprint": [
+      [
+        -0.255,
+        -0.315
+      ],
+      [
+        0.255,
+        -0.315
+      ],
+      [
+        0.255,
+        0.285
+      ],
+      [
+        -0.255,
+        0.285
+      ]
+    ],
+    "floor": 0.03,
+    "door": [
+      0.066,
+      0.33
+    ],
+    "scene": "res://world/towns/ponyville/house_b.tscn",
+    "ground_offset": 0.0,
+    "floor_rectangles": [
+      [
+        -0.255,
+        -0.315,
+        0.255,
+        0.285
+      ]
+    ],
+    "stair_brush": {
+      "center_x": 0.07709,
+      "width": 0.19,
+      "back_z": 0.2429199516773224,
+      "landing_z": 0.28291995167732237,
+      "toe_z": 0.3796941452257095,
+      "height": 0.035
+    },
+    "windows": "res://tools/buildings/house_b_windows.json"
+  },
+  "c": {
+    "roof": [
+      1,
+      0.834
+    ],
+    "footprint": [
+      [
+        -0.28,
+        -0.308
+      ],
+      [
+        0.29,
+        -0.308
+      ],
+      [
+        0.29,
+        0.06
+      ],
+      [
+        0.02,
+        0.06
+      ],
+      [
+        0.02,
+        0.313
+      ],
+      [
+        -0.28,
+        0.313
+      ]
+    ],
+    "floor": 0.05,
+    "door": [
+      0.13,
+      0.31
+    ],
+    "scene": "res://world/towns/ponyville/house_c.tscn",
+    "ground_offset": 0.0,
+    "floor_rectangles": [
+      [
+        -0.28,
+        -0.308,
+        0.29,
+        0.06
+      ],
+      [
+        -0.28,
+        0.06,
+        0.02,
+        0.313
+      ]
+    ],
+    "stair_brush": {
+      "center_x": 0.10694,
+      "width": 0.15,
+      "back_z": 0.051894187927246094,
+      "landing_z": 0.0918941879272461,
+      "toe_z": 0.2257651556691816,
+      "height": 0.058
+    },
+    "windows": "res://tools/buildings/house_c_windows.json"
+  },
+  "d": {
+    "source": "res://art/models/house-d/browser-5k-2026-09-21/house-d-browser-original.glb",
+    "import_scale": 1.45,
+    "roof": [
+      1.3818499999999998,
+      1.4064999999999999
+    ],
+    "footprint": [
+      [
+        -0.609,
+        -0.58
+      ],
+      [
+        0.609,
+        -0.58
+      ],
+      [
+        0.609,
+        0.15225
+      ],
+      [
+        -0.1015,
+        0.15225
+      ],
+      [
+        -0.1015,
+        0.5944999999999999
+      ],
+      [
+        -0.609,
+        0.5944999999999999
+      ]
+    ],
+    "floor": 0.072,
+    "door": [
+      0.10056507012506169,
+      0.1277953453361988
+    ],
+    "scene": "res://world/towns/ponyville/house_d.tscn",
+    "ground_offset": 0.0,
+    "floor_rectangles": [
+      [
+        -0.558,
+        -0.551,
+        0.558,
+        0.09
+      ],
+      [
+        -0.558,
+        0.09,
+        -0.105,
+        0.5655
+      ]
+    ],
+    "stair_brush": {
+      "center_x": 0.10056507012506169,
+      "width": 0.18746505328801666,
+      "back_z": 0.1277953453361988,
+      "landing_z": 0.1677953453361988,
+      "toe_z": 0.28485716283385726,
+      "height": 0.047578326848548236
+    },
+    "windows": "res://tools/buildings/house_d_windows.json"
+  }
+}

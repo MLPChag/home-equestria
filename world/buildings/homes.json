@@ -1,0 +1,124 @@
+{
+  "golden_oak": {
+    "place_id": "house:golden_oak_library",
+    "label": "Golden Oak Library",
+    "furnish": false,
+    "center": [
+      1.7,
+      0,
+      1.8
+    ],
+    "slots": [
+      [
+        1.7,
+        0,
+        1.8
+      ],
+      [
+        1.2,
+        0,
+        3.8
+      ],
+      [
+        -1.35,
+        0,
+        3.8
+      ],
+      [
+        0,
+        0,
+        -1.65
+      ]
+    ],
+    "reach_squared": 180.0
+  },
+  "boutique": {
+    "place_id": "house:carousel_boutique",
+    "label": "Carousel Boutique",
+    "furnish": false,
+    "center": [
+      0,
+      0,
+      1.2
+    ],
+    "slots": [
+      [
+        0,
+        0,
+        1.2
+      ],
+      [
+        0,
+        0,
+        2.5
+      ],
+      [
+        1.5,
+        0,
+        1.1
+      ]
+    ],
+    "reach_squared": 100.0
+  },
+  "cloudominium": {
+    "place_id": "house:cloudominium",
+    "label": "Rainbow Dash's Cloudominium",
+    "furnish": false
+  },
+  "fluttershy": {
+    "place_id": "house:fluttershy_cottage",
+    "label": "Fluttershy's cottage",
+    "furnish": false
+  },
+  "sugarcube_tower": {
+    "place_id": "house:sugarcube_tower",
+    "label": "Pinkie's tower bedroom",
+    "furnish": false,
+    "reach_squared": 400.0
+  },
+  "sugarcube_bakery": {
+    "place_id": "shop:sugarcube_corner",
+    "label": "Sugarcube Corner bakery",
+    "furnish": false,
+    "reserved_for": "commercial:sugarcube",
+    "ceiling_y": 0.39999999999999997,
+    "center": [
+      0.12,
+      0.9,
+      1.6
+    ],
+    "no_bed": true,
+    "center_scale": 14.0
+  },
+  "barn": {
+    "place_id": "landmark:appleacres_barned_01",
+    "label": "Sweet Apple Acres barn",
+    "furnish": false,
+    "reserved_for": "civic:sweet_apple_acres_barn",
+    "ceiling_y": 7.8,
+    "no_bed": true
+  },
+  "town_hall": {
+    "place_id": "civic:town_hall",
+    "label": "Ponyville Town Hall",
+    "furnish": false,
+    "reserved_for": "civic:town_hall",
+    "ceiling_y": 0.21153846153846154,
+    "center": [
+      0,
+      0.793,
+      3.5
+    ],
+    "no_bed": true,
+    "center_scale": 26.0
+  },
+  "zecora": {
+    "place_id": "house:zecora_hut",
+    "label": "Zecora's hut",
+    "ceiling_y": 0.27
+  },
+  "wagon": {
+    "place_id": "house:3160:38:-2300",
+    "standard_setup": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "rarity",
+  "name": "Rarity",
+  "tag": "rarity",
+  "prompt": "res://world/ai/prompts/rarity.md",
+  "tts_speaker_id": 19,
+  "tts_default_emotion": "happy",
+  "tts_style_strength": 1.0,
+  "earshot_m": 10.0
+}

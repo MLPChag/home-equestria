@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/prince_blueblood.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "prince_blueblood"
+stallion = true
+display_name = "Prince Blueblood"
+race = 2
+coat_fill = Color(1, 1, 1, 1)
+coat_line = Color(0.7647059, 0.80784315, 0.87058824, 1)
+coat_shade = Color(0.91764706, 0.93333334, 0.95686275, 1)
+mane_line = Color(0.80784315, 0.69411767, 0.2627451, 1)
+iris_color = Color(0.64705884, 0.88235295, 0.98039216, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/prince_blueblood_hair.scn"
+hair_prefix = "PrinceBlueblood"
+tail_terminal_length = 0.104587851
+ai_profile = "res://world/characters/background/ai/prince_blueblood.json"

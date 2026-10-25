@@ -1,0 +1,82 @@
+{
+  "reference": "RNL Ponyville Everfree.JungleLight",
+  "mix_note": "Quiet wind and insects; no frog/life/grunt loop. Shared silence between distant calls.",
+  "layers": [
+    {
+      "kind": "loop",
+      "gain": 0.16,
+      "interval": [
+        0,
+        0
+      ],
+      "files": [
+        "jungle_wind_loop.ogg"
+      ]
+    },
+    {
+      "kind": "loop",
+      "gain": 0.055,
+      "interval": [
+        0,
+        0
+      ],
+      "files": [
+        "jungle_insect_loop.ogg"
+      ]
+    },
+    {
+      "kind": "random",
+      "gain": 0.2,
+      "interval": [
+        200,
+        360
+      ],
+      "files": [
+        "wolf01.ogg"
+      ]
+    },
+    {
+      "kind": "random",
+      "gain": 0.22,
+      "interval": [
+        100,
+        240
+      ],
+      "files": [
+        "animal_call_unknown_howl1.ogg",
+        "animal_call_unknown_howl2.ogg",
+        "animal_call_unknown_howl6.ogg"
+      ]
+    },
+    {
+      "kind": "random",
+      "gain": 0.12,
+      "interval": [
+        90,
+        180
+      ],
+      "files": [
+        "animal_call_bird_weird1.ogg",
+        "animal_call_bird_weird2.ogg",
+        "animal_call_bird_weird3.ogg",
+        "animal_call_bird_weird4.ogg",
+        "animal_call_bird_weird5.ogg",
+        "animal_call_bird_weird6.ogg"
+      ]
+    },
+    {
+      "kind": "random",
+      "gain": 0.13,
+      "interval": [
+        100,
+        200
+      ],
+      "files": [
+        "animal_call_woodpecker1.ogg",
+        "animal_call_woodpecker2.ogg",
+        "animal_call_woodpecker3.ogg",
+        "animal_call_woodpecker4.ogg"
+      ]
+    }
+  ]
+}

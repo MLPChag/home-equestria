@@ -1,0 +1,126 @@
+{
+  "source": "art/models/house-a/house-a-source.glb",
+  "source_sha256": "ff9daebe7d12ff690c59dd21774abaee5532f4d8d850450b10ea1a34ea13a561",
+  "method": "Deterministic authored PNG maps, palette sampled from embedded exterior atlas; no imagegen, downloads or paid calls.",
+  "palette_srgb": {
+    "plaster": [
+      0.91373,
+      0.87843,
+      0.81569
+    ],
+    "timber": [
+      0.65882,
+      0.30588,
+      0.19608
+    ],
+    "lavender": [
+      0.52157,
+      0.43922,
+      0.75686
+    ],
+    "rose": [
+      0.93333,
+      0.33725,
+      0.50196
+    ],
+    "straw": [
+      0.95686,
+      0.78431,
+      0.21569
+    ]
+  },
+  "materials": {
+    "plaster": {
+      "size": [
+        1024,
+        1024
+      ],
+      "repeat_metres": [
+        2.0,
+        2.0
+      ],
+      "maps": [
+        "albedo",
+        "normal",
+        "roughness"
+      ]
+    },
+    "timber": {
+      "size": [
+        1024,
+        2048
+      ],
+      "repeat_metres": [
+        0.32,
+        3.2
+      ],
+      "maps": [
+        "albedo",
+        "normal",
+        "roughness"
+      ]
+    },
+    "floorboards": {
+      "size": [
+        1024,
+        2048
+      ],
+      "repeat_metres": [
+        1.48,
+        6.4
+      ],
+      "maps": [
+        "albedo",
+        "normal",
+        "roughness"
+      ]
+    },
+    "thatch": {
+      "size": [
+        1024,
+        1024
+      ],
+      "repeat_metres": [
+        1.6,
+        1.6
+      ],
+      "maps": [
+        "albedo",
+        "normal",
+        "roughness"
+      ]
+    },
+    "lavender": {
+      "size": [
+        1024,
+        2048
+      ],
+      "repeat_metres": [
+        0.32,
+        3.2
+      ],
+      "maps": [
+        "albedo",
+        "normal",
+        "roughness"
+      ]
+    },
+    "rose": {
+      "size": [
+        1024,
+        2048
+      ],
+      "repeat_metres": [
+        0.32,
+        3.2
+      ],
+      "maps": [
+        "albedo",
+        "normal",
+        "roughness"
+      ]
+    }
+  },
+  "review_scale": 10,
+  "texture_budget": "6 material sets; 18 PNGs; 1024-square plaster/thatch and 1024x2048 wood maps; mipmaps and anisotropic filtering."
+}

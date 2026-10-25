@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PonyIdentity" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://world/characters/hybrid_mare/pony_identity.gd" id="1"]
+[ext_resource type="Texture2D" path="res://world/characters/background/marks/surprise.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "surprise"
+display_name = "Surprise"
+coat_fill = Color(1, 0.98039216, 0.9490196, 1)
+coat_line = Color(0.67058825, 0.6156863, 0.5137255, 1)
+coat_shade = Color(0.85490197, 0.84705883, 0.8117647, 1)
+mane_line = Color(0.74509805, 0.6901961, 0.01568627, 1)
+iris_color = Color(0.8117647, 0.30196077, 0.4509804, 1)
+cutie_mark = ExtResource("2")
+hair_scene = "res://world/characters/background/surprise_hair.scn"
+hair_prefix = "Surprise"
+tail_terminal_length = 0.146406995
+ai_profile = "res://world/characters/background/ai/surprise.json"

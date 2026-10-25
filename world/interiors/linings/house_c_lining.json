@@ -1,0 +1,49 @@
+{
+  "house": "house_c",
+  "hide": [
+    "RootNode__ExteriorRoomFace",
+    "FittedFloor",
+    "Baseboard",
+    "ThresholdRamp__StoneRamp"
+  ],
+  "floor_top_y": 0.4752,
+  "floor_top_y_min": 0.4752,
+  "contract_floor_y": 0.475201189517975,
+  "triangles": 20215,
+  "textures": [
+    "ceiling_boards.png",
+    "floor_planks.png",
+    "plaster.png",
+    "timber.png",
+    "trim_atlas.png"
+  ],
+  "visible_meshes": [
+    "Architecture_Ceiling",
+    "Architecture_Decals",
+    "Architecture_Floor",
+    "Architecture_PlasterTrim",
+    "Architecture_ThresholdRamp",
+    "Architecture_Timber",
+    "Architecture_Wainscot",
+    "Architecture_Walls"
+  ],
+  "collision_meshes": [
+    "WallCol_AlcoveBack-convcolonly",
+    "WallCol_AlcoveHead-convcolonly",
+    "WallCol_AlcoveL-convcolonly",
+    "WallCol_AlcoveR-convcolonly",
+    "WallCol_Back-convcolonly",
+    "WallCol_BackPier-convcolonly",
+    "WallCol_FrontL-convcolonly",
+    "WallCol_FrontR-convcolonly",
+    "WallCol_Left-convcolonly",
+    "WallCol_PortalHead-convcolonly",
+    "WallCol_PortalL-convcolonly",
+    "WallCol_PortalR-convcolonly",
+    "WallCol_Right-convcolonly",
+    "WallCol_WindowSeat-convcolonly",
+    "WallCol_WingFront-convcolonly",
+    "WallCol_WingRight-convcolonly"
+  ],
+  "notes": "Blender (x, y, z) = Godot (x, -z, y). Floor top equals floor_y everywhere the floor faces exist; the wood threshold ramp copies the ThresholdRamp collider top (+1.5 mm)."
+}
