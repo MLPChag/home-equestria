@@ -57,6 +57,10 @@ signal usage_reported(usage: Dictionary)
 @export var debug := false
 
 var generation_overrides: Dictionary = {}
+## OpenRouter provider routing (AI Settings): the endpoint tag tried first ("" lets OpenRouter
+## route) and whether other providers may serve the request when it is unavailable.
+var openrouter_provider := ""
+var openrouter_fallbacks := true
 var busy := false
 var _request: HTTPRequest
 var _on_done: Callable
@@ -120,6 +124,8 @@ func configure(section: Dictionary) -> void:
 	max_tokens = int(section.get("max_tokens", max_tokens))
 	timeout = float(section.get("timeout", timeout))
 	cache_hints = str(section.get("cache_hints", "auto"))
+	openrouter_provider = String(section.get("openrouter_provider", openrouter_provider)).strip_edges()
+	openrouter_fallbacks = section.get("openrouter_fallbacks", openrouter_fallbacks) != false
 	generation_overrides = preload("res://world/ai/llm_options.gd").selected(section)
 	max_tokens = int(generation_overrides.get("max_tokens", max_tokens))
 	timeout = float(generation_overrides.get("timeout", timeout))
@@ -220,6 +226,9 @@ func build_request(system: String, messages: Array, limits: Dictionary = {}) -> 
 		# max_tokens, so a speech-sized cap cut whole conversations off. Callers without it keep theirs.
 		if limits.has("output_tokens") and int(limits.get("reasoning_room", 0)) > 0:
 			body.max_tokens = output_budget + int(limits.reasoning_room)
+		# Other OpenAI-compatible servers may reject the unknown field, so it goes to OpenRouter only.
+		if not openrouter_provider.is_empty() and preload("res://world/ai/ai_config.gd").is_openrouter(base_url):
+			body.provider = {"order": [openrouter_provider], "allow_fallbacks": openrouter_fallbacks}
 	for key: String in generation_overrides:
 		if key not in ["max_tokens", "timeout"]: body[key] = generation_overrides[key]
 	return {"url": url, "headers": headers, "body": JSON.stringify(body)}

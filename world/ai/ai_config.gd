@@ -24,6 +24,8 @@ const DEFAULTS := {
 		"max_tokens": 220,
 		"timeout": 90.0,
 		"cache_hints": "auto",          # "auto" (Claude through OpenRouter), "on", "off": prompt-cache breakpoints on OpenAI-compatible endpoints
+		"openrouter_provider": "",      # OpenRouter only: endpoint tag tried first (e.g. "deepinfra/turbo"); "" = OpenRouter routes
+		"openrouter_fallbacks": true,   # OpenRouter only: false = that provider or nothing
 	},
 	"stt": {
 		"provider": "off",              # "off"; "local" = whisper server at url (tools/ai/stt_server.sh); "openai" = {base_url}/audio/transcriptions
@@ -155,6 +157,8 @@ static func save_connection(connection:Dictionary,input_device:String,path:=USER
 		if connection.has(key): section[key] = connection[key]
 	section.generation_overrides = OPTIONS.selected(connection)
 	section.cache_hints = cache
+	section.openrouter_provider=str(connection.get("openrouter_provider","")).strip_edges()
+	section.openrouter_fallbacks=connection.get("openrouter_fallbacks",true)!=false
 	section.base_url=endpoint;data.llm=section
 	var stt:Dictionary=data.get("stt",{}).duplicate(true)
 	# Named LLM presets apply only dialogue, leaving microphone/voice configuration intact.
@@ -185,6 +189,8 @@ static func validate_llm(connection: Dictionary) -> String:
 	if connection.get("provider") not in ["openai", "anthropic"]: return "Choose a provider protocol."
 	for key in ["base_url", "model", "api_key"]:
 		if not connection.get(key, "") is String: return "Dialogue fields must be text."
+	if not connection.get("openrouter_provider", "") is String or not connection.get("openrouter_fallbacks", true) is bool:
+		return "Invalid OpenRouter provider settings."
 	if not valid_url(str(connection.get("base_url", "")).strip_edges().rstrip("/")):
 		return "Enter the provider's HTTP or HTTPS base URL."
 	if str(connection.get("model", "")).strip_edges().is_empty(): return "Enter the model name from your provider."
@@ -224,6 +230,15 @@ static func save_llm(connection: Dictionary, path := USER_PATH) -> String:
 static func valid_url(endpoint:String)->bool:
 	var pattern:=RegEx.new();pattern.compile("^https?://[^/@\\s?#]+(?:/[^\\s?#]*)?$")
 	return pattern.search(endpoint)!=null
+
+
+## True for OpenRouter's API: only it understands the `provider` routing field and lists endpoints.
+static func is_openrouter(endpoint: String) -> bool:
+	var url := endpoint.strip_edges().to_lower()
+	var scheme := url.find("://")
+	if scheme < 0: return false
+	var host := url.substr(scheme + 3).get_slice("/", 0).get_slice(":", 0)
+	return host == "openrouter.ai" or host.ends_with(".openrouter.ai")
 
 
 ## A persona or system prompt file, preferring the player's copy in

@@ -10,6 +10,14 @@ var _options: Dictionary = {}
 var _model_picker: OptionButton
 var _model_status: Label
 var _catalog: Node
+var _route_picker: OptionButton
+var _route_status: Label
+var _route_catalog: Node
+var _route_note := ""
+## OpenRouter routing of the draft connection: the endpoint tag tried first ("" = OpenRouter picks)
+## and whether another provider may answer when that one is unavailable.
+var openrouter_provider := ""
+var openrouter_fallbacks := true
 var _profile_box: VBoxContainer
 var _back: Button
 var _save: Button
@@ -115,12 +123,25 @@ func setup(surface:Node, in_tab := false)->void:
 	_model_picker.add_theme_font_size_override("font_size",23)
 	_model_picker.fit_to_longest_item = false
 	_model_picker.item_selected.connect(func(index: int):
+		if fields.model.text != _model_picker.get_item_text(index): _model_changed()
 		fields.model.text = _model_picker.get_item_text(index); _connection_changed(false); refresh())
 	_list.add_child(_model_picker); _ordered.append(_model_picker); _model_picker.hide()
 	_model_status = label("",20)
+	# OpenRouter provider routing (dev 2026-10-25: "add a providers list choices for Openrouter"):
+	# list the upstream providers serving the model and pin one, shown only for OpenRouter's URL.
+	_buttons.route_fetch = button("Fetch OpenRouter providers for this model"); _buttons.route_fetch.pressed.connect(fetch_routes)
+	_route_picker = OptionButton.new(); _route_picker.custom_minimum_size.y = 48
+	_route_picker.add_theme_font_size_override("font_size",23)
+	_route_picker.fit_to_longest_item = false
+	_route_picker.item_selected.connect(func(index: int):
+		openrouter_provider = str(_route_picker.get_item_metadata(index)); _connection_changed(false); refresh())
+	_list.add_child(_route_picker); _ordered.append(_route_picker); _route_picker.hide()
+	_buttons.route_fallback = button(""); _buttons.route_fallback.pressed.connect(func():
+		openrouter_fallbacks = not openrouter_fallbacks; _connection_changed(false); refresh())
+	_route_status = label("",20)
 	fields.base_url.text_changed.connect(func(_text):_update_preset_hint())
 	for key in ["base_url","api_key"]:fields[key].text_changed.connect(func(_text):_connection_changed();refresh())
-	fields.model.text_changed.connect(func(_text):_connection_changed(false);refresh())
+	fields.model.text_changed.connect(func(_text):_model_changed();_connection_changed(false);refresh())
 	button("Test connection").pressed.connect(test_connection)
 	test_status=label("",21)
 	_buttons.cache=button("");_buttons.cache.pressed.connect(func():cache_hints=_next(CACHE_MODES,cache_hints);refresh())
@@ -215,6 +236,7 @@ func open()->void:
 	_load_options(connection)
 	provider=str(connection.get("provider","openai"))
 	for key in ["base_url","model","api_key"]:fields[key].text=str(connection.get(key,""))
+	_load_route(connection)
 	chattiness=float(config.get_value("chattiness",1.0))
 	if not CHATTINESS_STEPS.has(chattiness):chattiness=1.0
 	ai_usage=CONFIG.usage_of(config)
@@ -275,6 +297,13 @@ func refresh()->void:
 	for key in ["tts_base_url","tts_api_key","tts_model","tts_voice"]:_rows[key].visible=tts_provider=="openai"
 	_rows.tts_remote_url.visible=tts_provider in ["gradio","remote"]
 	_rows.tts_url.visible=tts_provider=="moss"
+	var openrouter:=provider=="openai" and CONFIG.is_openrouter(fields.base_url.text)
+	_buttons.route_fetch.visible=openrouter
+	_route_picker.visible=openrouter and _route_picker.item_count>0
+	_buttons.route_fallback.visible=openrouter and not openrouter_provider.is_empty()
+	_buttons.route_fallback.text="If it is unavailable: "+("let OpenRouter use another provider" if openrouter_fallbacks else "fail, never switch provider")
+	_route_status.visible=openrouter
+	_route_status.text="OpenRouter provider: "+("automatic (OpenRouter picks)" if openrouter_provider.is_empty() else openrouter_provider)+("\n"+_route_note if not _route_note.is_empty() else "")
 	# Rebuilt in place: hosts keep a reference to this array for focus stepping.
 	controls.clear()
 	for control in _ordered:
@@ -298,8 +327,9 @@ const PRESET_HELP := "Presets keep dialogue settings and their key on this compu
 func _differs(saved: Dictionary) -> bool:
 	if saved.is_empty(): return true
 	var now := _llm_connection()
-	for key in ["provider", "base_url", "model", "api_key"]:
-		if str(now.get(key, "")) != str(saved.get(key, "")): return true
+	# Presets saved before OpenRouter routing existed read as its defaults.
+	for key in ["provider", "base_url", "model", "api_key", "openrouter_provider", "openrouter_fallbacks"]:
+		if str(now.get(key, CONFIG.DEFAULTS.llm[key])) != str(saved.get(key, CONFIG.DEFAULTS.llm[key])): return true
 	var current_options: Dictionary = CONFIG.OPTIONS.selected(now)
 	var saved_options: Dictionary = CONFIG.OPTIONS.selected(saved)
 	if current_options.size() != saved_options.size(): return true
@@ -372,6 +402,7 @@ func use_profile() -> void:
 	_load_options(connection)
 	provider = str(connection.provider)
 	for key in ["base_url", "model", "api_key"]: fields[key].text = str(connection.get(key, ""))
+	_load_route(connection)
 	fields.profile_name.text = ""
 	test_status.text = ""; _delete_profile_confirm = ""; _overwrite_confirm = ""
 	_update_preset_hint()
@@ -412,6 +443,7 @@ func cycle_preset()->void:
 	if preset.provider!="":
 		provider=preset.provider;fields.base_url.text=preset.base_url
 		fields.api_key.clear(); fields.model.clear()
+		openrouter_provider=""; openrouter_fallbacks=true
 	_connection_changed()
 	fields.model.placeholder_text=preset.model
 	test_status.text=""
@@ -425,6 +457,10 @@ func _llm_connection()->Dictionary:
 	var connection:Dictionary=_llm_values.duplicate(true)
 	connection.provider = provider
 	for key in ["base_url","model","api_key"]:connection[key]=fields[key].text.strip_edges()
+	# Routing means nothing to other servers: keep their saved settings at the defaults.
+	var openrouter:=CONFIG.is_openrouter(str(connection.base_url))
+	connection.openrouter_provider=openrouter_provider if openrouter else ""
+	connection.openrouter_fallbacks=openrouter_fallbacks or not openrouter
 	connection.generation_overrides = {}
 	for key: String in _options:
 		if _options[key].check.button_pressed:
@@ -588,6 +624,41 @@ func _connection_changed(clear_models := true) -> void:
 	if clear_models:
 		if is_instance_valid(_catalog): _catalog.cancel(); _catalog.queue_free(); _catalog = null
 		_model_picker.clear(); _model_picker.hide(); _model_status.text = ""
+		_clear_routes()
+
+## The pinned OpenRouter provider served the previous model; a new model starts on automatic routing.
+func _model_changed() -> void:
+	openrouter_provider = ""; openrouter_fallbacks = true
+	_clear_routes()
+
+func _load_route(connection: Dictionary) -> void:
+	openrouter_provider = str(connection.get("openrouter_provider", "")).strip_edges()
+	openrouter_fallbacks = connection.get("openrouter_fallbacks", true) != false
+
+## Forgets the fetched provider list (not the choice): it belonged to another model or address.
+func _clear_routes() -> void:
+	if is_instance_valid(_route_catalog): _route_catalog.cancel(); _route_catalog.queue_free(); _route_catalog = null
+	if _route_picker != null: _route_picker.clear()
+	_route_note = ""
+
+func fetch_routes() -> void:
+	_clear_routes()
+	_route_catalog = preload("res://world/ai/openrouter_providers.gd").new(); add_child(_route_catalog)
+	var catalog := _route_catalog
+	_route_catalog.completed.connect(func(endpoints: Array, error: String):
+		if catalog != _route_catalog: return
+		_route_note = error if not error.is_empty() else "%d providers serve this model. Choose one below." % endpoints.size()
+		if not endpoints.is_empty():
+			_route_picker.add_item("Automatic (OpenRouter picks)"); _route_picker.set_item_metadata(0, "")
+			for endpoint: Dictionary in endpoints:
+				_route_picker.add_item(str(endpoint.label)); _route_picker.set_item_metadata(_route_picker.item_count - 1, str(endpoint.tag))
+			_route_picker.selected = -1
+			for index in _route_picker.item_count:
+				if str(_route_picker.get_item_metadata(index)) == openrouter_provider: _route_picker.selected = index
+			if _route_picker.selected < 0: _route_note += " Your chosen provider is not in this list now."
+		_route_catalog.queue_free(); _route_catalog = null; refresh())
+	_route_note = "Fetching providers…"; refresh()
+	_route_catalog.fetch(_llm_connection())
 
 func fetch_models() -> void:
 	_connection_changed()
@@ -606,4 +677,5 @@ func fetch_models() -> void:
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_VISIBILITY_CHANGED and not is_visible_in_tree():
 		if is_instance_valid(_catalog): _catalog.cancel()
+		if is_instance_valid(_route_catalog): _route_catalog.cancel()
 		if is_instance_valid(_tester): _tester.cancel()
