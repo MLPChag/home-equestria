@@ -132,7 +132,8 @@ func setup(surface:Node, in_tab := false)->void:
 	_buttons.route_fetch = button("Fetch OpenRouter providers for this model"); _buttons.route_fetch.pressed.connect(fetch_routes)
 	_route_picker = OptionButton.new(); _route_picker.custom_minimum_size.y = 48
 	_route_picker.add_theme_font_size_override("font_size",23)
-	_route_picker.fit_to_longest_item = false
+	# Endpoint labels run long: clip the shown one so a selection never widens the 900 px page.
+	_route_picker.fit_to_longest_item = false; _route_picker.clip_text = true
 	_route_picker.item_selected.connect(func(index: int):
 		openrouter_provider = str(_route_picker.get_item_metadata(index)); _connection_changed(false); refresh())
 	_list.add_child(_route_picker); _ordered.append(_route_picker); _route_picker.hide()
@@ -299,7 +300,7 @@ func refresh()->void:
 	_rows.tts_url.visible=tts_provider=="moss"
 	var openrouter:=provider=="openai" and CONFIG.is_openrouter(fields.base_url.text)
 	_buttons.route_fetch.visible=openrouter
-	_route_picker.visible=openrouter and _route_picker.item_count>0
+	_route_picker.visible=openrouter
 	_buttons.route_fallback.visible=openrouter and not openrouter_provider.is_empty()
 	_buttons.route_fallback.text="If it is unavailable: "+("let OpenRouter use another provider" if openrouter_fallbacks else "fail, never switch provider")
 	_route_status.visible=openrouter
@@ -634,12 +635,27 @@ func _model_changed() -> void:
 func _load_route(connection: Dictionary) -> void:
 	openrouter_provider = str(connection.get("openrouter_provider", "")).strip_edges()
 	openrouter_fallbacks = connection.get("openrouter_fallbacks", true) != false
+	_route_items([])
 
 ## Forgets the fetched provider list (not the choice): it belonged to another model or address.
 func _clear_routes() -> void:
 	if is_instance_valid(_route_catalog): _route_catalog.cancel(); _route_catalog.queue_free(); _route_catalog = null
-	if _route_picker != null: _route_picker.clear()
 	_route_note = ""
+	_route_items([])
+
+## Automatic, the fetched endpoints, and the current choice even when no fetch lists it, so a
+## pinned provider can always be cleared. False when the choice had to be added that way.
+func _route_items(endpoints: Array) -> bool:
+	if _route_picker == null: return true
+	_route_picker.clear()
+	_route_picker.add_item("Automatic (OpenRouter picks)"); _route_picker.set_item_metadata(0, "")
+	for endpoint: Dictionary in endpoints:
+		_route_picker.add_item(str(endpoint.label)); _route_picker.set_item_metadata(_route_picker.item_count - 1, str(endpoint.tag))
+	for index in _route_picker.item_count:
+		if str(_route_picker.get_item_metadata(index)) == openrouter_provider: _route_picker.selected = index; return true
+	_route_picker.add_item(openrouter_provider + "  (saved)"); _route_picker.set_item_metadata(_route_picker.item_count - 1, openrouter_provider)
+	_route_picker.selected = _route_picker.item_count - 1
+	return false
 
 func fetch_routes() -> void:
 	_clear_routes()
@@ -648,14 +664,7 @@ func fetch_routes() -> void:
 	_route_catalog.completed.connect(func(endpoints: Array, error: String):
 		if catalog != _route_catalog: return
 		_route_note = error if not error.is_empty() else "%d providers serve this model. Choose one below." % endpoints.size()
-		if not endpoints.is_empty():
-			_route_picker.add_item("Automatic (OpenRouter picks)"); _route_picker.set_item_metadata(0, "")
-			for endpoint: Dictionary in endpoints:
-				_route_picker.add_item(str(endpoint.label)); _route_picker.set_item_metadata(_route_picker.item_count - 1, str(endpoint.tag))
-			_route_picker.selected = -1
-			for index in _route_picker.item_count:
-				if str(_route_picker.get_item_metadata(index)) == openrouter_provider: _route_picker.selected = index
-			if _route_picker.selected < 0: _route_note += " Your chosen provider is not in this list now."
+		if not _route_items(endpoints) and not endpoints.is_empty(): _route_note += " Your chosen provider is not in this list now."
 		_route_catalog.queue_free(); _route_catalog = null; refresh())
 	_route_note = "Fetching providers…"; refresh()
 	_route_catalog.fetch(_llm_connection())
